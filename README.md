@@ -2,7 +2,7 @@
 
 https://www.dafont.com/sketch-gothic-school.font?text=Wicked+Menu
 
- v2.1.5
+Official Release v2.1.5
 Change log :
 Added :
 Save Coordinates to File
