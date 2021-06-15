@@ -1,9 +1,14 @@
 # Wicked-Menu
 
 https://www.dafont.com/sketch-gothic-school.font?text=Wicked+Menu
-
-v2.1.5 Official Release 
+Change Log/
+v2.1.5.a
 Change log :
+Minor Gui changes .
+
+
+v2.1.5
+Official Release Page
 Added :
 Save Coordinates to File
 Updated:
