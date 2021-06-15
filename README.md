@@ -4,7 +4,8 @@ https://www.dafont.com/sketch-gothic-school.font?text=Wicked+Menu
 
 
 Change Log/
-
+v2.1.5.b 
+Changed Speed Hack Discription 
 
 v2.1.5.a
 Change log :
