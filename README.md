@@ -5,7 +5,8 @@ https://www.dafont.com/sketch-gothic-school.font?text=Wicked+Menu
 
 Change Log/
 
-
+V2.1.5.d
+Coords adjustment thanks maslevich !
 
 v2.1.5c
 Changed names of Menu And Table to Distinguish the two in the Taskbar .
