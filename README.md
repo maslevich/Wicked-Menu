@@ -6,7 +6,6 @@ https://www.dafont.com/sketch-gothic-school.font?text=Wicked+Menu
 Change Log/
 
 V2.1.5.d
-06/16/2021
 Coords adjustment thanks maslevich !
 
 v2.1.5c
