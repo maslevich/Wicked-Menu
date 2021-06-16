@@ -12917,9 +12917,9 @@ target = "Two of Cups C2" -- Trigger (Script Name) --
     dd 00000001
 
     WantedCoords:
-   dd (float)2400.800  //x
-   dd (float)-1551.024  //y
-   dd (float)43.046     //z
+   dd (float)2400.550  //x
+   dd (float)-1551.520  //y
+   dd (float)43.050     //z
 
 [disable]
 </AssemblerScript>
@@ -12936,8 +12936,8 @@ target = "Two of Cups C2" -- Trigger (Script Name) --
     dd 00000001
 
     WantedCoords:
-   dd (float)2997.451  //x
-   dd (float)1316.920  //y
+   dd (float)2977.681  //x
+   dd (float)1317.107  //y
    dd (float)44.056    //z
 
 [disable]
