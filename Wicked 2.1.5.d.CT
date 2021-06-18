@@ -8,7 +8,7 @@
       <ID>54</ID>
       <Description>"Click to Activate Menu-Hotkey is F12"</Description>
       <Options moAlwaysHideChildren="1" moActivateChildrenAsWell="1" moDeactivateChildrenAsWell="1"/>
-      <LastState/>
+      <LastState Activated="1"/>
       <Color>00FFFF</Color>
       <VariableType>Auto Assembler Script</VariableType>
       <AssemblerScript>[ENABLE]
@@ -509,7 +509,7 @@
         <CheatEntry>
           <ID>16492</ID>
           <Description>"Compact/Full Mode"</Description>
-          <LastState/>
+          <LastState Activated="1"/>
           <Color>00FFFF</Color>
           <VariableType>Auto Assembler Script</VariableType>
           <AssemblerScript>[ENABLE]
@@ -523,7 +523,7 @@ LuaCall(cycleFullCompact(nil,false))
           <ID>16314</ID>
           <Description>"{}{}{}{}{[{{BASEWeapons}]}{][{}{}{}"</Description>
           <Options moHideChildren="1" moDeactivateChildrenAsWell="1"/>
-          <LastState/>
+          <LastState Activated="1"/>
           <Color>00FFFF</Color>
           <VariableType>Auto Assembler Script</VariableType>
           <AssemblerScript>[ENABLE]
@@ -631,7 +631,7 @@ dealloc(newmem)
           <ID>7448</ID>
           <Description>"{}{}{}{}{[{{BASECoords}}{}{}{}{}{}"</Description>
           <Options moHideChildren="1"/>
-          <LastState/>
+          <LastState Activated="1"/>
           <Color>00FFFF</Color>
           <VariableType>Auto Assembler Script</VariableType>
           <AssemblerScript>[ENABLE]
@@ -703,7 +703,7 @@ dealloc(coord2)
           <ID>17222</ID>
           <Description>"{}{}{}{}{[{{BASEWaypoint][][][{}{}{}"</Description>
           <Options moHideChildren="1" moDeactivateChildrenAsWell="1"/>
-          <LastState/>
+          <LastState Activated="1"/>
           <Color>00FFFF</Color>
           <VariableType>Auto Assembler Script</VariableType>
           <AssemblerScript>[enable]
@@ -1210,6 +1210,7 @@ f:close()
             <CheatEntry>
               <ID>17918</ID>
               <Description>"X"</Description>
+              <LastState Value="-1669.177856" RealAddress="12B8FAE79E0"/>
               <ShowAsSigned>0</ShowAsSigned>
               <Color>FFFF80</Color>
               <VariableType>Float</VariableType>
@@ -1218,6 +1219,7 @@ f:close()
             <CheatEntry>
               <ID>17919</ID>
               <Description>"Y"</Description>
+              <LastState Value="109.5932541" RealAddress="12B8FAE79E4"/>
               <ShowAsSigned>0</ShowAsSigned>
               <Color>FFFF80</Color>
               <VariableType>Float</VariableType>
@@ -1226,6 +1228,7 @@ f:close()
             <CheatEntry>
               <ID>17920</ID>
               <Description>"Z"</Description>
+              <LastState Value="141.2572937" RealAddress="12B8FAE79E8"/>
               <ShowAsSigned>0</ShowAsSigned>
               <Color>FFFF80</Color>
               <VariableType>Float</VariableType>
@@ -16774,6 +16777,7 @@ target = "Emerald ranch" -- Trigger (Script Name) --
 1:Enabled
 
 </DropDownList>
+      <LastState Value="00" RealAddress="7FF6EEE21020"/>
       <ShowAsHex>1</ShowAsHex>
       <Color>FF9B9B</Color>
       <VariableType>Byte</VariableType>
@@ -16808,6 +16812,7 @@ target = "Emerald ranch" -- Trigger (Script Name) --
 1:Enabled
 
 </DropDownList>
+      <LastState Value="00" RealAddress="7FF6EEE21048"/>
       <ShowAsHex>1</ShowAsHex>
       <Color>FF8080</Color>
       <VariableType>Byte</VariableType>
@@ -16842,6 +16847,7 @@ target = "Emerald ranch" -- Trigger (Script Name) --
 1:Enabled
 
 </DropDownList>
+      <LastState Value="00" RealAddress="7FF6EEE21010"/>
       <ShowAsHex>1</ShowAsHex>
       <Color>FF8080</Color>
       <VariableType>Byte</VariableType>
@@ -16875,6 +16881,7 @@ target = "Emerald ranch" -- Trigger (Script Name) --
 1:Enabled
 
 </DropDownList>
+      <LastState Value="00" RealAddress="7FF6EEE21018"/>
       <ShowAsHex>1</ShowAsHex>
       <Color>FF972F</Color>
       <VariableType>Byte</VariableType>
@@ -16908,6 +16915,7 @@ target = "Emerald ranch" -- Trigger (Script Name) --
 1:Enabled
 
 </DropDownList>
+      <LastState Value="00" RealAddress="7FF6EEE21058"/>
       <ShowAsHex>1</ShowAsHex>
       <Color>FF9F40</Color>
       <VariableType>Byte</VariableType>
@@ -16941,6 +16949,7 @@ target = "Emerald ranch" -- Trigger (Script Name) --
 1:Enabled
 
 </DropDownList>
+      <LastState Value="00" RealAddress="7FF6EEE210A0"/>
       <ShowAsHex>1</ShowAsHex>
       <Color>FFBE37</Color>
       <VariableType>Byte</VariableType>
@@ -17664,18 +17673,21 @@ unregistersymbol(_Teleport)
                 <CheatEntry>
                   <ID>17196</ID>
                   <Description>"x"</Description>
+                  <LastState Value="-5.177856445" RealAddress="12B8FAE79D0"/>
                   <VariableType>Float</VariableType>
                   <Address>[coord2]+70</Address>
                 </CheatEntry>
                 <CheatEntry>
                   <ID>17197</ID>
                   <Description>"y"</Description>
+                  <LastState Value="13.59325409" RealAddress="12B8FAE79D4"/>
                   <VariableType>Float</VariableType>
                   <Address>[coord2]+74</Address>
                 </CheatEntry>
                 <CheatEntry>
                   <ID>17198</ID>
                   <Description>"z"</Description>
+                  <LastState Value="141.5970917" RealAddress="12B8FAE79D8"/>
                   <VariableType>Float</VariableType>
                   <Address>[coord2]+78</Address>
                 </CheatEntry>
@@ -17690,6 +17702,7 @@ unregistersymbol(_Teleport)
 1:Enabled
 
 </DropDownList>
+          <LastState Value="0" RealAddress="7FF6EEE21028"/>
           <VariableType>Byte</VariableType>
           <Address>_enableInfiniteHealthCostumModel</Address>
         </CheatEntry>
@@ -18286,6 +18299,7 @@ PokerTimer.destroy()
                 <CheatEntry>
                   <ID>154</ID>
                   <Description>"_CamHeightVar (This value will be added/substracted)"</Description>
+                  <LastState Value="1" RealAddress="7FF6EEE21080"/>
                   <VariableType>Float</VariableType>
                   <Address>_CamHeightVar</Address>
                 </CheatEntry>
@@ -18295,6 +18309,7 @@ PokerTimer.destroy()
                   <DropDownList ReadOnly="1" DescriptionOnly="1" DisplayValueAsItem="1">1:Done
 0:Waiting for Input
 </DropDownList>
+                  <LastState Value="0" RealAddress="7FF6EEE21068"/>
                   <VariableType>Byte</VariableType>
                   <Address>_addCamHeight</Address>
                   <Hotkeys>
@@ -18316,6 +18331,7 @@ PokerTimer.destroy()
                   <DropDownList ReadOnly="1" DescriptionOnly="1" DisplayValueAsItem="1">1:Done
 0:Waiting for Input
 </DropDownList>
+                  <LastState Value="0" RealAddress="7FF6EEE21070"/>
                   <VariableType>Byte</VariableType>
                   <Address>_subCamHeight</Address>
                   <Hotkeys>
@@ -18337,6 +18353,7 @@ PokerTimer.destroy()
                   <DropDownList ReadOnly="1" DescriptionOnly="1" DisplayValueAsItem="1">1:Done
 0:Waiting for Input
 </DropDownList>
+                  <LastState Value="0" RealAddress="7FF6EEE21078"/>
                   <VariableType>Byte</VariableType>
                   <Address>_ResetCamHeight</Address>
                   <Hotkeys>
@@ -18681,6 +18698,7 @@ dealloc(newmem)
           <DropDownList ReadOnly="1" DescriptionOnly="1" DisplayValueAsItem="1">0:Disabled
 1:Enabled
 </DropDownList>
+          <LastState Value="00" RealAddress="7FF6EEE21090"/>
           <ShowAsHex>1</ShowAsHex>
           <Color>C0C0C0</Color>
           <VariableType>Byte</VariableType>
@@ -18729,6 +18747,7 @@ dealloc(newmem)
             <CheatEntry>
               <ID>16359</ID>
               <Description>"HealthBase"</Description>
+              <LastState Value="0000000000000000" RealAddress="7FF6EEE21050"/>
               <ShowAsHex>1</ShowAsHex>
               <VariableType>8 Bytes</VariableType>
               <Address>_pPlayerHealthBase</Address>
@@ -18736,6 +18755,7 @@ dealloc(newmem)
             <CheatEntry>
               <ID>16357</ID>
               <Description>"DeadEyeBase"</Description>
+              <LastState Value="0000000000000000" RealAddress="7FF6EEE21038"/>
               <ShowAsHex>1</ShowAsHex>
               <VariableType>8 Bytes</VariableType>
               <Address>_pDeadEye</Address>
@@ -18743,6 +18763,7 @@ dealloc(newmem)
             <CheatEntry>
               <ID>16354</ID>
               <Description>"PlayerBase(AnyModel)"</Description>
+              <LastState Value="0000000000000000" RealAddress="7FF6EEE21000"/>
               <ShowAsHex>1</ShowAsHex>
               <VariableType>8 Bytes</VariableType>
               <Address>_pAnyModelBase</Address>
@@ -18750,6 +18771,7 @@ dealloc(newmem)
             <CheatEntry>
               <ID>16353</ID>
               <Description>"PlayerBase"</Description>
+              <LastState Value="00000133FB6649C0" RealAddress="7FF6EEE21008"/>
               <ShowAsHex>1</ShowAsHex>
               <VariableType>8 Bytes</VariableType>
               <Address>_pPlayer</Address>
@@ -18757,6 +18779,7 @@ dealloc(newmem)
             <CheatEntry>
               <ID>16358</ID>
               <Description>"StaminaBase"</Description>
+              <LastState Value="0000000000000000" RealAddress="7FF6EEE21040"/>
               <ShowAsHex>1</ShowAsHex>
               <VariableType>8 Bytes</VariableType>
               <Address>_pStaminaBase</Address>
@@ -18764,6 +18787,7 @@ dealloc(newmem)
             <CheatEntry>
               <ID>16355</ID>
               <Description>"HorseBase"</Description>
+              <LastState Value="0000000000000000" RealAddress="7FF6EEE21098"/>
               <ShowAsHex>1</ShowAsHex>
               <VariableType>8 Bytes</VariableType>
               <Address>_pHorse</Address>
@@ -18771,6 +18795,7 @@ dealloc(newmem)
             <CheatEntry>
               <ID>16356</ID>
               <Description>"StaminaHorseBase"</Description>
+              <LastState Value="0000000000000000" RealAddress="7FF6EEE21030"/>
               <ShowAsHex>1</ShowAsHex>
               <VariableType>8 Bytes</VariableType>
               <Address>_pStaminaHorse</Address>
@@ -18778,6 +18803,7 @@ dealloc(newmem)
             <CheatEntry>
               <ID>16360</ID>
               <Description>"HealthBase - Horse"</Description>
+              <LastState Value="0000000000000000" RealAddress="7FF6EEE21088"/>
               <ShowAsHex>1</ShowAsHex>
               <VariableType>8 Bytes</VariableType>
               <Address>_pHealthBaseHorse</Address>
@@ -18831,12 +18857,14 @@ dealloc(newmem)
             <CheatEntry>
               <ID>16367</ID>
               <Description>"TimeOfDay (display)"</Description>
+              <LastState Value="0" RealAddress="7FF6F4782A68"/>
               <VariableType>Float</VariableType>
               <Address>RDR2.exe+5952A68</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>16369</ID>
               <Description>"baseWeapon"</Description>
+              <LastState Value="0000000000000000" RealAddress="7FF6EEE1001D"/>
               <ShowAsHex>1</ShowAsHex>
               <VariableType>8 Bytes</VariableType>
               <Address>baseWeapon</Address>
@@ -34373,7 +34401,7 @@ end
 --hideAllCEWindows()
 if TrainerOrigin == nil then showMessage("Please open from .CT file")end
 MainForm.Panel5.visible = False
-MainForm.Caption = "v215c "
+MainForm.Caption = "v215d "
 
 RequiredCEVersion=7.2
 if (getCEVersion==nil) or (getCEVersion()&lt;RequiredCEVersion) then
