@@ -936,7 +936,7 @@ unregistersymbol(dontconsumeitems)
       <ID>17225</ID>
       <Description>"Teleport"</Description>
       <Options moHideChildren="1" moDeactivateChildrenAsWell="1"/>
-      <LastState Value="" RealAddress="00000000"/>
+      <LastState Value="" Activated="1" RealAddress="00000000"/>
       <Color>FFC488</Color>
       <GroupHeader>1</GroupHeader>
       <CheatEntries>
@@ -1177,7 +1177,7 @@ target = "Teleport to Waypoint" -- Trigger (Script Name) --
           <ID>17921</ID>
           <Description>"Manual Coords"</Description>
           <Options moHideChildren="1" moDeactivateChildrenAsWell="1"/>
-          <LastState Value="" RealAddress="00000000"/>
+          <LastState Value="" Activated="1" RealAddress="00000000"/>
           <Color>FFFF80</Color>
           <GroupHeader>1</GroupHeader>
           <CheatEntries>
@@ -1210,7 +1210,7 @@ f:close()
             <CheatEntry>
               <ID>17918</ID>
               <Description>"X"</Description>
-              <LastState Value="-1669.177856" RealAddress="12B8FAE79E0"/>
+              <LastState Value="2353,613525" RealAddress="1FF9EFD41A0"/>
               <ShowAsSigned>0</ShowAsSigned>
               <Color>FFFF80</Color>
               <VariableType>Float</VariableType>
@@ -1219,7 +1219,7 @@ f:close()
             <CheatEntry>
               <ID>17919</ID>
               <Description>"Y"</Description>
-              <LastState Value="109.5932541" RealAddress="12B8FAE79E4"/>
+              <LastState Value="1451,283081" RealAddress="1FF9EFD41A4"/>
               <ShowAsSigned>0</ShowAsSigned>
               <Color>FFFF80</Color>
               <VariableType>Float</VariableType>
@@ -1228,7 +1228,7 @@ f:close()
             <CheatEntry>
               <ID>17920</ID>
               <Description>"Z"</Description>
-              <LastState Value="141.2572937" RealAddress="12B8FAE79E8"/>
+              <LastState Value="143,5311127" RealAddress="1FF9EFD41A8"/>
               <ShowAsSigned>0</ShowAsSigned>
               <Color>FFFF80</Color>
               <VariableType>Float</VariableType>
@@ -5918,10 +5918,466 @@ target = "wh4" -- Trigger (Script Name) --
           <ID>16557</ID>
           <Description>"Collectibles"</Description>
           <Options moHideChildren="1" moDeactivateChildrenAsWell="1"/>
-          <LastState Value="" RealAddress="00000000"/>
+          <LastState Value="" Activated="1" RealAddress="00000000"/>
           <Color>FF93C9</Color>
           <GroupHeader>1</GroupHeader>
           <CheatEntries>
+            <CheatEntry>
+              <ID>17128</ID>
+              <Description>"Alcohol"</Description>
+              <Options moHideChildren="1" moDeactivateChildrenAsWell="1"/>
+              <LastState Value="" Activated="1" RealAddress="00000000"/>
+              <Color>FF80FF</Color>
+              <GroupHeader>1</GroupHeader>
+              <CheatEntries>
+                <CheatEntry>
+                  <ID>17132</ID>
+                  <Description>"Cycle 3"</Description>
+                  <Options moHideChildren="1" moDeactivateChildrenAsWell="1"/>
+                  <LastState Value="" RealAddress="00000000"/>
+                  <Color>FF80FF</Color>
+                  <GroupHeader>1</GroupHeader>
+                  <CheatEntries>
+                    <CheatEntry>
+                      <ID>17130</ID>
+                      <Description>"Absinthe Bottle"</Description>
+                      <LastState/>
+                      <VariableType>Auto Assembler Script</VariableType>
+                      <AssemblerScript>[enable]
+   // "Absinthe Bottle cycle 3"
+    TeleOn:
+    dd 00000001
+
+    WantedCoords:
+    dd (float)-1163.259
+    dd (float)-1941.260
+    dd (float)42.333
+
+[disable]
+
+</AssemblerScript>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>17129</ID>
+                      <Description>"Scotch Whisky Bottle"</Description>
+                      <LastState/>
+                      <VariableType>Auto Assembler Script</VariableType>
+                      <AssemblerScript>[enable]
+   // "Scotch Whisky Bottle cycle 3"
+    TeleOn:
+    dd 00000001
+
+    WantedCoords:
+    dd (float)-6048.868
+    dd (float)-3256.593
+    dd (float)-14.293
+
+[disable]
+
+</AssemblerScript>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>17133</ID>
+                      <Description>"Caribbean Rum Bottle"</Description>
+                      <LastState/>
+                      <VariableType>Auto Assembler Script</VariableType>
+                      <AssemblerScript>[enable]
+   // "Caribbean Rum Bottle cycle 3"
+    TeleOn:
+    dd 00000001
+
+    WantedCoords:
+    dd (float)-156.546
+    dd (float)1490.218
+    dd (float)116.152
+
+[disable]
+
+</AssemblerScript>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>17134</ID>
+                      <Description>"Gran Corazon Madeira Bottle"</Description>
+                      <LastState/>
+                      <VariableType>Auto Assembler Script</VariableType>
+                      <AssemblerScript>[enable]
+   // "Gran Corazon Madeira Bottle cycle 3"
+    TeleOn:
+    dd 00000001
+
+    WantedCoords:
+    dd (float)1937.552
+    dd (float)1948.300
+    dd (float)266.101
+[disable]
+
+</AssemblerScript>
+                    </CheatEntry>
+                  </CheatEntries>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>17213</ID>
+                  <Description>"Cycle 4"</Description>
+                  <Options moHideChildren="1" moDeactivateChildrenAsWell="1"/>
+                  <LastState Value="" RealAddress="00000000"/>
+                  <Color>FF80FF</Color>
+                  <GroupHeader>1</GroupHeader>
+                  <CheatEntries>
+                    <CheatEntry>
+                      <ID>17214</ID>
+                      <Description>"Absinthe Bottle"</Description>
+                      <LastState/>
+                      <VariableType>Auto Assembler Script</VariableType>
+                      <AssemblerScript>[enable]
+    // "Absinthe Bottle cycle 4"
+    TeleOn:
+    dd 00000001
+
+    WantedCoords:
+    dd (float)2523.354
+    dd (float)2300.599
+    dd (float)193.735
+
+[disable]
+
+</AssemblerScript>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>17215</ID>
+                      <Description>"Old Tom Gin Bottle"</Description>
+                      <LastState/>
+                      <VariableType>Auto Assembler Script</VariableType>
+                      <AssemblerScript>[enable]
+    // "Old Tom Gin Bottle cycle 4"
+    TeleOn:
+    dd 00000001
+
+    WantedCoords:
+    dd (float)-5962.323
+    dd (float)-3241.343
+    dd (float)-21.628
+
+[disable]
+
+</AssemblerScript>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>17216</ID>
+                      <Description>"Cognac Bottle"</Description>
+                      <LastState/>
+                      <VariableType>Auto Assembler Script</VariableType>
+                      <AssemblerScript>[enable]
+    // "Cognac Bottle cycle 4"
+    TeleOn:
+    dd 00000001
+
+    WantedCoords:
+    dd (float)-4368.416
+    dd (float)-2415.134
+    dd (float)20.402
+[disable]
+
+</AssemblerScript>
+                    </CheatEntry>
+                  </CheatEntries>
+                </CheatEntry>
+              </CheatEntries>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>17927</ID>
+              <Description>"Bird Eggs"</Description>
+              <Options moHideChildren="1" moDeactivateChildrenAsWell="1"/>
+              <LastState Value="" Activated="1" RealAddress="00000000"/>
+              <Color>FFFFFF</Color>
+              <GroupHeader>1</GroupHeader>
+              <CheatEntries>
+                <CheatEntry>
+                  <ID>17928</ID>
+                  <Description>"Cycle 4"</Description>
+                  <Options moHideChildren="1" moDeactivateChildrenAsWell="1"/>
+                  <LastState Value="" RealAddress="00000000"/>
+                  <Color>80FF80</Color>
+                  <GroupHeader>1</GroupHeader>
+                  <CheatEntries>
+                    <CheatEntry>
+                      <ID>17938</ID>
+                      <Description>"Duck Egg"</Description>
+                      <LastState/>
+                      <Color>000000</Color>
+                      <VariableType>Auto Assembler Script</VariableType>
+                      <AssemblerScript>[ENABLE]
+
+{$lua}
+
+-- Teleport to Duck Egg cycle 4 --
+
+writeInteger("TeleOn", 1)
+
+writeFloat("WantedCoords", -2498.214)
+writeFloat("WantedCoords+04", -1472.598)
+writeFloat("WantedCoords+08", 147.530)
+
+target = "Duck_Egg" -- Trigger (Script Name) --
+
+{$asm}
+
+[DISABLE]
+</AssemblerScript>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>17930</ID>
+                      <Description>"Eagle Egg #1"</Description>
+                      <LastState/>
+                      <Color>000000</Color>
+                      <VariableType>Auto Assembler Script</VariableType>
+                      <AssemblerScript>[ENABLE]
+
+{$lua}
+
+-- Teleport to Eagle Egg #1 cycle 4 --
+
+writeInteger("TeleOn", 1)
+
+writeFloat("WantedCoords", -1753.324)
+writeFloat("WantedCoords+04", -399.003)
+writeFloat("WantedCoords+08", 155.700)
+
+target = "Eagle_Egg_1" -- Trigger (Script Name) --
+
+{$asm}
+
+[DISABLE]
+</AssemblerScript>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>17939</ID>
+                      <Description>"Eagle Egg #2"</Description>
+                      <LastState/>
+                      <Color>000000</Color>
+                      <VariableType>Auto Assembler Script</VariableType>
+                      <AssemblerScript>[ENABLE]
+
+{$lua}
+
+-- Teleport to Eagle Egg #2 cycle 4 --
+
+writeInteger("TeleOn", 1)
+
+writeFloat("WantedCoords", -2377.457)
+writeFloat("WantedCoords+04", 190.623)
+writeFloat("WantedCoords+08", 208.909)
+
+target = "Eagle_Egg_2" -- Trigger (Script Name) --
+
+{$asm}
+
+[DISABLE]
+</AssemblerScript>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>17933</ID>
+                      <Description>"Egret Egg"</Description>
+                      <LastState/>
+                      <Color>000000</Color>
+                      <VariableType>Auto Assembler Script</VariableType>
+                      <AssemblerScript>[ENABLE]
+
+{$lua}
+
+-- Teleport to Egret Egg cycle 4 --
+
+writeInteger("TeleOn", 1)
+
+writeFloat("WantedCoords", 1852.512)
+writeFloat("WantedCoords+04", -342.118)
+writeFloat("WantedCoords+08", 45.236)
+
+target = "Egret_Egg" -- Trigger (Script Name) --
+
+{$asm}
+
+[DISABLE]
+</AssemblerScript>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>17934</ID>
+                      <Description>"Goose Egg"</Description>
+                      <LastState/>
+                      <Color>000000</Color>
+                      <VariableType>Auto Assembler Script</VariableType>
+                      <AssemblerScript>[ENABLE]
+
+{$lua}
+
+-- Teleport to Goose Egg cycle 4 --
+
+writeInteger("TeleOn", 1)
+
+writeFloat("WantedCoords", 433.156)
+writeFloat("WantedCoords+04", -1659.391)
+writeFloat("WantedCoords+08", 44.704)
+
+target = "Goose_Egg" -- Trigger (Script Name) --
+
+{$asm}
+
+[DISABLE]
+</AssemblerScript>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>17935</ID>
+                      <Description>"Hawk Egg #1"</Description>
+                      <LastState/>
+                      <Color>000000</Color>
+                      <VariableType>Auto Assembler Script</VariableType>
+                      <AssemblerScript>[ENABLE]
+
+{$lua}
+
+-- Teleport to Hawk Egg #1 cycle 4 --
+
+writeInteger("TeleOn", 1)
+
+writeFloat("WantedCoords", -717.051)
+writeFloat("WantedCoords+04", 2846.046)
+writeFloat("WantedCoords+08", 348.162)
+
+target = "Hawk_Egg_1" -- Trigger (Script Name) --
+
+{$asm}
+
+[DISABLE]
+</AssemblerScript>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>17940</ID>
+                      <Description>"Hawk Egg #2"</Description>
+                      <LastState/>
+                      <Color>000000</Color>
+                      <VariableType>Auto Assembler Script</VariableType>
+                      <AssemblerScript>[ENABLE]
+
+{$lua}
+
+-- Teleport to Hawk Egg #2 cycle 4 --
+
+writeInteger("TeleOn", 1)
+
+writeFloat("WantedCoords", 92.979)
+writeFloat("WantedCoords+04", 1701.877)
+writeFloat("WantedCoords+08", 183.770)
+
+target = "Hawk_Egg_2" -- Trigger (Script Name) --
+
+{$asm}
+
+[DISABLE]
+</AssemblerScript>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>17936</ID>
+                      <Description>"Heron Egg"</Description>
+                      <LastState/>
+                      <Color>000000</Color>
+                      <VariableType>Auto Assembler Script</VariableType>
+                      <AssemblerScript>[ENABLE]
+
+{$lua}
+
+-- Teleport to Heron Egg cycle 4 --
+
+writeInteger("TeleOn", 1)
+
+writeFloat("WantedCoords", 2233.161)
+writeFloat("WantedCoords+04", -1143.129)
+writeFloat("WantedCoords+08", 43.068)
+
+target = "Heron_Egg" -- Trigger (Script Name) --
+
+{$asm}
+
+[DISABLE]
+</AssemblerScript>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>17931</ID>
+                      <Description>"Loon Egg"</Description>
+                      <LastState/>
+                      <Color>000000</Color>
+                      <VariableType>Auto Assembler Script</VariableType>
+                      <AssemblerScript>[ENABLE]
+
+{$lua}
+
+-- Teleport to Loon Egg cycle 4 --
+
+writeInteger("TeleOn", 1)
+
+writeFloat("WantedCoords", 451.903)
+writeFloat("WantedCoords+04", -665.232)
+writeFloat("WantedCoords+08", 48.600)
+
+target = "Loon_Egg" -- Trigger (Script Name) --
+
+{$asm}
+
+[DISABLE]
+</AssemblerScript>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>17932</ID>
+                      <Description>"Spoonbill Egg"</Description>
+                      <LastState/>
+                      <Color>000000</Color>
+                      <VariableType>Auto Assembler Script</VariableType>
+                      <AssemblerScript>[ENABLE]
+
+{$lua}
+
+-- Teleport to Spoonbill Egg cycle 5 --
+
+writeInteger("TeleOn", 1)
+
+writeFloat("WantedCoords", 1999.309)
+writeFloat("WantedCoords+04", -1746.817)
+writeFloat("WantedCoords+08", 41.323)
+
+target = "Spoonbill_Egg" -- Trigger (Script Name) --
+
+{$asm}
+
+[DISABLE]
+</AssemblerScript>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>17937</ID>
+                      <Description>"Vulture Egg"</Description>
+                      <LastState/>
+                      <Color>000000</Color>
+                      <VariableType>Auto Assembler Script</VariableType>
+                      <AssemblerScript>[ENABLE]
+
+{$lua}
+
+-- Teleport to Vulture Egg cycle 4 --
+
+writeInteger("TeleOn", 1)
+
+writeFloat("WantedCoords", 2353.132)
+writeFloat("WantedCoords+04", 1450.858)
+writeFloat("WantedCoords+08", 143.593)
+
+target = "Vulture_Egg" -- Trigger (Script Name) --
+
+{$asm}
+
+[DISABLE]
+</AssemblerScript>
+                    </CheatEntry>
+                  </CheatEntries>
+                </CheatEntry>
+              </CheatEntries>
+            </CheatEntry>
             <CheatEntry>
               <ID>17393</ID>
               <Description>"Coins"</Description>
@@ -6984,167 +7440,6 @@ target = "c14c5" -- Trigger (Script Name) --
 {$asm}
 
 [DISABLE]
-</AssemblerScript>
-                    </CheatEntry>
-                  </CheatEntries>
-                </CheatEntry>
-              </CheatEntries>
-            </CheatEntry>
-            <CheatEntry>
-              <ID>17128</ID>
-              <Description>"Alcohol"</Description>
-              <Options moHideChildren="1" moDeactivateChildrenAsWell="1"/>
-              <LastState Value="" RealAddress="00000000"/>
-              <Color>FF80FF</Color>
-              <GroupHeader>1</GroupHeader>
-              <CheatEntries>
-                <CheatEntry>
-                  <ID>17132</ID>
-                  <Description>"Cycle 3"</Description>
-                  <Options moHideChildren="1" moDeactivateChildrenAsWell="1"/>
-                  <LastState Value="" RealAddress="00000000"/>
-                  <Color>FF80FF</Color>
-                  <GroupHeader>1</GroupHeader>
-                  <CheatEntries>
-                    <CheatEntry>
-                      <ID>17130</ID>
-                      <Description>"Absinthe Bottle"</Description>
-                      <LastState/>
-                      <VariableType>Auto Assembler Script</VariableType>
-                      <AssemblerScript>[enable]
-   // "Absinthe Bottle cycle 3"
-    TeleOn:
-    dd 00000001
-
-    WantedCoords:
-    dd (float)-1163.259
-    dd (float)-1941.260
-    dd (float)42.333
-
-[disable]
-
-</AssemblerScript>
-                    </CheatEntry>
-                    <CheatEntry>
-                      <ID>17129</ID>
-                      <Description>"Scotch Whisky Bottle"</Description>
-                      <LastState/>
-                      <VariableType>Auto Assembler Script</VariableType>
-                      <AssemblerScript>[enable]
-   // "Scotch Whisky Bottle cycle 3"
-    TeleOn:
-    dd 00000001
-
-    WantedCoords:
-    dd (float)-6048.868
-    dd (float)-3256.593
-    dd (float)-14.293
-
-[disable]
-
-</AssemblerScript>
-                    </CheatEntry>
-                    <CheatEntry>
-                      <ID>17133</ID>
-                      <Description>"Caribbean Rum Bottle"</Description>
-                      <LastState/>
-                      <VariableType>Auto Assembler Script</VariableType>
-                      <AssemblerScript>[enable]
-   // "Caribbean Rum Bottle cycle 3"
-    TeleOn:
-    dd 00000001
-
-    WantedCoords:
-    dd (float)-156.546
-    dd (float)1490.218
-    dd (float)116.152
-
-[disable]
-
-</AssemblerScript>
-                    </CheatEntry>
-                    <CheatEntry>
-                      <ID>17134</ID>
-                      <Description>"Gran Corazon Madeira Bottle"</Description>
-                      <LastState/>
-                      <VariableType>Auto Assembler Script</VariableType>
-                      <AssemblerScript>[enable]
-   // "Gran Corazon Madeira Bottle cycle 3"
-    TeleOn:
-    dd 00000001
-
-    WantedCoords:
-    dd (float)1937.552
-    dd (float)1948.300
-    dd (float)266.101
-[disable]
-
-</AssemblerScript>
-                    </CheatEntry>
-                  </CheatEntries>
-                </CheatEntry>
-                <CheatEntry>
-                  <ID>17213</ID>
-                  <Description>"Cycle 4"</Description>
-                  <Options moHideChildren="1" moDeactivateChildrenAsWell="1"/>
-                  <LastState Value="" RealAddress="00000000"/>
-                  <Color>FF80FF</Color>
-                  <GroupHeader>1</GroupHeader>
-                  <CheatEntries>
-                    <CheatEntry>
-                      <ID>17214</ID>
-                      <Description>"Absinthe Bottle"</Description>
-                      <LastState/>
-                      <VariableType>Auto Assembler Script</VariableType>
-                      <AssemblerScript>[enable]
-    // "Absinthe Bottle cycle 4"
-    TeleOn:
-    dd 00000001
-
-    WantedCoords:
-    dd (float)2523.354
-    dd (float)2300.599
-    dd (float)193.735
-
-[disable]
-
-</AssemblerScript>
-                    </CheatEntry>
-                    <CheatEntry>
-                      <ID>17215</ID>
-                      <Description>"Old Tom Gin Bottle"</Description>
-                      <LastState/>
-                      <VariableType>Auto Assembler Script</VariableType>
-                      <AssemblerScript>[enable]
-    // "Old Tom Gin Bottle cycle 4"
-    TeleOn:
-    dd 00000001
-
-    WantedCoords:
-    dd (float)-5962.323
-    dd (float)-3241.343
-    dd (float)-21.628
-
-[disable]
-
-</AssemblerScript>
-                    </CheatEntry>
-                    <CheatEntry>
-                      <ID>17216</ID>
-                      <Description>"Cognac Bottle"</Description>
-                      <LastState/>
-                      <VariableType>Auto Assembler Script</VariableType>
-                      <AssemblerScript>[enable]
-    // "Cognac Bottle cycle 4"
-    TeleOn:
-    dd 00000001
-
-    WantedCoords:
-    dd (float)-4368.416
-    dd (float)-2415.134
-    dd (float)20.402
-[disable]
-
 </AssemblerScript>
                     </CheatEntry>
                   </CheatEntries>
@@ -8345,6 +8640,274 @@ target = "c14c5" -- Trigger (Script Name) --
                   <LastState Value="" RealAddress="00000000"/>
                   <Color>FF80FF</Color>
                   <GroupHeader>1</GroupHeader>
+                </CheatEntry>
+              </CheatEntries>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>17105</ID>
+              <Description>"Jewelry"</Description>
+              <Options moHideChildren="1" moDeactivateChildrenAsWell="1"/>
+              <LastState Value="" RealAddress="00000000"/>
+              <Color>FFFF00</Color>
+              <GroupHeader>1</GroupHeader>
+              <CheatEntries>
+                <CheatEntry>
+                  <ID>17217</ID>
+                  <Description>"Cycle 3"</Description>
+                  <Options moHideChildren="1" moDeactivateChildrenAsWell="1"/>
+                  <LastState Value="" RealAddress="00000000"/>
+                  <Color>FFFF80</Color>
+                  <GroupHeader>1</GroupHeader>
+                  <CheatEntries>
+                    <CheatEntry>
+                      <ID>17106</ID>
+                      <Description>"Random Jewelry #0"</Description>
+                      <LastState/>
+                      <VariableType>Auto Assembler Script</VariableType>
+                      <AssemblerScript>[enable]
+    // "Random Jewelry #0"
+    TeleOn:
+    dd 00000001
+
+    WantedCoords:
+    dd (float)-852.843
+    dd (float)396.532
+    dd (float)95.902
+
+[disable]
+
+</AssemblerScript>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>17107</ID>
+                      <Description>"Random Jewelry #1"</Description>
+                      <LastState/>
+                      <VariableType>Auto Assembler Script</VariableType>
+                      <AssemblerScript>[enable]
+   // "Random Jewelry #1"
+    TeleOn:
+    dd 00000001
+
+    WantedCoords:
+    dd (float)2294.697
+    dd (float)2076.916
+    dd (float)200.815
+
+[disable]
+
+</AssemblerScript>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>17108</ID>
+                      <Description>"Random Jewelry #2"</Description>
+                      <LastState/>
+                      <VariableType>Auto Assembler Script</VariableType>
+                      <AssemblerScript>[enable]
+   // "Random Jewelry #2"
+    TeleOn:
+    dd 00000001
+
+    WantedCoords:
+    dd (float)1715.895
+    dd (float)-1724.942
+    dd (float)51.632
+
+[disable]
+
+</AssemblerScript>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>17109</ID>
+                      <Description>"Random Jewelry #3"</Description>
+                      <LastState/>
+                      <VariableType>Auto Assembler Script</VariableType>
+                      <AssemblerScript>[enable]
+   // "Random Jewelry #3"
+    TeleOn:
+    dd 00000001
+
+    WantedCoords:
+    dd (float)2300.642
+    dd (float)-1322.880
+    dd (float)42.965
+
+[disable]
+
+</AssemblerScript>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>17110</ID>
+                      <Description>"Random Jewelry #4"</Description>
+                      <LastState/>
+                      <VariableType>Auto Assembler Script</VariableType>
+                      <AssemblerScript>[enable]
+   // "Random Jewelry #4"
+    TeleOn:
+    dd 00000001
+
+    WantedCoords:
+    dd (float)1898.364
+    dd (float)-1195.114
+    dd (float)42.944
+
+[disable]
+
+</AssemblerScript>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>17111</ID>
+                      <Description>"Random Jewelry #5"</Description>
+                      <LastState/>
+                      <VariableType>Auto Assembler Script</VariableType>
+                      <AssemblerScript>[enable]
+   // "Random Jewelry #5"
+    TeleOn:
+    dd 00000001
+
+    WantedCoords:
+    dd (float)-1694.416
+    dd (float)-1542.129
+    dd (float)84.013
+
+[disable]
+
+</AssemblerScript>
+                    </CheatEntry>
+                  </CheatEntries>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>17201</ID>
+                  <Description>"Cycle 4"</Description>
+                  <Options moHideChildren="1" moDeactivateChildrenAsWell="1"/>
+                  <LastState Value="" RealAddress="00000000"/>
+                  <Color>FFFF80</Color>
+                  <GroupHeader>1</GroupHeader>
+                  <CheatEntries>
+                    <CheatEntry>
+                      <ID>17200</ID>
+                      <Description>"Random Jewelry #16"</Description>
+                      <LastState/>
+                      <VariableType>Auto Assembler Script</VariableType>
+                      <AssemblerScript>[enable]
+    // "Random Jewelry #16 cycle 4"
+    TeleOn:
+    dd 00000001
+
+    WantedCoords:
+    dd (float)-5858.554
+    dd (float)-3185.1972
+    dd (float)-13.394
+
+[disable]
+
+</AssemblerScript>
+                    </CheatEntry>
+                  </CheatEntries>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>17203</ID>
+                  <Description>"Cycle 5"</Description>
+                  <Options moHideChildren="1" moDeactivateChildrenAsWell="1"/>
+                  <LastState Value="" RealAddress="00000000"/>
+                  <Color>FFFF80</Color>
+                  <GroupHeader>1</GroupHeader>
+                  <CheatEntries>
+                    <CheatEntry>
+                      <ID>17202</ID>
+                      <Description>"Random Jewelry #11"</Description>
+                      <LastState/>
+                      <VariableType>Auto Assembler Script</VariableType>
+                      <AssemblerScript>[enable]
+    // "Random Jewelry #11 cycle 5"
+    TeleOn:
+    dd 00000001
+
+    WantedCoords:
+    dd (float)-3535.467
+    dd (float)-3048.250
+    dd (float)12.125
+
+[disable]
+
+</AssemblerScript>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>17204</ID>
+                      <Description>"Random Jewelry #14"</Description>
+                      <LastState/>
+                      <VariableType>Auto Assembler Script</VariableType>
+                      <AssemblerScript>[enable]
+    // "Random Jewelry #14 cycle 5"
+    TeleOn:
+    dd 00000001
+
+    WantedCoords:
+    dd (float)-4813.166
+    dd (float)-2709.489
+    dd (float)-13.260
+
+[disable]
+
+</AssemblerScript>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>17205</ID>
+                      <Description>"Random Jewelry #21"</Description>
+                      <LastState/>
+                      <VariableType>Auto Assembler Script</VariableType>
+                      <AssemblerScript>[enable]
+    // "Random Jewelry #21 cycle 5"
+    TeleOn:
+    dd 00000001
+
+    WantedCoords:
+    dd (float)-5633.436
+    dd (float)-2951.707
+    dd (float)5.875
+
+[disable]
+
+</AssemblerScript>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>17206</ID>
+                      <Description>"Random Jewelry #23"</Description>
+                      <LastState/>
+                      <VariableType>Auto Assembler Script</VariableType>
+                      <AssemblerScript>[enable]
+    // "Random Jewelry #23 cycle 5"
+    TeleOn:
+    dd 00000001
+
+    WantedCoords:
+    dd (float)-2071.895
+    dd (float)-2678.458
+    dd (float)68.861
+
+[disable]
+
+</AssemblerScript>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>17207</ID>
+                      <Description>"Random Jewelry #29"</Description>
+                      <LastState/>
+                      <VariableType>Auto Assembler Script</VariableType>
+                      <AssemblerScript>[enable]
+    // "Random Jewelry #29 cycle 5"
+    TeleOn:
+    dd 00000001
+
+    WantedCoords:
+    dd (float)-3342.143
+    dd (float)-2752.631
+    dd (float)-4.135
+
+[disable]
+
+</AssemblerScript>
+                    </CheatEntry>
+                  </CheatEntries>
                 </CheatEntry>
               </CheatEntries>
             </CheatEntry>
@@ -13980,280 +14543,13 @@ target = "Two of Cups C2" -- Trigger (Script Name) --
                 </CheatEntry>
               </CheatEntries>
             </CheatEntry>
-            <CheatEntry>
-              <ID>17105</ID>
-              <Description>"Jewelry"</Description>
-              <Options moHideChildren="1" moDeactivateChildrenAsWell="1"/>
-              <LastState Value="" RealAddress="00000000"/>
-              <Color>FFFF00</Color>
-              <GroupHeader>1</GroupHeader>
-              <CheatEntries>
-                <CheatEntry>
-                  <ID>17217</ID>
-                  <Description>"Cycle 3"</Description>
-                  <LastState Value="" RealAddress="00000000"/>
-                  <Color>FFFF80</Color>
-                  <GroupHeader>1</GroupHeader>
-                  <CheatEntries>
-                    <CheatEntry>
-                      <ID>17106</ID>
-                      <Description>"Random Jewelry #0"</Description>
-                      <LastState/>
-                      <VariableType>Auto Assembler Script</VariableType>
-                      <AssemblerScript>[enable]
-    // "Random Jewelry #0"
-    TeleOn:
-    dd 00000001
-
-    WantedCoords:
-    dd (float)-852.843
-    dd (float)396.532
-    dd (float)95.902
-
-[disable]
-
-</AssemblerScript>
-                    </CheatEntry>
-                    <CheatEntry>
-                      <ID>17107</ID>
-                      <Description>"Random Jewelry #1"</Description>
-                      <LastState/>
-                      <VariableType>Auto Assembler Script</VariableType>
-                      <AssemblerScript>[enable]
-   // "Random Jewelry #1"
-    TeleOn:
-    dd 00000001
-
-    WantedCoords:
-    dd (float)2294.697
-    dd (float)2076.916
-    dd (float)200.815
-
-[disable]
-
-</AssemblerScript>
-                    </CheatEntry>
-                    <CheatEntry>
-                      <ID>17108</ID>
-                      <Description>"Random Jewelry #2"</Description>
-                      <LastState/>
-                      <VariableType>Auto Assembler Script</VariableType>
-                      <AssemblerScript>[enable]
-   // "Random Jewelry #2"
-    TeleOn:
-    dd 00000001
-
-    WantedCoords:
-    dd (float)1715.895
-    dd (float)-1724.942
-    dd (float)51.632
-
-[disable]
-
-</AssemblerScript>
-                    </CheatEntry>
-                    <CheatEntry>
-                      <ID>17109</ID>
-                      <Description>"Random Jewelry #3"</Description>
-                      <LastState/>
-                      <VariableType>Auto Assembler Script</VariableType>
-                      <AssemblerScript>[enable]
-   // "Random Jewelry #3"
-    TeleOn:
-    dd 00000001
-
-    WantedCoords:
-    dd (float)2300.642
-    dd (float)-1322.880
-    dd (float)42.965
-
-[disable]
-
-</AssemblerScript>
-                    </CheatEntry>
-                    <CheatEntry>
-                      <ID>17110</ID>
-                      <Description>"Random Jewelry #4"</Description>
-                      <LastState/>
-                      <VariableType>Auto Assembler Script</VariableType>
-                      <AssemblerScript>[enable]
-   // "Random Jewelry #4"
-    TeleOn:
-    dd 00000001
-
-    WantedCoords:
-    dd (float)1898.364
-    dd (float)-1195.114
-    dd (float)42.944
-
-[disable]
-
-</AssemblerScript>
-                    </CheatEntry>
-                    <CheatEntry>
-                      <ID>17111</ID>
-                      <Description>"Random Jewelry #5"</Description>
-                      <LastState/>
-                      <VariableType>Auto Assembler Script</VariableType>
-                      <AssemblerScript>[enable]
-   // "Random Jewelry #5"
-    TeleOn:
-    dd 00000001
-
-    WantedCoords:
-    dd (float)-1694.416
-    dd (float)-1542.129
-    dd (float)84.013
-
-[disable]
-
-</AssemblerScript>
-                    </CheatEntry>
-                  </CheatEntries>
-                </CheatEntry>
-                <CheatEntry>
-                  <ID>17201</ID>
-                  <Description>"Cycle 4"</Description>
-                  <Options moHideChildren="1" moDeactivateChildrenAsWell="1"/>
-                  <LastState Value="" RealAddress="00000000"/>
-                  <Color>FFFF80</Color>
-                  <GroupHeader>1</GroupHeader>
-                  <CheatEntries>
-                    <CheatEntry>
-                      <ID>17200</ID>
-                      <Description>"Random Jewelry #16"</Description>
-                      <LastState/>
-                      <VariableType>Auto Assembler Script</VariableType>
-                      <AssemblerScript>[enable]
-    // "Random Jewelry #16 cycle 4"
-    TeleOn:
-    dd 00000001
-
-    WantedCoords:
-    dd (float)-5858.554
-    dd (float)-3185.1972
-    dd (float)-13.394
-
-[disable]
-
-</AssemblerScript>
-                    </CheatEntry>
-                  </CheatEntries>
-                </CheatEntry>
-                <CheatEntry>
-                  <ID>17203</ID>
-                  <Description>"Cycle 5"</Description>
-                  <Options moHideChildren="1" moDeactivateChildrenAsWell="1"/>
-                  <LastState Value="" RealAddress="00000000"/>
-                  <Color>FFFF80</Color>
-                  <GroupHeader>1</GroupHeader>
-                  <CheatEntries>
-                    <CheatEntry>
-                      <ID>17202</ID>
-                      <Description>"Random Jewelry #11"</Description>
-                      <LastState/>
-                      <VariableType>Auto Assembler Script</VariableType>
-                      <AssemblerScript>[enable]
-    // "Random Jewelry #11 cycle 5"
-    TeleOn:
-    dd 00000001
-
-    WantedCoords:
-    dd (float)-3535.467
-    dd (float)-3048.250
-    dd (float)12.125
-
-[disable]
-
-</AssemblerScript>
-                    </CheatEntry>
-                    <CheatEntry>
-                      <ID>17204</ID>
-                      <Description>"Random Jewelry #14"</Description>
-                      <LastState/>
-                      <VariableType>Auto Assembler Script</VariableType>
-                      <AssemblerScript>[enable]
-    // "Random Jewelry #14 cycle 5"
-    TeleOn:
-    dd 00000001
-
-    WantedCoords:
-    dd (float)-4813.166
-    dd (float)-2709.489
-    dd (float)-13.260
-
-[disable]
-
-</AssemblerScript>
-                    </CheatEntry>
-                    <CheatEntry>
-                      <ID>17205</ID>
-                      <Description>"Random Jewelry #21"</Description>
-                      <LastState/>
-                      <VariableType>Auto Assembler Script</VariableType>
-                      <AssemblerScript>[enable]
-    // "Random Jewelry #21 cycle 5"
-    TeleOn:
-    dd 00000001
-
-    WantedCoords:
-    dd (float)-5633.436
-    dd (float)-2951.707
-    dd (float)5.875
-
-[disable]
-
-</AssemblerScript>
-                    </CheatEntry>
-                    <CheatEntry>
-                      <ID>17206</ID>
-                      <Description>"Random Jewelry #23"</Description>
-                      <LastState/>
-                      <VariableType>Auto Assembler Script</VariableType>
-                      <AssemblerScript>[enable]
-    // "Random Jewelry #23 cycle 5"
-    TeleOn:
-    dd 00000001
-
-    WantedCoords:
-    dd (float)-2071.895
-    dd (float)-2678.458
-    dd (float)68.861
-
-[disable]
-
-</AssemblerScript>
-                    </CheatEntry>
-                    <CheatEntry>
-                      <ID>17207</ID>
-                      <Description>"Random Jewelry #29"</Description>
-                      <LastState/>
-                      <VariableType>Auto Assembler Script</VariableType>
-                      <AssemblerScript>[enable]
-    // "Random Jewelry #29 cycle 5"
-    TeleOn:
-    dd 00000001
-
-    WantedCoords:
-    dd (float)-3342.143
-    dd (float)-2752.631
-    dd (float)-4.135
-
-[disable]
-
-</AssemblerScript>
-                    </CheatEntry>
-                  </CheatEntries>
-                </CheatEntry>
-              </CheatEntries>
-            </CheatEntry>
           </CheatEntries>
         </CheatEntry>
         <CheatEntry>
           <ID>17819</ID>
           <Description>"Locations"</Description>
           <Options moHideChildren="1" moDeactivateChildrenAsWell="1"/>
-          <LastState Value="" RealAddress="00000000"/>
+          <LastState Value="" Activated="1" RealAddress="00000000"/>
           <Color>C0C0C0</Color>
           <GroupHeader>1</GroupHeader>
           <CheatEntries>
@@ -14379,6 +14675,30 @@ writeFloat("WantedCoords+04", 454.505)
 writeFloat("WantedCoords+08", 89.655)
 
 target = "Emerald Ranch Station FT" -- Trigger (Script Name) --
+
+{$asm}
+
+[DISABLE]
+</AssemblerScript>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>17835</ID>
+                  <Description>"Lagras FT"</Description>
+                  <LastState/>
+                  <VariableType>Auto Assembler Script</VariableType>
+                  <AssemblerScript>[ENABLE]
+
+{$lua}
+
+-- Teleport to Lagras Fast Travel (Original Coordinates) --
+
+writeInteger("TeleOn", 1)
+
+writeFloat("WantedCoords", 2073.625)
+writeFloat("WantedCoords+04", -576.449)
+writeFloat("WantedCoords+08", 41.496)
+
+target = "Lagras FT" -- Trigger (Script Name) --
 
 {$asm}
 
@@ -14530,30 +14850,6 @@ target = "Tumbleweed FT" -- Trigger (Script Name) --
 </AssemblerScript>
                 </CheatEntry>
                 <CheatEntry>
-                  <ID>17832</ID>
-                  <Description>"Wapiti FT"</Description>
-                  <LastState/>
-                  <VariableType>Auto Assembler Script</VariableType>
-                  <AssemblerScript>[ENABLE]
-
-{$lua}
-
--- Teleport to Wapiti Indian Reservation Fast Travel (Original Coordinates) --
-
-writeInteger("TeleOn", 1)
-
-writeFloat("WantedCoords", 453.985)
-writeFloat("WantedCoords+04", 2164.378)
-writeFloat("WantedCoords+08", 243.578)
-
-target = "Wapiti FT" -- Trigger (Script Name) --
-
-{$asm}
-
-[DISABLE]
-</AssemblerScript>
-                </CheatEntry>
-                <CheatEntry>
                   <ID>17833</ID>
                   <Description>"Valentine FT"</Description>
                   <LastState/>
@@ -14602,23 +14898,23 @@ target = "Van Horn FT" -- Trigger (Script Name) --
 </AssemblerScript>
                 </CheatEntry>
                 <CheatEntry>
-                  <ID>17835</ID>
-                  <Description>"Lagras FT"</Description>
+                  <ID>17832</ID>
+                  <Description>"Wapiti FT"</Description>
                   <LastState/>
                   <VariableType>Auto Assembler Script</VariableType>
                   <AssemblerScript>[ENABLE]
 
 {$lua}
 
--- Teleport to Lagras Fast Travel (Original Coordinates) --
+-- Teleport to Wapiti Indian Reservation Fast Travel (Original Coordinates) --
 
 writeInteger("TeleOn", 1)
 
-writeFloat("WantedCoords", 2073.625)
-writeFloat("WantedCoords+04", -576.449)
-writeFloat("WantedCoords+08", 41.496)
+writeFloat("WantedCoords", 453.985)
+writeFloat("WantedCoords+04", 2164.378)
+writeFloat("WantedCoords+08", 243.578)
 
-target = "Lagras FT" -- Trigger (Script Name) --
+target = "Wapiti FT" -- Trigger (Script Name) --
 
 {$asm}
 
@@ -14890,6 +15186,32 @@ target = "Colter" -- Trigger (Script Name) --
 </AssemblerScript>
                 </CheatEntry>
                 <CheatEntry>
+                  <ID>17852</ID>
+                  <Description>"Saint Dennis"</Description>
+                  <LastState/>
+                  <VariableType>Auto Assembler Script</VariableType>
+                  <AssemblerScript>[enable]
+    //Saint Denis Tele
+    TeleOn:
+    dd 00000001
+
+    WantedCoords:
+    dd (float)2631
+    dd (float)-1288
+    dd (float)52
+
+    [disable]
+</AssemblerScript>
+                  <Hotkeys>
+                    <Hotkey>
+                      <Action>Toggle Activation</Action>
+                      <Keys/>
+                      <ID>0</ID>
+                      <ActivateSound>Activate</ActivateSound>
+                    </Hotkey>
+                  </Hotkeys>
+                </CheatEntry>
+                <CheatEntry>
                   <ID>17845</ID>
                   <Description>"Saint Denis Entrance"</Description>
                   <LastState/>
@@ -15040,32 +15362,6 @@ target = "Colter" -- Trigger (Script Name) --
 </AssemblerScript>
                 </CheatEntry>
                 <CheatEntry>
-                  <ID>17852</ID>
-                  <Description>"Saint Dennis"</Description>
-                  <LastState/>
-                  <VariableType>Auto Assembler Script</VariableType>
-                  <AssemblerScript>[enable]
-    //Saint Denis Tele
-    TeleOn:
-    dd 00000001
-
-    WantedCoords:
-    dd (float)2631
-    dd (float)-1288
-    dd (float)52
-
-    [disable]
-</AssemblerScript>
-                  <Hotkeys>
-                    <Hotkey>
-                      <Action>Toggle Activation</Action>
-                      <Keys/>
-                      <ID>0</ID>
-                      <ActivateSound>Activate</ActivateSound>
-                    </Hotkey>
-                  </Hotkeys>
-                </CheatEntry>
-                <CheatEntry>
                   <ID>17853</ID>
                   <Description>"Van Horn"</Description>
                   <LastState/>
@@ -15090,379 +15386,10 @@ target = "Colter" -- Trigger (Script Name) --
               <ID>17854</ID>
               <Description>"Landmarks/Miscellaneous"</Description>
               <Options moHideChildren="1" moDeactivateChildrenAsWell="1"/>
-              <LastState Value="" RealAddress="00000000"/>
+              <LastState Value="" Activated="1" RealAddress="00000000"/>
               <Color>C0C0C0</Color>
               <GroupHeader>1</GroupHeader>
               <CheatEntries>
-                <CheatEntry>
-                  <ID>17855</ID>
-                  <Description>"Wapiti Reservation"</Description>
-                  <LastState/>
-                  <VariableType>Auto Assembler Script</VariableType>
-                  <AssemblerScript>[enable]
-    //Wapiti Reservation
-    TeleOn:
-    dd 00000001
-
-    WantedCoords:
-    dd (float)448.9348
-    dd (float)2239.867
-    dd (float)248.4422
-
-    [disable]
-</AssemblerScript>
-                </CheatEntry>
-                <CheatEntry>
-                  <ID>17856</ID>
-                  <Description>"Gaptooth Breach"</Description>
-                  <LastState/>
-                  <VariableType>Auto Assembler Script</VariableType>
-                  <AssemblerScript>[enable]
-    //Gaptooth Breach
-    TeleOn:
-    dd 00000001
-
-    WantedCoords:
-    dd (float)-6000.769
-    dd (float)-3319.31
-    dd (float)-21.72198
-
-    [disable]
-
-</AssemblerScript>
-                </CheatEntry>
-                <CheatEntry>
-                  <ID>17857</ID>
-                  <Description>"Grizzlies Camp (Tutorial Area)"</Description>
-                  <LastState/>
-                  <VariableType>Auto Assembler Script</VariableType>
-                  <AssemblerScript>[enable]
-    //Grizzlies Camp (Tutorial Area)
-    TeleOn:
-    dd 00000001
-
-    WantedCoords:
-    dd (float)-1343.558
-    dd (float)2425.952
-    dd (float)307.4015
-    [disable]
-
- 
-
- 
-
-</AssemblerScript>
-                </CheatEntry>
-                <CheatEntry>
-                  <ID>17858</ID>
-                  <Description>"Horseshoe Overlook"</Description>
-                  <LastState/>
-                  <VariableType>Auto Assembler Script</VariableType>
-                  <AssemblerScript>[enable]
-    //Horseshoe Overlook
-    TeleOn:
-    dd 00000001
-
-    WantedCoords:
-    dd (float)-69.79318
-    dd (float)109.2834
-    dd (float)89.52379
-
-    [disable]
-</AssemblerScript>
-                </CheatEntry>
-                <CheatEntry>
-                  <ID>17859</ID>
-                  <Description>"Mercer Station"</Description>
-                  <LastState/>
-                  <VariableType>Auto Assembler Script</VariableType>
-                  <AssemblerScript>[enable]
-    //Mercer Station
-    TeleOn:
-    dd 00000001
-
-    WantedCoords:
-    dd (float)-4352.891
-    dd (float)-3052.94
-    dd (float)-11.10614
-    [disable]
-
-</AssemblerScript>
-                </CheatEntry>
-                <CheatEntry>
-                  <ID>17860</ID>
-                  <Description>"Mexico"</Description>
-                  <LastState/>
-                  <VariableType>Auto Assembler Script</VariableType>
-                  <AssemblerScript>[enable]
-    //Mexico
-    TeleOn:
-    dd 00000001
-
-    WantedCoords:
-    dd (float)-2179.264
-    dd (float)-3382.99
-    dd (float)32.82836
-
-    [disable]
-
-</AssemblerScript>
-                </CheatEntry>
-                <CheatEntry>
-                  <ID>17861</ID>
-                  <Description>"Monto's Rest (Building Camp)/Diablo Ridge"</Description>
-                  <LastState/>
-                  <VariableType>Auto Assembler Script</VariableType>
-                  <AssemblerScript>[enable]
-    //Monto's Rest (Building Camp)
-    TeleOn:
-    dd 00000001
-
-    WantedCoords:
-    dd (float)-1389.252
-    dd (float)-235.0196
-    dd (float)98.85808
-    [disable]
-
- 
-
-
-</AssemblerScript>
-                </CheatEntry>
-                <CheatEntry>
-                  <ID>17862</ID>
-                  <Description>"Rathskeller Fork"</Description>
-                  <LastState/>
-                  <VariableType>Auto Assembler Script</VariableType>
-                  <AssemblerScript>[enable]
-    //Rathskeller Fork
-    TeleOn:
-    dd 00000001
-
-    WantedCoords:
-    dd (float)-5165.079
-    dd (float)-2143.5
-    dd (float)11.77453
-
-    [disable]
-
-
-</AssemblerScript>
-                </CheatEntry>
-                <CheatEntry>
-                  <ID>17863</ID>
-                  <Description>"Roots Chapel"</Description>
-                  <LastState/>
-                  <VariableType>Auto Assembler Script</VariableType>
-                  <AssemblerScript>[enable]
-    //Roots Chapel
-    TeleOn:
-    dd 00000001
-
-    WantedCoords:
-    dd (float)-3322.755
-    dd (float)-2833.409
-    dd (float)-6.234455
-
-    [disable]
-
-
-</AssemblerScript>
-                </CheatEntry>
-                <CheatEntry>
-                  <ID>17864</ID>
-                  <Description>"Scarlett Meadows"</Description>
-                  <LastState/>
-                  <VariableType>Auto Assembler Script</VariableType>
-                  <AssemblerScript>[enable]
-    //Clemens Point
-    TeleOn:
-    dd 00000001
-
-    WantedCoords:
-    dd (float)843.9913
-    dd (float)-1029.49
-    dd (float)51.98533
-
-    [disable]
-
-</AssemblerScript>
-                </CheatEntry>
-                <CheatEntry>
-                  <ID>17865</ID>
-                  <Description>"Shady Belle"</Description>
-                  <LastState/>
-                  <VariableType>Auto Assembler Script</VariableType>
-                  <AssemblerScript>[enable]
-    //Shady Belle
-    TeleOn:
-    dd 00000001
-
-    WantedCoords:
-    dd (float)1763.23
-    dd (float)-1772.336
-    dd (float)50.68247
-
-    [disable]
-
-</AssemblerScript>
-                </CheatEntry>
-                <CheatEntry>
-                  <ID>17866</ID>
-                  <Description>"Swadlass Point/Aurora Basin"</Description>
-                  <LastState/>
-                  <VariableType>Auto Assembler Script</VariableType>
-                  <AssemblerScript>[enable]
-    //Swadlass Point
-    TeleOn:
-    dd 00000001
-
-    WantedCoords:
-    dd (float)-2573.16
-    dd (float)-1371.534
-    dd (float)149.7127
-    [disable]
-
- 
-
-</AssemblerScript>
-                </CheatEntry>
-                <CheatEntry>
-                  <ID>17867</ID>
-                  <Description>"Tanner's Reach"</Description>
-                  <LastState/>
-                  <VariableType>Auto Assembler Script</VariableType>
-                  <AssemblerScript>[enable]
-    //Tanner's Reach
-    TeleOn:
-    dd 00000001
-
-    WantedCoords:
-    dd (float)-2370.176
-    dd (float)-1595.122
-    dd (float)154.0966
-    [disable]
-
- 
-
-</AssemblerScript>
-                </CheatEntry>
-                <CheatEntry>
-                  <ID>17868</ID>
-                  <Description>"Theatre Raleur"</Description>
-                  <LastState/>
-                  <VariableType>Auto Assembler Script</VariableType>
-                  <AssemblerScript>[enable]
-    //Theatre Raleur
-    TeleOn:
-    dd 00000001
-
-    WantedCoords:
-    dd (float)2531.462
-    dd (float)-1271.88
-    dd (float)49.19459
-[disable]
-
- 
-
- 
-
- 
-
- 
-
- 
-
-
-</AssemblerScript>
-                </CheatEntry>
-                <CheatEntry>
-                  <ID>17869</ID>
-                  <Description>"UFO Cult House"</Description>
-                  <LastState/>
-                  <VariableType>Auto Assembler Script</VariableType>
-                  <AssemblerScript>[enable]
-    //UFO Cult House
-    TeleOn:
-    dd 00000001
-
-    WantedCoords:
-    dd (float)1469.529
-    dd (float)803.9516
-    dd (float)100.2565
-[disable]
-
-
-</AssemblerScript>
-                </CheatEntry>
-                <CheatEntry>
-                  <ID>17870</ID>
-                  <Description>"Veteran's Homestead"</Description>
-                  <LastState/>
-                  <VariableType>Auto Assembler Script</VariableType>
-                  <AssemblerScript>[enable]
-    //Veteran's Homestead
-    TeleOn:
-    dd 00000001
-
-    WantedCoords:
-    dd (float)1695.536
-    dd (float)1517.756
-    dd (float)146.7541
-
-[disable]
-
- 
-
- 
-
- 
-
-</AssemblerScript>
-                </CheatEntry>
-                <CheatEntry>
-                  <ID>17871</ID>
-                  <Description>"Crashed Boat"</Description>
-                  <LastState/>
-                  <VariableType>Auto Assembler Script</VariableType>
-                  <AssemblerScript>//[enable]
-    // Crashed Boat
-   // TeleOn:
-    //dd 00000001
-
-    //WantedCoords:
-    //dd (float)3587.617
-    //dd (float)1412.362
-    //dd (float)41.64929
-
-//[disable]
-
-[ENABLE]
-
-{$lua}
-
--- Teleport to Better than my dog" Crashed Boat --
-
-writeInteger("TeleOn", 1)
-
-writeFloat("WantedCoords", 3587.617)
-writeFloat("WantedCoords+04", 1412.362)
-writeFloat("WantedCoords+08", 41.64929)
-
-target = "Crashed Boat" -- Trigger (Script Name) --
-
-{$asm}
-
-[DISABLE]
-
- 
-
- 
-
- 
-
-</AssemblerScript>
-                </CheatEntry>
                 <CheatEntry>
                   <ID>17872</ID>
                   <Description>"Ambarino Sign"</Description>
@@ -15778,6 +15705,79 @@ target = "Cornwall Freight" -- Trigger (Script Name) --
 </AssemblerScript>
                 </CheatEntry>
                 <CheatEntry>
+                  <ID>17941</ID>
+                  <Description>"Cotorra Springs"</Description>
+                  <LastState/>
+                  <VariableType>Auto Assembler Script</VariableType>
+                  <AssemblerScript>[ENABLE]
+
+{$lua}
+
+-- Teleport to Cotorra Springs--
+
+writeInteger("TeleOn", 1)
+
+writeFloat("WantedCoords", 137.912)
+writeFloat("WantedCoords+04", 1813.372)
+writeFloat("WantedCoords+08", 198.598)
+
+target = "Cotorra Springs" -- Trigger (Script Name) --
+
+{$asm}
+
+[DISABLE]
+
+ 
+
+ 
+
+
+</AssemblerScript>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>17871</ID>
+                  <Description>"Crashed Boat"</Description>
+                  <LastState/>
+                  <VariableType>Auto Assembler Script</VariableType>
+                  <AssemblerScript>//[enable]
+    // Crashed Boat
+   // TeleOn:
+    //dd 00000001
+
+    //WantedCoords:
+    //dd (float)3587.617
+    //dd (float)1412.362
+    //dd (float)41.64929
+
+//[disable]
+
+[ENABLE]
+
+{$lua}
+
+-- Teleport to Better than my dog" Crashed Boat --
+
+writeInteger("TeleOn", 1)
+
+writeFloat("WantedCoords", 3587.617)
+writeFloat("WantedCoords+04", 1412.362)
+writeFloat("WantedCoords+08", 41.64929)
+
+target = "Crashed Boat" -- Trigger (Script Name) --
+
+{$asm}
+
+[DISABLE]
+
+ 
+
+ 
+
+ 
+
+</AssemblerScript>
+                </CheatEntry>
+                <CheatEntry>
                   <ID>17880</ID>
                   <Description>"Doverhill (Tesla Coil)"</Description>
                   <LastState/>
@@ -15883,6 +15883,332 @@ target = "Doverhill (Tesla Coil)" -- Trigger (Script Name) --
 
 </AssemblerScript>
                 </CheatEntry>
+                <CheatEntry>
+                  <ID>17856</ID>
+                  <Description>"Gaptooth Breach"</Description>
+                  <LastState/>
+                  <VariableType>Auto Assembler Script</VariableType>
+                  <AssemblerScript>[enable]
+    //Gaptooth Breach
+    TeleOn:
+    dd 00000001
+
+    WantedCoords:
+    dd (float)-6000.769
+    dd (float)-3319.31
+    dd (float)-21.72198
+
+    [disable]
+
+</AssemblerScript>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>17857</ID>
+                  <Description>"Grizzlies Camp (Tutorial Area)"</Description>
+                  <LastState/>
+                  <VariableType>Auto Assembler Script</VariableType>
+                  <AssemblerScript>[enable]
+    //Grizzlies Camp (Tutorial Area)
+    TeleOn:
+    dd 00000001
+
+    WantedCoords:
+    dd (float)-1343.558
+    dd (float)2425.952
+    dd (float)307.4015
+    [disable]
+
+ 
+
+ 
+
+</AssemblerScript>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>17858</ID>
+                  <Description>"Horseshoe Overlook"</Description>
+                  <LastState/>
+                  <VariableType>Auto Assembler Script</VariableType>
+                  <AssemblerScript>[enable]
+    //Horseshoe Overlook
+    TeleOn:
+    dd 00000001
+
+    WantedCoords:
+    dd (float)-69.79318
+    dd (float)109.2834
+    dd (float)89.52379
+
+    [disable]
+</AssemblerScript>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>17859</ID>
+                  <Description>"Mercer Station"</Description>
+                  <LastState/>
+                  <VariableType>Auto Assembler Script</VariableType>
+                  <AssemblerScript>[enable]
+    //Mercer Station
+    TeleOn:
+    dd 00000001
+
+    WantedCoords:
+    dd (float)-4352.891
+    dd (float)-3052.94
+    dd (float)-11.10614
+    [disable]
+
+</AssemblerScript>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>17860</ID>
+                  <Description>"Mexico"</Description>
+                  <LastState/>
+                  <VariableType>Auto Assembler Script</VariableType>
+                  <AssemblerScript>[enable]
+    //Mexico
+    TeleOn:
+    dd 00000001
+
+    WantedCoords:
+    dd (float)-2179.264
+    dd (float)-3382.99
+    dd (float)32.82836
+
+    [disable]
+
+</AssemblerScript>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>17861</ID>
+                  <Description>"Monto's Rest (Building Camp)/Diablo Ridge"</Description>
+                  <LastState/>
+                  <VariableType>Auto Assembler Script</VariableType>
+                  <AssemblerScript>[enable]
+    //Monto's Rest (Building Camp)
+    TeleOn:
+    dd 00000001
+
+    WantedCoords:
+    dd (float)-1389.252
+    dd (float)-235.0196
+    dd (float)98.85808
+    [disable]
+
+ 
+
+
+</AssemblerScript>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>17862</ID>
+                  <Description>"Rathskeller Fork"</Description>
+                  <LastState/>
+                  <VariableType>Auto Assembler Script</VariableType>
+                  <AssemblerScript>[enable]
+    //Rathskeller Fork
+    TeleOn:
+    dd 00000001
+
+    WantedCoords:
+    dd (float)-5165.079
+    dd (float)-2143.5
+    dd (float)11.77453
+
+    [disable]
+
+
+</AssemblerScript>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>17863</ID>
+                  <Description>"Roots Chapel"</Description>
+                  <LastState/>
+                  <VariableType>Auto Assembler Script</VariableType>
+                  <AssemblerScript>[enable]
+    //Roots Chapel
+    TeleOn:
+    dd 00000001
+
+    WantedCoords:
+    dd (float)-3322.755
+    dd (float)-2833.409
+    dd (float)-6.234455
+
+    [disable]
+
+
+</AssemblerScript>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>17864</ID>
+                  <Description>"Scarlett Meadows"</Description>
+                  <LastState/>
+                  <VariableType>Auto Assembler Script</VariableType>
+                  <AssemblerScript>[enable]
+    //Clemens Point
+    TeleOn:
+    dd 00000001
+
+    WantedCoords:
+    dd (float)843.9913
+    dd (float)-1029.49
+    dd (float)51.98533
+
+    [disable]
+
+</AssemblerScript>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>17865</ID>
+                  <Description>"Shady Belle"</Description>
+                  <LastState/>
+                  <VariableType>Auto Assembler Script</VariableType>
+                  <AssemblerScript>[enable]
+    //Shady Belle
+    TeleOn:
+    dd 00000001
+
+    WantedCoords:
+    dd (float)1763.23
+    dd (float)-1772.336
+    dd (float)50.68247
+
+    [disable]
+
+</AssemblerScript>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>17866</ID>
+                  <Description>"Swadlass Point/Aurora Basin"</Description>
+                  <LastState/>
+                  <VariableType>Auto Assembler Script</VariableType>
+                  <AssemblerScript>[enable]
+    //Swadlass Point
+    TeleOn:
+    dd 00000001
+
+    WantedCoords:
+    dd (float)-2573.16
+    dd (float)-1371.534
+    dd (float)149.7127
+    [disable]
+
+ 
+
+</AssemblerScript>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>17867</ID>
+                  <Description>"Tanner's Reach"</Description>
+                  <LastState/>
+                  <VariableType>Auto Assembler Script</VariableType>
+                  <AssemblerScript>[enable]
+    //Tanner's Reach
+    TeleOn:
+    dd 00000001
+
+    WantedCoords:
+    dd (float)-2370.176
+    dd (float)-1595.122
+    dd (float)154.0966
+    [disable]
+
+ 
+
+</AssemblerScript>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>17868</ID>
+                  <Description>"Theatre Raleur"</Description>
+                  <LastState/>
+                  <VariableType>Auto Assembler Script</VariableType>
+                  <AssemblerScript>[enable]
+    //Theatre Raleur
+    TeleOn:
+    dd 00000001
+
+    WantedCoords:
+    dd (float)2531.462
+    dd (float)-1271.88
+    dd (float)49.19459
+[disable]
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+
+</AssemblerScript>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>17869</ID>
+                  <Description>"UFO Cult House"</Description>
+                  <LastState/>
+                  <VariableType>Auto Assembler Script</VariableType>
+                  <AssemblerScript>[enable]
+    //UFO Cult House
+    TeleOn:
+    dd 00000001
+
+    WantedCoords:
+    dd (float)1469.529
+    dd (float)803.9516
+    dd (float)100.2565
+[disable]
+
+
+</AssemblerScript>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>17870</ID>
+                  <Description>"Veteran's Homestead"</Description>
+                  <LastState/>
+                  <VariableType>Auto Assembler Script</VariableType>
+                  <AssemblerScript>[enable]
+    //Veteran's Homestead
+    TeleOn:
+    dd 00000001
+
+    WantedCoords:
+    dd (float)1695.536
+    dd (float)1517.756
+    dd (float)146.7541
+
+[disable]
+
+ 
+
+ 
+
+ 
+
+</AssemblerScript>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>17855</ID>
+                  <Description>"Wapiti Reservation"</Description>
+                  <LastState/>
+                  <VariableType>Auto Assembler Script</VariableType>
+                  <AssemblerScript>[enable]
+    //Wapiti Reservation
+    TeleOn:
+    dd 00000001
+
+    WantedCoords:
+    dd (float)448.9348
+    dd (float)2239.867
+    dd (float)248.4422
+
+    [disable]
+</AssemblerScript>
+                </CheatEntry>
               </CheatEntries>
             </CheatEntry>
             <CheatEntry>
@@ -15893,6 +16219,90 @@ target = "Doverhill (Tesla Coil)" -- Trigger (Script Name) --
               <Color>C0C0C0</Color>
               <GroupHeader>1</GroupHeader>
               <CheatEntries>
+                <CheatEntry>
+                  <ID>17890</ID>
+                  <Description>"Barrow Lagoon"</Description>
+                  <LastState/>
+                  <VariableType>Auto Assembler Script</VariableType>
+                  <AssemblerScript>//[enable]
+    //Barrow Lagoon
+    //TeleOn:
+    //dd 00000001
+
+    //WantedCoords:
+    //dd (float)-1022.5
+    //dd (float)1682.607
+    //dd (float)242.1601
+
+//[disable]
+
+[ENABLE]
+
+{$lua}
+
+-- Teleport to Barrow Lagoon --
+
+writeInteger("TeleOn", 1)
+
+writeFloat("WantedCoords", -1022.5)
+writeFloat("WantedCoords+04", 1682.607)
+writeFloat("WantedCoords+08", 242.1601)
+
+target = "Barrow Lagoon" -- Trigger (Script Name) --
+
+{$asm}
+
+[DISABLE]
+
+ 
+
+ 
+
+ 
+
+</AssemblerScript>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>17887</ID>
+                  <Description>"Grizzlies Train Station"</Description>
+                  <LastState/>
+                  <VariableType>Auto Assembler Script</VariableType>
+                  <AssemblerScript>//[enable]
+    //Grizzlies Train Station (Bridge/Large Waterfall)
+    //TeleOn:
+   // dd 00000001
+
+   // WantedCoords:
+   // dd (float)571.4683
+   // dd (float)1709.609
+   // dd (float)187.5573
+
+//[disable]
+
+[ENABLE]
+
+{$lua}
+
+-- Teleport to Grizzlies Train Station (Bridge/Large Waterfall --
+
+writeInteger("TeleOn", 1)
+
+writeFloat("WantedCoords", 571.4683)
+writeFloat("WantedCoords+04", 1709.609)
+writeFloat("WantedCoords+08", 187.5573)
+
+target = "Grizzlies Train Station" -- Trigger (Script Name) --
+
+{$asm}
+
+[DISABLE]
+
+ 
+
+ 
+
+</AssemblerScript>
+                </CheatEntry>
                 <CheatEntry>
                   <ID>17885</ID>
                   <Description>"Willards Rest"</Description>
@@ -15978,47 +16388,6 @@ target = "Van Horn Lighthouse" -- Trigger (Script Name) --
 </AssemblerScript>
                 </CheatEntry>
                 <CheatEntry>
-                  <ID>17887</ID>
-                  <Description>"Grizzlies Train Station"</Description>
-                  <LastState/>
-                  <VariableType>Auto Assembler Script</VariableType>
-                  <AssemblerScript>//[enable]
-    //Grizzlies Train Station (Bridge/Large Waterfall)
-    //TeleOn:
-   // dd 00000001
-
-   // WantedCoords:
-   // dd (float)571.4683
-   // dd (float)1709.609
-   // dd (float)187.5573
-
-//[disable]
-
-[ENABLE]
-
-{$lua}
-
--- Teleport to Grizzlies Train Station (Bridge/Large Waterfall --
-
-writeInteger("TeleOn", 1)
-
-writeFloat("WantedCoords", 571.4683)
-writeFloat("WantedCoords+04", 1709.609)
-writeFloat("WantedCoords+08", 187.5573)
-
-target = "Grizzlies Train Station" -- Trigger (Script Name) --
-
-{$asm}
-
-[DISABLE]
-
- 
-
- 
-
-</AssemblerScript>
-                </CheatEntry>
-                <CheatEntry>
                   <ID>17888</ID>
                   <Description>"Upper Montana River"</Description>
                   <LastState/>
@@ -16090,49 +16459,6 @@ target = "Sisika Island" -- Trigger (Script Name) --
 
 [DISABLE]
 
-
-</AssemblerScript>
-                </CheatEntry>
-                <CheatEntry>
-                  <ID>17890</ID>
-                  <Description>"Barrow Lagoon"</Description>
-                  <LastState/>
-                  <VariableType>Auto Assembler Script</VariableType>
-                  <AssemblerScript>//[enable]
-    //Barrow Lagoon
-    //TeleOn:
-    //dd 00000001
-
-    //WantedCoords:
-    //dd (float)-1022.5
-    //dd (float)1682.607
-    //dd (float)242.1601
-
-//[disable]
-
-[ENABLE]
-
-{$lua}
-
--- Teleport to Barrow Lagoon --
-
-writeInteger("TeleOn", 1)
-
-writeFloat("WantedCoords", -1022.5)
-writeFloat("WantedCoords+04", 1682.607)
-writeFloat("WantedCoords+08", 242.1601)
-
-target = "Barrow Lagoon" -- Trigger (Script Name) --
-
-{$asm}
-
-[DISABLE]
-
- 
-
- 
-
- 
 
 </AssemblerScript>
                 </CheatEntry>
@@ -16245,6 +16571,134 @@ target = "Barrow Lagoon" -- Trigger (Script Name) --
               <Color>C0C0C0</Color>
               <GroupHeader>1</GroupHeader>
               <CheatEntries>
+                <CheatEntry>
+                  <ID>17905</ID>
+                  <Description>"Doyle's Tavern"</Description>
+                  <LastState/>
+                  <VariableType>Auto Assembler Script</VariableType>
+                  <AssemblerScript>//[enable]
+    //Doyle's Tavern
+   // TeleOn:
+   // dd 00000001
+
+   // WantedCoords:
+   // dd (float)2792.439
+    //dd (float)-1176.049
+   // dd (float)47.94577
+   //  [disable]
+   [ENABLE]
+
+{$lua}
+
+-- Teleport to Doyle's Tavern --
+
+writeInteger("TeleOn", 1)
+
+writeFloat("WantedCoords", 2792.439)
+writeFloat("WantedCoords+04", -1176.049)
+writeFloat("WantedCoords+08", 47.94577)
+
+target = "Doyle's Tavern" -- Trigger (Script Name) --
+
+{$asm}
+
+[DISABLE]
+
+ 
+
+ 
+
+ 
+
+
+</AssemblerScript>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>17906</ID>
+                  <Description>"Dr. Joseph R Barnes MD (Doctor)"</Description>
+                  <LastState/>
+                  <VariableType>Auto Assembler Script</VariableType>
+                  <AssemblerScript>//[enable]
+    //Dr. Joseph R Barnes MD (Doctor)
+   // TeleOn:
+   // dd 00000001
+
+   // WantedCoords:
+   // dd (float)2725.046
+    //dd (float)-1240.167
+   // dd (float)49.9267
+//[disable]
+
+
+[ENABLE]
+
+{$lua}
+
+-- Teleport to Dr. Joseph R Barnes MD (Doctor) --
+
+writeInteger("TeleOn", 1)
+
+writeFloat("WantedCoords", 2725.046)
+writeFloat("WantedCoords+04", -1240.167)
+writeFloat("WantedCoords+08", 49.9267)
+
+target = "Dr. Joseph R Barnes MD (Doctor)" -- Trigger (Script Name) --
+
+{$asm}
+
+[DISABLE]
+
+ 
+
+ 
+
+ 
+
+ 
+
+</AssemblerScript>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>17907</ID>
+                  <Description>"Fontana Theatre"</Description>
+                  <LastState/>
+                  <VariableType>Auto Assembler Script</VariableType>
+                  <AssemblerScript>//[enable]
+    //Fontana Theatre
+   // TeleOn:
+   // dd 00000001
+
+   // WantedCoords:
+   // dd (float)2683.063
+    //dd (float)-638.0975
+    //dd (float)47.4687
+//[disable]
+[ENABLE]
+
+{$lua}
+
+-- Teleport to Fontana Theatre --
+
+writeInteger("TeleOn", 1)
+
+writeFloat("WantedCoords", 2683.063)
+writeFloat("WantedCoords+04", -638.0975)
+writeFloat("WantedCoords+08", 47.4687)
+
+target = "Fontana Theatre" -- Trigger (Script Name) --
+
+{$asm}
+
+[DISABLE]
+
+ 
+
+ 
+
+ 
+
+</AssemblerScript>
+                </CheatEntry>
                 <CheatEntry>
                   <ID>17897</ID>
                   <Description>"Holdern Barber"</Description>
@@ -16463,134 +16917,6 @@ target = "Barrow Lagoon" -- Trigger (Script Name) --
 </AssemblerScript>
                 </CheatEntry>
                 <CheatEntry>
-                  <ID>17905</ID>
-                  <Description>"Doyle's Tavern"</Description>
-                  <LastState/>
-                  <VariableType>Auto Assembler Script</VariableType>
-                  <AssemblerScript>//[enable]
-    //Doyle's Tavern
-   // TeleOn:
-   // dd 00000001
-
-   // WantedCoords:
-   // dd (float)2792.439
-    //dd (float)-1176.049
-   // dd (float)47.94577
-   //  [disable]
-   [ENABLE]
-
-{$lua}
-
--- Teleport to Doyle's Tavern --
-
-writeInteger("TeleOn", 1)
-
-writeFloat("WantedCoords", 2792.439)
-writeFloat("WantedCoords+04", -1176.049)
-writeFloat("WantedCoords+08", 47.94577)
-
-target = "Doyle's Tavern" -- Trigger (Script Name) --
-
-{$asm}
-
-[DISABLE]
-
- 
-
- 
-
- 
-
-
-</AssemblerScript>
-                </CheatEntry>
-                <CheatEntry>
-                  <ID>17906</ID>
-                  <Description>"Dr. Joseph R Barnes MD (Doctor)"</Description>
-                  <LastState/>
-                  <VariableType>Auto Assembler Script</VariableType>
-                  <AssemblerScript>//[enable]
-    //Dr. Joseph R Barnes MD (Doctor)
-   // TeleOn:
-   // dd 00000001
-
-   // WantedCoords:
-   // dd (float)2725.046
-    //dd (float)-1240.167
-   // dd (float)49.9267
-//[disable]
-
-
-[ENABLE]
-
-{$lua}
-
--- Teleport to Dr. Joseph R Barnes MD (Doctor) --
-
-writeInteger("TeleOn", 1)
-
-writeFloat("WantedCoords", 2725.046)
-writeFloat("WantedCoords+04", -1240.167)
-writeFloat("WantedCoords+08", 49.9267)
-
-target = "Dr. Joseph R Barnes MD (Doctor)" -- Trigger (Script Name) --
-
-{$asm}
-
-[DISABLE]
-
- 
-
- 
-
- 
-
- 
-
-</AssemblerScript>
-                </CheatEntry>
-                <CheatEntry>
-                  <ID>17907</ID>
-                  <Description>"Fontana Theatre"</Description>
-                  <LastState/>
-                  <VariableType>Auto Assembler Script</VariableType>
-                  <AssemblerScript>//[enable]
-    //Fontana Theatre
-   // TeleOn:
-   // dd 00000001
-
-   // WantedCoords:
-   // dd (float)2683.063
-    //dd (float)-638.0975
-    //dd (float)47.4687
-//[disable]
-[ENABLE]
-
-{$lua}
-
--- Teleport to Fontana Theatre --
-
-writeInteger("TeleOn", 1)
-
-writeFloat("WantedCoords", 2683.063)
-writeFloat("WantedCoords+04", -638.0975)
-writeFloat("WantedCoords+08", 47.4687)
-
-target = "Fontana Theatre" -- Trigger (Script Name) --
-
-{$asm}
-
-[DISABLE]
-
- 
-
- 
-
- 
-
-</AssemblerScript>
-                </CheatEntry>
-                <CheatEntry>
                   <ID>17908</ID>
                   <Description>"Schiffer Brewery"</Description>
                   <LastState/>
@@ -16628,45 +16954,6 @@ target = "Fontana Theatre" -- Trigger (Script Name) --
               <Color>C0C0C0</Color>
               <GroupHeader>1</GroupHeader>
               <CheatEntries>
-                <CheatEntry>
-                  <ID>17910</ID>
-                  <Description>"Macfarlane's Ranch"</Description>
-                  <LastState/>
-                  <VariableType>Auto Assembler Script</VariableType>
-                  <AssemblerScript>[enable]
-    //Macfarlane's Ranch
-    TeleOn:
-    dd 00000001
-
-    WantedCoords:
-    dd (float)-2300.929
-    dd (float)-2450.016
-    dd (float)61.97258
-
-    [disable]
-
-
-</AssemblerScript>
-                </CheatEntry>
-                <CheatEntry>
-                  <ID>17911</ID>
-                  <Description>"Ridgewood Farm"</Description>
-                  <LastState/>
-                  <VariableType>Auto Assembler Script</VariableType>
-                  <AssemblerScript>[enable]
-    //Ridgewood Farm
-    TeleOn:
-    dd 00000001
-
-    WantedCoords:
-    dd (float)-4823.544
-    dd (float)-2711.381
-    dd (float)-13.74694
-    [disable]
-
-
-</AssemblerScript>
-                </CheatEntry>
                 <CheatEntry>
                   <ID>17912</ID>
                   <Description>"Emerald Ranch"</Description>
@@ -16709,6 +16996,45 @@ target = "Emerald ranch" -- Trigger (Script Name) --
                       <ActivateSound>Activate</ActivateSound>
                     </Hotkey>
                   </Hotkeys>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>17910</ID>
+                  <Description>"Macfarlane's Ranch"</Description>
+                  <LastState/>
+                  <VariableType>Auto Assembler Script</VariableType>
+                  <AssemblerScript>[enable]
+    //Macfarlane's Ranch
+    TeleOn:
+    dd 00000001
+
+    WantedCoords:
+    dd (float)-2300.929
+    dd (float)-2450.016
+    dd (float)61.97258
+
+    [disable]
+
+
+</AssemblerScript>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>17911</ID>
+                  <Description>"Ridgewood Farm"</Description>
+                  <LastState/>
+                  <VariableType>Auto Assembler Script</VariableType>
+                  <AssemblerScript>[enable]
+    //Ridgewood Farm
+    TeleOn:
+    dd 00000001
+
+    WantedCoords:
+    dd (float)-4823.544
+    dd (float)-2711.381
+    dd (float)-13.74694
+    [disable]
+
+
+</AssemblerScript>
                 </CheatEntry>
               </CheatEntries>
             </CheatEntry>
@@ -16777,7 +17103,7 @@ target = "Emerald ranch" -- Trigger (Script Name) --
 1:Enabled
 
 </DropDownList>
-      <LastState Value="00" RealAddress="7FF6EEE21020"/>
+      <LastState Value="01" Activated="1" RealAddress="7FF631901020"/>
       <ShowAsHex>1</ShowAsHex>
       <Color>FF9B9B</Color>
       <VariableType>Byte</VariableType>
@@ -16812,7 +17138,7 @@ target = "Emerald ranch" -- Trigger (Script Name) --
 1:Enabled
 
 </DropDownList>
-      <LastState Value="00" RealAddress="7FF6EEE21048"/>
+      <LastState Value="00" RealAddress="7FF631901048"/>
       <ShowAsHex>1</ShowAsHex>
       <Color>FF8080</Color>
       <VariableType>Byte</VariableType>
@@ -16847,7 +17173,7 @@ target = "Emerald ranch" -- Trigger (Script Name) --
 1:Enabled
 
 </DropDownList>
-      <LastState Value="00" RealAddress="7FF6EEE21010"/>
+      <LastState Value="00" RealAddress="7FF631901010"/>
       <ShowAsHex>1</ShowAsHex>
       <Color>FF8080</Color>
       <VariableType>Byte</VariableType>
@@ -16881,7 +17207,7 @@ target = "Emerald ranch" -- Trigger (Script Name) --
 1:Enabled
 
 </DropDownList>
-      <LastState Value="00" RealAddress="7FF6EEE21018"/>
+      <LastState Value="01" RealAddress="7FF631901018"/>
       <ShowAsHex>1</ShowAsHex>
       <Color>FF972F</Color>
       <VariableType>Byte</VariableType>
@@ -16915,7 +17241,7 @@ target = "Emerald ranch" -- Trigger (Script Name) --
 1:Enabled
 
 </DropDownList>
-      <LastState Value="00" RealAddress="7FF6EEE21058"/>
+      <LastState Value="01" RealAddress="7FF631901058"/>
       <ShowAsHex>1</ShowAsHex>
       <Color>FF9F40</Color>
       <VariableType>Byte</VariableType>
@@ -16949,7 +17275,7 @@ target = "Emerald ranch" -- Trigger (Script Name) --
 1:Enabled
 
 </DropDownList>
-      <LastState Value="00" RealAddress="7FF6EEE210A0"/>
+      <LastState Value="01" RealAddress="7FF6319010A0"/>
       <ShowAsHex>1</ShowAsHex>
       <Color>FFBE37</Color>
       <VariableType>Byte</VariableType>
@@ -16979,7 +17305,7 @@ target = "Emerald ranch" -- Trigger (Script Name) --
     <CheatEntry>
       <ID>16315</ID>
       <Description>"Always Clean Weapon"</Description>
-      <LastState/>
+      <LastState Activated="1"/>
       <Color>FFAD5B</Color>
       <VariableType>Auto Assembler Script</VariableType>
       <AssemblerScript>[ENABLE]
@@ -17673,21 +17999,21 @@ unregistersymbol(_Teleport)
                 <CheatEntry>
                   <ID>17196</ID>
                   <Description>"x"</Description>
-                  <LastState Value="-5.177856445" RealAddress="12B8FAE79D0"/>
+                  <LastState Value="17,61352539" RealAddress="1FF9EFD4190"/>
                   <VariableType>Float</VariableType>
                   <Address>[coord2]+70</Address>
                 </CheatEntry>
                 <CheatEntry>
                   <ID>17197</ID>
                   <Description>"y"</Description>
-                  <LastState Value="13.59325409" RealAddress="12B8FAE79D4"/>
+                  <LastState Value="11,28308105" RealAddress="1FF9EFD4194"/>
                   <VariableType>Float</VariableType>
                   <Address>[coord2]+74</Address>
                 </CheatEntry>
                 <CheatEntry>
                   <ID>17198</ID>
                   <Description>"z"</Description>
-                  <LastState Value="141.5970917" RealAddress="12B8FAE79D8"/>
+                  <LastState Value="143,621109" RealAddress="1FF9EFD4198"/>
                   <VariableType>Float</VariableType>
                   <Address>[coord2]+78</Address>
                 </CheatEntry>
@@ -17702,7 +18028,7 @@ unregistersymbol(_Teleport)
 1:Enabled
 
 </DropDownList>
-          <LastState Value="0" RealAddress="7FF6EEE21028"/>
+          <LastState Value="0" RealAddress="7FF631901028"/>
           <VariableType>Byte</VariableType>
           <Address>_enableInfiniteHealthCostumModel</Address>
         </CheatEntry>
@@ -18299,7 +18625,7 @@ PokerTimer.destroy()
                 <CheatEntry>
                   <ID>154</ID>
                   <Description>"_CamHeightVar (This value will be added/substracted)"</Description>
-                  <LastState Value="1" RealAddress="7FF6EEE21080"/>
+                  <LastState Value="1" RealAddress="7FF631901080"/>
                   <VariableType>Float</VariableType>
                   <Address>_CamHeightVar</Address>
                 </CheatEntry>
@@ -18309,7 +18635,7 @@ PokerTimer.destroy()
                   <DropDownList ReadOnly="1" DescriptionOnly="1" DisplayValueAsItem="1">1:Done
 0:Waiting for Input
 </DropDownList>
-                  <LastState Value="0" RealAddress="7FF6EEE21068"/>
+                  <LastState Value="0" RealAddress="7FF631901068"/>
                   <VariableType>Byte</VariableType>
                   <Address>_addCamHeight</Address>
                   <Hotkeys>
@@ -18331,7 +18657,7 @@ PokerTimer.destroy()
                   <DropDownList ReadOnly="1" DescriptionOnly="1" DisplayValueAsItem="1">1:Done
 0:Waiting for Input
 </DropDownList>
-                  <LastState Value="0" RealAddress="7FF6EEE21070"/>
+                  <LastState Value="0" RealAddress="7FF631901070"/>
                   <VariableType>Byte</VariableType>
                   <Address>_subCamHeight</Address>
                   <Hotkeys>
@@ -18353,7 +18679,7 @@ PokerTimer.destroy()
                   <DropDownList ReadOnly="1" DescriptionOnly="1" DisplayValueAsItem="1">1:Done
 0:Waiting for Input
 </DropDownList>
-                  <LastState Value="0" RealAddress="7FF6EEE21078"/>
+                  <LastState Value="0" RealAddress="7FF631901078"/>
                   <VariableType>Byte</VariableType>
                   <Address>_ResetCamHeight</Address>
                   <Hotkeys>
@@ -18698,7 +19024,7 @@ dealloc(newmem)
           <DropDownList ReadOnly="1" DescriptionOnly="1" DisplayValueAsItem="1">0:Disabled
 1:Enabled
 </DropDownList>
-          <LastState Value="00" RealAddress="7FF6EEE21090"/>
+          <LastState Value="00" RealAddress="7FF631901090"/>
           <ShowAsHex>1</ShowAsHex>
           <Color>C0C0C0</Color>
           <VariableType>Byte</VariableType>
@@ -18728,6 +19054,7 @@ dealloc(newmem)
             <CheatEntry>
               <ID>16366</ID>
               <Description>"pHealth - Horse"</Description>
+              <LastState Value="0" RealAddress="1FFACBA1940"/>
               <VariableType>Float</VariableType>
               <Address>_pHealthBaseHorse</Address>
               <Offsets>
@@ -18747,7 +19074,7 @@ dealloc(newmem)
             <CheatEntry>
               <ID>16359</ID>
               <Description>"HealthBase"</Description>
-              <LastState Value="0000000000000000" RealAddress="7FF6EEE21050"/>
+              <LastState Value="000001FFA4A97460" RealAddress="7FF631901050"/>
               <ShowAsHex>1</ShowAsHex>
               <VariableType>8 Bytes</VariableType>
               <Address>_pPlayerHealthBase</Address>
@@ -18755,7 +19082,7 @@ dealloc(newmem)
             <CheatEntry>
               <ID>16357</ID>
               <Description>"DeadEyeBase"</Description>
-              <LastState Value="0000000000000000" RealAddress="7FF6EEE21038"/>
+              <LastState Value="000001FF9A4593C8" RealAddress="7FF631901038"/>
               <ShowAsHex>1</ShowAsHex>
               <VariableType>8 Bytes</VariableType>
               <Address>_pDeadEye</Address>
@@ -18763,7 +19090,7 @@ dealloc(newmem)
             <CheatEntry>
               <ID>16354</ID>
               <Description>"PlayerBase(AnyModel)"</Description>
-              <LastState Value="0000000000000000" RealAddress="7FF6EEE21000"/>
+              <LastState Value="0000000000000000" RealAddress="7FF631901000"/>
               <ShowAsHex>1</ShowAsHex>
               <VariableType>8 Bytes</VariableType>
               <Address>_pAnyModelBase</Address>
@@ -18771,7 +19098,7 @@ dealloc(newmem)
             <CheatEntry>
               <ID>16353</ID>
               <Description>"PlayerBase"</Description>
-              <LastState Value="00000133FB6649C0" RealAddress="7FF6EEE21008"/>
+              <LastState Value="00000207F5C9C440" RealAddress="7FF631901008"/>
               <ShowAsHex>1</ShowAsHex>
               <VariableType>8 Bytes</VariableType>
               <Address>_pPlayer</Address>
@@ -18779,7 +19106,7 @@ dealloc(newmem)
             <CheatEntry>
               <ID>16358</ID>
               <Description>"StaminaBase"</Description>
-              <LastState Value="0000000000000000" RealAddress="7FF6EEE21040"/>
+              <LastState Value="000001FF96B4A6E0" RealAddress="7FF631901040"/>
               <ShowAsHex>1</ShowAsHex>
               <VariableType>8 Bytes</VariableType>
               <Address>_pStaminaBase</Address>
@@ -18787,7 +19114,7 @@ dealloc(newmem)
             <CheatEntry>
               <ID>16355</ID>
               <Description>"HorseBase"</Description>
-              <LastState Value="0000000000000000" RealAddress="7FF6EEE21098"/>
+              <LastState Value="00000207F5C9C440" RealAddress="7FF631901098"/>
               <ShowAsHex>1</ShowAsHex>
               <VariableType>8 Bytes</VariableType>
               <Address>_pHorse</Address>
@@ -18795,7 +19122,7 @@ dealloc(newmem)
             <CheatEntry>
               <ID>16356</ID>
               <Description>"StaminaHorseBase"</Description>
-              <LastState Value="0000000000000000" RealAddress="7FF6EEE21030"/>
+              <LastState Value="000001FF96B481C0" RealAddress="7FF631901030"/>
               <ShowAsHex>1</ShowAsHex>
               <VariableType>8 Bytes</VariableType>
               <Address>_pStaminaHorse</Address>
@@ -18803,7 +19130,7 @@ dealloc(newmem)
             <CheatEntry>
               <ID>16360</ID>
               <Description>"HealthBase - Horse"</Description>
-              <LastState Value="0000000000000000" RealAddress="7FF6EEE21088"/>
+              <LastState Value="000001FFACBA1920" RealAddress="7FF631901088"/>
               <ShowAsHex>1</ShowAsHex>
               <VariableType>8 Bytes</VariableType>
               <Address>_pHealthBaseHorse</Address>
@@ -18811,6 +19138,7 @@ dealloc(newmem)
             <CheatEntry>
               <ID>16361</ID>
               <Description>"pStamina - Horse"</Description>
+              <LastState Value="0" RealAddress="1FF96B481E0"/>
               <VariableType>Float</VariableType>
               <Address>_pStaminaHorse</Address>
               <Offsets>
@@ -18820,6 +19148,7 @@ dealloc(newmem)
             <CheatEntry>
               <ID>16362</ID>
               <Description>"pDeadEye"</Description>
+              <LastState Value="45" RealAddress="1FF9A4593E8"/>
               <VariableType>Float</VariableType>
               <Address>_pDeadEye</Address>
               <Offsets>
@@ -18829,6 +19158,7 @@ dealloc(newmem)
             <CheatEntry>
               <ID>16363</ID>
               <Description>"pStamina"</Description>
+              <LastState Value="130,8999939" RealAddress="1FF96B4A700"/>
               <VariableType>Float</VariableType>
               <Address>_pStaminaBase</Address>
               <Offsets>
@@ -18838,6 +19168,7 @@ dealloc(newmem)
             <CheatEntry>
               <ID>16364</ID>
               <Description>"pHealth"</Description>
+              <LastState Value="0" RealAddress="1FFA4A97480"/>
               <VariableType>Float</VariableType>
               <Address>_pPlayerHealthBase</Address>
               <Offsets>
@@ -18847,6 +19178,7 @@ dealloc(newmem)
             <CheatEntry>
               <ID>16365</ID>
               <Description>"pHealthMax"</Description>
+              <LastState Value="00000000" RealAddress="1FFA4A97484"/>
               <ShowAsHex>1</ShowAsHex>
               <VariableType>Float</VariableType>
               <Address>_pPlayerHealthBase</Address>
@@ -18857,14 +19189,14 @@ dealloc(newmem)
             <CheatEntry>
               <ID>16367</ID>
               <Description>"TimeOfDay (display)"</Description>
-              <LastState Value="0" RealAddress="7FF6F4782A68"/>
+              <LastState Value="0" RealAddress="7FF637262A68"/>
               <VariableType>Float</VariableType>
               <Address>RDR2.exe+5952A68</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>16369</ID>
               <Description>"baseWeapon"</Description>
-              <LastState Value="0000000000000000" RealAddress="7FF6EEE1001D"/>
+              <LastState Value="0000000000000000" RealAddress="7FF6318F001D"/>
               <ShowAsHex>1</ShowAsHex>
               <VariableType>8 Bytes</VariableType>
               <Address>baseWeapon</Address>
