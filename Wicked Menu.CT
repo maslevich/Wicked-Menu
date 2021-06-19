@@ -8,7 +8,7 @@
       <ID>54</ID>
       <Description>"Click to Activate Menu-Hotkey is F12"</Description>
       <Options moAlwaysHideChildren="1" moActivateChildrenAsWell="1" moDeactivateChildrenAsWell="1"/>
-      <LastState Activated="1"/>
+      <LastState/>
       <Color>00FFFF</Color>
       <VariableType>Auto Assembler Script</VariableType>
       <AssemblerScript>[ENABLE]
@@ -509,7 +509,7 @@
         <CheatEntry>
           <ID>16492</ID>
           <Description>"Compact/Full Mode"</Description>
-          <LastState Activated="1"/>
+          <LastState/>
           <Color>00FFFF</Color>
           <VariableType>Auto Assembler Script</VariableType>
           <AssemblerScript>[ENABLE]
@@ -523,7 +523,7 @@ LuaCall(cycleFullCompact(nil,false))
           <ID>16314</ID>
           <Description>"{}{}{}{}{[{{BASEWeapons}]}{][{}{}{}"</Description>
           <Options moHideChildren="1" moDeactivateChildrenAsWell="1"/>
-          <LastState Activated="1"/>
+          <LastState/>
           <Color>00FFFF</Color>
           <VariableType>Auto Assembler Script</VariableType>
           <AssemblerScript>[ENABLE]
@@ -631,7 +631,7 @@ dealloc(newmem)
           <ID>7448</ID>
           <Description>"{}{}{}{}{[{{BASECoords}}{}{}{}{}{}"</Description>
           <Options moHideChildren="1"/>
-          <LastState Activated="1"/>
+          <LastState/>
           <Color>00FFFF</Color>
           <VariableType>Auto Assembler Script</VariableType>
           <AssemblerScript>[ENABLE]
@@ -703,7 +703,7 @@ dealloc(coord2)
           <ID>17222</ID>
           <Description>"{}{}{}{}{[{{BASEWaypoint][][][{}{}{}"</Description>
           <Options moHideChildren="1" moDeactivateChildrenAsWell="1"/>
-          <LastState Activated="1"/>
+          <LastState/>
           <Color>00FFFF</Color>
           <VariableType>Auto Assembler Script</VariableType>
           <AssemblerScript>[enable]
@@ -946,7 +946,7 @@ unregistersymbol(dontconsumeitems)
           <ID>16409</ID>
           <Description>"Auto Teleport "</Description>
           <Options moHideChildren="1" moActivateChildrenAsWell="1"/>
-          <LastState Activated="1"/>
+          <LastState/>
           <Color>00FFFF</Color>
           <VariableType>Auto Assembler Script</VariableType>
           <AssemblerScript>[ENABLE]
@@ -1125,7 +1125,7 @@ TeleportHook.terminate()
             <CheatEntry>
               <ID>18150</ID>
               <Description>"( * Works with Auto Teleport)"</Description>
-              <LastState Value="" Activated="1" RealAddress="00000000"/>
+              <LastState Value="" RealAddress="00000000"/>
               <Color>00FFFF</Color>
               <GroupHeader>1</GroupHeader>
             </CheatEntry>
@@ -1133,7 +1133,7 @@ TeleportHook.terminate()
               <ID>18145</ID>
               <Description>"Works Best in Windowed Borderless"</Description>
               <Options moHideChildren="1" moDeactivateChildrenAsWell="1"/>
-              <LastState Value="" Activated="1" RealAddress="00000000"/>
+              <LastState Value="" RealAddress="00000000"/>
               <Color>00FFFF</Color>
               <GroupHeader>1</GroupHeader>
             </CheatEntry>
@@ -1219,7 +1219,6 @@ f:close()
             <CheatEntry>
               <ID>17918</ID>
               <Description>"X"</Description>
-              <LastState Value="-1518.276978" RealAddress="14C0FAD11D0"/>
               <ShowAsSigned>0</ShowAsSigned>
               <Color>FFFF80</Color>
               <VariableType>Float</VariableType>
@@ -1228,7 +1227,6 @@ f:close()
             <CheatEntry>
               <ID>17919</ID>
               <Description>"Y"</Description>
-              <LastState Value="-1716.092285" RealAddress="14C0FAD11D4"/>
               <ShowAsSigned>0</ShowAsSigned>
               <Color>FFFF80</Color>
               <VariableType>Float</VariableType>
@@ -1237,7 +1235,6 @@ f:close()
             <CheatEntry>
               <ID>17920</ID>
               <Description>"Z"</Description>
-              <LastState Value="80.71664429" RealAddress="14C0FAD11D8"/>
               <ShowAsSigned>0</ShowAsSigned>
               <Color>FFFF80</Color>
               <VariableType>Float</VariableType>
@@ -5935,7 +5932,7 @@ target = "wh4" -- Trigger (Script Name) --
               <ID>17128</ID>
               <Description>"Alcohol *"</Description>
               <Options moHideChildren="1" moDeactivateChildrenAsWell="1"/>
-              <LastState Value="" Activated="1" RealAddress="00000000"/>
+              <LastState Value="" RealAddress="00000000"/>
               <Color>FF80FF</Color>
               <GroupHeader>1</GroupHeader>
               <CheatEntries>
@@ -8091,7 +8088,7 @@ target = "c14c6" -- Trigger (Script Name) --
               <ID>18131</ID>
               <Description>"Eggs *"</Description>
               <Options moHideChildren="1" moDeactivateChildrenAsWell="1"/>
-              <LastState Value="" Activated="1" RealAddress="00000000"/>
+              <LastState Value="" RealAddress="00000000"/>
               <Color>DFBFFF</Color>
               <GroupHeader>1</GroupHeader>
               <CheatEntries>
@@ -8642,537 +8639,10 @@ target = "Vulture Egg" -- Trigger (Script Name) --
               <ID>18066</ID>
               <Description>"Fossils *"</Description>
               <Options moHideChildren="1" moDeactivateChildrenAsWell="1"/>
-              <LastState Value="" RealAddress="00000000"/>
+              <LastState Value="" Activated="1" RealAddress="00000000"/>
               <Color>FFBB77</Color>
               <GroupHeader>1</GroupHeader>
               <CheatEntries>
-                <CheatEntry>
-                  <ID>18067</ID>
-                  <Description>"Cycle 1 *"</Description>
-                  <Options moHideChildren="1" moDeactivateChildrenAsWell="1"/>
-                  <LastState Value="" RealAddress="00000000"/>
-                  <Color>FFD3A8</Color>
-                  <GroupHeader>1</GroupHeader>
-                  <CheatEntries>
-                    <CheatEntry>
-                      <ID>18068</ID>
-                      <Description>"f0c1"</Description>
-                      <LastState/>
-                      <VariableType>Auto Assembler Script</VariableType>
-                      <AssemblerScript>[ENABLE]
-
-{$lua}
-
--- Teleport to Random Fossils #0 cycle 1 --
-
-writeInteger("TeleOn", 1)
-
-writeFloat("WantedCoords", 2731.901)
-writeFloat("WantedCoords+04", -432.586)
-writeFloat("WantedCoords+08", 41.330)
-
-target = "f0c1" -- Trigger (Script Name) --
-
-{$asm}
-
-[DISABLE]
-
-</AssemblerScript>
-                    </CheatEntry>
-                    <CheatEntry>
-                      <ID>18069</ID>
-                      <Description>"f1c1"</Description>
-                      <LastState/>
-                      <VariableType>Auto Assembler Script</VariableType>
-                      <AssemblerScript>[ENABLE]
-
-{$lua}
-
--- Teleport to Random Fossils #1 cycle 1 --
-
-writeInteger("TeleOn", 1)
-
-writeFloat("WantedCoords", 1627.445)
-writeFloat("WantedCoords+04", -1102.973)
-writeFloat("WantedCoords+08", 40.958)
-
-target = "f1c1" -- Trigger (Script Name) --
-
-{$asm}
-
-[DISABLE]
-</AssemblerScript>
-                    </CheatEntry>
-                    <CheatEntry>
-                      <ID>18070</ID>
-                      <Description>"f2c1"</Description>
-                      <LastState/>
-                      <VariableType>Auto Assembler Script</VariableType>
-                      <AssemblerScript>[ENABLE]
-
-{$lua}
-
--- Teleport to Random Fossils #2 cycle 1 --
-
-writeInteger("TeleOn", 1)
-
-writeFloat("WantedCoords", -2553.352)
-writeFloat("WantedCoords+04", 1253.864)
-writeFloat("WantedCoords+08", 242.930)
-
-target = "f2c1" -- Trigger (Script Name) --
-
-{$asm}
-
-[DISABLE]
-
-</AssemblerScript>
-                    </CheatEntry>
-                    <CheatEntry>
-                      <ID>18071</ID>
-                      <Description>"f3c1"</Description>
-                      <LastState/>
-                      <VariableType>Auto Assembler Script</VariableType>
-                      <AssemblerScript>[ENABLE]
-
-{$lua}
-
--- Teleport to Random Fossils #3 cycle 1 --
-
-writeInteger("TeleOn", 1)
-
-writeFloat("WantedCoords", -2058.642)
-writeFloat("WantedCoords+04", 1135.916)
-writeFloat("WantedCoords+08", 185.374)
-
-target = "f3c1" -- Trigger (Script Name) --
-
-{$asm}
-
-[DISABLE]
-</AssemblerScript>
-                    </CheatEntry>
-                    <CheatEntry>
-                      <ID>18072</ID>
-                      <Description>"f4c1"</Description>
-                      <LastState/>
-                      <VariableType>Auto Assembler Script</VariableType>
-                      <AssemblerScript>[ENABLE]
-
-{$lua}
-
--- Teleport to Random Fossils #4 cycle 1 --
-
-writeInteger("TeleOn", 1)
-
-writeFloat("WantedCoords", -1064.803)
-writeFloat("WantedCoords+04", 2939.659)
-writeFloat("WantedCoords+08", 406.434)
-
-target = "f4c1" -- Trigger (Script Name) --
-
-{$asm}
-
-[DISABLE]
-</AssemblerScript>
-                    </CheatEntry>
-                    <CheatEntry>
-                      <ID>18073</ID>
-                      <Description>"f5c1"</Description>
-                      <LastState/>
-                      <VariableType>Auto Assembler Script</VariableType>
-                      <AssemblerScript>[ENABLE]
-
-{$lua}
-
--- Teleport to Random Fossils #5 cycle 1 --
-
-writeInteger("TeleOn", 1)
-
-writeFloat("WantedCoords", -1013.544)
-writeFloat("WantedCoords+04", 2633.267)
-writeFloat("WantedCoords+08", 312.515)
-
-target = "f5c1" -- Trigger (Script Name) --
-
-{$asm}
-
-[DISABLE]
-
-</AssemblerScript>
-                    </CheatEntry>
-                    <CheatEntry>
-                      <ID>18074</ID>
-                      <Description>"f6c1"</Description>
-                      <LastState/>
-                      <VariableType>Auto Assembler Script</VariableType>
-                      <AssemblerScript>[ENABLE]
-
-{$lua}
-
--- Teleport to Random Fossils #6 cycle 1 --
-
-writeInteger("TeleOn", 1)
-
-writeFloat("WantedCoords", -539.476)
-writeFloat("WantedCoords+04", 2599.759)
-writeFloat("WantedCoords+08", 338.485)
-
-target = "f6c1" -- Trigger (Script Name) --
-
-{$asm}
-
-[DISABLE]
-</AssemblerScript>
-                    </CheatEntry>
-                    <CheatEntry>
-                      <ID>18075</ID>
-                      <Description>"f7c1"</Description>
-                      <LastState/>
-                      <VariableType>Auto Assembler Script</VariableType>
-                      <AssemblerScript>[ENABLE]
-
-{$lua}
-
--- Teleport to Random Fossils #7 cycle 1 --
-
-writeInteger("TeleOn", 1)
-
-writeFloat("WantedCoords", -1721.169)
-writeFloat("WantedCoords+04", 2542.754)
-writeFloat("WantedCoords+08", 472.801)
-
-target = "f7c1" -- Trigger (Script Name) --
-
-{$asm}
-
-[DISABLE]
-</AssemblerScript>
-                    </CheatEntry>
-                    <CheatEntry>
-                      <ID>18076</ID>
-                      <Description>"f8c1"</Description>
-                      <LastState/>
-                      <VariableType>Auto Assembler Script</VariableType>
-                      <AssemblerScript>[ENABLE]
-
-{$lua}
-
--- Teleport to Random Fossils #8 cycle 1 --
-
-writeInteger("TeleOn", 1)
-
-writeFloat("WantedCoords", -1467.755)
-writeFloat("WantedCoords+04", 2031.860)
-writeFloat("WantedCoords+08", 338.888)
-
-target = "f8c1" -- Trigger (Script Name) --
-
-{$asm}
-
-[DISABLE]
-
-</AssemblerScript>
-                    </CheatEntry>
-                    <CheatEntry>
-                      <ID>18077</ID>
-                      <Description>"f9c1"</Description>
-                      <LastState/>
-                      <VariableType>Auto Assembler Script</VariableType>
-                      <AssemblerScript>[ENABLE]
-
-{$lua}
-
--- Teleport to Random Fossils #9 cycle 1 --
-
-writeInteger("TeleOn", 1)
-
-writeFloat("WantedCoords", -1603.244)
-writeFloat("WantedCoords+04", 1867.089)
-writeFloat("WantedCoords+08", 319.507)
-
-target = "f9c1" -- Trigger (Script Name) --
-
-{$asm}
-
-[DISABLE]
-
-</AssemblerScript>
-                    </CheatEntry>
-                    <CheatEntry>
-                      <ID>18078</ID>
-                      <Description>"f10c1"</Description>
-                      <LastState/>
-                      <VariableType>Auto Assembler Script</VariableType>
-                      <AssemblerScript>[ENABLE]
-
-{$lua}
-
--- Teleport to Random Fossils #10 cycle 1 --
-
-writeInteger("TeleOn", 1)
-
-writeFloat("WantedCoords", -2109.658)
-writeFloat("WantedCoords+04", 1835.669)
-writeFloat("WantedCoords+08", 254.783)
-
-target = "f10c1" -- Trigger (Script Name) --
-
-{$asm}
-
-[DISABLE]
-
-</AssemblerScript>
-                    </CheatEntry>
-                    <CheatEntry>
-                      <ID>18079</ID>
-                      <Description>"f11c1"</Description>
-                      <LastState/>
-                      <VariableType>Auto Assembler Script</VariableType>
-                      <AssemblerScript>[ENABLE]
-
-{$lua}
-
--- Teleport to Random Fossils #11 cycle 1 --
-
-writeInteger("TeleOn", 1)
-
-writeFloat("WantedCoords", -885.798)
-writeFloat("WantedCoords+04", 1362.759)
-writeFloat("WantedCoords+08", 244.330)
-
-target = "f11c1" -- Trigger (Script Name) --
-
-{$asm}
-
-[DISABLE]
-</AssemblerScript>
-                    </CheatEntry>
-                    <CheatEntry>
-                      <ID>18080</ID>
-                      <Description>"f12c1"</Description>
-                      <LastState/>
-                      <VariableType>Auto Assembler Script</VariableType>
-                      <AssemblerScript>[ENABLE]
-
-{$lua}
-
--- Teleport to Random Fossils #12 cycle 1 --
-
-writeInteger("TeleOn", 1)
-
-writeFloat("WantedCoords", -3998.869)
-writeFloat("WantedCoords+04", -3877.719)
-writeFloat("WantedCoords+08", -25.060)
-
-target = "f12c1" -- Trigger (Script Name) --
-
-{$asm}
-
-[DISABLE]
-
-</AssemblerScript>
-                    </CheatEntry>
-                    <CheatEntry>
-                      <ID>18081</ID>
-                      <Description>"f13c1"</Description>
-                      <LastState/>
-                      <VariableType>Auto Assembler Script</VariableType>
-                      <AssemblerScript>[ENABLE]
-
-{$lua}
-
--- Teleport to Random Fossils #13 cycle 1 --
-
-writeInteger("TeleOn", 1)
-
-writeFloat("WantedCoords", 1585.101)
-writeFloat("WantedCoords+04", 1433.948)
-writeFloat("WantedCoords+08", 145.300)
-
-target = "f13c1" -- Trigger (Script Name) --
-
-{$asm}
-
-[DISABLE]
-
-</AssemblerScript>
-                    </CheatEntry>
-                    <CheatEntry>
-                      <ID>18082</ID>
-                      <Description>"f14c1"</Description>
-                      <LastState/>
-                      <VariableType>Auto Assembler Script</VariableType>
-                      <AssemblerScript>[ENABLE]
-
-{$lua}
-
--- Teleport to Random Fossils #14 cycle 1 --
-
-writeInteger("TeleOn", 1)
-
-writeFloat("WantedCoords", -474.336)
-writeFloat("WantedCoords+04", 999.376)
-writeFloat("WantedCoords+08", 86.948)
-
-target = "f14c1" -- Trigger (Script Name) --
-
-{$asm}
-
-[DISABLE]
-
-</AssemblerScript>
-                    </CheatEntry>
-                    <CheatEntry>
-                      <ID>18083</ID>
-                      <Description>"f15c1"</Description>
-                      <LastState/>
-                      <VariableType>Auto Assembler Script</VariableType>
-                      <AssemblerScript>[ENABLE]
-
-{$lua}
-
--- Teleport to Random Fossils #15 cycle 1 --
-
-writeInteger("TeleOn", 1)
-
-writeFloat("WantedCoords", -750.426)
-writeFloat("WantedCoords+04", 613.683)
-writeFloat("WantedCoords+08", 56.223)
-
-target = "f15c1" -- Trigger (Script Name) --
-
-{$asm}
-
-[DISABLE]
-</AssemblerScript>
-                    </CheatEntry>
-                    <CheatEntry>
-                      <ID>18084</ID>
-                      <Description>"f16c1"</Description>
-                      <LastState/>
-                      <VariableType>Auto Assembler Script</VariableType>
-                      <AssemblerScript>[ENABLE]
-
-{$lua}
-
--- Teleport to Random Fossils #16 cycle 1 --
-
-writeInteger("TeleOn", 1)
-
-writeFloat("WantedCoords", -1731.013)
-writeFloat("WantedCoords+04", 467.105)
-writeFloat("WantedCoords+08", 109.298)
-
-target = "f16c1" -- Trigger (Script Name) --
-
-{$asm}
-
-[DISABLE]
-
-</AssemblerScript>
-                    </CheatEntry>
-                    <CheatEntry>
-                      <ID>18085</ID>
-                      <Description>"f17c1"</Description>
-                      <LastState/>
-                      <VariableType>Auto Assembler Script</VariableType>
-                      <AssemblerScript>[ENABLE]
-
-{$lua}
-
--- Teleport to Random Fossils #17 cycle 1 --
-
-writeInteger("TeleOn", 1)
-
-writeFloat("WantedCoords", -2503.090)
-writeFloat("WantedCoords+04", -1549.557)
-writeFloat("WantedCoords+08", 143.908)
-
-target = "f17c1" -- Trigger (Script Name) --
-
-{$asm}
-
-[DISABLE]
-
-</AssemblerScript>
-                    </CheatEntry>
-                    <CheatEntry>
-                      <ID>18086</ID>
-                      <Description>"f18c1"</Description>
-                      <LastState/>
-                      <VariableType>Auto Assembler Script</VariableType>
-                      <AssemblerScript>[ENABLE]
-
-{$lua}
-
--- Teleport to Random Fossils #18 cycle 1 --
-
-writeInteger("TeleOn", 1)
-
-writeFloat("WantedCoords", -965.894)
-writeFloat("WantedCoords+04", -1952.706)
-writeFloat("WantedCoords+08", 41.362)
-
-target = "f18c1" -- Trigger (Script Name) --
-
-{$asm}
-
-[DISABLE]
-
-</AssemblerScript>
-                    </CheatEntry>
-                    <CheatEntry>
-                      <ID>18087</ID>
-                      <Description>"f19c1"</Description>
-                      <LastState/>
-                      <VariableType>Auto Assembler Script</VariableType>
-                      <AssemblerScript>[ENABLE]
-
-{$lua}
-
--- Teleport to Random Fossils #19 cycle 1 --
-
-writeInteger("TeleOn", 1)
-
-writeFloat("WantedCoords", 1529.713)
-writeFloat("WantedCoords+04", -2172.824)
-writeFloat("WantedCoords+08", 41.082)
-
-target = "f19c1" -- Trigger (Script Name) --
-
-{$asm}
-
-[DISABLE]
-</AssemblerScript>
-                    </CheatEntry>
-                    <CheatEntry>
-                      <ID>18094</ID>
-                      <Description>"f5c4"</Description>
-                      <LastState/>
-                      <VariableType>Auto Assembler Script</VariableType>
-                      <AssemblerScript>[ENABLE]
-
-{$lua}
-
--- Teleport to Random Fossils #5 cycle 4 --
-
-writeInteger("TeleOn", 1)
-
-writeFloat("WantedCoords", -1013.544)
-writeFloat("WantedCoords+04", 2633.267)
-writeFloat("WantedCoords+08", 312.515)
-
-target = "f5c4" -- Trigger (Script Name) --
-
-{$asm}
-
-[DISABLE]
-
-</AssemblerScript>
-                    </CheatEntry>
-                  </CheatEntries>
-                </CheatEntry>
                 <CheatEntry>
                   <ID>18088</ID>
                   <Description>"Cycle 4 *"</Description>
@@ -22001,7 +21471,6 @@ target = "Emerald ranch" -- Trigger (Script Name) --
 1:Enabled
 
 </DropDownList>
-      <LastState Value="00" RealAddress="7FF6B52A1020"/>
       <ShowAsHex>1</ShowAsHex>
       <Color>FF9B9B</Color>
       <VariableType>Byte</VariableType>
@@ -22036,7 +21505,6 @@ target = "Emerald ranch" -- Trigger (Script Name) --
 1:Enabled
 
 </DropDownList>
-      <LastState Value="00" RealAddress="7FF6B52A1048"/>
       <ShowAsHex>1</ShowAsHex>
       <Color>FF8080</Color>
       <VariableType>Byte</VariableType>
@@ -22071,7 +21539,6 @@ target = "Emerald ranch" -- Trigger (Script Name) --
 1:Enabled
 
 </DropDownList>
-      <LastState Value="00" RealAddress="7FF6B52A1010"/>
       <ShowAsHex>1</ShowAsHex>
       <Color>FF8080</Color>
       <VariableType>Byte</VariableType>
@@ -22105,7 +21572,6 @@ target = "Emerald ranch" -- Trigger (Script Name) --
 1:Enabled
 
 </DropDownList>
-      <LastState Value="00" RealAddress="7FF6B52A1018"/>
       <ShowAsHex>1</ShowAsHex>
       <Color>FF972F</Color>
       <VariableType>Byte</VariableType>
@@ -22139,7 +21605,6 @@ target = "Emerald ranch" -- Trigger (Script Name) --
 1:Enabled
 
 </DropDownList>
-      <LastState Value="00" RealAddress="7FF6B52A1058"/>
       <ShowAsHex>1</ShowAsHex>
       <Color>FF9F40</Color>
       <VariableType>Byte</VariableType>
@@ -22173,7 +21638,6 @@ target = "Emerald ranch" -- Trigger (Script Name) --
 1:Enabled
 
 </DropDownList>
-      <LastState Value="00" RealAddress="7FF6B52A10A0"/>
       <ShowAsHex>1</ShowAsHex>
       <Color>FFBE37</Color>
       <VariableType>Byte</VariableType>
@@ -22897,21 +22361,18 @@ unregistersymbol(_Teleport)
                 <CheatEntry>
                   <ID>17196</ID>
                   <Description>"x"</Description>
-                  <LastState Value="-14.27697754" RealAddress="14C0FAD11C0"/>
                   <VariableType>Float</VariableType>
                   <Address>[coord2]+70</Address>
                 </CheatEntry>
                 <CheatEntry>
                   <ID>17197</ID>
                   <Description>"y"</Description>
-                  <LastState Value="-20.09228516" RealAddress="14C0FAD11C4"/>
                   <VariableType>Float</VariableType>
                   <Address>[coord2]+74</Address>
                 </CheatEntry>
                 <CheatEntry>
                   <ID>17198</ID>
                   <Description>"z"</Description>
-                  <LastState Value="80.80664062" RealAddress="14C0FAD11C8"/>
                   <VariableType>Float</VariableType>
                   <Address>[coord2]+78</Address>
                 </CheatEntry>
@@ -22926,7 +22387,6 @@ unregistersymbol(_Teleport)
 1:Enabled
 
 </DropDownList>
-          <LastState Value="0" RealAddress="7FF6B52A1028"/>
           <VariableType>Byte</VariableType>
           <Address>_enableInfiniteHealthCostumModel</Address>
         </CheatEntry>
@@ -23523,7 +22983,6 @@ PokerTimer.destroy()
                 <CheatEntry>
                   <ID>154</ID>
                   <Description>"_CamHeightVar (This value will be added/substracted)"</Description>
-                  <LastState Value="1" RealAddress="7FF6B52A1080"/>
                   <VariableType>Float</VariableType>
                   <Address>_CamHeightVar</Address>
                 </CheatEntry>
@@ -23533,7 +22992,6 @@ PokerTimer.destroy()
                   <DropDownList ReadOnly="1" DescriptionOnly="1" DisplayValueAsItem="1">1:Done
 0:Waiting for Input
 </DropDownList>
-                  <LastState Value="0" RealAddress="7FF6B52A1068"/>
                   <VariableType>Byte</VariableType>
                   <Address>_addCamHeight</Address>
                   <Hotkeys>
@@ -23555,7 +23013,6 @@ PokerTimer.destroy()
                   <DropDownList ReadOnly="1" DescriptionOnly="1" DisplayValueAsItem="1">1:Done
 0:Waiting for Input
 </DropDownList>
-                  <LastState Value="0" RealAddress="7FF6B52A1070"/>
                   <VariableType>Byte</VariableType>
                   <Address>_subCamHeight</Address>
                   <Hotkeys>
@@ -23577,7 +23034,6 @@ PokerTimer.destroy()
                   <DropDownList ReadOnly="1" DescriptionOnly="1" DisplayValueAsItem="1">1:Done
 0:Waiting for Input
 </DropDownList>
-                  <LastState Value="0" RealAddress="7FF6B52A1078"/>
                   <VariableType>Byte</VariableType>
                   <Address>_ResetCamHeight</Address>
                   <Hotkeys>
@@ -23922,7 +23378,6 @@ dealloc(newmem)
           <DropDownList ReadOnly="1" DescriptionOnly="1" DisplayValueAsItem="1">0:Disabled
 1:Enabled
 </DropDownList>
-          <LastState Value="00" RealAddress="7FF6B52A1090"/>
           <ShowAsHex>1</ShowAsHex>
           <Color>C0C0C0</Color>
           <VariableType>Byte</VariableType>
@@ -23971,7 +23426,6 @@ dealloc(newmem)
             <CheatEntry>
               <ID>16359</ID>
               <Description>"HealthBase"</Description>
-              <LastState Value="0000000000000000" RealAddress="7FF6B52A1050"/>
               <ShowAsHex>1</ShowAsHex>
               <VariableType>8 Bytes</VariableType>
               <Address>_pPlayerHealthBase</Address>
@@ -23979,7 +23433,6 @@ dealloc(newmem)
             <CheatEntry>
               <ID>16357</ID>
               <Description>"DeadEyeBase"</Description>
-              <LastState Value="0000000000000000" RealAddress="7FF6B52A1038"/>
               <ShowAsHex>1</ShowAsHex>
               <VariableType>8 Bytes</VariableType>
               <Address>_pDeadEye</Address>
@@ -23987,7 +23440,6 @@ dealloc(newmem)
             <CheatEntry>
               <ID>16354</ID>
               <Description>"PlayerBase(AnyModel)"</Description>
-              <LastState Value="0000000000000000" RealAddress="7FF6B52A1000"/>
               <ShowAsHex>1</ShowAsHex>
               <VariableType>8 Bytes</VariableType>
               <Address>_pAnyModelBase</Address>
@@ -23995,7 +23447,6 @@ dealloc(newmem)
             <CheatEntry>
               <ID>16353</ID>
               <Description>"PlayerBase"</Description>
-              <LastState Value="0000015479B049C0" RealAddress="7FF6B52A1008"/>
               <ShowAsHex>1</ShowAsHex>
               <VariableType>8 Bytes</VariableType>
               <Address>_pPlayer</Address>
@@ -24003,7 +23454,6 @@ dealloc(newmem)
             <CheatEntry>
               <ID>16358</ID>
               <Description>"StaminaBase"</Description>
-              <LastState Value="0000000000000000" RealAddress="7FF6B52A1040"/>
               <ShowAsHex>1</ShowAsHex>
               <VariableType>8 Bytes</VariableType>
               <Address>_pStaminaBase</Address>
@@ -24011,7 +23461,6 @@ dealloc(newmem)
             <CheatEntry>
               <ID>16355</ID>
               <Description>"HorseBase"</Description>
-              <LastState Value="0000000000000000" RealAddress="7FF6B52A1098"/>
               <ShowAsHex>1</ShowAsHex>
               <VariableType>8 Bytes</VariableType>
               <Address>_pHorse</Address>
@@ -24019,7 +23468,6 @@ dealloc(newmem)
             <CheatEntry>
               <ID>16356</ID>
               <Description>"StaminaHorseBase"</Description>
-              <LastState Value="0000000000000000" RealAddress="7FF6B52A1030"/>
               <ShowAsHex>1</ShowAsHex>
               <VariableType>8 Bytes</VariableType>
               <Address>_pStaminaHorse</Address>
@@ -24027,7 +23475,6 @@ dealloc(newmem)
             <CheatEntry>
               <ID>16360</ID>
               <Description>"HealthBase - Horse"</Description>
-              <LastState Value="0000000000000000" RealAddress="7FF6B52A1088"/>
               <ShowAsHex>1</ShowAsHex>
               <VariableType>8 Bytes</VariableType>
               <Address>_pHealthBaseHorse</Address>
@@ -24081,14 +23528,12 @@ dealloc(newmem)
             <CheatEntry>
               <ID>16367</ID>
               <Description>"TimeOfDay (display)"</Description>
-              <LastState Value="0" RealAddress="7FF6BAC02A68"/>
               <VariableType>Float</VariableType>
               <Address>RDR2.exe+5952A68</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>16369</ID>
               <Description>"baseWeapon"</Description>
-              <LastState Value="0000000000000000" RealAddress="7FF6B529001D"/>
               <ShowAsHex>1</ShowAsHex>
               <VariableType>8 Bytes</VariableType>
               <Address>baseWeapon</Address>
