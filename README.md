@@ -4,7 +4,11 @@ https://www.dafont.com/sketch-gothic-school.font?text=Wicked+Menu
 
 
 Change Log/
+
+
 6/18/21 Wicked 2.1.6 
+
+
 v2.1.6 
 Massive Collectibles Coords update .
 Marked all Coords that work so far with Auto Teleport with * .
