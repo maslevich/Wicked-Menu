@@ -7,7 +7,7 @@ Change Log/
 
 
 V2.1.6.a
-Wicked_Menu_2.1.6.a 
+
 Coords Added by PORNO_STAR: 
 Alcohol (1,2,3,5), Eggs (2,6), Fossils (1,2,3), Arrowhead (3)
 Changed: Coin cycle 6 (c0c6 and c3c6), Jewelry cycle 6 (Lost Jewelry Dig Spot # 27)
