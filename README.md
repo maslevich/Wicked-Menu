@@ -6,8 +6,11 @@ https://www.dafont.com/sketch-gothic-school.font?text=Wicked+Menu
 Change Log/
 
 
-6/18/21 Wicked 2.1.6 
+V2.1.6.a
 
+Coords Added by PORNO_STAR: 
+Alcohol (1,2,3,5), Eggs (2,6), Fossils (1,2,3), Arrowhead (3)
+Changed: Coin cycle 6 (c0c6 and c3c6), Jewelry cycle 6 (Lost Jewelry Dig Spot # 27)
 
 v2.1.6 
 Massive Collectibles Coords update .
