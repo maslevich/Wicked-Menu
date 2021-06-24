@@ -849,7 +849,7 @@ dd 00000000
         <CheatEntry>
           <ID>289</ID>
           <Description>"&lt;Click to Confirm - Empty Lobby"</Description>
-          <LastState/>
+          <LastState Activated="1"/>
           <Color>6A6AFF</Color>
           <VariableType>Auto Assembler Script</VariableType>
           <AssemblerScript>{$lua}
@@ -938,7 +938,7 @@ unregistersymbol(dontconsumeitems)
       <ID>17225</ID>
       <Description>"Teleport "</Description>
       <Options moHideChildren="1" moDeactivateChildrenAsWell="1"/>
-      <LastState Value="" RealAddress="00000000"/>
+      <LastState Value="" Activated="1" RealAddress="00000000"/>
       <Color>FFC488</Color>
       <GroupHeader>1</GroupHeader>
       <CheatEntries>
@@ -946,7 +946,7 @@ unregistersymbol(dontconsumeitems)
           <ID>16409</ID>
           <Description>"Auto Teleport "</Description>
           <Options moHideChildren="1" moActivateChildrenAsWell="1"/>
-          <LastState/>
+          <LastState Activated="1"/>
           <Color>00FFFF</Color>
           <VariableType>Auto Assembler Script</VariableType>
           <AssemblerScript>[ENABLE]
@@ -957,29 +957,29 @@ target = nil
 hWnd = findWindow(nil, "Red Dead Redemption 2")
 
 function Teleportation()
-    if hWnd == 0 then return end
-    if hWnd ~= getForegroundWindow() then
-        executeCodeLocal("SetForegroundWindow", hWnd); Sleep(1000)
-    end
-    mouse_event(MOUSEEVENTF_LEFTDOWN); Sleep(50); mouse_event(MOUSEEVENTF_LEFTUP)
+if hWnd == 0 then return end
+if hWnd ~= getForegroundWindow() then
+executeCodeLocal("SetForegroundWindow", hWnd); Sleep(1000)
+end
+mouse_event(MOUSEEVENTF_LEFTDOWN); Sleep(50); mouse_event(MOUSEEVENTF_LEFTUP)
 end
 
 function DisableScript()
-    if not getAddressList().GetMemoryRecordByDescription(target) then return end
-    getAddressList().GetMemoryRecordByDescription(target).Active = false
+if not getAddressList().GetMemoryRecordByDescription(target) then return end
+getAddressList().GetMemoryRecordByDescription(target).Active = false
 end
 
 if TeleportHook then TeleportHook.terminate() end
 
 TeleportHook = createThread(function (threadObj)
-    while (not threadObj.Terminated) do
-        if target then
-            Teleportation()
-            DisableScript()
-            target = nil
-        end
-        Sleep(100)
-    end
+while (not threadObj.Terminated) do
+if target then
+Teleportation()
+DisableScript()
+target = nil
+end
+Sleep(100)
+end
 end)
 
 {$asm}
@@ -1125,7 +1125,7 @@ TeleportHook.terminate()
             <CheatEntry>
               <ID>18150</ID>
               <Description>"( * Works with Auto Teleport)"</Description>
-              <LastState Value="" RealAddress="00000000"/>
+              <LastState Value="" Activated="1" RealAddress="00000000"/>
               <Color>00FFFF</Color>
               <GroupHeader>1</GroupHeader>
             </CheatEntry>
@@ -1133,7 +1133,7 @@ TeleportHook.terminate()
               <ID>18145</ID>
               <Description>"Works Best in Windowed Borderless"</Description>
               <Options moHideChildren="1" moDeactivateChildrenAsWell="1"/>
-              <LastState Value="" RealAddress="00000000"/>
+              <LastState Value="" Activated="1" RealAddress="00000000"/>
               <Color>00FFFF</Color>
               <GroupHeader>1</GroupHeader>
             </CheatEntry>
@@ -1142,7 +1142,7 @@ TeleportHook.terminate()
         <CheatEntry>
           <ID>17218</ID>
           <Description>"Teleport to Waypoint *"</Description>
-          <LastState/>
+          <LastState Activated="1"/>
           <Color>ECEC00</Color>
           <VariableType>Auto Assembler Script</VariableType>
           <AssemblerScript>[ENABLE]
@@ -1162,7 +1162,7 @@ writeFloat("WantedCoords", x)
 writeFloat("WantedCoords+04", y)
 writeFloat("WantedCoords+08", -250.000)
 
-target = "Teleport to Waypoint" -- Trigger (Script Name) --
+target = "Teleport to Waypoint *" -- Trigger (Script Name) --
 
 {$asm}
 
@@ -1219,7 +1219,7 @@ f:close()
             <CheatEntry>
               <ID>17918</ID>
               <Description>"X"</Description>
-              <LastState Value="-308.0002136" RealAddress="26D3EE3E6A0"/>
+              <LastState Value="2479.693115" RealAddress="144C148D7A0"/>
               <ShowAsSigned>0</ShowAsSigned>
               <Color>FFFF80</Color>
               <VariableType>Float</VariableType>
@@ -1228,7 +1228,7 @@ f:close()
             <CheatEntry>
               <ID>17919</ID>
               <Description>"Y"</Description>
-              <LastState Value="181.2637024" RealAddress="26D3EE3E6A4"/>
+              <LastState Value="2000.786133" RealAddress="144C148D7A4"/>
               <ShowAsSigned>0</ShowAsSigned>
               <Color>FFFF80</Color>
               <VariableType>Float</VariableType>
@@ -1237,7 +1237,7 @@ f:close()
             <CheatEntry>
               <ID>17920</ID>
               <Description>"Z"</Description>
-              <LastState Value="63.88536072" RealAddress="26D3EE3E6A8"/>
+              <LastState Value="168.1060028" RealAddress="144C148D7A8"/>
               <ShowAsSigned>0</ShowAsSigned>
               <Color>FFFF80</Color>
               <VariableType>Float</VariableType>
@@ -5927,7 +5927,7 @@ target = "wh4" -- Trigger (Script Name) --
           <ID>16557</ID>
           <Description>"Collectibles *"</Description>
           <Options moHideChildren="1" moDeactivateChildrenAsWell="1"/>
-          <LastState Value="" RealAddress="00000000"/>
+          <LastState Value="" Activated="1" RealAddress="00000000"/>
           <Color>FF93C9</Color>
           <GroupHeader>1</GroupHeader>
           <CheatEntries>
@@ -10934,7 +10934,7 @@ target = "c14c6" -- Trigger (Script Name) --
               <ID>18131</ID>
               <Description>"Eggs *"</Description>
               <Options moHideChildren="1" moDeactivateChildrenAsWell="1"/>
-              <LastState Value="" RealAddress="00000000"/>
+              <LastState Value="" Activated="1" RealAddress="00000000"/>
               <Color>FFFFFF</Color>
               <GroupHeader>1</GroupHeader>
               <CheatEntries>
@@ -11222,7 +11222,7 @@ target = "Vulture Egg" -- Trigger (Script Name) --
                   <CheatEntries>
                     <CheatEntry>
                       <ID>18221</ID>
-                      <Description>"DuckEggs"</Description>
+                      <Description>"Duck Eggs"</Description>
                       <LastState/>
                       <VariableType>Auto Assembler Script</VariableType>
                       <AssemblerScript>[ENABLE]
@@ -29335,21 +29335,21 @@ unregistersymbol(_Teleport)
                 <CheatEntry>
                   <ID>17196</ID>
                   <Description>"x"</Description>
-                  <LastState Value="-20.00021362" RealAddress="26D3EE3E690"/>
+                  <LastState Value="367.6931152" RealAddress="144C148D790"/>
                   <VariableType>Float</VariableType>
                   <Address>[coord2]+70</Address>
                 </CheatEntry>
                 <CheatEntry>
                   <ID>17197</ID>
                   <Description>"y"</Description>
-                  <LastState Value="21.26370239" RealAddress="26D3EE3E694"/>
+                  <LastState Value="2800.786133" RealAddress="144C148D794"/>
                   <VariableType>Float</VariableType>
                   <Address>[coord2]+74</Address>
                 </CheatEntry>
                 <CheatEntry>
                   <ID>17198</ID>
                   <Description>"z"</Description>
-                  <LastState Value="64.05786133" RealAddress="26D3EE3E698"/>
+                  <LastState Value="168.2785034" RealAddress="144C148D798"/>
                   <VariableType>Float</VariableType>
                   <Address>[coord2]+78</Address>
                 </CheatEntry>
@@ -30397,7 +30397,7 @@ dealloc(newmem)
             <CheatEntry>
               <ID>16359</ID>
               <Description>"HealthBase"</Description>
-              <LastState Value="0000000000000000" RealAddress="7FF647DA1050"/>
+              <LastState Value="00000144CADBEB00" RealAddress="7FF647DA1050"/>
               <ShowAsHex>1</ShowAsHex>
               <VariableType>8 Bytes</VariableType>
               <Address>_pPlayerHealthBase</Address>
@@ -30421,7 +30421,7 @@ dealloc(newmem)
             <CheatEntry>
               <ID>16353</ID>
               <Description>"PlayerBase"</Description>
-              <LastState Value="000002757DA86240" RealAddress="7FF647DA1008"/>
+              <LastState Value="0000014CFF14EDC0" RealAddress="7FF647DA1008"/>
               <ShowAsHex>1</ShowAsHex>
               <VariableType>8 Bytes</VariableType>
               <Address>_pPlayer</Address>
@@ -30429,7 +30429,7 @@ dealloc(newmem)
             <CheatEntry>
               <ID>16358</ID>
               <Description>"StaminaBase"</Description>
-              <LastState Value="0000000000000000" RealAddress="7FF647DA1040"/>
+              <LastState Value="00000144B8F88AD0" RealAddress="7FF647DA1040"/>
               <ShowAsHex>1</ShowAsHex>
               <VariableType>8 Bytes</VariableType>
               <Address>_pStaminaBase</Address>
@@ -30437,7 +30437,7 @@ dealloc(newmem)
             <CheatEntry>
               <ID>16355</ID>
               <Description>"HorseBase"</Description>
-              <LastState Value="0000000000000000" RealAddress="7FF647DA1098"/>
+              <LastState Value="0000014CFF14EDC0" RealAddress="7FF647DA1098"/>
               <ShowAsHex>1</ShowAsHex>
               <VariableType>8 Bytes</VariableType>
               <Address>_pHorse</Address>
@@ -30479,6 +30479,7 @@ dealloc(newmem)
             <CheatEntry>
               <ID>16363</ID>
               <Description>"pStamina"</Description>
+              <LastState Value="111.0999985" RealAddress="144B8F88AF0"/>
               <VariableType>Float</VariableType>
               <Address>_pStaminaBase</Address>
               <Offsets>
@@ -30488,6 +30489,7 @@ dealloc(newmem)
             <CheatEntry>
               <ID>16364</ID>
               <Description>"pHealth"</Description>
+              <LastState Value="139.6000061" RealAddress="144CADBEB20"/>
               <VariableType>Float</VariableType>
               <Address>_pPlayerHealthBase</Address>
               <Offsets>
@@ -30497,6 +30499,7 @@ dealloc(newmem)
             <CheatEntry>
               <ID>16365</ID>
               <Description>"pHealthMax"</Description>
+              <LastState Value="43230000" RealAddress="144CADBEB24"/>
               <ShowAsHex>1</ShowAsHex>
               <VariableType>Float</VariableType>
               <Address>_pPlayerHealthBase</Address>
