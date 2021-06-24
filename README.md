@@ -1,9 +1,23 @@
-# Wicked-Menu
+-# Wicked-Menu
 
 https://www.dafont.com/sketch-gothic-school.font?text=Wicked+Menu
 
 
 Change Log/
+
+
+V2.1.7
+Special Thanks Again to distroyce for his Helpful Contributions to the Menu !
+
+Added 
+New Teleport Lua Code to Teleport Base .
+New Teleport Save Location Template 
+All Main Teleport Scripts to CheatTable CodeBase .
+
+Removed
+Version 7.3 Check .
+Auto teleport sent to Teleport Base . (On by Default now)
+Auto teleport text .
 
 
 V2.1.6.a
