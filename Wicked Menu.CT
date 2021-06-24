@@ -8,7 +8,7 @@
       <ID>54</ID>
       <Description>"Activate CodeBase/CheatTable-Hotkey is F12"</Description>
       <Options moAlwaysHideChildren="1" moActivateChildrenAsWell="1" moDeactivateChildrenAsWell="1"/>
-      <LastState Activated="1"/>
+      <LastState/>
       <Color>00FFFF</Color>
       <VariableType>Auto Assembler Script</VariableType>
       <AssemblerScript>[ENABLE]
@@ -509,7 +509,7 @@
         <CheatEntry>
           <ID>16492</ID>
           <Description>"Compact/Full Mode"</Description>
-          <LastState Activated="1"/>
+          <LastState/>
           <Color>00FFFF</Color>
           <VariableType>Auto Assembler Script</VariableType>
           <AssemblerScript>[ENABLE]
@@ -523,7 +523,7 @@ LuaCall(cycleFullCompact(nil,false))
           <ID>16314</ID>
           <Description>"{}{}{}{}{[{{BASEWeapons}]}{][{}{}{}"</Description>
           <Options moHideChildren="1" moDeactivateChildrenAsWell="1"/>
-          <LastState Activated="1"/>
+          <LastState/>
           <Color>00FFFF</Color>
           <VariableType>Auto Assembler Script</VariableType>
           <AssemblerScript>[ENABLE]
@@ -631,7 +631,7 @@ dealloc(newmem)
           <ID>7448</ID>
           <Description>"{}{}{}{}{[{{BASECoords}}{}{}{}{}{}"</Description>
           <Options moHideChildren="1"/>
-          <LastState Activated="1"/>
+          <LastState/>
           <Color>00FFFF</Color>
           <VariableType>Auto Assembler Script</VariableType>
           <AssemblerScript>[ENABLE]
@@ -703,7 +703,7 @@ dealloc(coord2)
           <ID>17222</ID>
           <Description>"{}{}{}{}{[{{BASEWaypoint][][][{}{}{}"</Description>
           <Options moHideChildren="1" moDeactivateChildrenAsWell="1"/>
-          <LastState Activated="1"/>
+          <LastState/>
           <Color>00FFFF</Color>
           <VariableType>Auto Assembler Script</VariableType>
           <AssemblerScript>[ENABLE]
@@ -852,7 +852,7 @@ dd 00000000
           <ID>16409</ID>
           <Description>"Auto Teleport "</Description>
           <Options moHideChildren="1" moActivateChildrenAsWell="1"/>
-          <LastState Activated="1"/>
+          <LastState/>
           <Color>00FFFF</Color>
           <VariableType>Auto Assembler Script</VariableType>
           <AssemblerScript>[ENABLE]
@@ -920,7 +920,7 @@ TeleportHook.terminate()
         <CheatEntry>
           <ID>289</ID>
           <Description>"&lt;Click to Confirm - Empty Lobby"</Description>
-          <LastState Activated="1"/>
+          <LastState/>
           <Color>6A6AFF</Color>
           <VariableType>Auto Assembler Script</VariableType>
           <AssemblerScript>{$lua}
@@ -1009,7 +1009,7 @@ unregistersymbol(dontconsumeitems)
       <ID>19235</ID>
       <Description>"Teleport Menu"</Description>
       <Options moHideChildren="1" moDeactivateChildrenAsWell="1"/>
-      <LastState Value="" Activated="1" RealAddress="00000000"/>
+      <LastState Value="" RealAddress="00000000"/>
       <Color>FFFF80</Color>
       <GroupHeader>1</GroupHeader>
       <CheatEntries>
@@ -28185,7 +28185,7 @@ target = "Emerald ranch" -- Trigger (Script Name) --
         </CheatEntry>
         <CheatEntry>
           <ID>17921</ID>
-          <Description>"Save Location/Coords"</Description>
+          <Description>"Save Locations/Coords"</Description>
           <Options moHideChildren="1" moDeactivateChildrenAsWell="1"/>
           <LastState Value="" RealAddress="00000000"/>
           <Color>FFFF80</Color>
@@ -28270,7 +28270,22 @@ target = "YOUR NAME HERE"
 [DISABLE]
 </AssemblerScript>
                 </CheatEntry>
+                <CheatEntry>
+                  <ID>19237</ID>
+                  <Description>"Ctrl+ALT+A to Open Auto Assemble"</Description>
+                  <LastState Value="" RealAddress="00000000"/>
+                  <Color>FFFF80</Color>
+                  <GroupHeader>1</GroupHeader>
+                </CheatEntry>
               </CheatEntries>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>19238</ID>
+              <Description>"My Locations"</Description>
+              <Options moHideChildren="1" moDeactivateChildrenAsWell="1"/>
+              <LastState Value="" RealAddress="00000000"/>
+              <Color>FFFF80</Color>
+              <GroupHeader>1</GroupHeader>
             </CheatEntry>
           </CheatEntries>
         </CheatEntry>
