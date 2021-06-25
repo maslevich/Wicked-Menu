@@ -1,9 +1,32 @@
-# Wicked-Menu
+-# Wicked-Menu
 
 https://www.dafont.com/sketch-gothic-school.font?text=Wicked+Menu
 
 
 Change Log/
+
+
+V2.1.8
+Special thanks to PORNO STAR .
+Added: 
+Coin (1), Arrowhead (4,5)
+Name Changer (Risky) 
+"This Does NOT change Social Club name, If they check your profile,
+ they WILL see your real name and know you changed it."
+
+
+V2.1.7
+Special Thanks Again to distroyce for his Helpful Contributions to the Menu !
+
+Added 
+New Teleport Lua Code to Teleport Base .
+New Teleport Save Location Template 
+All Main Teleport Scripts to CheatTable CodeBase .
+
+Removed
+Version 7.3 Check .
+Auto teleport sent to Teleport Base . (On by Default now)
+Auto teleport text .
 
 
 V2.1.6.a
