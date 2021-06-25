@@ -6,6 +6,15 @@ https://www.dafont.com/sketch-gothic-school.font?text=Wicked+Menu
 Change Log/
 
 
+V2.1.8
+Special thanks to PORNO STAR .
+Added: 
+Coin (1), Arrowhead (4,5)
+Name Changer (Risky) 
+"This Does NOT change Social Club name, If they check your profile,
+ they WILL see your real name and know you changed it."
+
+
 V2.1.7
 Special Thanks Again to distroyce for his Helpful Contributions to the Menu !
 
