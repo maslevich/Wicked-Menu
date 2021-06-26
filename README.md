@@ -6,6 +6,11 @@ https://www.dafont.com/sketch-gothic-school.font?text=Wicked+Menu
 Change Log/
 
 
+
+Added Coords to Treasure Chest Glitch 
+{BanRisk} Be Safe  !!
+
+
 V2.1.8
 Special thanks to PORNO STAR .
 Added: 
