@@ -920,7 +920,7 @@ TeleportHook.terminate()
         <CheatEntry>
           <ID>289</ID>
           <Description>"&lt;Click to Confirm - Empty Lobby"</Description>
-          <LastState Activated="1"/>
+          <LastState/>
           <Color>6A6AFF</Color>
           <VariableType>Auto Assembler Script</VariableType>
           <AssemblerScript>{$lua}
@@ -1009,7 +1009,6 @@ unregistersymbol(dontconsumeitems)
       <ID>19301</ID>
       <Description>"Name Changer"</Description>
       <Options moRecursiveSetValue="1" moAlwaysHideChildren="1" moActivateChildrenAsWell="1" moDeactivateChildrenAsWell="1"/>
-      <LastState RealAddress="7FF881F5183F"/>
       <Color>8484FF</Color>
       <VariableType>String</VariableType>
       <Length>16</Length>
@@ -1021,7 +1020,6 @@ unregistersymbol(dontconsumeitems)
         <CheatEntry>
           <ID>19302</ID>
           <Description>"Name Changer"</Description>
-          <LastState RealAddress="7FF6DA1BF6B2"/>
           <VariableType>String</VariableType>
           <Length>16</Length>
           <Unicode>0</Unicode>
@@ -1032,7 +1030,6 @@ unregistersymbol(dontconsumeitems)
         <CheatEntry>
           <ID>19303</ID>
           <Description>"Name Changer"</Description>
-          <LastState RealAddress="7FF6DB5FD634"/>
           <VariableType>String</VariableType>
           <Length>16</Length>
           <Unicode>0</Unicode>
@@ -1043,7 +1040,6 @@ unregistersymbol(dontconsumeitems)
         <CheatEntry>
           <ID>19304</ID>
           <Description>"Name Changer"</Description>
-          <LastState RealAddress="7FF6DBC4970C"/>
           <VariableType>String</VariableType>
           <Length>16</Length>
           <Unicode>0</Unicode>
@@ -1054,7 +1050,6 @@ unregistersymbol(dontconsumeitems)
         <CheatEntry>
           <ID>19305</ID>
           <Description>"Name Changer"</Description>
-          <LastState RealAddress="7FF6DBC5300F"/>
           <VariableType>String</VariableType>
           <Length>16</Length>
           <Unicode>0</Unicode>
@@ -1065,7 +1060,6 @@ unregistersymbol(dontconsumeitems)
         <CheatEntry>
           <ID>19306</ID>
           <Description>"Name Changer"</Description>
-          <LastState RealAddress="7FF6DBC533D4"/>
           <VariableType>String</VariableType>
           <Length>16</Length>
           <Unicode>0</Unicode>
@@ -1076,7 +1070,6 @@ unregistersymbol(dontconsumeitems)
         <CheatEntry>
           <ID>19307</ID>
           <Description>"Name Changer"</Description>
-          <LastState RealAddress="7FF6DBC55C80"/>
           <VariableType>String</VariableType>
           <Length>16</Length>
           <Unicode>0</Unicode>
@@ -1087,7 +1080,6 @@ unregistersymbol(dontconsumeitems)
         <CheatEntry>
           <ID>19308</ID>
           <Description>"Name Changer"</Description>
-          <LastState RealAddress="7FF6DBC55E48"/>
           <VariableType>String</VariableType>
           <Length>16</Length>
           <Unicode>0</Unicode>
@@ -1098,7 +1090,6 @@ unregistersymbol(dontconsumeitems)
         <CheatEntry>
           <ID>19309</ID>
           <Description>"Name Changer"</Description>
-          <LastState RealAddress="7FF6DBC5F598"/>
           <VariableType>String</VariableType>
           <Length>16</Length>
           <Unicode>0</Unicode>
@@ -1109,7 +1100,6 @@ unregistersymbol(dontconsumeitems)
         <CheatEntry>
           <ID>19310</ID>
           <Description>"Name Changer"</Description>
-          <LastState RealAddress="7FF6DBC5F760"/>
           <VariableType>String</VariableType>
           <Length>16</Length>
           <Unicode>0</Unicode>
@@ -1120,7 +1110,6 @@ unregistersymbol(dontconsumeitems)
         <CheatEntry>
           <ID>19311</ID>
           <Description>"Name Changer"</Description>
-          <LastState RealAddress="7FF6DBC6651C"/>
           <VariableType>String</VariableType>
           <Length>16</Length>
           <Unicode>0</Unicode>
@@ -1131,7 +1120,6 @@ unregistersymbol(dontconsumeitems)
         <CheatEntry>
           <ID>19312</ID>
           <Description>"Name Changer"</Description>
-          <LastState RealAddress="7FF6DBC6C4E7"/>
           <VariableType>String</VariableType>
           <Length>16</Length>
           <Unicode>0</Unicode>
@@ -1142,7 +1130,6 @@ unregistersymbol(dontconsumeitems)
         <CheatEntry>
           <ID>19313</ID>
           <Description>"Name Changer"</Description>
-          <LastState RealAddress="7FF881F4D43C"/>
           <VariableType>String</VariableType>
           <Length>16</Length>
           <Unicode>0</Unicode>
@@ -1156,7 +1143,7 @@ unregistersymbol(dontconsumeitems)
       <ID>19235</ID>
       <Description>"Teleport Menu"</Description>
       <Options moHideChildren="1" moDeactivateChildrenAsWell="1"/>
-      <LastState Value="" Activated="1" RealAddress="00000000"/>
+      <LastState Value="" RealAddress="00000000"/>
       <Color>FF9F9F</Color>
       <GroupHeader>1</GroupHeader>
       <CheatEntries>
@@ -1202,27 +1189,6 @@ target = "Teleport to Waypoint" -- Trigger (Script Name) --
               <DeactivateSound>Deactivate</DeactivateSound>
             </Hotkey>
           </Hotkeys>
-        </CheatEntry>
-        <CheatEntry>
-          <ID>19314</ID>
-          <Description>"Treasure Chest St Dennis {BAN RISK}"</Description>
-          <LastState Activated="1"/>
-          <Color>4848FF</Color>
-          <VariableType>Auto Assembler Script</VariableType>
-          <AssemblerScript>[ENABLE]
-
-{$lua}
-
--- Teleport to Treasure Chest St Dennis--
-
-SetCoordinates(2722.423, -1282.332, 49.362)
-
-target = "Treasure Chest St Dennis"
-
-{$asm}
-
-[DISABLE]
-</AssemblerScript>
         </CheatEntry>
         <CheatEntry>
           <ID>16955</ID>
@@ -6992,15 +6958,15 @@ target = "Tennessee Whiskey Bottle" -- Trigger (Script Name) --
                   </CheatEntries>
                 </CheatEntry>
                 <CheatEntry>
-                  <ID>18450</ID>
-                  <Description>"Cycle 6 (Soon)"</Description>
+                  <ID>19315</ID>
+                  <Description>"Cycle 6"</Description>
                   <Options moHideChildren="1" moDeactivateChildrenAsWell="1"/>
                   <LastState Value="" RealAddress="00000000"/>
                   <Color>FF80FF</Color>
                   <GroupHeader>1</GroupHeader>
                   <CheatEntries>
                     <CheatEntry>
-                      <ID>18451</ID>
+                      <ID>19316</ID>
                       <Description>"Absinthe Bottle"</Description>
                       <LastState/>
                       <VariableType>Auto Assembler Script</VariableType>
@@ -7008,13 +6974,13 @@ target = "Tennessee Whiskey Bottle" -- Trigger (Script Name) --
 
 {$lua}
 
--- Teleport to Absinthe Bottle cycle 5 --
+-- Teleport to Absinthe Bottle cycle 6 --
 
 writeInteger("TeleOn", 1)
 
-writeFloat("WantedCoords", -2369.843018)
-writeFloat("WantedCoords+04", 473.4992065)
-writeFloat("WantedCoords+08", 132.0571594)
+writeFloat("WantedCoords", -5394.669434)
+writeFloat("WantedCoords+04", -3665.370605)
+writeFloat("WantedCoords+08", -25.14053726)
 
 target = "Absinthe Bottle" -- Trigger (Script Name) --
 
@@ -7024,7 +6990,7 @@ target = "Absinthe Bottle" -- Trigger (Script Name) --
 </AssemblerScript>
                     </CheatEntry>
                     <CheatEntry>
-                      <ID>18452</ID>
+                      <ID>19317</ID>
                       <Description>"Old Tom Gin Bottle"</Description>
                       <LastState/>
                       <VariableType>Auto Assembler Script</VariableType>
@@ -7032,13 +6998,13 @@ target = "Absinthe Bottle" -- Trigger (Script Name) --
 
 {$lua}
 
--- Teleport to Old Tom Gin Bottle cycle 5 --
+-- Teleport to Old Tom Gin Bottle cycle 6 --
 
 writeInteger("TeleOn", 1)
 
-writeFloat("WantedCoords", 2904.346436)
-writeFloat("WantedCoords+04", 1376.729858)
-writeFloat("WantedCoords+08", 54.36836624)
+writeFloat("WantedCoords", -719.4147339)
+writeFloat("WantedCoords+04", 925.5838013)
+writeFloat("WantedCoords+08", 116.9822693)
 
 target = "Old Tom Gin Bottle" -- Trigger (Script Name) --
 
@@ -7048,7 +7014,7 @@ target = "Old Tom Gin Bottle" -- Trigger (Script Name) --
 </AssemblerScript>
                     </CheatEntry>
                     <CheatEntry>
-                      <ID>18453</ID>
+                      <ID>19318</ID>
                       <Description>"Cognac Bottle"</Description>
                       <LastState/>
                       <VariableType>Auto Assembler Script</VariableType>
@@ -7056,13 +7022,13 @@ target = "Old Tom Gin Bottle" -- Trigger (Script Name) --
 
 {$lua}
 
--- Teleport to Cognac Bottle cycle 5 --
+-- Teleport to Cognac Bottle cycle 6 --
 
 writeInteger("TeleOn", 1)
 
-writeFloat("WantedCoords", 1621.53894)
-writeFloat("WantedCoords+04", -362.5369568)
-writeFloat("WantedCoords+08", 75.72463989)
+writeFloat("WantedCoords", -1893.0802)
+writeFloat("WantedCoords+04", 1333.735107)
+writeFloat("WantedCoords+08", 203.7679291)
 
 target = "Cognac Bottle" -- Trigger (Script Name) --
 
@@ -7072,7 +7038,7 @@ target = "Cognac Bottle" -- Trigger (Script Name) --
 </AssemblerScript>
                     </CheatEntry>
                     <CheatEntry>
-                      <ID>18454</ID>
+                      <ID>19319</ID>
                       <Description>"Caribbean Rum Bottle"</Description>
                       <LastState/>
                       <VariableType>Auto Assembler Script</VariableType>
@@ -7080,13 +7046,13 @@ target = "Cognac Bottle" -- Trigger (Script Name) --
 
 {$lua}
 
--- "Caribbean Rum Bottle cycle 5" --
+-- "Caribbean Rum Bottle cycle 6" --
 
 writeInteger("TeleOn", 1)
 
-writeFloat("WantedCoords", 2705.633301)
-writeFloat("WantedCoords+04", 435.917572)
-writeFloat("WantedCoords+08", 88.0234375)
+writeFloat("WantedCoords", 3004.651855)
+writeFloat("WantedCoords+04", 479.5908813)
+writeFloat("WantedCoords+08", 44.48628998)
 
 target = "Caribbean Rum Bottle" -- Trigger (Script Name) --
 
@@ -7096,7 +7062,7 @@ target = "Caribbean Rum Bottle" -- Trigger (Script Name) --
 </AssemblerScript>
                     </CheatEntry>
                     <CheatEntry>
-                      <ID>18455</ID>
+                      <ID>19320</ID>
                       <Description>"London Dry Gin Bottle"</Description>
                       <LastState/>
                       <VariableType>Auto Assembler Script</VariableType>
@@ -7104,13 +7070,13 @@ target = "Caribbean Rum Bottle" -- Trigger (Script Name) --
 
 {$lua}
 
--- "London Dry Gin Bottle cycle 5" --
+-- "London Dry Gin Bottle cycle 6" --
 
 writeInteger("TeleOn", 1)
 
-writeFloat("WantedCoords", 2198.16748)
-writeFloat("WantedCoords+04", -1504.978027)
-writeFloat("WantedCoords+08", 46.55181122)
+writeFloat("WantedCoords", -3549.249756)
+writeFloat("WantedCoords+04", -3007.459961)
+writeFloat("WantedCoords+08", 11.63528824)
 
 target = "London Dry Gin Bottle" -- Trigger (Script Name) --
 
@@ -7120,7 +7086,7 @@ target = "London Dry Gin Bottle" -- Trigger (Script Name) --
 </AssemblerScript>
                     </CheatEntry>
                     <CheatEntry>
-                      <ID>18456</ID>
+                      <ID>19321</ID>
                       <Description>"Irish Whiskey Bottle"</Description>
                       <LastState/>
                       <VariableType>Auto Assembler Script</VariableType>
@@ -7128,13 +7094,13 @@ target = "London Dry Gin Bottle" -- Trigger (Script Name) --
 
 {$lua}
 
--- "Irish Whiskey Bottle cycle 5" --
+-- "Irish Whiskey Bottle cycle 6" --
 
 writeInteger("TeleOn", 1)
 
-writeFloat("WantedCoords", -1492.853516)
-writeFloat("WantedCoords+04", 1247.252075)
-writeFloat("WantedCoords+08", 317.4535217)
+writeFloat("WantedCoords", 2153.260254)
+writeFloat("WantedCoords+04", -1647.750122)
+writeFloat("WantedCoords+08", 41.48989487)
 
 target = "Irish Whiskey Bottle" -- Trigger (Script Name) --
 
@@ -7144,7 +7110,7 @@ target = "Irish Whiskey Bottle" -- Trigger (Script Name) --
 </AssemblerScript>
                     </CheatEntry>
                     <CheatEntry>
-                      <ID>18457</ID>
+                      <ID>19322</ID>
                       <Description>"Scotch Whisky Bottle"</Description>
                       <LastState/>
                       <VariableType>Auto Assembler Script</VariableType>
@@ -7152,13 +7118,13 @@ target = "Irish Whiskey Bottle" -- Trigger (Script Name) --
 
 {$lua}
 
--- "Scotch Whisky Bottle cycle 5" --
+-- "Scotch Whisky Bottle cycle 6" --
 
 writeInteger("TeleOn", 1)
 
-writeFloat("WantedCoords", 2873.212402)
-writeFloat("WantedCoords+04", -259.6281738)
-writeFloat("WantedCoords+08", 42.1718483)
+writeFloat("WantedCoords", -5199.013672)
+writeFloat("WantedCoords+04", -2094.168945)
+writeFloat("WantedCoords+08", 12.21576595)
 
 target = "Scotch Whisky Bottle" -- Trigger (Script Name) --
 
@@ -7168,7 +7134,7 @@ target = "Scotch Whisky Bottle" -- Trigger (Script Name) --
 </AssemblerScript>
                     </CheatEntry>
                     <CheatEntry>
-                      <ID>18458</ID>
+                      <ID>19323</ID>
                       <Description>"Gran Corazon Madeira Bottle"</Description>
                       <LastState/>
                       <VariableType>Auto Assembler Script</VariableType>
@@ -7176,13 +7142,13 @@ target = "Scotch Whisky Bottle" -- Trigger (Script Name) --
 
 {$lua}
 
--- "Gran Corazon Madeira Bottle cycle 5"
+-- "Gran Corazon Madeira Bottle cycle 6"
 
 writeInteger("TeleOn", 1)
 
-writeFloat("WantedCoords", -239.1992188)
-writeFloat("WantedCoords+04", 771.7883911)
-writeFloat("WantedCoords+08", 117.9248962)
+writeFloat("WantedCoords", -1807.030151)
+writeFloat("WantedCoords+04", -406.105896)
+writeFloat("WantedCoords+08", 153.7434845)
 
 target = "Gran Corazon Madeira Bottle" -- Trigger (Script Name) --
 
@@ -7192,7 +7158,7 @@ target = "Gran Corazon Madeira Bottle" -- Trigger (Script Name) --
 </AssemblerScript>
                     </CheatEntry>
                     <CheatEntry>
-                      <ID>18459</ID>
+                      <ID>19324</ID>
                       <Description>"Tennessee Whiskey Bottle"</Description>
                       <LastState/>
                       <VariableType>Auto Assembler Script</VariableType>
@@ -7200,13 +7166,13 @@ target = "Gran Corazon Madeira Bottle" -- Trigger (Script Name) --
 
 {$lua}
 
--- "Tennessee Whiskey Bottle cycle 5"
+-- "Tennessee Whiskey Bottle cycle 6"
 
 writeInteger("TeleOn", 1)
 
-writeFloat("WantedCoords", -3598.595703)
-writeFloat("WantedCoords+04", -2644.589844)
-writeFloat("WantedCoords+08", -11.54995918)
+writeFloat("WantedCoords", 1451.014282)
+writeFloat("WantedCoords+04", 369.5193787)
+writeFloat("WantedCoords+08", 89.71562958)
 
 target = "Tennessee Whiskey Bottle" -- Trigger (Script Name) --
 
@@ -8718,15 +8684,15 @@ target = "Random arrowhead #11" -- Trigger (Script Name) --
                   </CheatEntries>
                 </CheatEntry>
                 <CheatEntry>
-                  <ID>18340</ID>
-                  <Description>"Cycle 6 (Soon)"</Description>
+                  <ID>19325</ID>
+                  <Description>"Cycle 6"</Description>
                   <Options moHideChildren="1" moDeactivateChildrenAsWell="1"/>
                   <LastState Value="" RealAddress="00000000"/>
                   <Color>DFBFFF</Color>
                   <GroupHeader>1</GroupHeader>
                   <CheatEntries>
                     <CheatEntry>
-                      <ID>18341</ID>
+                      <ID>19326</ID>
                       <Description>"Random arrowhead #0"</Description>
                       <LastState/>
                       <VariableType>Auto Assembler Script</VariableType>
@@ -8734,15 +8700,15 @@ target = "Random arrowhead #11" -- Trigger (Script Name) --
 
 {$lua}
 
--- Teleport to Random Bird Egg #Duck Eggs cycle 2 --
+-- Teleport to Random Arrowhead #0 --
 
 writeInteger("TeleOn", 1)
 
-writeFloat("WantedCoords", 133.3000641)
-writeFloat("WantedCoords+04", 1518.470947)
-writeFloat("WantedCoords+08", 117.0486374)
+writeFloat("WantedCoords", -4801.776855)
+writeFloat("WantedCoords+04", -2394.014648)
+writeFloat("WantedCoords+08", 7.132846832)
 
-target = "Duck Eggs" -- Trigger (Script Name) --
+target = "Random arrowhead #0" -- Trigger (Script Name) --
 
 {$asm}
 
@@ -8750,7 +8716,7 @@ target = "Duck Eggs" -- Trigger (Script Name) --
 </AssemblerScript>
                     </CheatEntry>
                     <CheatEntry>
-                      <ID>18342</ID>
+                      <ID>19327</ID>
                       <Description>"Random arrowhead #1"</Description>
                       <LastState/>
                       <VariableType>Auto Assembler Script</VariableType>
@@ -8758,15 +8724,15 @@ target = "Duck Eggs" -- Trigger (Script Name) --
 
 {$lua}
 
--- Teleport to Random Bird Egg1 #Eagle Egg cycle 2 --
+-- Teleport to Random Arrowhead #1 --
 
 writeInteger("TeleOn", 1)
 
-writeFloat("WantedCoords", -1219.74939)
-writeFloat("WantedCoords+04", 1370.497437)
-writeFloat("WantedCoords+08", 257.117981)
+writeFloat("WantedCoords", -6387.787598)
+writeFloat("WantedCoords+04", -3671.157715)
+writeFloat("WantedCoords+08", -22.63905907)
 
-target = "Eagle Egg1" -- Trigger (Script Name) --
+target = "Random arrowhead #1" -- Trigger (Script Name) --
 
 {$asm}
 
@@ -8774,7 +8740,7 @@ target = "Eagle Egg1" -- Trigger (Script Name) --
 </AssemblerScript>
                     </CheatEntry>
                     <CheatEntry>
-                      <ID>18343</ID>
+                      <ID>19328</ID>
                       <Description>"Random arrowhead #2"</Description>
                       <LastState/>
                       <VariableType>Auto Assembler Script</VariableType>
@@ -8782,15 +8748,15 @@ target = "Eagle Egg1" -- Trigger (Script Name) --
 
 {$lua}
 
--- Teleport to Random Bird Egg2 #Eagle Egg cycle 2 --
+-- Teleport to Random Arrowhead #2 --
 
 writeInteger("TeleOn", 1)
 
-writeFloat("WantedCoords", -2222.567627)
-writeFloat("WantedCoords+04", -557.7120361)
-writeFloat("WantedCoords+08", 150.6014557)
+writeFloat("WantedCoords", 432.1207581)
+writeFloat("WantedCoords+04", 2181.044434)
+writeFloat("WantedCoords+08", 246.0380096)
 
-target = "Eagle Egg2" -- Trigger (Script Name) --
+target = "Random arrowhead #2" -- Trigger (Script Name) --
 
 {$asm}
 
@@ -8798,7 +8764,7 @@ target = "Eagle Egg2" -- Trigger (Script Name) --
 </AssemblerScript>
                     </CheatEntry>
                     <CheatEntry>
-                      <ID>18344</ID>
+                      <ID>19329</ID>
                       <Description>"Random arrowhead #3"</Description>
                       <LastState/>
                       <VariableType>Auto Assembler Script</VariableType>
@@ -8806,15 +8772,15 @@ target = "Eagle Egg2" -- Trigger (Script Name) --
 
 {$lua}
 
--- Teleport to Random Bird Egg #Goose Eggs cycle 2 --
+-- Teleport to Random Arrowhead #3 --
 
 writeInteger("TeleOn", 1)
 
-writeFloat("WantedCoords", -1453.365967)
-writeFloat("WantedCoords+04", -2017.752563)
-writeFloat("WantedCoords+08", 41.60699844)
+writeFloat("WantedCoords", 2408.108643)
+writeFloat("WantedCoords+04", 1764.350342)
+writeFloat("WantedCoords+08", 89.48460388)
 
-target = "Goose Eggs" -- Trigger (Script Name) --
+target = "Random arrowhead #3" -- Trigger (Script Name) --
 
 {$asm}
 
@@ -8822,7 +8788,7 @@ target = "Goose Eggs" -- Trigger (Script Name) --
 </AssemblerScript>
                     </CheatEntry>
                     <CheatEntry>
-                      <ID>18345</ID>
+                      <ID>19330</ID>
                       <Description>"Random arrowhead #4"</Description>
                       <LastState/>
                       <VariableType>Auto Assembler Script</VariableType>
@@ -8830,15 +8796,15 @@ target = "Goose Eggs" -- Trigger (Script Name) --
 
 {$lua}
 
--- Teleport to Random Bird Egg #Loon Egg cycle 2 --
+-- Teleport to Random Arrowhead #4 --
 
 writeInteger("TeleOn", 1)
 
-writeFloat("WantedCoords", 684.7992554)
-writeFloat("WantedCoords+04", -1865.375488)
-writeFloat("WantedCoords+08", 43.77003479)
+writeFloat("WantedCoords", 272.3488159)
+writeFloat("WantedCoords+04", 1471.296631)
+writeFloat("WantedCoords+08", 157.948288)
 
-target = "Loon Egg" -- Trigger (Script Name) --
+target = "Random arrowhead #4" -- Trigger (Script Name) --
 
 {$asm}
 
@@ -8846,7 +8812,7 @@ target = "Loon Egg" -- Trigger (Script Name) --
 </AssemblerScript>
                     </CheatEntry>
                     <CheatEntry>
-                      <ID>18346</ID>
+                      <ID>19331</ID>
                       <Description>"Random arrowhead #5"</Description>
                       <LastState/>
                       <VariableType>Auto Assembler Script</VariableType>
@@ -8854,15 +8820,15 @@ target = "Loon Egg" -- Trigger (Script Name) --
 
 {$lua}
 
--- Teleport to Random Bird Egg #Spoonbill Egg cycle 2 --
+-- Teleport to Random Arrowhead #5 --
 
 writeInteger("TeleOn", 1)
 
-writeFloat("WantedCoords", 2056.742432)
-writeFloat("WantedCoords+04", -1428.02124)
-writeFloat("WantedCoords+08", 41.47845459)
+writeFloat("WantedCoords", 2910.57959)
+writeFloat("WantedCoords+04", 1220.269043)
+writeFloat("WantedCoords+08", 43.60112381)
 
-target = "Spoonbill Egg" -- Trigger (Script Name) --
+target = "Random arrowhead #5" -- Trigger (Script Name) --
 
 {$asm}
 
@@ -8870,7 +8836,7 @@ target = "Spoonbill Egg" -- Trigger (Script Name) --
 </AssemblerScript>
                     </CheatEntry>
                     <CheatEntry>
-                      <ID>18347</ID>
+                      <ID>19332</ID>
                       <Description>"Random arrowhead #6"</Description>
                       <LastState/>
                       <VariableType>Auto Assembler Script</VariableType>
@@ -8878,15 +8844,15 @@ target = "Spoonbill Egg" -- Trigger (Script Name) --
 
 {$lua}
 
--- Teleport to Random Bird Egg #Egret Egg cycle 2 --
+-- Teleport to Random Arrowhead #6 --
 
 writeInteger("TeleOn", 1)
 
-writeFloat("WantedCoords", 2051.326172)
-writeFloat("WantedCoords+04", -1718.182129)
-writeFloat("WantedCoords+08", 41.43475342)
+writeFloat("WantedCoords", -1520.572144)
+writeFloat("WantedCoords+04", 739.1062622)
+writeFloat("WantedCoords+08", 125.685318)
 
-target = "Egret Egg" -- Trigger (Script Name) --
+target = "Random arrowhead #6" -- Trigger (Script Name) --
 
 {$asm}
 
@@ -8894,7 +8860,7 @@ target = "Egret Egg" -- Trigger (Script Name) --
 </AssemblerScript>
                     </CheatEntry>
                     <CheatEntry>
-                      <ID>18348</ID>
+                      <ID>19333</ID>
                       <Description>"Random arrowhead #7"</Description>
                       <LastState/>
                       <VariableType>Auto Assembler Script</VariableType>
@@ -8902,15 +8868,15 @@ target = "Egret Egg" -- Trigger (Script Name) --
 
 {$lua}
 
--- Teleport to Random Bird Egg #Heron Egg cycle 2 --
+-- Teleport to Random Arrowhead #7 --
 
 writeInteger("TeleOn", 1)
 
-writeFloat("WantedCoords", 2130.1521)
-writeFloat("WantedCoords+04", -473.8968506)
-writeFloat("WantedCoords+08", 41.71798706)
+writeFloat("WantedCoords", -2718.086426)
+writeFloat("WantedCoords+04", 681.8153687)
+writeFloat("WantedCoords+08", 175.5916901)
 
-target = "Heron Egg" -- Trigger (Script Name) --
+target = "Random arrowhead #7" -- Trigger (Script Name) --
 
 {$asm}
 
@@ -8918,7 +8884,7 @@ target = "Heron Egg" -- Trigger (Script Name) --
 </AssemblerScript>
                     </CheatEntry>
                     <CheatEntry>
-                      <ID>18349</ID>
+                      <ID>19334</ID>
                       <Description>"Random arrowhead #8"</Description>
                       <LastState/>
                       <VariableType>Auto Assembler Script</VariableType>
@@ -8926,15 +8892,15 @@ target = "Heron Egg" -- Trigger (Script Name) --
 
 {$lua}
 
--- Teleport to Random Bird Egg #Hawk Egg1 cycle 2 --
+-- Teleport to Random Arrowhead #8 --
 
 writeInteger("TeleOn", 1)
 
-writeFloat("WantedCoords", -1579.619995)
-writeFloat("WantedCoords+04", 3172.190186)
-writeFloat("WantedCoords+08", 479.4332886)
+writeFloat("WantedCoords", 765.5648804)
+writeFloat("WantedCoords+04", 639.0710449)
+writeFloat("WantedCoords+08", 124.9729004)
 
-target = "Hawk Egg1" -- Trigger (Script Name) --
+target = "Random arrowhead #8" -- Trigger (Script Name) --
 
 {$asm}
 
@@ -8942,7 +8908,7 @@ target = "Hawk Egg1" -- Trigger (Script Name) --
 </AssemblerScript>
                     </CheatEntry>
                     <CheatEntry>
-                      <ID>18350</ID>
+                      <ID>19335</ID>
                       <Description>"Random arrowhead #9"</Description>
                       <LastState/>
                       <VariableType>Auto Assembler Script</VariableType>
@@ -8950,15 +8916,15 @@ target = "Hawk Egg1" -- Trigger (Script Name) --
 
 {$lua}
 
--- Teleport to Random Bird Egg #Hawk Egg2 cycle 2 --
+-- Teleport to Random Arrowhead #9 --
 
 writeInteger("TeleOn", 1)
 
-writeFloat("WantedCoords", 1689.454468)
-writeFloat("WantedCoords+04", 1812.121582)
-writeFloat("WantedCoords+08", 215.0845947)
+writeFloat("WantedCoords", 1451.282104)
+writeFloat("WantedCoords+04", -358.2481079)
+writeFloat("WantedCoords+08", 80.52019501)
 
-target = "Hawk Egg2" -- Trigger (Script Name) --
+target = "Random arrowhead #9" -- Trigger (Script Name) --
 
 {$asm}
 
@@ -8966,7 +8932,7 @@ target = "Hawk Egg2" -- Trigger (Script Name) --
 </AssemblerScript>
                     </CheatEntry>
                     <CheatEntry>
-                      <ID>18351</ID>
+                      <ID>19336</ID>
                       <Description>"Random arrowhead #10"</Description>
                       <LastState/>
                       <VariableType>Auto Assembler Script</VariableType>
@@ -8974,15 +8940,15 @@ target = "Hawk Egg2" -- Trigger (Script Name) --
 
 {$lua}
 
--- Teleport to Random Bird Egg #Vulture Egg cycle 2 --
+-- Teleport to Random Arrowhead #10 --
 
 writeInteger("TeleOn", 1)
 
-writeFloat("WantedCoords", -2918.95459)
-writeFloat("WantedCoords+04", -2288.891602)
-writeFloat("WantedCoords+08", 77.33451843)
+writeFloat("WantedCoords", -2048.544922)
+writeFloat("WantedCoords+04", -486.1664429)
+writeFloat("WantedCoords+08", 149.4290466)
 
-target = "Vulture Egg" -- Trigger (Script Name) --
+target = "Random arrowhead #10" -- Trigger (Script Name) --
 
 {$asm}
 
@@ -8990,7 +8956,7 @@ target = "Vulture Egg" -- Trigger (Script Name) --
 </AssemblerScript>
                     </CheatEntry>
                     <CheatEntry>
-                      <ID>18352</ID>
+                      <ID>19337</ID>
                       <Description>"Random arrowhead #11"</Description>
                       <LastState/>
                       <VariableType>Auto Assembler Script</VariableType>
@@ -8998,15 +8964,15 @@ target = "Vulture Egg" -- Trigger (Script Name) --
 
 {$lua}
 
--- Teleport to Random Bird Egg #Vulture Egg cycle 2 --
+-- Teleport to Random Arrowhead #11 --
 
 writeInteger("TeleOn", 1)
 
-writeFloat("WantedCoords", -2918.95459)
-writeFloat("WantedCoords+04", -2288.891602)
-writeFloat("WantedCoords+08", 77.33451843)
+writeFloat("WantedCoords", -1813.598511)
+writeFloat("WantedCoords+04", -1612.691895)
+writeFloat("WantedCoords+08", 105.3275909)
 
-target = "Vulture Egg" -- Trigger (Script Name) --
+target = "Random arrowhead #11" -- Trigger (Script Name) --
 
 {$asm}
 
@@ -9035,7 +9001,7 @@ target = "Vulture Egg" -- Trigger (Script Name) --
                   <CheatEntries>
                     <CheatEntry>
                       <ID>19260</ID>
-                      <Description>"c0c1"</Description>
+                      <Description>"Coin 0  Cycle 1"</Description>
                       <LastState/>
                       <VariableType>Auto Assembler Script</VariableType>
                       <AssemblerScript>[ENABLE]
@@ -9050,7 +9016,7 @@ writeFloat("WantedCoords", -5419.888672)
 writeFloat("WantedCoords+04", -2975.737549)
 writeFloat("WantedCoords+08", 8.848430634)
 
-target = "c0c1" -- Trigger (Script Name) --
+target = "Coin 0  Cycle 1" -- Trigger (Script Name) --
 
 {$asm}
 
@@ -9059,7 +9025,7 @@ target = "c0c1" -- Trigger (Script Name) --
                     </CheatEntry>
                     <CheatEntry>
                       <ID>19261</ID>
-                      <Description>"c1c1"</Description>
+                      <Description>"Coin 1  Cycle 1"</Description>
                       <LastState/>
                       <VariableType>Auto Assembler Script</VariableType>
                       <AssemblerScript>[ENABLE]
@@ -9074,7 +9040,7 @@ writeFloat("WantedCoords", -3545.97583)
 writeFloat("WantedCoords+04", -3008.075684)
 writeFloat("WantedCoords+08", 11.25141907)
 
-target = "c1c1" -- Trigger (Script Name) --
+target = "Coin 1  Cycle 1" -- Trigger (Script Name) --
 
 {$asm}
 
@@ -9083,7 +9049,7 @@ target = "c1c1" -- Trigger (Script Name) --
                     </CheatEntry>
                     <CheatEntry>
                       <ID>19262</ID>
-                      <Description>"c2c1"</Description>
+                      <Description>"Coin 2  Cycle 1"</Description>
                       <LastState/>
                       <VariableType>Auto Assembler Script</VariableType>
                       <AssemblerScript>[ENABLE]
@@ -9098,7 +9064,7 @@ writeFloat("WantedCoords", 830.8927002)
 writeFloat("WantedCoords+04", 1926.185547)
 writeFloat("WantedCoords+08", 259.133606)
 
-target = "c2c1" -- Trigger (Script Name) --
+target = "Coin 2  Cycle 1" -- Trigger (Script Name) --
 
 {$asm}
 
@@ -9107,7 +9073,7 @@ target = "c2c1" -- Trigger (Script Name) --
                     </CheatEntry>
                     <CheatEntry>
                       <ID>19263</ID>
-                      <Description>"c3c1"</Description>
+                      <Description>"Coin 3  Cycle 1"</Description>
                       <LastState/>
                       <VariableType>Auto Assembler Script</VariableType>
                       <AssemblerScript>[ENABLE]
@@ -9122,7 +9088,7 @@ writeFloat("WantedCoords", 3140.503174)
 writeFloat("WantedCoords+04", 1529.791748)
 writeFloat("WantedCoords+08", 53.42984009)
 
-target = "c3c1" -- Trigger (Script Name) --
+target = "Coin 3  Cycle 1" -- Trigger (Script Name) --
 
 {$asm}
 
@@ -9131,7 +9097,7 @@ target = "c3c1" -- Trigger (Script Name) --
                     </CheatEntry>
                     <CheatEntry>
                       <ID>19264</ID>
-                      <Description>"c4c1"</Description>
+                      <Description>"Coin 4  Cycle 1"</Description>
                       <LastState/>
                       <VariableType>Auto Assembler Script</VariableType>
                       <AssemblerScript>[ENABLE]
@@ -9146,7 +9112,7 @@ writeFloat("WantedCoords", -254.5032654)
 writeFloat("WantedCoords+04", 1349.928223)
 writeFloat("WantedCoords+08", 139.3691864)
 
-target = "c4c1" -- Trigger (Script Name) --
+target = "Coin 4  Cycle 1" -- Trigger (Script Name) --
 
 {$asm}
 
@@ -9155,7 +9121,7 @@ target = "c4c1" -- Trigger (Script Name) --
                     </CheatEntry>
                     <CheatEntry>
                       <ID>19265</ID>
-                      <Description>"c5c1"</Description>
+                      <Description>"Coin 5  Cycle 1"</Description>
                       <LastState/>
                       <VariableType>Auto Assembler Script</VariableType>
                       <AssemblerScript>[ENABLE]
@@ -9170,7 +9136,7 @@ writeFloat("WantedCoords", -2716.29541)
 writeFloat("WantedCoords+04", 716.5083008)
 writeFloat("WantedCoords+08", 171.0618134)
 
-target = "c5c1" -- Trigger (Script Name) --
+target = "Coin 5  Cycle 1" -- Trigger (Script Name) --
 
 {$asm}
 
@@ -9179,7 +9145,7 @@ target = "c5c1" -- Trigger (Script Name) --
                     </CheatEntry>
                     <CheatEntry>
                       <ID>19266</ID>
-                      <Description>"c6c1"</Description>
+                      <Description>"Coin 6  Cycle 1"</Description>
                       <LastState/>
                       <VariableType>Auto Assembler Script</VariableType>
                       <AssemblerScript>[ENABLE]
@@ -9194,7 +9160,7 @@ writeFloat("WantedCoords", 2429.099609)
 writeFloat("WantedCoords+04", 579.5238647)
 writeFloat("WantedCoords+08", 67.97229767)
 
-target = "c6c1" -- Trigger (Script Name) --
+target = "Coin 6  Cycle 1" -- Trigger (Script Name) --
 
 {$asm}
 
@@ -9203,7 +9169,7 @@ target = "c6c1" -- Trigger (Script Name) --
                     </CheatEntry>
                     <CheatEntry>
                       <ID>19267</ID>
-                      <Description>"c7c1"</Description>
+                      <Description>"Coin 7  Cycle 1"</Description>
                       <LastState/>
                       <VariableType>Auto Assembler Script</VariableType>
                       <AssemblerScript>[ENABLE]
@@ -9218,7 +9184,7 @@ writeFloat("WantedCoords", 81.11727142)
 writeFloat("WantedCoords+04", 447.1036682)
 writeFloat("WantedCoords+08", 154.0426636)
 
-target = "c7c1" -- Trigger (Script Name) --
+target = "Coin 7  Cycle 1" -- Trigger (Script Name) --
 
 {$asm}
 
@@ -9227,7 +9193,7 @@ target = "c7c1" -- Trigger (Script Name) --
                     </CheatEntry>
                     <CheatEntry>
                       <ID>19268</ID>
-                      <Description>"c8c1"</Description>
+                      <Description>"Coin 8  Cycle 1"</Description>
                       <LastState/>
                       <VariableType>Auto Assembler Script</VariableType>
                       <AssemblerScript>[ENABLE]
@@ -9242,7 +9208,7 @@ writeFloat("WantedCoords", 921.7664795)
 writeFloat("WantedCoords+04", 271.8903503)
 writeFloat("WantedCoords+08", 116.5340424)
 
-target = "c8c1" -- Trigger (Script Name) --
+target = "Coin 8  Cycle 1" -- Trigger (Script Name) --
 
 {$asm}
 
@@ -9251,7 +9217,7 @@ target = "c8c1" -- Trigger (Script Name) --
                     </CheatEntry>
                     <CheatEntry>
                       <ID>19269</ID>
-                      <Description>"c9c1"</Description>
+                      <Description>"Coin 9  Cycle 1"</Description>
                       <LastState/>
                       <VariableType>Auto Assembler Script</VariableType>
                       <AssemblerScript>[ENABLE]
@@ -9266,7 +9232,7 @@ writeFloat("WantedCoords", -2265.47583)
 writeFloat("WantedCoords+04", -503.83255)
 writeFloat("WantedCoords+08", 138.5341034)
 
-target = "c9c1" -- Trigger (Script Name) --
+target = "Coin 9  Cycle 1" -- Trigger (Script Name) --
 
 {$asm}
 
@@ -9275,7 +9241,7 @@ target = "c9c1" -- Trigger (Script Name) --
                     </CheatEntry>
                     <CheatEntry>
                       <ID>19270</ID>
-                      <Description>"c10c1"</Description>
+                      <Description>"Coin 10  Cycle 1"</Description>
                       <LastState/>
                       <VariableType>Auto Assembler Script</VariableType>
                       <AssemblerScript>[ENABLE]
@@ -9290,7 +9256,7 @@ writeFloat("WantedCoords", 1197.08728)
 writeFloat("WantedCoords+04", -571.1132812)
 writeFloat("WantedCoords+08", 67.98061371)
 
-target = "c10c1" -- Trigger (Script Name) --
+target = "Coin 10  Cycle 1" -- Trigger (Script Name) --
 
 {$asm}
 
@@ -9299,7 +9265,7 @@ target = "c10c1" -- Trigger (Script Name) --
                     </CheatEntry>
                     <CheatEntry>
                       <ID>19271</ID>
-                      <Description>"c11c1"</Description>
+                      <Description>"Coin 11  Cycle 1"</Description>
                       <LastState/>
                       <VariableType>Auto Assembler Script</VariableType>
                       <AssemblerScript>[ENABLE]
@@ -9314,7 +9280,7 @@ writeFloat("WantedCoords", 1843.265015)
 writeFloat("WantedCoords+04", -675.3565674)
 writeFloat("WantedCoords+08", 41.86797333)
 
-target = "c11c1" -- Trigger (Script Name) --
+target = "Coin 11  Cycle 1" -- Trigger (Script Name) --
 
 {$asm}
 
@@ -9323,7 +9289,7 @@ target = "c11c1" -- Trigger (Script Name) --
                     </CheatEntry>
                     <CheatEntry>
                       <ID>19272</ID>
-                      <Description>"c12c1"</Description>
+                      <Description>"Coin 12  Cycle 1"</Description>
                       <LastState/>
                       <VariableType>Auto Assembler Script</VariableType>
                       <AssemblerScript>[ENABLE]
@@ -9338,7 +9304,7 @@ writeFloat("WantedCoords", -1705.428223)
 writeFloat("WantedCoords+04", -1302.575317)
 writeFloat("WantedCoords+08", 93.30979156)
 
-target = "c12c1" -- Trigger (Script Name) --
+target = "Coin 12  Cycle 1" -- Trigger (Script Name) --
 
 {$asm}
 
@@ -9347,7 +9313,7 @@ target = "c12c1" -- Trigger (Script Name) --
                     </CheatEntry>
                     <CheatEntry>
                       <ID>19273</ID>
-                      <Description>"c13c1"</Description>
+                      <Description>"Coin 13  Cycle 1"</Description>
                       <LastState/>
                       <VariableType>Auto Assembler Script</VariableType>
                       <AssemblerScript>[ENABLE]
@@ -9362,7 +9328,7 @@ writeFloat("WantedCoords", 1193.996094)
 writeFloat("WantedCoords+04", -1348.560791)
 writeFloat("WantedCoords+08", 71.10527802)
 
-target = "c13c1" -- Trigger (Script Name) --
+target = "Coin 13  Cycle 1" -- Trigger (Script Name) --
 
 {$asm}
 
@@ -9371,7 +9337,7 @@ target = "c13c1" -- Trigger (Script Name) --
                     </CheatEntry>
                     <CheatEntry>
                       <ID>19274</ID>
-                      <Description>"c14c1"</Description>
+                      <Description>"Coin 14  Cycle 1"</Description>
                       <LastState/>
                       <VariableType>Auto Assembler Script</VariableType>
                       <AssemblerScript>[ENABLE]
@@ -9405,7 +9371,7 @@ target = "c14c1" -- Trigger (Script Name) --
                   <CheatEntries>
                     <CheatEntry>
                       <ID>18164</ID>
-                      <Description>"c0c2"</Description>
+                      <Description>"Coin 0  Cycle 2"</Description>
                       <LastState/>
                       <VariableType>Auto Assembler Script</VariableType>
                       <AssemblerScript>[ENABLE]
@@ -9420,7 +9386,7 @@ writeFloat("WantedCoords", -5170.283)
 writeFloat("WantedCoords+04", -2778.451)
 writeFloat("WantedCoords+08", 8.842)
 
-target = "c0c2" -- Trigger (Script Name) --
+target = "Coin 0  Cycle 2" -- Trigger (Script Name) --
 
 {$asm}
 
@@ -9430,7 +9396,7 @@ target = "c0c2" -- Trigger (Script Name) --
                     </CheatEntry>
                     <CheatEntry>
                       <ID>18165</ID>
-                      <Description>"c1c2"</Description>
+                      <Description>"Coin 1 Cycle 2"</Description>
                       <LastState/>
                       <VariableType>Auto Assembler Script</VariableType>
                       <AssemblerScript>[ENABLE]
@@ -9445,7 +9411,7 @@ writeFloat("WantedCoords", -3207.482)
 writeFloat("WantedCoords+04", -3222.074)
 writeFloat("WantedCoords+08", -1.022)
 
-target = "c1c2" -- Trigger (Script Name) --
+target = "Coin 1 Cycle 2" -- Trigger (Script Name) --
 
 {$asm}
 
@@ -9455,7 +9421,7 @@ target = "c1c2" -- Trigger (Script Name) --
                     </CheatEntry>
                     <CheatEntry>
                       <ID>18166</ID>
-                      <Description>"c2c2"</Description>
+                      <Description>"Coin 2 Cycle 2"</Description>
                       <LastState/>
                       <VariableType>Auto Assembler Script</VariableType>
                       <AssemblerScript>[ENABLE]
@@ -9470,7 +9436,7 @@ writeFloat("WantedCoords", -1404.523)
 writeFloat("WantedCoords+04", -2665.800)
 writeFloat("WantedCoords+08", 42.136)
 
-target = "c2c2" -- Trigger (Script Name) --
+target = "Coin 2 Cycle 2" -- Trigger (Script Name) --
 
 {$asm}
 
@@ -9480,7 +9446,7 @@ target = "c2c2" -- Trigger (Script Name) --
                     </CheatEntry>
                     <CheatEntry>
                       <ID>18167</ID>
-                      <Description>"c3c2"</Description>
+                      <Description>"Coin 3 Cycle 2"</Description>
                       <LastState/>
                       <VariableType>Auto Assembler Script</VariableType>
                       <AssemblerScript>[ENABLE]
@@ -9495,7 +9461,7 @@ writeFloat("WantedCoords", -1788.916)
 writeFloat("WantedCoords+04", -580.233)
 writeFloat("WantedCoords+08", 155.755)
 
-target = "c3c2" -- Trigger (Script Name) --
+target = "Coin 3 Cycle 2" -- Trigger (Script Name) --
 
 {$asm}
 
@@ -9505,7 +9471,7 @@ target = "c3c2" -- Trigger (Script Name) --
                     </CheatEntry>
                     <CheatEntry>
                       <ID>18168</ID>
-                      <Description>"c4c2"</Description>
+                      <Description>"Coin 4 Cycle 2"</Description>
                       <LastState/>
                       <VariableType>Auto Assembler Script</VariableType>
                       <AssemblerScript>[ENABLE]
@@ -9520,7 +9486,7 @@ writeFloat("WantedCoords", -1937.920)
 writeFloat("WantedCoords+04", 462.843)
 writeFloat("WantedCoords+08", 116.473)
 
-target = "c4c2" -- Trigger (Script Name) --
+target = "Coin 4 Cycle 2" -- Trigger (Script Name) --
 
 {$asm}
 
@@ -9530,7 +9496,7 @@ target = "c4c2" -- Trigger (Script Name) --
                     </CheatEntry>
                     <CheatEntry>
                       <ID>18169</ID>
-                      <Description>"c5c2"</Description>
+                      <Description>"Coin 5 Cycle 2"</Description>
                       <LastState/>
                       <VariableType>Auto Assembler Script</VariableType>
                       <AssemblerScript>[ENABLE]
@@ -9545,7 +9511,7 @@ writeFloat("WantedCoords", -1392.722)
 writeFloat("WantedCoords+04", 1184.106)
 writeFloat("WantedCoords+08", 221.790)
 
-target = "c5c2" -- Trigger (Script Name) --
+target = "Coin 5 Cycle 2" -- Trigger (Script Name) --
 
 {$asm}
 
@@ -9555,7 +9521,7 @@ target = "c5c2" -- Trigger (Script Name) --
                     </CheatEntry>
                     <CheatEntry>
                       <ID>18170</ID>
-                      <Description>"c6c2"</Description>
+                      <Description>"Coin 6 Cycle 2"</Description>
                       <LastState/>
                       <VariableType>Auto Assembler Script</VariableType>
                       <AssemblerScript>[ENABLE]
@@ -9570,7 +9536,7 @@ writeFloat("WantedCoords", -747.477)
 writeFloat("WantedCoords+04", 891.365)
 writeFloat("WantedCoords+08", 108.862)
 
-target = "c6c2" -- Trigger (Script Name) --
+target = "Coin 6 Cycle 2" -- Trigger (Script Name) --
 
 {$asm}
 
@@ -9580,7 +9546,7 @@ target = "c6c2" -- Trigger (Script Name) --
                     </CheatEntry>
                     <CheatEntry>
                       <ID>18171</ID>
-                      <Description>"c7c2"</Description>
+                      <Description>"Coin 7 Cycle 2"</Description>
                       <LastState/>
                       <VariableType>Auto Assembler Script</VariableType>
                       <AssemblerScript>[ENABLE]
@@ -9595,7 +9561,7 @@ writeFloat("WantedCoords", 129.387)
 writeFloat("WantedCoords+04", 1002.230)
 writeFloat("WantedCoords+08", 208.983)
 
-target = "c7c2" -- Trigger (Script Name) --
+target = "Coin 7 Cycle 2" -- Trigger (Script Name) --
 
 {$asm}
 
@@ -9605,7 +9571,7 @@ target = "c7c2" -- Trigger (Script Name) --
                     </CheatEntry>
                     <CheatEntry>
                       <ID>18172</ID>
-                      <Description>"c8c2"</Description>
+                      <Description>"Coin 8 Cycle 2"</Description>
                       <LastState/>
                       <VariableType>Auto Assembler Script</VariableType>
                       <AssemblerScript>[ENABLE]
@@ -9620,7 +9586,7 @@ writeFloat("WantedCoords", 601.709)
 writeFloat("WantedCoords+04", 550.580)
 writeFloat("WantedCoords+08", 112.126)
 
-target = "c8c2" -- Trigger (Script Name) --
+target = "Coin 8 Cycle 2" -- Trigger (Script Name) --
 
 {$asm}
 
@@ -9630,7 +9596,7 @@ target = "c8c2" -- Trigger (Script Name) --
                     </CheatEntry>
                     <CheatEntry>
                       <ID>18173</ID>
-                      <Description>"c9c2"</Description>
+                      <Description>"Coin 9 Cycle 2"</Description>
                       <LastState/>
                       <VariableType>Auto Assembler Script</VariableType>
                       <AssemblerScript>[ENABLE]
@@ -9645,7 +9611,7 @@ writeFloat("WantedCoords", 1473.426)
 writeFloat("WantedCoords+04", 332.053)
 writeFloat("WantedCoords+08", 89.892)
 
-target = "c9c2" -- Trigger (Script Name) --
+target = "Coin 9 Cycle 2" -- Trigger (Script Name) --
 
 {$asm}
 
@@ -9655,7 +9621,7 @@ target = "c9c2" -- Trigger (Script Name) --
                     </CheatEntry>
                     <CheatEntry>
                       <ID>18174</ID>
-                      <Description>"c10c2"</Description>
+                      <Description>"Coin 10 Cycle 2"</Description>
                       <LastState/>
                       <VariableType>Auto Assembler Script</VariableType>
                       <AssemblerScript>[ENABLE]
@@ -9670,7 +9636,7 @@ writeFloat("WantedCoords", 1268.000)
 writeFloat("WantedCoords+04", -386.576)
 writeFloat("WantedCoords+08", 89.325)
 
-target = "c10c2" -- Trigger (Script Name) --
+target = "Coin 10 Cycle 2" -- Trigger (Script Name) --
 
 {$asm}
 
@@ -9680,7 +9646,7 @@ target = "c10c2" -- Trigger (Script Name) --
                     </CheatEntry>
                     <CheatEntry>
                       <ID>18175</ID>
-                      <Description>"c11c2"</Description>
+                      <Description>"Coin 11 Cycle 2"</Description>
                       <LastState/>
                       <VariableType>Auto Assembler Script</VariableType>
                       <AssemblerScript>[ENABLE]
@@ -9695,7 +9661,7 @@ writeFloat("WantedCoords", 999.282)
 writeFloat("WantedCoords+04", -944.230)
 writeFloat("WantedCoords+08", 62.349)
 
-target = "c11c2" -- Trigger (Script Name) --
+target = "Coin 11 Cycle 2" -- Trigger (Script Name) --
 
 {$asm}
 
@@ -9705,7 +9671,7 @@ target = "c11c2" -- Trigger (Script Name) --
                     </CheatEntry>
                     <CheatEntry>
                       <ID>18176</ID>
-                      <Description>"c12c2"</Description>
+                      <Description>"Coin 12 Cycle 2"</Description>
                       <LastState/>
                       <VariableType>Auto Assembler Script</VariableType>
                       <AssemblerScript>[ENABLE]
@@ -9720,7 +9686,7 @@ writeFloat("WantedCoords", 2497.748)
 writeFloat("WantedCoords+04", -419.973)
 writeFloat("WantedCoords+08", 41.347)
 
-target = "c12c2" -- Trigger (Script Name) --
+target = "Coin 12 Cycle 2" -- Trigger (Script Name) --
 
 {$asm}
 
@@ -9730,7 +9696,7 @@ target = "c12c2" -- Trigger (Script Name) --
                     </CheatEntry>
                     <CheatEntry>
                       <ID>18177</ID>
-                      <Description>"c13c2"</Description>
+                      <Description>"Coin 13 Cycle 2"</Description>
                       <LastState/>
                       <VariableType>Auto Assembler Script</VariableType>
                       <AssemblerScript>[ENABLE]
@@ -9745,7 +9711,7 @@ writeFloat("WantedCoords", 2384.833)
 writeFloat("WantedCoords+04", 703.222)
 writeFloat("WantedCoords+08", 69.262)
 
-target = "c13c2" -- Trigger (Script Name) --
+target = "Coin 13 Cycle 2" -- Trigger (Script Name) --
 
 {$asm}
 
@@ -9755,7 +9721,7 @@ target = "c13c2" -- Trigger (Script Name) --
                     </CheatEntry>
                     <CheatEntry>
                       <ID>18178</ID>
-                      <Description>"c14c2"</Description>
+                      <Description>"Coin 14 Cycle 2"</Description>
                       <LastState/>
                       <VariableType>Auto Assembler Script</VariableType>
                       <AssemblerScript>[ENABLE]
@@ -9770,7 +9736,7 @@ writeFloat("WantedCoords", 2869.466)
 writeFloat("WantedCoords+04", 1774.101)
 writeFloat("WantedCoords+08", 134.740)
 
-target = "c14c2" -- Trigger (Script Name) --
+target = "Coin 14 Cycle 2" -- Trigger (Script Name) --
 
 {$asm}
 
@@ -9790,7 +9756,7 @@ target = "c14c2" -- Trigger (Script Name) --
                   <CheatEntries>
                     <CheatEntry>
                       <ID>17395</ID>
-                      <Description>"c0c3"</Description>
+                      <Description>"Coin #0 cycle 3"</Description>
                       <LastState/>
                       <VariableType>Auto Assembler Script</VariableType>
                       <AssemblerScript>[ENABLE]
@@ -9805,7 +9771,7 @@ writeFloat("WantedCoords", -2650.041)
 writeFloat("WantedCoords+04", -2979.885)
 writeFloat("WantedCoords+08", 70.067)
 
-target = "c0c3" -- Trigger (Script Name) --
+target = "Coin #0 cycle 3" -- Trigger (Script Name) --
 
 {$asm}
 
@@ -9814,20 +9780,10 @@ target = "c0c3" -- Trigger (Script Name) --
                     </CheatEntry>
                     <CheatEntry>
                       <ID>17396</ID>
-                      <Description>"c1c3"</Description>
+                      <Description>"Coin #1 cycle 3"</Description>
                       <LastState/>
                       <VariableType>Auto Assembler Script</VariableType>
-                      <AssemblerScript>//[enable]
-   // "Random Coin #1cycle 3"
-   // TeleOn:
-  //  dd 00000001
-
-  //  WantedCoords:
- //   dd (float)-4244.041
-  //  dd (float)-3191.385
- //   dd (float)18.686
-
-//[disable]
+                      <AssemblerScript>
 [ENABLE]
 
 {$lua}
@@ -9840,7 +9796,7 @@ writeFloat("WantedCoords", -4244.041)
 writeFloat("WantedCoords+04", -3191.385)
 writeFloat("WantedCoords+08", 18.686)
 
-target = "c1c3" -- Trigger (Script Name) --
+target = "Random Coin #1 cycle 3" -- Trigger (Script Name) --
 
 {$asm}
 
@@ -9849,20 +9805,10 @@ target = "c1c3" -- Trigger (Script Name) --
                     </CheatEntry>
                     <CheatEntry>
                       <ID>17397</ID>
-                      <Description>"c2c3"</Description>
+                      <Description>"Coin #2 cycle 3"</Description>
                       <LastState/>
                       <VariableType>Auto Assembler Script</VariableType>
-                      <AssemblerScript>//[enable]
-   // "Random Coin #2cycle 3"
-   // TeleOn:
-  //  dd 00000001
-
-  //  WantedCoords:
-  //  dd (float)-6235.166
-  //  dd (float)-3519.780
-  //  dd (float)-30.784
-
-//[disable]
+                      <AssemblerScript>
 [ENABLE]
 
 {$lua}
@@ -9875,7 +9821,7 @@ writeFloat("WantedCoords", -6235.166)
 writeFloat("WantedCoords+04", -3519.780)
 writeFloat("WantedCoords+08", -30.784)
 
-target = "c2c3" -- Trigger (Script Name) --
+target = "Coin #2 cycle 3" -- Trigger (Script Name) --
 
 {$asm}
 
@@ -9884,20 +9830,10 @@ target = "c2c3" -- Trigger (Script Name) --
                     </CheatEntry>
                     <CheatEntry>
                       <ID>17398</ID>
-                      <Description>"c3c3"</Description>
+                      <Description>"Coin #3 cycle 3"</Description>
                       <LastState/>
                       <VariableType>Auto Assembler Script</VariableType>
-                      <AssemblerScript>//[enable]
-   // "Random Coin #3cycle 3"
-   // TeleOn:
-   // dd 00000001
-
-  //  WantedCoords:
-   // dd (float)-395.256
-   // dd (float)1753.921
-   // dd (float)216.300
-
-//[disable]
+                      <AssemblerScript>
 [ENABLE]
 
 {$lua}
@@ -9910,7 +9846,7 @@ writeFloat("WantedCoords", -395.256)
 writeFloat("WantedCoords+04", 1753.921)
 writeFloat("WantedCoords+08", 216.300)
 
-target = "c3c3" -- Trigger (Script Name) --
+target = "Coin #3 cycle 3" -- Trigger (Script Name) --
 
 {$asm}
 
@@ -9919,20 +9855,10 @@ target = "c3c3" -- Trigger (Script Name) --
                     </CheatEntry>
                     <CheatEntry>
                       <ID>17399</ID>
-                      <Description>"c4c3"</Description>
+                      <Description>"Coin #4 cycle 3"</Description>
                       <LastState/>
                       <VariableType>Auto Assembler Script</VariableType>
-                      <AssemblerScript>//[enable]
-   // "Random Coin #4cycle 3"
-   // TeleOn:
-   // dd 00000001
-
-  //  WantedCoords:
-   // dd (float)433.778
-   // dd (float)1644.359
-   // dd (float)197.701
-
-//[disable]
+                      <AssemblerScript>
 [ENABLE]
 
 {$lua}
@@ -9945,7 +9871,7 @@ writeFloat("WantedCoords", 433.778)
 writeFloat("WantedCoords+04", 1644.359)
 writeFloat("WantedCoords+08", 197.701)
 
-target = "c4c3" -- Trigger (Script Name) --
+target = "Coin #4 cycle 3" -- Trigger (Script Name) --
 
 {$asm}
 
@@ -9954,20 +9880,10 @@ target = "c4c3" -- Trigger (Script Name) --
                     </CheatEntry>
                     <CheatEntry>
                       <ID>17400</ID>
-                      <Description>"c5c3"</Description>
+                      <Description>"Coin #5 cycle 3"</Description>
                       <LastState/>
                       <VariableType>Auto Assembler Script</VariableType>
-                      <AssemblerScript>//[enable]
-   // "Random Coin #5cycle 3"
-   // TeleOn:
-    //dd 00000001
-
-   // WantedCoords:
-    //dd (float)2535.489
-    //dd (float)1196.264
-    //dd (float)164.419
-
-//[disable]
+                      <AssemblerScript>
 [ENABLE]
 
 {$lua}
@@ -9980,7 +9896,7 @@ writeFloat("WantedCoords", 2535.489)
 writeFloat("WantedCoords+04", 1196.264)
 writeFloat("WantedCoords+08", 164.419)
 
-target = "c5c3" -- Trigger (Script Name) --
+target = "Coin #5 cycle 3" -- Trigger (Script Name) --
 
 {$asm}
 
@@ -9989,20 +9905,10 @@ target = "c5c3" -- Trigger (Script Name) --
                     </CheatEntry>
                     <CheatEntry>
                       <ID>17401</ID>
-                      <Description>"c6c3"</Description>
+                      <Description>"Coin #6 cycle 3"</Description>
                       <LastState/>
                       <VariableType>Auto Assembler Script</VariableType>
-                      <AssemblerScript>//[enable]
-   // "Random Coin #6cycle 3"
-   // TeleOn:
-   // dd 00000001
-
-  //  WantedCoords:
-  //  dd (float)1639.343
-  //  dd (float)834.273
-  //  dd (float)144.828
-
-//[disable]
+                      <AssemblerScript>
 [ENABLE]
 
 {$lua}
@@ -10015,7 +9921,7 @@ writeFloat("WantedCoords", 1639.343)
 writeFloat("WantedCoords+04", 834.273)
 writeFloat("WantedCoords+08", 144.828)
 
-target = "c6c3" -- Trigger (Script Name) --
+target = "Coin #6 cycle 3" -- Trigger (Script Name) --
 
 {$asm}
 
@@ -10024,20 +9930,10 @@ target = "c6c3" -- Trigger (Script Name) --
                     </CheatEntry>
                     <CheatEntry>
                       <ID>17402</ID>
-                      <Description>"c7c3"</Description>
+                      <Description>"Coin #7 cycle 3"</Description>
                       <LastState/>
                       <VariableType>Auto Assembler Script</VariableType>
-                      <AssemblerScript>//[enable]
-   // "Coin 7cycle 3"
-   // TeleOn:
-   // dd 00000001
-
-   // WantedCoords:
-   // dd (float)-410.928
-   // dd (float)668.950
-   // dd (float)114.983
-
-//[disable]
+                      <AssemblerScript>
 [ENABLE]
 
 {$lua}
@@ -10050,7 +9946,7 @@ writeFloat("WantedCoords", -410.928)
 writeFloat("WantedCoords+04", 668.950)
 writeFloat("WantedCoords+08", 114.983)
 
-target = "c7c3" -- Trigger (Script Name) --
+target = "Coin #7 cycle 3" -- Trigger (Script Name) --
 
 {$asm}
 
@@ -10059,20 +9955,10 @@ target = "c7c3" -- Trigger (Script Name) --
                     </CheatEntry>
                     <CheatEntry>
                       <ID>17403</ID>
-                      <Description>"c8c3"</Description>
+                      <Description>"Coin #8 cycle 3"</Description>
                       <LastState/>
                       <VariableType>Auto Assembler Script</VariableType>
-                      <AssemblerScript>//[enable]
-   // "Coin 8cycle 3"
-   // TeleOn:
-   // dd 00000001
-
-   // WantedCoords:
-   // dd (float)-2350.916
-   // dd (float)112.055
-   // dd (float)217.766
-
-//[disable]
+                      <AssemblerScript>
 [ENABLE]
 
 {$lua}
@@ -10085,7 +9971,7 @@ writeFloat("WantedCoords", -2350.916)
 writeFloat("WantedCoords+04", 112.055)
 writeFloat("WantedCoords+08", 217.766)
 
-target = "c8c3" -- Trigger (Script Name) --
+target = "Coin #8 cycle 3" -- Trigger (Script Name) --
 
 {$asm}
 
@@ -10094,20 +9980,10 @@ target = "c8c3" -- Trigger (Script Name) --
                     </CheatEntry>
                     <CheatEntry>
                       <ID>17404</ID>
-                      <Description>"c9c3"</Description>
+                      <Description>"Coin #9 cycle 3"</Description>
                       <LastState/>
                       <VariableType>Auto Assembler Script</VariableType>
-                      <AssemblerScript>//[enable]
-   // "Coin 9  cycle 3"
- ///   TeleOn:
-  //  dd 00000001
-
-  //  WantedCoords:
-   // dd (float)-371.475
-   // dd (float)-80.652
-   // dd (float)43.944
-
-//[disable]
+                      <AssemblerScript>
 [ENABLE]
 
 {$lua}
@@ -10120,7 +9996,7 @@ writeFloat("WantedCoords", -371.475)
 writeFloat("WantedCoords+04", -80.652)
 writeFloat("WantedCoords+08", 43.944)
 
-target = "coin9c3" -- Trigger (Script Name) --
+target = "Coin #9 cycle 3" -- Trigger (Script Name) --
 
 {$asm}
 
@@ -10129,7 +10005,7 @@ target = "coin9c3" -- Trigger (Script Name) --
                     </CheatEntry>
                     <CheatEntry>
                       <ID>17405</ID>
-                      <Description>"c10c3"</Description>
+                      <Description>"Coin #10 cycle 3"</Description>
                       <LastState/>
                       <VariableType>Auto Assembler Script</VariableType>
                       <AssemblerScript>//[enable]
@@ -10155,7 +10031,7 @@ writeFloat("WantedCoords", 1957.796)
 writeFloat("WantedCoords+04", -158.837)
 writeFloat("WantedCoords+08", 52.874)
 
-target = "c10c3" -- Trigger (Script Name) --
+target = "Coin #10 cycle 3" -- Trigger (Script Name) --
 
 {$asm}
 
@@ -10164,20 +10040,10 @@ target = "c10c3" -- Trigger (Script Name) --
                     </CheatEntry>
                     <CheatEntry>
                       <ID>17406</ID>
-                      <Description>"c11c3"</Description>
+                      <Description>"Coin #11 cycle 3"</Description>
                       <LastState/>
                       <VariableType>Auto Assembler Script</VariableType>
-                      <AssemblerScript>//[enable]
-   // "Coin 11"
-   // TeleOn:
-   // dd 00000001
-
-    //WantedCoords:
-  //  dd (float)192.867
-  //  dd (float)-409.553
-   // dd (float)87.708
-
-//[disable]
+                      <AssemblerScript>
 [ENABLE]
 
 {$lua}
@@ -10190,7 +10056,7 @@ writeFloat("WantedCoords", 192.867)
 writeFloat("WantedCoords+04", -409.553)
 writeFloat("WantedCoords+08", 87.708)
 
-target = "c11c3" -- Trigger (Script Name) --
+target = "Coin #11 cycle 3" -- Trigger (Script Name) --
 
 {$asm}
 
@@ -10199,20 +10065,11 @@ target = "c11c3" -- Trigger (Script Name) --
                     </CheatEntry>
                     <CheatEntry>
                       <ID>17407</ID>
-                      <Description>"c12c3"</Description>
+                      <Description>"Coin #12 cycle 3"</Description>
                       <LastState/>
                       <VariableType>Auto Assembler Script</VariableType>
-                      <AssemblerScript>//[enable]
-   // "Coin 12cycle 3"
-  //  TeleOn:
-  //  dd 00000001
+                      <AssemblerScript>
 
-  //  WantedCoords:
-  //  dd (float)-1035.578
-  //  dd (float)-1662.634
-  //  dd (float)81.608
-
-//[disable]
 [ENABLE]
 
 {$lua}
@@ -10225,7 +10082,7 @@ writeFloat("WantedCoords", -1035.578)
 writeFloat("WantedCoords+04", -1662.634)
 writeFloat("WantedCoords+08", 81.608)
 
-target = "c12c3" -- Trigger (Script Name) --
+target = "Coin #12 cycle 3" -- Trigger (Script Name) --
 
 {$asm}
 
@@ -10234,20 +10091,10 @@ target = "c12c3" -- Trigger (Script Name) --
                     </CheatEntry>
                     <CheatEntry>
                       <ID>17408</ID>
-                      <Description>"c13c3"</Description>
+                      <Description>"Coin #13 cycle 3"</Description>
                       <LastState/>
                       <VariableType>Auto Assembler Script</VariableType>
-                      <AssemblerScript>//[enable]
-   // "Coin 13cycle 3"
-    //TeleOn:
-   // dd 00000001
-
-   // WantedCoords:
-   // dd (float)1413.630
-   // dd (float)-1773.890
-   // dd (float)66.750
-
-//[disable]
+                      <AssemblerScript>
 [ENABLE]
 
 {$lua}
@@ -10260,7 +10107,7 @@ writeFloat("WantedCoords", 1413.630)
 writeFloat("WantedCoords+04", -1773.890)
 writeFloat("WantedCoords+08", 66.750)
 
-target = "c13c3" -- Trigger (Script Name) --
+target = "Coin #13 cycle 3" -- Trigger (Script Name) --
 
 {$asm}
 
@@ -10269,20 +10116,10 @@ target = "c13c3" -- Trigger (Script Name) --
                     </CheatEntry>
                     <CheatEntry>
                       <ID>17409</ID>
-                      <Description>"c14c3"</Description>
+                      <Description>"Coin #14 cycle 3"</Description>
                       <LastState/>
                       <VariableType>Auto Assembler Script</VariableType>
-                      <AssemblerScript>//[enable]
-   // "Coin 14 cycle 3"
-    //TeleOn:
-    //dd 00000001
-
-   // WantedCoords:
-  //  dd (float)2110.656
-   // dd (float)-1949.582
-  //  dd (float)41.618
-
-//[disable]
+                      <AssemblerScript>
 [ENABLE]
 
 {$lua}
@@ -10295,7 +10132,7 @@ writeFloat("WantedCoords", 2110.656)
 writeFloat("WantedCoords+04", -1949.582)
 writeFloat("WantedCoords+08", 41.618)
 
-target = "c14c3" -- Trigger (Script Name) --
+target = "Coin #14 cycle 3" -- Trigger (Script Name) --
 
 {$asm}
 
@@ -10306,7 +10143,7 @@ target = "c14c3" -- Trigger (Script Name) --
                 </CheatEntry>
                 <CheatEntry>
                   <ID>17410</ID>
-                  <Description>"Cycle 4 "</Description>
+                  <Description>"Cycle 4 (Soon)"</Description>
                   <Options moHideChildren="1" moDeactivateChildrenAsWell="1"/>
                   <LastState Value="" RealAddress="00000000"/>
                   <Color>4080FF</Color>
@@ -10467,7 +10304,7 @@ target = "c3c4" -- Trigger (Script Name) --
                   <CheatEntries>
                     <CheatEntry>
                       <ID>18180</ID>
-                      <Description>"c0c5"</Description>
+                      <Description>"Coin 0 Cycle 5"</Description>
                       <LastState/>
                       <VariableType>Auto Assembler Script</VariableType>
                       <AssemblerScript>[ENABLE]
@@ -10482,7 +10319,7 @@ writeFloat("WantedCoords", -3711.168)
 writeFloat("WantedCoords+04", -3617.634)
 writeFloat("WantedCoords+08", 42.349)
 
-target = "c0c5" -- Trigger (Script Name) --
+target = "Coin 0 Cycle 5" -- Trigger (Script Name) --
 
 {$asm}
 
@@ -10492,7 +10329,7 @@ target = "c0c5" -- Trigger (Script Name) --
                     </CheatEntry>
                     <CheatEntry>
                       <ID>18181</ID>
-                      <Description>"c1c5"</Description>
+                      <Description>"Coin 1 Cycle 5"</Description>
                       <LastState/>
                       <VariableType>Auto Assembler Script</VariableType>
                       <AssemblerScript>[ENABLE]
@@ -10507,7 +10344,7 @@ writeFloat("WantedCoords", -4331.004)
 writeFloat("WantedCoords+04", -2451.756)
 writeFloat("WantedCoords+08", 15.952)
 
-target = "c1c5" -- Trigger (Script Name) --
+target = "Coin 1 Cycle 5" -- Trigger (Script Name) --
 
 {$asm}
 
@@ -10517,7 +10354,7 @@ target = "c1c5" -- Trigger (Script Name) --
                     </CheatEntry>
                     <CheatEntry>
                       <ID>18182</ID>
-                      <Description>"c2c5"</Description>
+                      <Description>"Coin 2 Cycle 5"</Description>
                       <LastState/>
                       <VariableType>Auto Assembler Script</VariableType>
                       <AssemblerScript>[ENABLE]
@@ -10532,7 +10369,7 @@ writeFloat("WantedCoords", -1993.237)
 writeFloat("WantedCoords+04", -1627.325)
 writeFloat("WantedCoords+08", 116.960)
 
-target = "c2c5" -- Trigger (Script Name) --
+target = "Coin 2 Cycle 5" -- Trigger (Script Name) --
 
 {$asm}
 
@@ -10542,7 +10379,7 @@ target = "c2c5" -- Trigger (Script Name) --
                     </CheatEntry>
                     <CheatEntry>
                       <ID>18183</ID>
-                      <Description>"c3c5"</Description>
+                      <Description>"Coin 3 Cycle 5"</Description>
                       <LastState/>
                       <VariableType>Auto Assembler Script</VariableType>
                       <AssemblerScript>[ENABLE]
@@ -10557,7 +10394,7 @@ writeFloat("WantedCoords", -1261.973)
 writeFloat("WantedCoords+04", -1608.145)
 writeFloat("WantedCoords+08", 80.537)
 
-target = "c3c5" -- Trigger (Script Name) --
+target = "Coin 3 Cycle 5" -- Trigger (Script Name) --
 
 {$asm}
 
@@ -10567,7 +10404,7 @@ target = "c3c5" -- Trigger (Script Name) --
                     </CheatEntry>
                     <CheatEntry>
                       <ID>18184</ID>
-                      <Description>"c4c5"</Description>
+                      <Description>"Coin 4 Cycle 5"</Description>
                       <LastState/>
                       <VariableType>Auto Assembler Script</VariableType>
                       <AssemblerScript>[ENABLE]
@@ -10582,7 +10419,7 @@ writeFloat("WantedCoords", -1991.955)
 writeFloat("WantedCoords+04", -1035.715)
 writeFloat("WantedCoords+08", 74.743)
 
-target = "c4c5" -- Trigger (Script Name) --
+target = "Coin 4 Cycle 5" -- Trigger (Script Name) --
 
 {$asm}
 
@@ -10592,7 +10429,7 @@ target = "c4c5" -- Trigger (Script Name) --
                     </CheatEntry>
                     <CheatEntry>
                       <ID>18185</ID>
-                      <Description>"c5c5"</Description>
+                      <Description>"Coin 5 Cycle 5"</Description>
                       <LastState/>
                       <VariableType>Auto Assembler Script</VariableType>
                       <AssemblerScript>[ENABLE]
@@ -10607,7 +10444,7 @@ writeFloat("WantedCoords", -2196.118)
 writeFloat("WantedCoords+04", 751.506)
 writeFloat("WantedCoords+08", 123.592)
 
-target = "c5c5" -- Trigger (Script Name) --
+target = "Coin 5 Cycle 5" -- Trigger (Script Name) --
 
 {$asm}
 
@@ -10617,7 +10454,7 @@ target = "c5c5" -- Trigger (Script Name) --
                     </CheatEntry>
                     <CheatEntry>
                       <ID>18186</ID>
-                      <Description>"c6c5"</Description>
+                      <Description>"Coin 6 Cycle 5"</Description>
                       <LastState/>
                       <VariableType>Auto Assembler Script</VariableType>
                       <AssemblerScript>[ENABLE]
@@ -10632,7 +10469,7 @@ writeFloat("WantedCoords", -538.3498)
 writeFloat("WantedCoords+04", 2670.946)
 writeFloat("WantedCoords+08", 318.607)
 
-target = "c6c5" -- Trigger (Script Name) --
+target = "Coin 6 Cycle 5" -- Trigger (Script Name) --
 
 {$asm}
 
@@ -10642,7 +10479,7 @@ target = "c6c5" -- Trigger (Script Name) --
                     </CheatEntry>
                     <CheatEntry>
                       <ID>18187</ID>
-                      <Description>"c7c5"</Description>
+                      <Description>"Coin 7 Cycle 5"</Description>
                       <LastState/>
                       <VariableType>Auto Assembler Script</VariableType>
                       <AssemblerScript>[ENABLE]
@@ -10657,7 +10494,7 @@ writeFloat("WantedCoords", 359.523)
 writeFloat("WantedCoords+04", 1421.851)
 writeFloat("WantedCoords+08", 176.855)
 
-target = "c7c5" -- Trigger (Script Name) --
+target = "Coin 7 Cycle 5" -- Trigger (Script Name) --
 
 {$asm}
 
@@ -10667,7 +10504,7 @@ target = "c7c5" -- Trigger (Script Name) --
                     </CheatEntry>
                     <CheatEntry>
                       <ID>18188</ID>
-                      <Description>"c8c5"</Description>
+                      <Description>"Coin 8 Cycle 5"</Description>
                       <LastState/>
                       <VariableType>Auto Assembler Script</VariableType>
                       <AssemblerScript>[ENABLE]
@@ -10682,7 +10519,7 @@ writeFloat("WantedCoords", 1982.026)
 writeFloat("WantedCoords+04", 1795.292)
 writeFloat("WantedCoords+08", 191.930)
 
-target = "c8c5" -- Trigger (Script Name) --
+target = "Coin 8 Cycle 5" -- Trigger (Script Name) --
 
 {$asm}
 
@@ -10692,7 +10529,7 @@ target = "c8c5" -- Trigger (Script Name) --
                     </CheatEntry>
                     <CheatEntry>
                       <ID>18189</ID>
-                      <Description>"c9c5"</Description>
+                      <Description>"Coin 9 Cycle 5"</Description>
                       <LastState/>
                       <VariableType>Auto Assembler Script</VariableType>
                       <AssemblerScript>[ENABLE]
@@ -10707,7 +10544,7 @@ writeFloat("WantedCoords", 2718.013)
 writeFloat("WantedCoords+04", 706.594)
 writeFloat("WantedCoords+08", 78.911)
 
-target = "c9c5" -- Trigger (Script Name) --
+target = "Coin 9 Cycle 5" -- Trigger (Script Name) --
 
 {$asm}
 
@@ -10717,7 +10554,7 @@ target = "c9c5" -- Trigger (Script Name) --
                     </CheatEntry>
                     <CheatEntry>
                       <ID>18190</ID>
-                      <Description>"c10c5"</Description>
+                      <Description>"Coin 10 Cycle 5"</Description>
                       <LastState/>
                       <VariableType>Auto Assembler Script</VariableType>
                       <AssemblerScript>[ENABLE]
@@ -10732,7 +10569,7 @@ writeFloat("WantedCoords", 2644.504)
 writeFloat("WantedCoords+04", -20.584)
 writeFloat("WantedCoords+08", 50.995)
 
-target = "c10c5" -- Trigger (Script Name) --
+target = "Coin 10 Cycle 5" -- Trigger (Script Name) --
 
 {$asm}
 
@@ -10742,7 +10579,7 @@ target = "c10c5" -- Trigger (Script Name) --
                     </CheatEntry>
                     <CheatEntry>
                       <ID>18191</ID>
-                      <Description>"c11c5"</Description>
+                      <Description>"Coin 11 Cycle 5"</Description>
                       <LastState/>
                       <VariableType>Auto Assembler Script</VariableType>
                       <AssemblerScript>[ENABLE]
@@ -10757,7 +10594,7 @@ writeFloat("WantedCoords", 1947.908)
 writeFloat("WantedCoords+04", -679.518)
 writeFloat("WantedCoords+08", 41.742)
 
-target = "c11c5" -- Trigger (Script Name) --
+target = "Coin 11 Cycle 5" -- Trigger (Script Name) --
 
 {$asm}
 
@@ -10767,7 +10604,7 @@ target = "c11c5" -- Trigger (Script Name) --
                     </CheatEntry>
                     <CheatEntry>
                       <ID>18192</ID>
-                      <Description>"c12c5"</Description>
+                      <Description>"Coin 12 Cycle 5"</Description>
                       <LastState/>
                       <VariableType>Auto Assembler Script</VariableType>
                       <AssemblerScript>[ENABLE]
@@ -10782,7 +10619,7 @@ writeFloat("WantedCoords", 2465.724)
 writeFloat("WantedCoords+04", -990.592)
 writeFloat("WantedCoords+08", 41.225)
 
-target = "c12c5" -- Trigger (Script Name) --
+target = "Coin 12 Cycle 5" -- Trigger (Script Name) --
 
 {$asm}
 
@@ -10792,7 +10629,7 @@ target = "c12c5" -- Trigger (Script Name) --
                     </CheatEntry>
                     <CheatEntry>
                       <ID>18193</ID>
-                      <Description>"c13c5"</Description>
+                      <Description>"Coin 13 Cycle 5"</Description>
                       <LastState/>
                       <VariableType>Auto Assembler Script</VariableType>
                       <AssemblerScript>[ENABLE]
@@ -10807,7 +10644,7 @@ writeFloat("WantedCoords", 1375.146)
 writeFloat("WantedCoords+04", -2080.230)
 writeFloat("WantedCoords+08", 51.633)
 
-target = "c13c5" -- Trigger (Script Name) --
+target = "Coin 13 Cycle 5" -- Trigger (Script Name) --
 
 {$asm}
 
@@ -10817,7 +10654,7 @@ target = "c13c5" -- Trigger (Script Name) --
                     </CheatEntry>
                     <CheatEntry>
                       <ID>18194</ID>
-                      <Description>"c14c5"</Description>
+                      <Description>"Coin 14 Cycle 5"</Description>
                       <LastState/>
                       <VariableType>Auto Assembler Script</VariableType>
                       <AssemblerScript>[ENABLE]
@@ -10832,7 +10669,7 @@ writeFloat("WantedCoords", 647.285)
 writeFloat("WantedCoords+04", -563.128)
 writeFloat("WantedCoords+08", 66.979)
 
-target = "c14c5" -- Trigger (Script Name) --
+target = "Coin 14 Cycle 5" -- Trigger (Script Name) --
 
 {$asm}
 
@@ -10852,7 +10689,7 @@ target = "c14c5" -- Trigger (Script Name) --
                   <CheatEntries>
                     <CheatEntry>
                       <ID>17416</ID>
-                      <Description>"c0c6"</Description>
+                      <Description>"Coin #0 cycle 6"</Description>
                       <LastState/>
                       <VariableType>Auto Assembler Script</VariableType>
                       <AssemblerScript>[ENABLE]
@@ -10867,7 +10704,7 @@ writeFloat("WantedCoords", -5387.609375)
 writeFloat("WantedCoords+04", -3661.539307)
 writeFloat("WantedCoords+08", -22.18585396)
 
-target = "c0c6" -- Trigger (Script Name) --
+target = "Coin #0 cycle 6" -- Trigger (Script Name) --
 
 {$asm}
 
@@ -10876,7 +10713,7 @@ target = "c0c6" -- Trigger (Script Name) --
                     </CheatEntry>
                     <CheatEntry>
                       <ID>17417</ID>
-                      <Description>"c1c6"</Description>
+                      <Description>"Coin #1 cycle 6"</Description>
                       <LastState/>
                       <VariableType>Auto Assembler Script</VariableType>
                       <AssemblerScript>[ENABLE]
@@ -10891,7 +10728,7 @@ writeFloat("WantedCoords", -4342.513)
 writeFloat("WantedCoords+04", -2604.615)
 writeFloat("WantedCoords+08", -1.109)
 
-target = "c1c6" -- Trigger (Script Name) --
+target = "Coin #1 cycle 6" -- Trigger (Script Name) --
 
 {$asm}
 
@@ -10900,7 +10737,7 @@ target = "c1c6" -- Trigger (Script Name) --
                     </CheatEntry>
                     <CheatEntry>
                       <ID>17418</ID>
-                      <Description>"c2c6"</Description>
+                      <Description>"Coin #2 cycle 6"</Description>
                       <LastState/>
                       <VariableType>Auto Assembler Script</VariableType>
                       <AssemblerScript>[ENABLE]
@@ -10915,7 +10752,7 @@ writeFloat("WantedCoords", -3625.935)
 writeFloat("WantedCoords+04", -2570.324)
 writeFloat("WantedCoords+08", -15.071)
 
-target = "c2c6" -- Trigger (Script Name) --
+target = "Coin #2 cycle 6" -- Trigger (Script Name) --
 
 {$asm}
 
@@ -10924,7 +10761,7 @@ target = "c2c6" -- Trigger (Script Name) --
                     </CheatEntry>
                     <CheatEntry>
                       <ID>17419</ID>
-                      <Description>"c3c6"</Description>
+                      <Description>"Coin #3 cycle 6"</Description>
                       <LastState/>
                       <VariableType>Auto Assembler Script</VariableType>
                       <AssemblerScript>[ENABLE]
@@ -10939,7 +10776,7 @@ writeFloat("WantedCoords", -3288.451416)
 writeFloat("WantedCoords+04", -2802.723145)
 writeFloat("WantedCoords+08", -3.309403419)
 
-target = "c3c6" -- Trigger (Script Name) --
+target = "Coin #3 cycle 6" -- Trigger (Script Name) --
 
 {$asm}
 
@@ -10948,7 +10785,7 @@ target = "c3c6" -- Trigger (Script Name) --
                     </CheatEntry>
                     <CheatEntry>
                       <ID>17420</ID>
-                      <Description>"c4c6"</Description>
+                      <Description>"Coin #4 cycle 6"</Description>
                       <LastState/>
                       <VariableType>Auto Assembler Script</VariableType>
                       <AssemblerScript>[ENABLE]
@@ -10963,7 +10800,7 @@ writeFloat("WantedCoords", -2871.790)
 writeFloat("WantedCoords+04", -2024.553)
 writeFloat("WantedCoords+08", 78.493)
 
-target = "c4c6" -- Trigger (Script Name) --
+target = "Coin #4 cycle 6" -- Trigger (Script Name) --
 
 {$asm}
 
@@ -10972,7 +10809,7 @@ target = "c4c6" -- Trigger (Script Name) --
                     </CheatEntry>
                     <CheatEntry>
                       <ID>17421</ID>
-                      <Description>"c5c6"</Description>
+                      <Description>"Coin #5 cycle 6"</Description>
                       <LastState/>
                       <VariableType>Auto Assembler Script</VariableType>
                       <AssemblerScript>[ENABLE]
@@ -10987,31 +10824,7 @@ writeFloat("WantedCoords", -1649.597)
 writeFloat("WantedCoords+04", -1718.351)
 writeFloat("WantedCoords+08", 83.557)
 
-target = "c5c6" -- Trigger (Script Name) --
-
-{$asm}
-
-[DISABLE]
-</AssemblerScript>
-                    </CheatEntry>
-                    <CheatEntry>
-                      <ID>17423</ID>
-                      <Description>"c7c6"</Description>
-                      <LastState/>
-                      <VariableType>Auto Assembler Script</VariableType>
-                      <AssemblerScript>[ENABLE]
-
-{$lua}
-
--- Teleport to Random Coin #7 cycle 6 --
-
-writeInteger("TeleOn", 1)
-
-writeFloat("WantedCoords", -2459.866)
-writeFloat("WantedCoords+04", 841.476)
-writeFloat("WantedCoords+08", 142.579)
-
-target = "c7c6" -- Trigger (Script Name) --
+target = "Coin #5 cycle 6" -- Trigger (Script Name) --
 
 {$asm}
 
@@ -11020,7 +10833,7 @@ target = "c7c6" -- Trigger (Script Name) --
                     </CheatEntry>
                     <CheatEntry>
                       <ID>17422</ID>
-                      <Description>"c6c6"</Description>
+                      <Description>"Coin #6 cycle 6"</Description>
                       <LastState/>
                       <VariableType>Auto Assembler Script</VariableType>
                       <AssemblerScript>[ENABLE]
@@ -11035,7 +10848,31 @@ writeFloat("WantedCoords", -1852.421)
 writeFloat("WantedCoords+04", -398.133)
 writeFloat("WantedCoords+08", 169.089)
 
-target = "c6c6" -- Trigger (Script Name) --
+target = "Coin #6 cycle 6" -- Trigger (Script Name) --
+
+{$asm}
+
+[DISABLE]
+</AssemblerScript>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>17423</ID>
+                      <Description>"Coin #7 cycle 6"</Description>
+                      <LastState/>
+                      <VariableType>Auto Assembler Script</VariableType>
+                      <AssemblerScript>[ENABLE]
+
+{$lua}
+
+-- Teleport to Random Coin #7 cycle 6 --
+
+writeInteger("TeleOn", 1)
+
+writeFloat("WantedCoords", -2459.866)
+writeFloat("WantedCoords+04", 841.476)
+writeFloat("WantedCoords+08", 142.579)
+
+target = "Coin #7 cycle 6" -- Trigger (Script Name) --
 
 {$asm}
 
@@ -11044,7 +10881,7 @@ target = "c6c6" -- Trigger (Script Name) --
                     </CheatEntry>
                     <CheatEntry>
                       <ID>17424</ID>
-                      <Description>"c8c6"</Description>
+                      <Description>"Coin #8 cycle 6"</Description>
                       <LastState/>
                       <VariableType>Auto Assembler Script</VariableType>
                       <AssemblerScript>[ENABLE]
@@ -11059,7 +10896,7 @@ writeFloat("WantedCoords", 372.582)
 writeFloat("WantedCoords+04", 1069.949)
 writeFloat("WantedCoords+08", 190.142)
 
-target = "c8c6" -- Trigger (Script Name) --
+target = "Coin #8 cycle 6" -- Trigger (Script Name) --
 
 {$asm}
 
@@ -11068,7 +10905,7 @@ target = "c8c6" -- Trigger (Script Name) --
                     </CheatEntry>
                     <CheatEntry>
                       <ID>17425</ID>
-                      <Description>"c9c6"</Description>
+                      <Description>"Coin #9 cycle 6"</Description>
                       <LastState/>
                       <VariableType>Auto Assembler Script</VariableType>
                       <AssemblerScript>[ENABLE]
@@ -11083,7 +10920,7 @@ writeFloat("WantedCoords", 366.403)
 writeFloat("WantedCoords+04", -15.917)
 writeFloat("WantedCoords+08", 99.964)
 
-target = "c9c6" -- Trigger (Script Name) --
+target = "Coin #9 cycle 6" -- Trigger (Script Name) --
 
 {$asm}
 
@@ -11092,7 +10929,7 @@ target = "c9c6" -- Trigger (Script Name) --
                     </CheatEntry>
                     <CheatEntry>
                       <ID>17426</ID>
-                      <Description>"c10c6"</Description>
+                      <Description>"Coin #10 cycle 6 "</Description>
                       <LastState/>
                       <VariableType>Auto Assembler Script</VariableType>
                       <AssemblerScript>[ENABLE]
@@ -11107,7 +10944,7 @@ writeFloat("WantedCoords", 1492.255)
 writeFloat("WantedCoords+04", 942.302)
 writeFloat("WantedCoords+08", 155.871)
 
-target = "c10c6" -- Trigger (Script Name) --
+target = "Coin #10 cycle 6 " -- Trigger (Script Name) --
 
 {$asm}
 
@@ -11116,7 +10953,7 @@ target = "c10c6" -- Trigger (Script Name) --
                     </CheatEntry>
                     <CheatEntry>
                       <ID>17427</ID>
-                      <Description>"c11c6"</Description>
+                      <Description>"Coin #11 cycle 6"</Description>
                       <LastState/>
                       <VariableType>Auto Assembler Script</VariableType>
                       <AssemblerScript>[ENABLE]
@@ -11131,7 +10968,7 @@ writeFloat("WantedCoords", 2305.424)
 writeFloat("WantedCoords+04", 2001.268)
 writeFloat("WantedCoords+08", 179.988)
 
-target = "c11c6" -- Trigger (Script Name) --
+target = "Coin #11 cycle 6" -- Trigger (Script Name) --
 
 {$asm}
 
@@ -11140,7 +10977,7 @@ target = "c11c6" -- Trigger (Script Name) --
                     </CheatEntry>
                     <CheatEntry>
                       <ID>17428</ID>
-                      <Description>"c12c6"</Description>
+                      <Description>"Coin #12 cycle 6"</Description>
                       <LastState/>
                       <VariableType>Auto Assembler Script</VariableType>
                       <AssemblerScript>[ENABLE]
@@ -11155,7 +10992,7 @@ writeFloat("WantedCoords", 2279.375)
 writeFloat("WantedCoords+04", -539.098)
 writeFloat("WantedCoords+08", 41.352)
 
-target = "c12c6" -- Trigger (Script Name) --
+target = "Coin #12 cycle 6" -- Trigger (Script Name) --
 
 {$asm}
 
@@ -11164,7 +11001,7 @@ target = "c12c6" -- Trigger (Script Name) --
                     </CheatEntry>
                     <CheatEntry>
                       <ID>17429</ID>
-                      <Description>"c13c6"</Description>
+                      <Description>"Coin #13 cycle 6"</Description>
                       <LastState/>
                       <VariableType>Auto Assembler Script</VariableType>
                       <AssemblerScript>[ENABLE]
@@ -11179,7 +11016,7 @@ writeFloat("WantedCoords", 2107.148)
 writeFloat("WantedCoords+04", -1276.624)
 writeFloat("WantedCoords+08", 42.105)
 
-target = "c13c6" -- Trigger (Script Name) --
+target = "Coin #13 cycle 6" -- Trigger (Script Name) --
 
 {$asm}
 
@@ -11188,7 +11025,7 @@ target = "c13c6" -- Trigger (Script Name) --
                     </CheatEntry>
                     <CheatEntry>
                       <ID>17430</ID>
-                      <Description>"c14c6"</Description>
+                      <Description>"Coin #14 cycle 6"</Description>
                       <LastState/>
                       <VariableType>Auto Assembler Script</VariableType>
                       <AssemblerScript>[ENABLE]
@@ -11203,7 +11040,7 @@ writeFloat("WantedCoords", 828.702)
 writeFloat("WantedCoords+04", -1554.539)
 writeFloat("WantedCoords+08", 44.006)
 
-target = "c14c6" -- Trigger (Script Name) --
+target = "Coin #14 cycle 6" -- Trigger (Script Name) --
 
 {$asm}
 
@@ -12879,7 +12716,7 @@ target = "Vulture Egg" -- Trigger (Script Name) --
                   <CheatEntries>
                     <CheatEntry>
                       <ID>18243</ID>
-                      <Description>"f0c1"</Description>
+                      <Description>"Fossils #0 cycle 1"</Description>
                       <LastState/>
                       <VariableType>Auto Assembler Script</VariableType>
                       <AssemblerScript>[ENABLE]
@@ -12894,7 +12731,7 @@ writeFloat("WantedCoords", 2568.074707)
 writeFloat("WantedCoords+04", -710.1397705)
 writeFloat("WantedCoords+08", 40.98407364)
 
-target = "f0c1" -- Trigger (Script Name) --
+target = "Fossils #0 cycle 1" -- Trigger (Script Name) --
 
 {$asm}
 
@@ -12903,7 +12740,7 @@ target = "f0c1" -- Trigger (Script Name) --
                     </CheatEntry>
                     <CheatEntry>
                       <ID>18244</ID>
-                      <Description>"f1c1"</Description>
+                      <Description>"Fossils #1 cycle 1"</Description>
                       <LastState/>
                       <VariableType>Auto Assembler Script</VariableType>
                       <AssemblerScript>[ENABLE]
@@ -12918,7 +12755,7 @@ writeFloat("WantedCoords", 2140.512939)
 writeFloat("WantedCoords+04", -823.7445068)
 writeFloat("WantedCoords+08", 41.36428833)
 
-target = "f1c1" -- Trigger (Script Name) --
+target = "Fossils #1 cycle 1" -- Trigger (Script Name) --
 
 {$asm}
 
@@ -12927,7 +12764,7 @@ target = "f1c1" -- Trigger (Script Name) --
                     </CheatEntry>
                     <CheatEntry>
                       <ID>18245</ID>
-                      <Description>"f2c1"</Description>
+                      <Description>"Fossils #2 cycle 1"</Description>
                       <LastState/>
                       <VariableType>Auto Assembler Script</VariableType>
                       <AssemblerScript>[ENABLE]
@@ -12942,7 +12779,7 @@ writeFloat("WantedCoords", -1439.526978)
 writeFloat("WantedCoords+04", 1353.225342)
 writeFloat("WantedCoords+08", 227.0371094)
 
-target = "f2c1" -- Trigger (Script Name) --
+target = "Fossils #2 cycle 1" -- Trigger (Script Name) --
 
 {$asm}
 
@@ -12951,7 +12788,7 @@ target = "f2c1" -- Trigger (Script Name) --
                     </CheatEntry>
                     <CheatEntry>
                       <ID>18246</ID>
-                      <Description>"f3c1"</Description>
+                      <Description>"Fossils #3 cycle 1"</Description>
                       <LastState/>
                       <VariableType>Auto Assembler Script</VariableType>
                       <AssemblerScript>[ENABLE]
@@ -12966,7 +12803,7 @@ writeFloat("WantedCoords", -2832.556396)
 writeFloat("WantedCoords+04", 1112.75)
 writeFloat("WantedCoords+08", 271.3412476)
 
-target = "f3c1" -- Trigger (Script Name) --
+target = "Fossils #3 cycle 1" -- Trigger (Script Name) --
 
 {$asm}
 
@@ -12975,7 +12812,7 @@ target = "f3c1" -- Trigger (Script Name) --
                     </CheatEntry>
                     <CheatEntry>
                       <ID>18247</ID>
-                      <Description>"f4c1"</Description>
+                      <Description>"Fossils #4 cycle 1"</Description>
                       <LastState/>
                       <VariableType>Auto Assembler Script</VariableType>
                       <AssemblerScript>[ENABLE]
@@ -12990,7 +12827,7 @@ writeFloat("WantedCoords", -847.7364502)
 writeFloat("WantedCoords+04", 2663.195801)
 writeFloat("WantedCoords+08", 347.2078857)
 
-target = "f4c1" -- Trigger (Script Name) --
+target = "Fossils #4 cycle 1" -- Trigger (Script Name) --
 
 {$asm}
 
@@ -12999,7 +12836,7 @@ target = "f4c1" -- Trigger (Script Name) --
                     </CheatEntry>
                     <CheatEntry>
                       <ID>18248</ID>
-                      <Description>"f5c1"</Description>
+                      <Description>"Fossils #5 cycle 1"</Description>
                       <LastState/>
                       <VariableType>Auto Assembler Script</VariableType>
                       <AssemblerScript>[ENABLE]
@@ -13014,7 +12851,7 @@ writeFloat("WantedCoords", -1343.763916)
 writeFloat("WantedCoords+04", 2544.552979)
 writeFloat("WantedCoords+08", 315.0362854)
 
-target = "f5c1" -- Trigger (Script Name) --
+target = "Fossils #5 cycle 1" -- Trigger (Script Name) --
 
 {$asm}
 
@@ -13023,7 +12860,7 @@ target = "f5c1" -- Trigger (Script Name) --
                     </CheatEntry>
                     <CheatEntry>
                       <ID>18249</ID>
-                      <Description>"f6c1"</Description>
+                      <Description>"Fossils #6 cycle 1"</Description>
                       <LastState/>
                       <VariableType>Auto Assembler Script</VariableType>
                       <AssemblerScript>[ENABLE]
@@ -13038,7 +12875,7 @@ writeFloat("WantedCoords", -1730.030029)
 writeFloat("WantedCoords+04", 2193.419922)
 writeFloat("WantedCoords+08", 292.9346008)
 
-target = "f6c1" -- Trigger (Script Name) --
+target = "Fossils #6 cycle 1" -- Trigger (Script Name) --
 
 {$asm}
 
@@ -13047,7 +12884,7 @@ target = "f6c1" -- Trigger (Script Name) --
                     </CheatEntry>
                     <CheatEntry>
                       <ID>18250</ID>
-                      <Description>"f7c1"</Description>
+                      <Description>"Fossils #7 cycle 1"</Description>
                       <LastState/>
                       <VariableType>Auto Assembler Script</VariableType>
                       <AssemblerScript>[ENABLE]
@@ -13062,7 +12899,7 @@ writeFloat("WantedCoords", -1982.35376)
 writeFloat("WantedCoords+04", 2189.835449)
 writeFloat("WantedCoords+08", 334.2565918)
 
-target = "f7c1" -- Trigger (Script Name) --
+target = "Fossils #7 cycle 1" -- Trigger (Script Name) --
 
 {$asm}
 
@@ -13071,7 +12908,7 @@ target = "f7c1" -- Trigger (Script Name) --
                     </CheatEntry>
                     <CheatEntry>
                       <ID>18251</ID>
-                      <Description>"f8c1"</Description>
+                      <Description>"Fossils #8 cycle 1"</Description>
                       <LastState/>
                       <VariableType>Auto Assembler Script</VariableType>
                       <AssemblerScript>[ENABLE]
@@ -13086,7 +12923,7 @@ writeFloat("WantedCoords", -1956.85437)
 writeFloat("WantedCoords+04", 1876.820557)
 writeFloat("WantedCoords+08", 247.3747101)
 
-target = "f8c1" -- Trigger (Script Name) --
+target = "Fossils #8 cycle 1" -- Trigger (Script Name) --
 
 {$asm}
 
@@ -13095,7 +12932,7 @@ target = "f8c1" -- Trigger (Script Name) --
                     </CheatEntry>
                     <CheatEntry>
                       <ID>18252</ID>
-                      <Description>"f9c1"</Description>
+                      <Description>"Fossils #9 cycle 1"</Description>
                       <LastState/>
                       <VariableType>Auto Assembler Script</VariableType>
                       <AssemblerScript>[ENABLE]
@@ -13110,7 +12947,7 @@ writeFloat("WantedCoords", -1624.168091)
 writeFloat("WantedCoords+04", 1764.28772)
 writeFloat("WantedCoords+08", 299.4487)
 
-target = "f9c1" -- Trigger (Script Name) --
+target = "Fossils #9 cycle 1" -- Trigger (Script Name) --
 
 {$asm}
 
@@ -13119,7 +12956,7 @@ target = "f9c1" -- Trigger (Script Name) --
                     </CheatEntry>
                     <CheatEntry>
                       <ID>18253</ID>
-                      <Description>"f10c1"</Description>
+                      <Description>"Fossils #10 cycle 1"</Description>
                       <LastState/>
                       <VariableType>Auto Assembler Script</VariableType>
                       <AssemblerScript>[ENABLE]
@@ -13134,7 +12971,7 @@ writeFloat("WantedCoords", -1486.849609)
 writeFloat("WantedCoords+04", 1250.739014)
 writeFloat("WantedCoords+08", 314.2279358)
 
-target = "f10c1" -- Trigger (Script Name) --
+target = "Fossils #10 cycle 1" -- Trigger (Script Name) --
 
 {$asm}
 
@@ -13143,7 +12980,7 @@ target = "f10c1" -- Trigger (Script Name) --
                     </CheatEntry>
                     <CheatEntry>
                       <ID>18254</ID>
-                      <Description>"f11c1"</Description>
+                      <Description>"Fossils #11 cycle 1"</Description>
                       <LastState/>
                       <VariableType>Auto Assembler Script</VariableType>
                       <AssemblerScript>[ENABLE]
@@ -13158,7 +12995,7 @@ writeFloat("WantedCoords", -2068.294189)
 writeFloat("WantedCoords+04", 1223.475464)
 writeFloat("WantedCoords+08", 228.1331787)
 
-target = "f11c1" -- Trigger (Script Name) --
+target = "Fossils #11 cycle 1" -- Trigger (Script Name) --
 
 {$asm}
 
@@ -13167,7 +13004,7 @@ target = "f11c1" -- Trigger (Script Name) --
                     </CheatEntry>
                     <CheatEntry>
                       <ID>18255</ID>
-                      <Description>"f12c1"</Description>
+                      <Description>"Fossils #12 cycle 1"</Description>
                       <LastState/>
                       <VariableType>Auto Assembler Script</VariableType>
                       <AssemblerScript>[ENABLE]
@@ -13182,7 +13019,7 @@ writeFloat("WantedCoords", -1539.170776)
 writeFloat("WantedCoords+04", 2966.246094)
 writeFloat("WantedCoords+08", 464.7380371)
 
-target = "f12c1" -- Trigger (Script Name) --
+target = "Fossils #12 cycle 1" -- Trigger (Script Name) --
 
 {$asm}
 
@@ -13191,7 +13028,7 @@ target = "f12c1" -- Trigger (Script Name) --
                     </CheatEntry>
                     <CheatEntry>
                       <ID>18256</ID>
-                      <Description>"f13c1"</Description>
+                      <Description>"Fossils #13 cycle 1"</Description>
                       <LastState/>
                       <VariableType>Auto Assembler Script</VariableType>
                       <AssemblerScript>[ENABLE]
@@ -13206,7 +13043,7 @@ writeFloat("WantedCoords", 228.8410492)
 writeFloat("WantedCoords+04", 1906.640747)
 writeFloat("WantedCoords+08", 205.9097443)
 
-target = "f13c1" -- Trigger (Script Name) --
+target = "Fossils #13 cycle 1" -- Trigger (Script Name) --
 
 {$asm}
 
@@ -13215,7 +13052,7 @@ target = "f13c1" -- Trigger (Script Name) --
                     </CheatEntry>
                     <CheatEntry>
                       <ID>18257</ID>
-                      <Description>"f14c1"</Description>
+                      <Description>"Fossils #14 cycle 1"</Description>
                       <LastState/>
                       <VariableType>Auto Assembler Script</VariableType>
                       <AssemblerScript>[ENABLE]
@@ -13230,7 +13067,7 @@ writeFloat("WantedCoords", -1086.398071)
 writeFloat("WantedCoords+04", 825.258728)
 writeFloat("WantedCoords+08", 116.5149689)
 
-target = "f14c1" -- Trigger (Script Name) --
+target = "Fossils #14 cycle 1" -- Trigger (Script Name) --
 
 {$asm}
 
@@ -13239,7 +13076,7 @@ target = "f14c1" -- Trigger (Script Name) --
                     </CheatEntry>
                     <CheatEntry>
                       <ID>18258</ID>
-                      <Description>"f15c1"</Description>
+                      <Description>"Fossils #15 cycle 1"</Description>
                       <LastState/>
                       <VariableType>Auto Assembler Script</VariableType>
                       <AssemblerScript>[ENABLE]
@@ -13254,7 +13091,7 @@ writeFloat("WantedCoords", 2956.776855)
 writeFloat("WantedCoords+04", 352.3850098)
 writeFloat("WantedCoords+08", 41.26715469)
 
-target = "f15c1" -- Trigger (Script Name) --
+target = "Fossils #15 cycle 1" -- Trigger (Script Name) --
 
 {$asm}
 
@@ -13263,7 +13100,7 @@ target = "f15c1" -- Trigger (Script Name) --
                     </CheatEntry>
                     <CheatEntry>
                       <ID>18259</ID>
-                      <Description>"f16c1"</Description>
+                      <Description>"Fossils #16 cycle 1"</Description>
                       <LastState/>
                       <VariableType>Auto Assembler Script</VariableType>
                       <AssemblerScript>[ENABLE]
@@ -13278,7 +13115,7 @@ writeFloat("WantedCoords", -2878.643311)
 writeFloat("WantedCoords+04", 96.75431061)
 writeFloat("WantedCoords+08", 183.5366974)
 
-target = "f16c1" -- Trigger (Script Name) --
+target = "Fossils #16 cycle 1" -- Trigger (Script Name) --
 
 {$asm}
 
@@ -13287,7 +13124,7 @@ target = "f16c1" -- Trigger (Script Name) --
                     </CheatEntry>
                     <CheatEntry>
                       <ID>18260</ID>
-                      <Description>"f17c1"</Description>
+                      <Description>"Fossils #17 cycle 1"</Description>
                       <LastState/>
                       <VariableType>Auto Assembler Script</VariableType>
                       <AssemblerScript>[ENABLE]
@@ -13302,7 +13139,7 @@ writeFloat("WantedCoords", 585.4782104)
 writeFloat("WantedCoords+04", -626.2605591)
 writeFloat("WantedCoords+08", 41.32126617)
 
-target = "f17c1" -- Trigger (Script Name) --
+target = "Fossils #17 cycle 1" -- Trigger (Script Name) --
 
 {$asm}
 
@@ -13311,7 +13148,7 @@ target = "f17c1" -- Trigger (Script Name) --
                     </CheatEntry>
                     <CheatEntry>
                       <ID>18261</ID>
-                      <Description>"f18c1"</Description>
+                      <Description>"Fossils #18 cycle 1"</Description>
                       <LastState/>
                       <VariableType>Auto Assembler Script</VariableType>
                       <AssemblerScript>[ENABLE]
@@ -13326,7 +13163,7 @@ writeFloat("WantedCoords", -2060.269531)
 writeFloat("WantedCoords+04", -853.8150024)
 writeFloat("WantedCoords+08", 83.25466156)
 
-target = "f18c1" -- Trigger (Script Name) --
+target = "Fossils #18 cycle 1Fossils #18 cycle 1" -- Trigger (Script Name) --
 
 {$asm}
 
@@ -13335,7 +13172,7 @@ target = "f18c1" -- Trigger (Script Name) --
                     </CheatEntry>
                     <CheatEntry>
                       <ID>18262</ID>
-                      <Description>"f19c1"</Description>
+                      <Description>"Fossils #19 cycle 1"</Description>
                       <LastState/>
                       <VariableType>Auto Assembler Script</VariableType>
                       <AssemblerScript>[ENABLE]
@@ -13350,7 +13187,7 @@ writeFloat("WantedCoords", -1834.253906)
 writeFloat("WantedCoords+04", -2237.515381)
 writeFloat("WantedCoords+08", 40.99359894)
 
-target = "f19c1" -- Trigger (Script Name) --
+target = "Fossils #19 cycle 1" -- Trigger (Script Name) --
 
 {$asm}
 
@@ -13369,7 +13206,7 @@ target = "f19c1" -- Trigger (Script Name) --
                   <CheatEntries>
                     <CheatEntry>
                       <ID>18296</ID>
-                      <Description>"f0c2"</Description>
+                      <Description>"Fossils #0 cycle 2"</Description>
                       <LastState/>
                       <VariableType>Auto Assembler Script</VariableType>
                       <AssemblerScript>[ENABLE]
@@ -13384,7 +13221,7 @@ writeFloat("WantedCoords", 1651.551025)
 writeFloat("WantedCoords+04", -697.5598145)
 writeFloat("WantedCoords+08", 41.28311539)
 
-target = "f0c2" -- Trigger (Script Name) --
+target = "Fossils #0 cycle 2" -- Trigger (Script Name) --
 
 {$asm}
 
@@ -13393,7 +13230,7 @@ target = "f0c2" -- Trigger (Script Name) --
                     </CheatEntry>
                     <CheatEntry>
                       <ID>18297</ID>
-                      <Description>"f1c2"</Description>
+                      <Description>"Fossils #1 cycle 2"</Description>
                       <LastState/>
                       <VariableType>Auto Assembler Script</VariableType>
                       <AssemblerScript>[ENABLE]
@@ -13408,7 +13245,7 @@ writeFloat("WantedCoords", 2793.623047)
 writeFloat("WantedCoords+04", -714.9155884)
 writeFloat("WantedCoords+08", 41.19080353)
 
-target = "f1c2" -- Trigger (Script Name) --
+target = "Fossils #1 cycle 2" -- Trigger (Script Name) --
 
 {$asm}
 
@@ -13417,7 +13254,7 @@ target = "f1c2" -- Trigger (Script Name) --
                     </CheatEntry>
                     <CheatEntry>
                       <ID>18298</ID>
-                      <Description>"f2c2"</Description>
+                      <Description>"Fossils #2 cycle 2"</Description>
                       <LastState/>
                       <VariableType>Auto Assembler Script</VariableType>
                       <AssemblerScript>[ENABLE]
@@ -13432,7 +13269,7 @@ writeFloat("WantedCoords", -1009.859436)
 writeFloat("WantedCoords+04", 1779.194824)
 writeFloat("WantedCoords+08", 292.9010925)
 
-target = "f2c2" -- Trigger (Script Name) --
+target = "Fossils #2 cycle 2" -- Trigger (Script Name) --
 
 {$asm}
 
@@ -13441,7 +13278,7 @@ target = "f2c2" -- Trigger (Script Name) --
                     </CheatEntry>
                     <CheatEntry>
                       <ID>18299</ID>
-                      <Description>"f3c2"</Description>
+                      <Description>"Fossils #3 cycle 2"</Description>
                       <LastState/>
                       <VariableType>Auto Assembler Script</VariableType>
                       <AssemblerScript>[ENABLE]
@@ -13456,7 +13293,7 @@ writeFloat("WantedCoords", -1631.803345)
 writeFloat("WantedCoords+04", 1664.38147)
 writeFloat("WantedCoords+08", 246.4295654)
 
-target = "f3c2" -- Trigger (Script Name) --
+target = "Fossils #3 cycle 2" -- Trigger (Script Name) --
 
 {$asm}
 
@@ -13465,7 +13302,7 @@ target = "f3c2" -- Trigger (Script Name) --
                     </CheatEntry>
                     <CheatEntry>
                       <ID>18300</ID>
-                      <Description>"f4c2"</Description>
+                      <Description>"Fossils #4 cycle 2"</Description>
                       <LastState/>
                       <VariableType>Auto Assembler Script</VariableType>
                       <AssemblerScript>[ENABLE]
@@ -13480,31 +13317,7 @@ writeFloat("WantedCoords", -1136.413696)
 writeFloat("WantedCoords+04", 2416.51709)
 writeFloat("WantedCoords+08", 332.3074951)
 
-target = "f4c2" -- Trigger (Script Name) --
-
-{$asm}
-
-[DISABLE]
-</AssemblerScript>
-                    </CheatEntry>
-                    <CheatEntry>
-                      <ID>18301</ID>
-                      <Description>"f5c2"</Description>
-                      <LastState/>
-                      <VariableType>Auto Assembler Script</VariableType>
-                      <AssemblerScript>[ENABLE]
-
-{$lua}
-
--- Teleport to Random Fossils #5 cycle 2 --
-
-writeInteger("TeleOn", 1)
-
-writeFloat("WantedCoords", -1328.4729)
-writeFloat("WantedCoords+04", 2290.390869)
-writeFloat("WantedCoords+08", 309.06604)
-
-target = "f5c2" -- Trigger (Script Name) --
+target = "Fossils #4 cycle 2" -- Trigger (Script Name) --
 
 {$asm}
 
@@ -13513,7 +13326,7 @@ target = "f5c2" -- Trigger (Script Name) --
                     </CheatEntry>
                     <CheatEntry>
                       <ID>18302</ID>
-                      <Description>"f6c2"</Description>
+                      <Description>"Fossils #6 cycle 2"</Description>
                       <LastState/>
                       <VariableType>Auto Assembler Script</VariableType>
                       <AssemblerScript>[ENABLE]
@@ -13528,7 +13341,31 @@ writeFloat("WantedCoords", -2007.475342)
 writeFloat("WantedCoords+04", 2272.099609)
 writeFloat("WantedCoords+08", 403.2709045)
 
-target = "f6c2" -- Trigger (Script Name) --
+target = "Fossils #6 cycle 2" -- Trigger (Script Name) --
+
+{$asm}
+
+[DISABLE]
+</AssemblerScript>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>18301</ID>
+                      <Description>"Fossils #5 cycle 2"</Description>
+                      <LastState/>
+                      <VariableType>Auto Assembler Script</VariableType>
+                      <AssemblerScript>[ENABLE]
+
+{$lua}
+
+-- Teleport to Random Fossils #5 cycle 2 --
+
+writeInteger("TeleOn", 1)
+
+writeFloat("WantedCoords", -1328.4729)
+writeFloat("WantedCoords+04", 2290.390869)
+writeFloat("WantedCoords+08", 309.06604)
+
+target = "Fossils #5 cycle 2" -- Trigger (Script Name) --
 
 {$asm}
 
@@ -13537,7 +13374,7 @@ target = "f6c2" -- Trigger (Script Name) --
                     </CheatEntry>
                     <CheatEntry>
                       <ID>18303</ID>
-                      <Description>"f7c2"</Description>
+                      <Description>"Fossils #7 cycle 2"</Description>
                       <LastState/>
                       <VariableType>Auto Assembler Script</VariableType>
                       <AssemblerScript>[ENABLE]
@@ -13552,7 +13389,7 @@ writeFloat("WantedCoords", -984.9836426)
 writeFloat("WantedCoords+04", 2174.818604)
 writeFloat("WantedCoords+08", 340.638916)
 
-target = "f7c2" -- Trigger (Script Name) --
+target = "Fossils #7 cycle 2" -- Trigger (Script Name) --
 
 {$asm}
 
@@ -13561,7 +13398,7 @@ target = "f7c2" -- Trigger (Script Name) --
                     </CheatEntry>
                     <CheatEntry>
                       <ID>18304</ID>
-                      <Description>"f8c2"</Description>
+                      <Description>"Fossils #8 cycle 2"</Description>
                       <LastState/>
                       <VariableType>Auto Assembler Script</VariableType>
                       <AssemblerScript>[ENABLE]
@@ -13576,7 +13413,7 @@ writeFloat("WantedCoords", -2180.191162)
 writeFloat("WantedCoords+04", 1804.600098)
 writeFloat("WantedCoords+08", 267.7091675)
 
-target = "f8c2" -- Trigger (Script Name) --
+target = "Fossils #8 cycle 2" -- Trigger (Script Name) --
 
 {$asm}
 
@@ -13585,7 +13422,7 @@ target = "f8c2" -- Trigger (Script Name) --
                     </CheatEntry>
                     <CheatEntry>
                       <ID>18305</ID>
-                      <Description>"f9c2"</Description>
+                      <Description>"Fossils #9 cycle 2"</Description>
                       <LastState/>
                       <VariableType>Auto Assembler Script</VariableType>
                       <AssemblerScript>[ENABLE]
@@ -13600,7 +13437,7 @@ writeFloat("WantedCoords", -761.4230957)
 writeFloat("WantedCoords+04", 1627.307861)
 writeFloat("WantedCoords+08", 281.5705872)
 
-target = "f9c2" -- Trigger (Script Name) --
+target = "Fossils #9 cycle 2" -- Trigger (Script Name) --
 
 {$asm}
 
@@ -13609,7 +13446,7 @@ target = "f9c2" -- Trigger (Script Name) --
                     </CheatEntry>
                     <CheatEntry>
                       <ID>18306</ID>
-                      <Description>"f10c2"</Description>
+                      <Description>"Fossils #10 cycle 2"</Description>
                       <LastState/>
                       <VariableType>Auto Assembler Script</VariableType>
                       <AssemblerScript>[ENABLE]
@@ -13624,7 +13461,7 @@ writeFloat("WantedCoords", -1464.852295)
 writeFloat("WantedCoords+04", 1544.626709)
 writeFloat("WantedCoords+08", 253.3795624)
 
-target = "f10c2" -- Trigger (Script Name) --
+target = "Fossils #10 cycle 2" -- Trigger (Script Name) --
 
 {$asm}
 
@@ -13633,7 +13470,7 @@ target = "f10c2" -- Trigger (Script Name) --
                     </CheatEntry>
                     <CheatEntry>
                       <ID>18307</ID>
-                      <Description>"f11c2"</Description>
+                      <Description>"Fossils #11 cycle 2"</Description>
                       <LastState/>
                       <VariableType>Auto Assembler Script</VariableType>
                       <AssemblerScript>[ENABLE]
@@ -13648,7 +13485,7 @@ writeFloat("WantedCoords", -1160.39209)
 writeFloat("WantedCoords+04", 1227.61731)
 writeFloat("WantedCoords+08", 222.0051727)
 
-target = "f11c2" -- Trigger (Script Name) --
+target = "Fossils #11 cycle 2" -- Trigger (Script Name) --
 
 {$asm}
 
@@ -13657,7 +13494,7 @@ target = "f11c2" -- Trigger (Script Name) --
                     </CheatEntry>
                     <CheatEntry>
                       <ID>18308</ID>
-                      <Description>"f12c2"</Description>
+                      <Description>"Fossils #12 cycle 2"</Description>
                       <LastState/>
                       <VariableType>Auto Assembler Script</VariableType>
                       <AssemblerScript>[ENABLE]
@@ -13672,7 +13509,7 @@ writeFloat("WantedCoords", -1032.992798)
 writeFloat("WantedCoords+04", 2873.387695)
 writeFloat("WantedCoords+08", 371.2247925)
 
-target = "f12c2" -- Trigger (Script Name) --
+target = "Fossils #12 cycle 2" -- Trigger (Script Name) --
 
 {$asm}
 
@@ -13681,7 +13518,7 @@ target = "f12c2" -- Trigger (Script Name) --
                     </CheatEntry>
                     <CheatEntry>
                       <ID>18309</ID>
-                      <Description>"f13c2"</Description>
+                      <Description>"Fossils #13 cycle 2"</Description>
                       <LastState/>
                       <VariableType>Auto Assembler Script</VariableType>
                       <AssemblerScript>[ENABLE]
@@ -13696,7 +13533,7 @@ writeFloat("WantedCoords", 2637.196533)
 writeFloat("WantedCoords+04", 1931.904175)
 writeFloat("WantedCoords+08", 85.17601776)
 
-target = "f13c2" -- Trigger (Script Name) --
+target = "Fossils #13 cycle 2" -- Trigger (Script Name) --
 
 {$asm}
 
@@ -13705,7 +13542,7 @@ target = "f13c2" -- Trigger (Script Name) --
                     </CheatEntry>
                     <CheatEntry>
                       <ID>18310</ID>
-                      <Description>"f14c2"</Description>
+                      <Description>"Fossils #14 cycle 2"</Description>
                       <LastState/>
                       <VariableType>Auto Assembler Script</VariableType>
                       <AssemblerScript>[ENABLE]
@@ -13720,7 +13557,7 @@ writeFloat("WantedCoords", -265.6948547)
 writeFloat("WantedCoords+04", 1414.214966)
 writeFloat("WantedCoords+08", 103.7921219)
 
-target = "f14c2" -- Trigger (Script Name) --
+target = "Fossils #14 cycle 2" -- Trigger (Script Name) --
 
 {$asm}
 
@@ -13729,7 +13566,7 @@ target = "f14c2" -- Trigger (Script Name) --
                     </CheatEntry>
                     <CheatEntry>
                       <ID>18311</ID>
-                      <Description>"f15c2"</Description>
+                      <Description>"Fossils #15 cycle 2"</Description>
                       <LastState/>
                       <VariableType>Auto Assembler Script</VariableType>
                       <AssemblerScript>[ENABLE]
@@ -13744,7 +13581,7 @@ writeFloat("WantedCoords", -1322.859009)
 writeFloat("WantedCoords+04", 1333.312622)
 writeFloat("WantedCoords+08", 203.5409393)
 
-target = "f15c2" -- Trigger (Script Name) --
+target = "Fossils #15 cycle 2" -- Trigger (Script Name) --
 
 {$asm}
 
@@ -13753,7 +13590,7 @@ target = "f15c2" -- Trigger (Script Name) --
                     </CheatEntry>
                     <CheatEntry>
                       <ID>18312</ID>
-                      <Description>"f16c2"</Description>
+                      <Description>"Fossils #16 cycle 2 "</Description>
                       <LastState/>
                       <VariableType>Auto Assembler Script</VariableType>
                       <AssemblerScript>[ENABLE]
@@ -13768,7 +13605,7 @@ writeFloat("WantedCoords", -1469.434448)
 writeFloat("WantedCoords+04", 278.4330139)
 writeFloat("WantedCoords+08", 91.6558609)
 
-target = "f16c2" -- Trigger (Script Name) --
+target = "Fossils #16 cycle 2 " -- Trigger (Script Name) --
 
 {$asm}
 
@@ -13777,7 +13614,7 @@ target = "f16c2" -- Trigger (Script Name) --
                     </CheatEntry>
                     <CheatEntry>
                       <ID>18313</ID>
-                      <Description>"f17c2"</Description>
+                      <Description>"Fossils #17 cycle 2"</Description>
                       <LastState/>
                       <VariableType>Auto Assembler Script</VariableType>
                       <AssemblerScript>[ENABLE]
@@ -13792,7 +13629,7 @@ writeFloat("WantedCoords", -648.5101318)
 writeFloat("WantedCoords+04", -281.5449524)
 writeFloat("WantedCoords+08", 41.07115936)
 
-target = "f17c2" -- Trigger (Script Name) --
+target = "Fossils #17 cycle 2" -- Trigger (Script Name) --
 
 {$asm}
 
@@ -13801,7 +13638,7 @@ target = "f17c2" -- Trigger (Script Name) --
                     </CheatEntry>
                     <CheatEntry>
                       <ID>18314</ID>
-                      <Description>"f18c2"</Description>
+                      <Description>"Fossils #18 cycle 2"</Description>
                       <LastState/>
                       <VariableType>Auto Assembler Script</VariableType>
                       <AssemblerScript>[ENABLE]
@@ -13816,7 +13653,7 @@ writeFloat("WantedCoords", 577.1245728)
 writeFloat("WantedCoords+04", -1625.356323)
 writeFloat("WantedCoords+08", 41.13658142)
 
-target = "f18c2" -- Trigger (Script Name) --
+target = "Fossils #18 cycle 2" -- Trigger (Script Name) --
 
 {$asm}
 
@@ -13825,7 +13662,7 @@ target = "f18c2" -- Trigger (Script Name) --
                     </CheatEntry>
                     <CheatEntry>
                       <ID>18315</ID>
-                      <Description>"f19c2"</Description>
+                      <Description>"Fossils #19 cycle 2"</Description>
                       <LastState/>
                       <VariableType>Auto Assembler Script</VariableType>
                       <AssemblerScript>[ENABLE]
@@ -13840,7 +13677,7 @@ writeFloat("WantedCoords", -2231.669922)
 writeFloat("WantedCoords+04", -2063.69165)
 writeFloat("WantedCoords+08", 58.32501602)
 
-target = "f19c2" -- Trigger (Script Name) --
+target = "Fossils #19 cycle 2" -- Trigger (Script Name) --
 
 {$asm}
 
@@ -13859,7 +13696,7 @@ target = "f19c2" -- Trigger (Script Name) --
                   <CheatEntries>
                     <CheatEntry>
                       <ID>18068</ID>
-                      <Description>"f0c3"</Description>
+                      <Description>"Fossils #0 cycle 3"</Description>
                       <LastState/>
                       <VariableType>Auto Assembler Script</VariableType>
                       <AssemblerScript>[ENABLE]
@@ -13874,7 +13711,7 @@ writeFloat("WantedCoords", 2835.220703)
 writeFloat("WantedCoords+04", -142.3752899)
 writeFloat("WantedCoords+08", 42.05176926)
 
-target = "f0c3" -- Trigger (Script Name) --
+target = "Fossils #0 cycle 3" -- Trigger (Script Name) --
 
 {$asm}
 
@@ -13883,7 +13720,7 @@ target = "f0c3" -- Trigger (Script Name) --
                     </CheatEntry>
                     <CheatEntry>
                       <ID>18069</ID>
-                      <Description>"f1c3"</Description>
+                      <Description>"Fossils #1 cycle 3"</Description>
                       <LastState/>
                       <VariableType>Auto Assembler Script</VariableType>
                       <AssemblerScript>[ENABLE]
@@ -13898,7 +13735,7 @@ writeFloat("WantedCoords", 2249.879639)
 writeFloat("WantedCoords+04", -1406.908569)
 writeFloat("WantedCoords+08", 41.23410797)
 
-target = "f1c3" -- Trigger (Script Name) --
+target = "Fossils #1 cycle 3" -- Trigger (Script Name) --
 
 {$asm}
 
@@ -13907,7 +13744,7 @@ target = "f1c3" -- Trigger (Script Name) --
                     </CheatEntry>
                     <CheatEntry>
                       <ID>18070</ID>
-                      <Description>"f2c3"</Description>
+                      <Description>"Fossils #2 cycle 3"</Description>
                       <LastState/>
                       <VariableType>Auto Assembler Script</VariableType>
                       <AssemblerScript>[ENABLE]
@@ -13922,7 +13759,7 @@ writeFloat("WantedCoords", -1119.414429)
 writeFloat("WantedCoords+04", 1077.690308)
 writeFloat("WantedCoords+08", 165.4438934)
 
-target = "f2c3" -- Trigger (Script Name) --
+target = "Fossils #2 cycle 3" -- Trigger (Script Name) --
 
 {$asm}
 
@@ -13931,7 +13768,7 @@ target = "f2c3" -- Trigger (Script Name) --
                     </CheatEntry>
                     <CheatEntry>
                       <ID>18071</ID>
-                      <Description>"f3c3"</Description>
+                      <Description>"Fossils #3 cycle 3"</Description>
                       <LastState/>
                       <VariableType>Auto Assembler Script</VariableType>
                       <AssemblerScript>[ENABLE]
@@ -13946,7 +13783,7 @@ writeFloat("WantedCoords", -1990.097778)
 writeFloat("WantedCoords+04", 1065.963501)
 writeFloat("WantedCoords+08", 168.3017273)
 
-target = "f3c3" -- Trigger (Script Name) --
+target = "Fossils #3 cycle 3" -- Trigger (Script Name) --
 
 {$asm}
 
@@ -13955,7 +13792,7 @@ target = "f3c3" -- Trigger (Script Name) --
                     </CheatEntry>
                     <CheatEntry>
                       <ID>18072</ID>
-                      <Description>"f4c3"</Description>
+                      <Description>"Fossils #4 cycle 3"</Description>
                       <LastState/>
                       <VariableType>Auto Assembler Script</VariableType>
                       <AssemblerScript>[ENABLE]
@@ -13970,7 +13807,7 @@ writeFloat("WantedCoords", -424.8774719)
 writeFloat("WantedCoords+04", 2765.98584)
 writeFloat("WantedCoords+08", 338.2911377)
 
-target = "f4c3" -- Trigger (Script Name) --
+target = "Fossils #4 cycle 3" -- Trigger (Script Name) --
 
 {$asm}
 
@@ -13979,7 +13816,7 @@ target = "f4c3" -- Trigger (Script Name) --
                     </CheatEntry>
                     <CheatEntry>
                       <ID>18073</ID>
-                      <Description>"f5c3"</Description>
+                      <Description>"Fossils #5 cycle 3"</Description>
                       <LastState/>
                       <VariableType>Auto Assembler Script</VariableType>
                       <AssemblerScript>[ENABLE]
@@ -13994,7 +13831,7 @@ writeFloat("WantedCoords", -1438.025024)
 writeFloat("WantedCoords+04", 2394.677246)
 writeFloat("WantedCoords+08", 314.4543457)
 
-target = "f5c3" -- Trigger (Script Name) --
+target = "Fossils #5 cycle 3" -- Trigger (Script Name) --
 
 {$asm}
 
@@ -14003,7 +13840,7 @@ target = "f5c3" -- Trigger (Script Name) --
                     </CheatEntry>
                     <CheatEntry>
                       <ID>18074</ID>
-                      <Description>"f6c3"</Description>
+                      <Description>"Fossils #6 cycle 3"</Description>
                       <LastState/>
                       <VariableType>Auto Assembler Script</VariableType>
                       <AssemblerScript>[ENABLE]
@@ -14018,7 +13855,7 @@ writeFloat("WantedCoords", -1589.386597)
 writeFloat("WantedCoords+04", 2207.746826)
 writeFloat("WantedCoords+08", 287.9769897)
 
-target = "f6c3" -- Trigger (Script Name) --
+target = "Fossils #6 cycle 3" -- Trigger (Script Name) --
 
 {$asm}
 
@@ -14027,7 +13864,7 @@ target = "f6c3" -- Trigger (Script Name) --
                     </CheatEntry>
                     <CheatEntry>
                       <ID>18075</ID>
-                      <Description>"f7c3"</Description>
+                      <Description>"Fossils #7 cycle 3"</Description>
                       <LastState/>
                       <VariableType>Auto Assembler Script</VariableType>
                       <AssemblerScript>[ENABLE]
@@ -14042,7 +13879,7 @@ writeFloat("WantedCoords", -1191.390869)
 writeFloat("WantedCoords+04", 2091.758057)
 writeFloat("WantedCoords+08", 348.6437378)
 
-target = "f7c3" -- Trigger (Script Name) --
+target = "Fossils #7 cycle 3" -- Trigger (Script Name) --
 
 {$asm}
 
@@ -14051,7 +13888,7 @@ target = "f7c3" -- Trigger (Script Name) --
                     </CheatEntry>
                     <CheatEntry>
                       <ID>18076</ID>
-                      <Description>"f8c3"</Description>
+                      <Description>"Fossils #8 cycle 3"</Description>
                       <LastState/>
                       <VariableType>Auto Assembler Script</VariableType>
                       <AssemblerScript>[ENABLE]
@@ -14066,7 +13903,7 @@ writeFloat("WantedCoords", -1607.718384)
 writeFloat("WantedCoords+04", 1747.143311)
 writeFloat("WantedCoords+08", 280.0177612)
 
-target = "f8c3" -- Trigger (Script Name) --
+target = "Fossils #8 cycle 3" -- Trigger (Script Name) --
 
 {$asm}
 
@@ -14075,7 +13912,7 @@ target = "f8c3" -- Trigger (Script Name) --
                     </CheatEntry>
                     <CheatEntry>
                       <ID>18077</ID>
-                      <Description>"f9c3"</Description>
+                      <Description>"Fossils #9 cycle 3"</Description>
                       <LastState/>
                       <VariableType>Auto Assembler Script</VariableType>
                       <AssemblerScript>[ENABLE]
@@ -14090,7 +13927,7 @@ writeFloat("WantedCoords", -1524.61084)
 writeFloat("WantedCoords+04", 1717.911255)
 writeFloat("WantedCoords+08", 240.053833)
 
-target = "f9c3" -- Trigger (Script Name) --
+target = "Fossils #9 cycle 3" -- Trigger (Script Name) --
 
 {$asm}
 
@@ -14099,7 +13936,7 @@ target = "f9c3" -- Trigger (Script Name) --
                     </CheatEntry>
                     <CheatEntry>
                       <ID>18078</ID>
-                      <Description>"f10c3"</Description>
+                      <Description>"Fossils #10 cycle 3"</Description>
                       <LastState/>
                       <VariableType>Auto Assembler Script</VariableType>
                       <AssemblerScript>[ENABLE]
@@ -14114,7 +13951,7 @@ writeFloat("WantedCoords", -1794.38623)
 writeFloat("WantedCoords+04", 1699.049927)
 writeFloat("WantedCoords+08", 238.2644653)
 
-target = "f10c3" -- Trigger (Script Name) --
+target = "Fossils #10 cycle 3" -- Trigger (Script Name) --
 
 {$asm}
 
@@ -14123,7 +13960,7 @@ target = "f10c3" -- Trigger (Script Name) --
                     </CheatEntry>
                     <CheatEntry>
                       <ID>18079</ID>
-                      <Description>"f11c3"</Description>
+                      <Description>"Fossils #11 cycle 3"</Description>
                       <LastState/>
                       <VariableType>Auto Assembler Script</VariableType>
                       <AssemblerScript>[ENABLE]
@@ -14138,7 +13975,7 @@ writeFloat("WantedCoords", -816.036499)
 writeFloat("WantedCoords+04", 1491.895386)
 writeFloat("WantedCoords+08", 260.5322266)
 
-target = "f11c3" -- Trigger (Script Name) --
+target = "Fossils #11 cycle 3" -- Trigger (Script Name) --
 
 {$asm}
 
@@ -14147,7 +13984,7 @@ target = "f11c3" -- Trigger (Script Name) --
                     </CheatEntry>
                     <CheatEntry>
                       <ID>18080</ID>
-                      <Description>"f12c3"</Description>
+                      <Description>"Fossils #12 cycle 3"</Description>
                       <LastState/>
                       <VariableType>Auto Assembler Script</VariableType>
                       <AssemblerScript>[ENABLE]
@@ -14162,7 +13999,7 @@ writeFloat("WantedCoords", -1623.429077)
 writeFloat("WantedCoords+04", -2439.88208)
 writeFloat("WantedCoords+08", 41.2563591)
 
-target = "f12c3" -- Trigger (Script Name) --
+target = "Fossils #12 cycle 3" -- Trigger (Script Name) --
 
 {$asm}
 
@@ -14171,7 +14008,7 @@ target = "f12c3" -- Trigger (Script Name) --
                     </CheatEntry>
                     <CheatEntry>
                       <ID>18081</ID>
-                      <Description>"f13c3"</Description>
+                      <Description>"Fossils #13 cycle 3"</Description>
                       <LastState/>
                       <VariableType>Auto Assembler Script</VariableType>
                       <AssemblerScript>[ENABLE]
@@ -14186,7 +14023,7 @@ writeFloat("WantedCoords", -5031.568359)
 writeFloat("WantedCoords+04", -4074.30835)
 writeFloat("WantedCoords+08", -28.43633652)
 
-target = "f13c3" -- Trigger (Script Name) --
+target = "Fossils #13 cycle 3" -- Trigger (Script Name) --
 
 {$asm}
 
@@ -14195,7 +14032,7 @@ target = "f13c3" -- Trigger (Script Name) --
                     </CheatEntry>
                     <CheatEntry>
                       <ID>18082</ID>
-                      <Description>"f14c3"</Description>
+                      <Description>"Fossils #14 cycle 3"</Description>
                       <LastState/>
                       <VariableType>Auto Assembler Script</VariableType>
                       <AssemblerScript>[ENABLE]
@@ -14210,7 +14047,7 @@ writeFloat("WantedCoords", -1829.03772)
 writeFloat("WantedCoords+04", 2239.913086)
 writeFloat("WantedCoords+08", 321.5876465)
 
-target = "f14c3" -- Trigger (Script Name) --
+target = "Fossils #14 cycle 3" -- Trigger (Script Name) --
 
 {$asm}
 
@@ -14219,7 +14056,7 @@ target = "f14c3" -- Trigger (Script Name) --
                     </CheatEntry>
                     <CheatEntry>
                       <ID>18083</ID>
-                      <Description>"f15c3"</Description>
+                      <Description>"Fossils #15 cycle 3 "</Description>
                       <LastState/>
                       <VariableType>Auto Assembler Script</VariableType>
                       <AssemblerScript>[ENABLE]
@@ -14234,7 +14071,7 @@ writeFloat("WantedCoords", 240.154892)
 writeFloat("WantedCoords+04", 1517.062622)
 writeFloat("WantedCoords+08", 115.1275558)
 
-target = "f15c3" -- Trigger (Script Name) --
+target = "Fossils #15 cycle 3 " -- Trigger (Script Name) --
 
 {$asm}
 
@@ -14243,7 +14080,7 @@ target = "f15c3" -- Trigger (Script Name) --
                     </CheatEntry>
                     <CheatEntry>
                       <ID>18084</ID>
-                      <Description>"f16c3"</Description>
+                      <Description>"Fossils #16 cycle 3"</Description>
                       <LastState/>
                       <VariableType>Auto Assembler Script</VariableType>
                       <AssemblerScript>[ENABLE]
@@ -14258,7 +14095,7 @@ writeFloat("WantedCoords", -422.5745544)
 writeFloat("WantedCoords+04", 74.07673645)
 writeFloat("WantedCoords+08", 41.24031448)
 
-target = "f16c3" -- Trigger (Script Name) --
+target = "Fossils #16 cycle 3" -- Trigger (Script Name) --
 
 {$asm}
 
@@ -14267,7 +14104,7 @@ target = "f16c3" -- Trigger (Script Name) --
                     </CheatEntry>
                     <CheatEntry>
                       <ID>18085</ID>
-                      <Description>"f17c3"</Description>
+                      <Description>"Fossils #17 cycle 3"</Description>
                       <LastState/>
                       <VariableType>Auto Assembler Script</VariableType>
                       <AssemblerScript>[ENABLE]
@@ -14282,7 +14119,7 @@ writeFloat("WantedCoords", -2675.340576)
 writeFloat("WantedCoords+04", -335.3591919)
 writeFloat("WantedCoords+08", 141.4073029)
 
-target = "f17c3" -- Trigger (Script Name) --
+target = "Fossils #17 cycle 3" -- Trigger (Script Name) --
 
 {$asm}
 
@@ -14291,7 +14128,7 @@ target = "f17c3" -- Trigger (Script Name) --
                     </CheatEntry>
                     <CheatEntry>
                       <ID>18086</ID>
-                      <Description>"f18c3"</Description>
+                      <Description>"Fossils #18 cycle 3"</Description>
                       <LastState/>
                       <VariableType>Auto Assembler Script</VariableType>
                       <AssemblerScript>[ENABLE]
@@ -14306,7 +14143,7 @@ writeFloat("WantedCoords", 404.6537476)
 writeFloat("WantedCoords+04", -1075.76062)
 writeFloat("WantedCoords+08", 41.14988708)
 
-target = "f18c3" -- Trigger (Script Name) --
+target = "Fossils #18 cycle 3" -- Trigger (Script Name) --
 
 {$asm}
 
@@ -14315,7 +14152,7 @@ target = "f18c3" -- Trigger (Script Name) --
                     </CheatEntry>
                     <CheatEntry>
                       <ID>18087</ID>
-                      <Description>"f19c3"</Description>
+                      <Description>"Fossils #19 cycle 3"</Description>
                       <LastState/>
                       <VariableType>Auto Assembler Script</VariableType>
                       <AssemblerScript>[ENABLE]
@@ -14330,7 +14167,7 @@ writeFloat("WantedCoords", -1887.042358)
 writeFloat("WantedCoords+04", -1178.74646)
 writeFloat("WantedCoords+08", 73.74314117)
 
-target = "f19c3" -- Trigger (Script Name) --
+target = "Fossils #19 cycle 3" -- Trigger (Script Name) --
 
 {$asm}
 
@@ -14349,7 +14186,7 @@ target = "f19c3" -- Trigger (Script Name) --
                   <CheatEntries>
                     <CheatEntry>
                       <ID>18089</ID>
-                      <Description>"f0c4"</Description>
+                      <Description>"Fossils #0 cycle 4"</Description>
                       <LastState/>
                       <VariableType>Auto Assembler Script</VariableType>
                       <AssemblerScript>[ENABLE]
@@ -14364,7 +14201,7 @@ writeFloat("WantedCoords", 2731.901855)
 writeFloat("WantedCoords+04", -432.5864563)
 writeFloat("WantedCoords+08", 41.33057785)
 
-target = "f0c4" -- Trigger (Script Name) --
+target = "Fossils #0 cycle 4" -- Trigger (Script Name) --
 
 {$asm}
 
@@ -14373,7 +14210,7 @@ target = "f0c4" -- Trigger (Script Name) --
                     </CheatEntry>
                     <CheatEntry>
                       <ID>18090</ID>
-                      <Description>"f1c4"</Description>
+                      <Description>"Fossils #1 cycle 4"</Description>
                       <LastState/>
                       <VariableType>Auto Assembler Script</VariableType>
                       <AssemblerScript>[ENABLE]
@@ -14388,7 +14225,7 @@ writeFloat("WantedCoords", 1627.445)
 writeFloat("WantedCoords+04", -1102.973)
 writeFloat("WantedCoords+08", 40.958)
 
-target = "f1c4" -- Trigger (Script Name) --
+target = "Fossils #1 cycle 4" -- Trigger (Script Name) --
 
 {$asm}
 
@@ -14397,7 +14234,7 @@ target = "f1c4" -- Trigger (Script Name) --
                     </CheatEntry>
                     <CheatEntry>
                       <ID>18091</ID>
-                      <Description>"f2c4"</Description>
+                      <Description>"Fossils #2 cycle 4"</Description>
                       <LastState/>
                       <VariableType>Auto Assembler Script</VariableType>
                       <AssemblerScript>[ENABLE]
@@ -14412,7 +14249,7 @@ writeFloat("WantedCoords", -2553.352)
 writeFloat("WantedCoords+04", 1253.864)
 writeFloat("WantedCoords+08", 242.930)
 
-target = "f2c4" -- Trigger (Script Name) --
+target = "Fossils #2 cycle 4" -- Trigger (Script Name) --
 
 {$asm}
 
@@ -14422,7 +14259,7 @@ target = "f2c4" -- Trigger (Script Name) --
                     </CheatEntry>
                     <CheatEntry>
                       <ID>18092</ID>
-                      <Description>"f3c4"</Description>
+                      <Description>"Fossils #3 cycle 4"</Description>
                       <LastState/>
                       <VariableType>Auto Assembler Script</VariableType>
                       <AssemblerScript>[ENABLE]
@@ -14437,7 +14274,7 @@ writeFloat("WantedCoords", -2058.642)
 writeFloat("WantedCoords+04", 1135.916)
 writeFloat("WantedCoords+08", 185.374)
 
-target = "f3c4" -- Trigger (Script Name) --
+target = "Fossils #3 cycle 4" -- Trigger (Script Name) --
 
 {$asm}
 
@@ -14447,7 +14284,7 @@ target = "f3c4" -- Trigger (Script Name) --
                     </CheatEntry>
                     <CheatEntry>
                       <ID>18093</ID>
-                      <Description>"f4c4"</Description>
+                      <Description>"Fossils #4 cycle 4"</Description>
                       <LastState/>
                       <VariableType>Auto Assembler Script</VariableType>
                       <AssemblerScript>[ENABLE]
@@ -14462,7 +14299,7 @@ writeFloat("WantedCoords", -1064.803)
 writeFloat("WantedCoords+04", 2939.659)
 writeFloat("WantedCoords+08", 406.434)
 
-target = "f4c4" -- Trigger (Script Name) --
+target = "Fossils #4 cycle 4" -- Trigger (Script Name) --
 
 {$asm}
 
@@ -14471,7 +14308,7 @@ target = "f4c4" -- Trigger (Script Name) --
                     </CheatEntry>
                     <CheatEntry>
                       <ID>18096</ID>
-                      <Description>"f5c4"</Description>
+                      <Description>"Fossils #5 cycle 4"</Description>
                       <LastState/>
                       <VariableType>Auto Assembler Script</VariableType>
                       <AssemblerScript>[ENABLE]
@@ -14486,7 +14323,7 @@ writeFloat("WantedCoords", -1013.544)
 writeFloat("WantedCoords+04", 2633.267)
 writeFloat("WantedCoords+08", 312.515)
 
-target = "f5c4" -- Trigger (Script Name) --
+target = "Fossils #5 cycle 4" -- Trigger (Script Name) --
 
 {$asm}
 
@@ -14495,7 +14332,7 @@ target = "f5c4" -- Trigger (Script Name) --
                     </CheatEntry>
                     <CheatEntry>
                       <ID>18095</ID>
-                      <Description>"f6c4"</Description>
+                      <Description>"Fossils #6 cycle 4"</Description>
                       <LastState/>
                       <VariableType>Auto Assembler Script</VariableType>
                       <AssemblerScript>[ENABLE]
@@ -14510,7 +14347,7 @@ writeFloat("WantedCoords", -539.4762)
 writeFloat("WantedCoords+04", 2599.759)
 writeFloat("WantedCoords+08", 338.485)
 
-target = "f6c4" -- Trigger (Script Name) --
+target = "Fossils #6 cycle 4" -- Trigger (Script Name) --
 
 {$asm}
 
@@ -14519,7 +14356,7 @@ target = "f6c4" -- Trigger (Script Name) --
                     </CheatEntry>
                     <CheatEntry>
                       <ID>18097</ID>
-                      <Description>"f7c4"</Description>
+                      <Description>"Fossils #7 cycle 4"</Description>
                       <LastState/>
                       <VariableType>Auto Assembler Script</VariableType>
                       <AssemblerScript>[ENABLE]
@@ -14534,7 +14371,7 @@ writeFloat("WantedCoords", -1721.169)
 writeFloat("WantedCoords+04", 2542.754)
 writeFloat("WantedCoords+08", 472.801)
 
-target = "f7c4" -- Trigger (Script Name) --
+target = "Fossils #7 cycle 4" -- Trigger (Script Name) --
 
 {$asm}
 
@@ -14544,7 +14381,7 @@ target = "f7c4" -- Trigger (Script Name) --
                     </CheatEntry>
                     <CheatEntry>
                       <ID>18098</ID>
-                      <Description>"f8c4"</Description>
+                      <Description>"Fossils #8 cycle 4"</Description>
                       <LastState/>
                       <VariableType>Auto Assembler Script</VariableType>
                       <AssemblerScript>[ENABLE]
@@ -14559,7 +14396,7 @@ writeFloat("WantedCoords", -1467.755)
 writeFloat("WantedCoords+04", 2031.860)
 writeFloat("WantedCoords+08", 338.888)
 
-target = "f8c4" -- Trigger (Script Name) --
+target = "Fossils #8 cycle 4" -- Trigger (Script Name) --
 
 {$asm}
 
@@ -14569,7 +14406,7 @@ target = "f8c4" -- Trigger (Script Name) --
                     </CheatEntry>
                     <CheatEntry>
                       <ID>18099</ID>
-                      <Description>"f9c4"</Description>
+                      <Description>"Fossils #9 cycle 4"</Description>
                       <LastState/>
                       <VariableType>Auto Assembler Script</VariableType>
                       <AssemblerScript>[ENABLE]
@@ -14584,7 +14421,7 @@ writeFloat("WantedCoords", -1603.244)
 writeFloat("WantedCoords+04", 1867.089)
 writeFloat("WantedCoords+08", 319.507)
 
-target = "f9c4" -- Trigger (Script Name) --
+target = "Fossils #9 cycle 4" -- Trigger (Script Name) --
 
 {$asm}
 
@@ -14593,7 +14430,7 @@ target = "f9c4" -- Trigger (Script Name) --
                     </CheatEntry>
                     <CheatEntry>
                       <ID>18100</ID>
-                      <Description>"f10c4"</Description>
+                      <Description>"Fossils #10 cycle 4"</Description>
                       <LastState/>
                       <VariableType>Auto Assembler Script</VariableType>
                       <AssemblerScript>[ENABLE]
@@ -14608,7 +14445,7 @@ writeFloat("WantedCoords", -2109.658)
 writeFloat("WantedCoords+04", 1835.669)
 writeFloat("WantedCoords+08", 254.783)
 
-target = "f10c4" -- Trigger (Script Name) --
+target = "Fossils #10 cycle 4" -- Trigger (Script Name) --
 
 {$asm}
 
@@ -14618,7 +14455,7 @@ target = "f10c4" -- Trigger (Script Name) --
                     </CheatEntry>
                     <CheatEntry>
                       <ID>18101</ID>
-                      <Description>"f11c4"</Description>
+                      <Description>"Fossils #11 cycle 4"</Description>
                       <LastState/>
                       <VariableType>Auto Assembler Script</VariableType>
                       <AssemblerScript>[ENABLE]
@@ -14633,7 +14470,7 @@ writeFloat("WantedCoords", -885.798)
 writeFloat("WantedCoords+04", 1362.759)
 writeFloat("WantedCoords+08", 244.330)
 
-target = "f11c4" -- Trigger (Script Name) --
+target = "Fossils #11 cycle 4" -- Trigger (Script Name) --
 
 {$asm}
 
@@ -14643,7 +14480,7 @@ target = "f11c4" -- Trigger (Script Name) --
                     </CheatEntry>
                     <CheatEntry>
                       <ID>18102</ID>
-                      <Description>"f12c4"</Description>
+                      <Description>"Fossils #12 cycle 4"</Description>
                       <LastState/>
                       <VariableType>Auto Assembler Script</VariableType>
                       <AssemblerScript>[ENABLE]
@@ -14658,7 +14495,7 @@ writeFloat("WantedCoords", -3998.869)
 writeFloat("WantedCoords+04", -3877.719)
 writeFloat("WantedCoords+08", -25.060)
 
-target = "f12c4" -- Trigger (Script Name) --
+target = "Fossils #12 cycle 4" -- Trigger (Script Name) --
 
 {$asm}
 
@@ -14668,7 +14505,7 @@ target = "f12c4" -- Trigger (Script Name) --
                     </CheatEntry>
                     <CheatEntry>
                       <ID>18103</ID>
-                      <Description>"f13c4"</Description>
+                      <Description>"Fossils #13 cycle 4"</Description>
                       <LastState/>
                       <VariableType>Auto Assembler Script</VariableType>
                       <AssemblerScript>[ENABLE]
@@ -14683,7 +14520,7 @@ writeFloat("WantedCoords", 1585.101)
 writeFloat("WantedCoords+04", 1433.948)
 writeFloat("WantedCoords+08", 145.300)
 
-target = "f13c4" -- Trigger (Script Name) --
+target = "Fossils #13 cycle 4" -- Trigger (Script Name) --
 
 {$asm}
 
@@ -14693,7 +14530,7 @@ target = "f13c4" -- Trigger (Script Name) --
                     </CheatEntry>
                     <CheatEntry>
                       <ID>18104</ID>
-                      <Description>"f14c4"</Description>
+                      <Description>"Fossils #14 cycle 4"</Description>
                       <LastState/>
                       <VariableType>Auto Assembler Script</VariableType>
                       <AssemblerScript>[ENABLE]
@@ -14708,7 +14545,7 @@ writeFloat("WantedCoords", -474.336)
 writeFloat("WantedCoords+04", 999.376)
 writeFloat("WantedCoords+08", 86.948)
 
-target = "f14c4" -- Trigger (Script Name) --
+target = "Fossils #14 cycle 4" -- Trigger (Script Name) --
 
 {$asm}
 
@@ -14717,7 +14554,7 @@ target = "f14c4" -- Trigger (Script Name) --
                     </CheatEntry>
                     <CheatEntry>
                       <ID>18105</ID>
-                      <Description>"f15c4"</Description>
+                      <Description>"Fossils #15 cycle 4"</Description>
                       <LastState/>
                       <VariableType>Auto Assembler Script</VariableType>
                       <AssemblerScript>[ENABLE]
@@ -14732,7 +14569,7 @@ writeFloat("WantedCoords", -750.426)
 writeFloat("WantedCoords+04", 613.683)
 writeFloat("WantedCoords+08", 56.223)
 
-target = "f15c4" -- Trigger (Script Name) --
+target = "Fossils #15 cycle 4" -- Trigger (Script Name) --
 
 {$asm}
 
@@ -14741,7 +14578,7 @@ target = "f15c4" -- Trigger (Script Name) --
                     </CheatEntry>
                     <CheatEntry>
                       <ID>18106</ID>
-                      <Description>"f16c4"</Description>
+                      <Description>"Fossils #16 cycle 4"</Description>
                       <LastState/>
                       <VariableType>Auto Assembler Script</VariableType>
                       <AssemblerScript>[ENABLE]
@@ -14756,7 +14593,7 @@ writeFloat("WantedCoords", -1731.013)
 writeFloat("WantedCoords+04", 467.105)
 writeFloat("WantedCoords+08", 109.298)
 
-target = "f16c4" -- Trigger (Script Name) --
+target = "Fossils #16 cycle 4" -- Trigger (Script Name) --
 
 {$asm}
 
@@ -14766,7 +14603,7 @@ target = "f16c4" -- Trigger (Script Name) --
                     </CheatEntry>
                     <CheatEntry>
                       <ID>18107</ID>
-                      <Description>"f17c4"</Description>
+                      <Description>"Fossils #17 cycle 4"</Description>
                       <LastState/>
                       <VariableType>Auto Assembler Script</VariableType>
                       <AssemblerScript>[ENABLE]
@@ -14781,7 +14618,7 @@ writeFloat("WantedCoords", -2503.090)
 writeFloat("WantedCoords+04", -1549.557)
 writeFloat("WantedCoords+08", 143.908)
 
-target = "f17c4" -- Trigger (Script Name) --
+target = "Fossils #17 cycle 4" -- Trigger (Script Name) --
 
 {$asm}
 
@@ -14790,7 +14627,7 @@ target = "f17c4" -- Trigger (Script Name) --
                     </CheatEntry>
                     <CheatEntry>
                       <ID>18108</ID>
-                      <Description>"f18c4"</Description>
+                      <Description>"Fossils #18 cycle 4"</Description>
                       <LastState/>
                       <VariableType>Auto Assembler Script</VariableType>
                       <AssemblerScript>[ENABLE]
@@ -14805,7 +14642,7 @@ writeFloat("WantedCoords", -965.894)
 writeFloat("WantedCoords+04", -1952.706)
 writeFloat("WantedCoords+08", 41.362)
 
-target = "f18c4" -- Trigger (Script Name) --
+target = "Fossils #18 cycle 4" -- Trigger (Script Name) --
 
 {$asm}
 
@@ -14815,7 +14652,7 @@ target = "f18c4" -- Trigger (Script Name) --
                     </CheatEntry>
                     <CheatEntry>
                       <ID>18109</ID>
-                      <Description>"f19c4"</Description>
+                      <Description>"Fossils #19 cycle 4"</Description>
                       <LastState/>
                       <VariableType>Auto Assembler Script</VariableType>
                       <AssemblerScript>[ENABLE]
@@ -14830,7 +14667,7 @@ writeFloat("WantedCoords", 1529.713)
 writeFloat("WantedCoords+04", -2172.824)
 writeFloat("WantedCoords+08", 41.082)
 
-target = "f19c4" -- Trigger (Script Name) --
+target = "Fossils #19 cycle 4" -- Trigger (Script Name) --
 
 {$asm}
 
@@ -14850,14 +14687,14 @@ target = "f19c4" -- Trigger (Script Name) --
                   <CheatEntries>
                     <CheatEntry>
                       <ID>18111</ID>
-                      <Description>"f0c5"</Description>
+                      <Description>"Fossils #19 cycle 4"</Description>
                       <LastState/>
                       <VariableType>Auto Assembler Script</VariableType>
                       <AssemblerScript>[ENABLE]
 
 {$lua}
 
--- Teleport to Random Fossils #0 cycle 5 --
+-- Teleport to Random Fossils #19 cycle 4 --
 
 writeInteger("TeleOn", 1)
 
@@ -14865,7 +14702,7 @@ writeFloat("WantedCoords", 498.252)
 writeFloat("WantedCoords+04", 535.045)
 writeFloat("WantedCoords+08", 109.040)
 
-target = "f0c5" -- Trigger (Script Name) --
+target = "Fossils #19 cycle 4" -- Trigger (Script Name) --
 
 {$asm}
 
@@ -14876,7 +14713,7 @@ target = "f0c5" -- Trigger (Script Name) --
                     </CheatEntry>
                     <CheatEntry>
                       <ID>18112</ID>
-                      <Description>"f1c5"</Description>
+                      <Description>"Fossils #1 cycle 5"</Description>
                       <LastState/>
                       <VariableType>Auto Assembler Script</VariableType>
                       <AssemblerScript>[ENABLE]
@@ -14891,7 +14728,7 @@ writeFloat("WantedCoords", 2191.839)
 writeFloat("WantedCoords+04", -423.644)
 writeFloat("WantedCoords+08", 40.260)
 
-target = "f1c5" -- Trigger (Script Name) --
+target = "Fossils #1 cycle 5" -- Trigger (Script Name) --
 
 {$asm}
 
@@ -14900,7 +14737,7 @@ target = "f1c5" -- Trigger (Script Name) --
                     </CheatEntry>
                     <CheatEntry>
                       <ID>18113</ID>
-                      <Description>"f2c5"</Description>
+                      <Description>"Fossils #2 cycle 5"</Description>
                       <LastState/>
                       <VariableType>Auto Assembler Script</VariableType>
                       <AssemblerScript>[ENABLE]
@@ -14915,7 +14752,7 @@ writeFloat("WantedCoords", -2007.136)
 writeFloat("WantedCoords+04", 1163.366)
 writeFloat("WantedCoords+08", 176.218)
 
-target = "f2c5" -- Trigger (Script Name) --
+target = "Fossils #2 cycle 5" -- Trigger (Script Name) --
 
 {$asm}
 
@@ -14924,7 +14761,7 @@ target = "f2c5" -- Trigger (Script Name) --
                     </CheatEntry>
                     <CheatEntry>
                       <ID>18114</ID>
-                      <Description>"f3c5"</Description>
+                      <Description>"Fossils #3 cycle 5"</Description>
                       <LastState/>
                       <VariableType>Auto Assembler Script</VariableType>
                       <AssemblerScript>[ENABLE]
@@ -14939,7 +14776,7 @@ writeFloat("WantedCoords", -1209.104)
 writeFloat("WantedCoords+04", 1058.882)
 writeFloat("WantedCoords+08", 171.119)
 
-target = "f3c5" -- Trigger (Script Name) --
+target = "Fossils #3 cycle 5" -- Trigger (Script Name) --
 
 {$asm}
 
@@ -14948,7 +14785,7 @@ target = "f3c5" -- Trigger (Script Name) --
                     </CheatEntry>
                     <CheatEntry>
                       <ID>18115</ID>
-                      <Description>"f4c5"</Description>
+                      <Description>"Fossils #4 cycle 5"</Description>
                       <LastState/>
                       <VariableType>Auto Assembler Script</VariableType>
                       <AssemblerScript>[ENABLE]
@@ -14963,7 +14800,7 @@ writeFloat("WantedCoords", -1414.724)
 writeFloat("WantedCoords+04", 2731.593)
 writeFloat("WantedCoords+08", 412.371)
 
-target = "f4c5" -- Trigger (Script Name) --
+target = "Fossils #4 cycle 5" -- Trigger (Script Name) --
 
 {$asm}
 
@@ -14973,7 +14810,7 @@ target = "f4c5" -- Trigger (Script Name) --
                     </CheatEntry>
                     <CheatEntry>
                       <ID>18116</ID>
-                      <Description>"f5c5"</Description>
+                      <Description>"Fossils #5 cycle 5"</Description>
                       <LastState/>
                       <VariableType>Auto Assembler Script</VariableType>
                       <AssemblerScript>[ENABLE]
@@ -14988,7 +14825,7 @@ writeFloat("WantedCoords", -653.426)
 writeFloat("WantedCoords+04", 2687.632)
 writeFloat("WantedCoords+08", 343.908)
 
-target = "f5c5" -- Trigger (Script Name) --
+target = "Fossils #5 cycle 5" -- Trigger (Script Name) --
 
 {$asm}
 
@@ -14998,7 +14835,7 @@ target = "f5c5" -- Trigger (Script Name) --
                     </CheatEntry>
                     <CheatEntry>
                       <ID>18117</ID>
-                      <Description>"f6c5"</Description>
+                      <Description>"Fossils #6 cycle 5"</Description>
                       <LastState/>
                       <VariableType>Auto Assembler Script</VariableType>
                       <AssemblerScript>[ENABLE]
@@ -15013,7 +14850,7 @@ writeFloat("WantedCoords", -1154.727)
 writeFloat("WantedCoords+04", 2343.450)
 writeFloat("WantedCoords+08", 325.300)
 
-target = "f6c5" -- Trigger (Script Name) --
+target = "Fossils #6 cycle 5" -- Trigger (Script Name) --
 
 {$asm}
 
@@ -15023,7 +14860,7 @@ target = "f6c5" -- Trigger (Script Name) --
                     </CheatEntry>
                     <CheatEntry>
                       <ID>18118</ID>
-                      <Description>"f7c5"</Description>
+                      <Description>"Fossils #7 cycle 5"</Description>
                       <LastState/>
                       <VariableType>Auto Assembler Script</VariableType>
                       <AssemblerScript>[ENABLE]
@@ -15038,7 +14875,7 @@ writeFloat("WantedCoords", -1762.407)
 writeFloat("WantedCoords+04", 2029.023)
 writeFloat("WantedCoords+08", 264.213)
 
-target = "f7c5" -- Trigger (Script Name) --
+target = "Fossils #7 cycle 5" -- Trigger (Script Name) --
 
 {$asm}
 
@@ -15048,7 +14885,7 @@ target = "f7c5" -- Trigger (Script Name) --
                     </CheatEntry>
                     <CheatEntry>
                       <ID>18119</ID>
-                      <Description>"f8c5"</Description>
+                      <Description>"Fossils #8 cycle 5"</Description>
                       <LastState/>
                       <VariableType>Auto Assembler Script</VariableType>
                       <AssemblerScript>[ENABLE]
@@ -15063,7 +14900,7 @@ writeFloat("WantedCoords", -1980.897217)
 writeFloat("WantedCoords+04", 1884.143433)
 writeFloat("WantedCoords+08", 263.9796448)
 
-target = "f8c5" -- Trigger (Script Name) --
+target = "Fossils #8 cycle 5" -- Trigger (Script Name) --
 
 {$asm}
 
@@ -15072,7 +14909,7 @@ target = "f8c5" -- Trigger (Script Name) --
                     </CheatEntry>
                     <CheatEntry>
                       <ID>18120</ID>
-                      <Description>"f9c5"</Description>
+                      <Description>"Fossils #9 cycle 5"</Description>
                       <LastState/>
                       <VariableType>Auto Assembler Script</VariableType>
                       <AssemblerScript>[ENABLE]
@@ -15087,7 +14924,7 @@ writeFloat("WantedCoords", -1454.797363)
 writeFloat("WantedCoords+04", 1863.832031)
 writeFloat("WantedCoords+08", 306.5140076)
 
-target = "f9c5" -- Trigger (Script Name) --
+target = "Fossils #9 cycle 5" -- Trigger (Script Name) --
 
 {$asm}
 
@@ -15097,7 +14934,7 @@ target = "f9c5" -- Trigger (Script Name) --
                     </CheatEntry>
                     <CheatEntry>
                       <ID>18121</ID>
-                      <Description>"f10c5"</Description>
+                      <Description>"Fossils #10 cycle 5"</Description>
                       <LastState/>
                       <VariableType>Auto Assembler Script</VariableType>
                       <AssemblerScript>[ENABLE]
@@ -15112,7 +14949,7 @@ writeFloat("WantedCoords", -929.2442017)
 writeFloat("WantedCoords+04", 1549.597168)
 writeFloat("WantedCoords+08", 238.319519)
 
-target = "f10c5" -- Trigger (Script Name) --
+target = "Fossils #10 cycle 5" -- Trigger (Script Name) --
 
 {$asm}
 
@@ -15122,7 +14959,7 @@ target = "f10c5" -- Trigger (Script Name) --
                     </CheatEntry>
                     <CheatEntry>
                       <ID>18122</ID>
-                      <Description>"f11c5"</Description>
+                      <Description>"Fossils #11 cycle 5"</Description>
                       <LastState/>
                       <VariableType>Auto Assembler Script</VariableType>
                       <AssemblerScript>[ENABLE]
@@ -15137,7 +14974,7 @@ writeFloat("WantedCoords", -1165.062744)
 writeFloat("WantedCoords+04", 1430.570801)
 writeFloat("WantedCoords+08", 303.9924622)
 
-target = "f11c5" -- Trigger (Script Name) --
+target = "Fossils #11 cycle 5" -- Trigger (Script Name) --
 
 {$asm}
 
@@ -15147,7 +14984,7 @@ target = "f11c5" -- Trigger (Script Name) --
                     </CheatEntry>
                     <CheatEntry>
                       <ID>18123</ID>
-                      <Description>"f12c5"</Description>
+                      <Description>"Fossils #12 cycle 5"</Description>
                       <LastState/>
                       <VariableType>Auto Assembler Script</VariableType>
                       <AssemblerScript>[ENABLE]
@@ -15162,7 +14999,7 @@ writeFloat("WantedCoords", -2645.657959)
 writeFloat("WantedCoords+04", -3252.847168)
 writeFloat("WantedCoords+08", -15.91741276)
 
-target = "f12c5" -- Trigger (Script Name) --
+target = "Fossils #12 cycle 5" -- Trigger (Script Name) --
 
 {$asm}
 
@@ -15173,7 +15010,7 @@ target = "f12c5" -- Trigger (Script Name) --
                     </CheatEntry>
                     <CheatEntry>
                       <ID>18124</ID>
-                      <Description>"f13c5"</Description>
+                      <Description>"Fossils #13 cycle 5"</Description>
                       <LastState/>
                       <VariableType>Auto Assembler Script</VariableType>
                       <AssemblerScript>[ENABLE]
@@ -15188,7 +15025,7 @@ writeFloat("WantedCoords", 2825.729248)
 writeFloat("WantedCoords+04", 2180.165527)
 writeFloat("WantedCoords+08", 155.9847565)
 
-target = "f13c5" -- Trigger (Script Name) --
+target = "Fossils #13 cycle 5" -- Trigger (Script Name) --
 
 {$asm}
 
@@ -15199,7 +15036,7 @@ target = "f13c5" -- Trigger (Script Name) --
                     </CheatEntry>
                     <CheatEntry>
                       <ID>18125</ID>
-                      <Description>"f14c5"</Description>
+                      <Description>"Fossils #14 cycle 5"</Description>
                       <LastState/>
                       <VariableType>Auto Assembler Script</VariableType>
                       <AssemblerScript>[ENABLE]
@@ -15214,7 +15051,7 @@ writeFloat("WantedCoords", 547.7647095)
 writeFloat("WantedCoords+04", 1800.818726)
 writeFloat("WantedCoords+08", 128.4347382)
 
-target = "f14c5" -- Trigger (Script Name) --
+target = "Fossils #14 cycle 5" -- Trigger (Script Name) --
 
 {$asm}
 
@@ -15224,7 +15061,7 @@ target = "f14c5" -- Trigger (Script Name) --
                     </CheatEntry>
                     <CheatEntry>
                       <ID>18126</ID>
-                      <Description>"f15c5"</Description>
+                      <Description>"Fossils #15 cycle 5"</Description>
                       <LastState/>
                       <VariableType>Auto Assembler Script</VariableType>
                       <AssemblerScript>[ENABLE]
@@ -15239,7 +15076,7 @@ writeFloat("WantedCoords", 2235.089)
 writeFloat("WantedCoords+04", 1355.341)
 writeFloat("WantedCoords+08", 84.755)
 
-target = "f15c5" -- Trigger (Script Name) --
+target = "Fossils #15 cycle 5" -- Trigger (Script Name) --
 
 {$asm}
 
@@ -15249,7 +15086,7 @@ target = "f15c5" -- Trigger (Script Name) --
                     </CheatEntry>
                     <CheatEntry>
                       <ID>18127</ID>
-                      <Description>"f16c5"</Description>
+                      <Description>"Fossils #16 cycle 5"</Description>
                       <LastState/>
                       <VariableType>Auto Assembler Script</VariableType>
                       <AssemblerScript>[ENABLE]
@@ -15264,7 +15101,7 @@ writeFloat("WantedCoords", 2298.747)
 writeFloat("WantedCoords+04", 895.895)
 writeFloat("WantedCoords+08", 73.262)
 
-target = "f16c5" -- Trigger (Script Name) --
+target = "Fossils #16 cycle 5" -- Trigger (Script Name) --
 
 {$asm}
 
@@ -15273,7 +15110,7 @@ target = "f16c5" -- Trigger (Script Name) --
                     </CheatEntry>
                     <CheatEntry>
                       <ID>18128</ID>
-                      <Description>"f17c5"</Description>
+                      <Description>"Fossils #17 cycle 5"</Description>
                       <LastState/>
                       <VariableType>Auto Assembler Script</VariableType>
                       <AssemblerScript>[ENABLE]
@@ -15288,7 +15125,7 @@ writeFloat("WantedCoords", -2464.400)
 writeFloat("WantedCoords+04", 770.253)
 writeFloat("WantedCoords+08", 129.681)
 
-target = "f17c5" -- Trigger (Script Name) --
+target = "Fossils #17 cycle 5" -- Trigger (Script Name) --
 
 {$asm}
 
@@ -15298,7 +15135,7 @@ target = "f17c5" -- Trigger (Script Name) --
                     </CheatEntry>
                     <CheatEntry>
                       <ID>18129</ID>
-                      <Description>"f18c5"</Description>
+                      <Description>"Fossils #18 cycle 5"</Description>
                       <LastState/>
                       <VariableType>Auto Assembler Script</VariableType>
                       <AssemblerScript>[ENABLE]
@@ -15313,7 +15150,7 @@ writeFloat("WantedCoords", 1315.810547)
 writeFloat("WantedCoords+04", 662.6310425)
 writeFloat("WantedCoords+08", 86.70950317)
 
-target = "f18c5" -- Trigger (Script Name) --
+target = "Fossils #18 cycle 5" -- Trigger (Script Name) --
 
 {$asm}
 
@@ -15324,7 +15161,7 @@ target = "f18c5" -- Trigger (Script Name) --
                     </CheatEntry>
                     <CheatEntry>
                       <ID>18130</ID>
-                      <Description>"f19c5"</Description>
+                      <Description>"Fossils #19 cycle 5"</Description>
                       <LastState/>
                       <VariableType>Auto Assembler Script</VariableType>
                       <AssemblerScript>[ENABLE]
@@ -15339,7 +15176,7 @@ writeFloat("WantedCoords", 1133.343628)
 writeFloat("WantedCoords+04", -130.7171478)
 writeFloat("WantedCoords+08", 85.2987442)
 
-target = "f19c5" -- Trigger (Script Name) --
+target = "Fossils #19 cycle 5" -- Trigger (Script Name) --
 
 {$asm}
 
@@ -15350,57 +15187,31 @@ target = "f19c5" -- Trigger (Script Name) --
                   </CheatEntries>
                 </CheatEntry>
                 <CheatEntry>
-                  <ID>18405</ID>
-                  <Description>"Cycle 6  (Soon)"</Description>
+                  <ID>19338</ID>
+                  <Description>"Cycle 6"</Description>
                   <Options moHideChildren="1" moDeactivateChildrenAsWell="1"/>
                   <LastState Value="" RealAddress="00000000"/>
                   <Color>FFBB77</Color>
                   <GroupHeader>1</GroupHeader>
                   <CheatEntries>
                     <CheatEntry>
-                      <ID>18406</ID>
-                      <Description>"f0c6"</Description>
+                      <ID>19339</ID>
+                      <Description>"Fossils #0 cycle 6"</Description>
                       <LastState/>
                       <VariableType>Auto Assembler Script</VariableType>
                       <AssemblerScript>[ENABLE]
 
 {$lua}
 
--- Teleport to Random Fossils #0 cycle 5 --
+-- Teleport to Random Fossils #0 cycle 6 --
 
 writeInteger("TeleOn", 1)
 
-writeFloat("WantedCoords", 498.252)
-writeFloat("WantedCoords+04", 535.045)
-writeFloat("WantedCoords+08", 109.040)
+writeFloat("WantedCoords", 2435.025879)
+writeFloat("WantedCoords+04", -329.0709839)
+writeFloat("WantedCoords+08", 41.24594498)
 
-target = "f0c5" -- Trigger (Script Name) --
-
-{$asm}
-
-[DISABLE]
-
-
-</AssemblerScript>
-                    </CheatEntry>
-                    <CheatEntry>
-                      <ID>18407</ID>
-                      <Description>"f1c6"</Description>
-                      <LastState/>
-                      <VariableType>Auto Assembler Script</VariableType>
-                      <AssemblerScript>[ENABLE]
-
-{$lua}
-
--- Teleport to Random Fossils #1 cycle 5 --
-
-writeInteger("TeleOn", 1)
-
-writeFloat("WantedCoords", 2191.839)
-writeFloat("WantedCoords+04", -423.644)
-writeFloat("WantedCoords+08", 40.260)
-
-target = "f1c5" -- Trigger (Script Name) --
+target = "Fossils #0 cycle 6" -- Trigger (Script Name) --
 
 {$asm}
 
@@ -15408,23 +15219,23 @@ target = "f1c5" -- Trigger (Script Name) --
 </AssemblerScript>
                     </CheatEntry>
                     <CheatEntry>
-                      <ID>18408</ID>
-                      <Description>"f2c6"</Description>
+                      <ID>19340</ID>
+                      <Description>"Fossils #1 cycle 6"</Description>
                       <LastState/>
                       <VariableType>Auto Assembler Script</VariableType>
                       <AssemblerScript>[ENABLE]
 
 {$lua}
 
--- Teleport to Random Fossils #2 cycle 5 --
+-- Teleport to Random Fossils #1 cycle 6 --
 
 writeInteger("TeleOn", 1)
 
-writeFloat("WantedCoords", -2007.136)
-writeFloat("WantedCoords+04", 1163.366)
-writeFloat("WantedCoords+08", 176.218)
+writeFloat("WantedCoords", 1932.276611)
+writeFloat("WantedCoords+04", -965.7416992)
+writeFloat("WantedCoords+08", 40.77045822)
 
-target = "f2c5" -- Trigger (Script Name) --
+target = "Fossils #1 cycle 6" -- Trigger (Script Name) --
 
 {$asm}
 
@@ -15432,23 +15243,23 @@ target = "f2c5" -- Trigger (Script Name) --
 </AssemblerScript>
                     </CheatEntry>
                     <CheatEntry>
-                      <ID>18409</ID>
-                      <Description>"f3c6"</Description>
+                      <ID>19341</ID>
+                      <Description>"Fossils #2 cycle 6"</Description>
                       <LastState/>
                       <VariableType>Auto Assembler Script</VariableType>
                       <AssemblerScript>[ENABLE]
 
 {$lua}
 
--- Teleport to Random Fossils #3 cycle 5 --
+-- Teleport to Random Fossils #2 cycle 6 --
 
 writeInteger("TeleOn", 1)
 
-writeFloat("WantedCoords", -1209.104)
-writeFloat("WantedCoords+04", 1058.882)
-writeFloat("WantedCoords+08", 171.119)
+writeFloat("WantedCoords", -1917.383667)
+writeFloat("WantedCoords+04", 1228.625977)
+writeFloat("WantedCoords+08", 186.17659)
 
-target = "f3c5" -- Trigger (Script Name) --
+target = "Fossils #2 cycle 6" -- Trigger (Script Name) --
 
 {$asm}
 
@@ -15456,123 +15267,23 @@ target = "f3c5" -- Trigger (Script Name) --
 </AssemblerScript>
                     </CheatEntry>
                     <CheatEntry>
-                      <ID>18410</ID>
-                      <Description>"f4c6"</Description>
+                      <ID>19342</ID>
+                      <Description>"Fossils #3 cycle 6"</Description>
                       <LastState/>
                       <VariableType>Auto Assembler Script</VariableType>
                       <AssemblerScript>[ENABLE]
 
 {$lua}
 
--- Teleport to Random Fossils #4 cycle 5 --
+-- Teleport to Random Fossils #3 cycle 6 --
 
 writeInteger("TeleOn", 1)
 
-writeFloat("WantedCoords", -1414.724)
-writeFloat("WantedCoords+04", 2731.593)
-writeFloat("WantedCoords+08", 412.371)
+writeFloat("WantedCoords", -2174.999023)
+writeFloat("WantedCoords+04", 1071.984741)
+writeFloat("WantedCoords+08", 220.0830841)
 
-target = "f4c5" -- Trigger (Script Name) --
-
-{$asm}
-
-[DISABLE]
-
-</AssemblerScript>
-                    </CheatEntry>
-                    <CheatEntry>
-                      <ID>18411</ID>
-                      <Description>"f5c6"</Description>
-                      <LastState/>
-                      <VariableType>Auto Assembler Script</VariableType>
-                      <AssemblerScript>[ENABLE]
-
-{$lua}
-
--- Teleport to Random Fossils #5 cycle 5 --
-
-writeInteger("TeleOn", 1)
-
-writeFloat("WantedCoords", -653.426)
-writeFloat("WantedCoords+04", 2687.632)
-writeFloat("WantedCoords+08", 343.908)
-
-target = "f5c5" -- Trigger (Script Name) --
-
-{$asm}
-
-[DISABLE]
-
-</AssemblerScript>
-                    </CheatEntry>
-                    <CheatEntry>
-                      <ID>18412</ID>
-                      <Description>"f6c6"</Description>
-                      <LastState/>
-                      <VariableType>Auto Assembler Script</VariableType>
-                      <AssemblerScript>[ENABLE]
-
-{$lua}
-
--- Teleport to Random Fossils #6 cycle 5 --
-
-writeInteger("TeleOn", 1)
-
-writeFloat("WantedCoords", -1154.727)
-writeFloat("WantedCoords+04", 2343.450)
-writeFloat("WantedCoords+08", 325.300)
-
-target = "f6c5" -- Trigger (Script Name) --
-
-{$asm}
-
-[DISABLE]
-
-</AssemblerScript>
-                    </CheatEntry>
-                    <CheatEntry>
-                      <ID>18413</ID>
-                      <Description>"f7c6"</Description>
-                      <LastState/>
-                      <VariableType>Auto Assembler Script</VariableType>
-                      <AssemblerScript>[ENABLE]
-
-{$lua}
-
--- Teleport to Random Fossils #7 cycle 5 --
-
-writeInteger("TeleOn", 1)
-
-writeFloat("WantedCoords", -1762.407)
-writeFloat("WantedCoords+04", 2029.023)
-writeFloat("WantedCoords+08", 264.213)
-
-target = "f7c5" -- Trigger (Script Name) --
-
-{$asm}
-
-[DISABLE]
-
-</AssemblerScript>
-                    </CheatEntry>
-                    <CheatEntry>
-                      <ID>18414</ID>
-                      <Description>"f8c6"</Description>
-                      <LastState/>
-                      <VariableType>Auto Assembler Script</VariableType>
-                      <AssemblerScript>[ENABLE]
-
-{$lua}
-
--- Teleport to Random Fossils #8 cycle 5 --
-
-writeInteger("TeleOn", 1)
-
-writeFloat("WantedCoords", -1980.897217)
-writeFloat("WantedCoords+04", 1884.143433)
-writeFloat("WantedCoords+08", 263.9796448)
-
-target = "f8c5" -- Trigger (Script Name) --
+target = "Fossils #3 cycle 6" -- Trigger (Script Name) --
 
 {$asm}
 
@@ -15580,200 +15291,23 @@ target = "f8c5" -- Trigger (Script Name) --
 </AssemblerScript>
                     </CheatEntry>
                     <CheatEntry>
-                      <ID>18415</ID>
-                      <Description>"f9c6"</Description>
+                      <ID>19343</ID>
+                      <Description>"Fossils #4 cycle 6"</Description>
                       <LastState/>
                       <VariableType>Auto Assembler Script</VariableType>
                       <AssemblerScript>[ENABLE]
 
 {$lua}
 
--- Teleport to Random Fossils #9 cycle 5 --
+-- Teleport to Random Fossils #4 cycle 6 --
 
 writeInteger("TeleOn", 1)
 
-writeFloat("WantedCoords", -1454.797363)
-writeFloat("WantedCoords+04", 1863.832031)
-writeFloat("WantedCoords+08", 306.5140076)
+writeFloat("WantedCoords", -1480.147461)
+writeFloat("WantedCoords+04", 3113.432617)
+writeFloat("WantedCoords+08", 495.6645813)
 
-target = "f9c5" -- Trigger (Script Name) --
-
-{$asm}
-
-[DISABLE]
-
-</AssemblerScript>
-                    </CheatEntry>
-                    <CheatEntry>
-                      <ID>18416</ID>
-                      <Description>"f10c6"</Description>
-                      <LastState/>
-                      <VariableType>Auto Assembler Script</VariableType>
-                      <AssemblerScript>[ENABLE]
-
-{$lua}
-
--- Teleport to Random Fossils #10 cycle 5 --
-
-writeInteger("TeleOn", 1)
-
-writeFloat("WantedCoords", -929.2442017)
-writeFloat("WantedCoords+04", 1549.597168)
-writeFloat("WantedCoords+08", 238.319519)
-
-target = "f10c5" -- Trigger (Script Name) --
-
-{$asm}
-
-[DISABLE]
-
-</AssemblerScript>
-                    </CheatEntry>
-                    <CheatEntry>
-                      <ID>18417</ID>
-                      <Description>"f11c6"</Description>
-                      <LastState/>
-                      <VariableType>Auto Assembler Script</VariableType>
-                      <AssemblerScript>[ENABLE]
-
-{$lua}
-
--- Teleport to Random Fossils #11 cycle 5 --
-
-writeInteger("TeleOn", 1)
-
-writeFloat("WantedCoords", -1165.062744)
-writeFloat("WantedCoords+04", 1430.570801)
-writeFloat("WantedCoords+08", 303.9924622)
-
-target = "f11c5" -- Trigger (Script Name) --
-
-{$asm}
-
-[DISABLE]
-
-</AssemblerScript>
-                    </CheatEntry>
-                    <CheatEntry>
-                      <ID>18418</ID>
-                      <Description>"f12c6"</Description>
-                      <LastState/>
-                      <VariableType>Auto Assembler Script</VariableType>
-                      <AssemblerScript>[ENABLE]
-
-{$lua}
-
--- Teleport to Random Fossils #12 cycle 5 --
-
-writeInteger("TeleOn", 1)
-
-writeFloat("WantedCoords", -2645.657959)
-writeFloat("WantedCoords+04", -3252.847168)
-writeFloat("WantedCoords+08", -15.91741276)
-
-target = "f12c5" -- Trigger (Script Name) --
-
-{$asm}
-
-[DISABLE]
-
-
-</AssemblerScript>
-                    </CheatEntry>
-                    <CheatEntry>
-                      <ID>18419</ID>
-                      <Description>"f13c6"</Description>
-                      <LastState/>
-                      <VariableType>Auto Assembler Script</VariableType>
-                      <AssemblerScript>[ENABLE]
-
-{$lua}
-
--- Teleport to Random Fossils #13 cycle 5 --
-
-writeInteger("TeleOn", 1)
-
-writeFloat("WantedCoords", 2825.729248)
-writeFloat("WantedCoords+04", 2180.165527)
-writeFloat("WantedCoords+08", 155.9847565)
-
-target = "f13c5" -- Trigger (Script Name) --
-
-{$asm}
-
-[DISABLE]
-
-
-</AssemblerScript>
-                    </CheatEntry>
-                    <CheatEntry>
-                      <ID>18420</ID>
-                      <Description>"f14c6"</Description>
-                      <LastState/>
-                      <VariableType>Auto Assembler Script</VariableType>
-                      <AssemblerScript>[ENABLE]
-
-{$lua}
-
--- Teleport to Random Fossils #14 cycle 5 --
-
-writeInteger("TeleOn", 1)
-
-writeFloat("WantedCoords", 547.7647095)
-writeFloat("WantedCoords+04", 1800.818726)
-writeFloat("WantedCoords+08", 128.4347382)
-
-target = "f14c5" -- Trigger (Script Name) --
-
-{$asm}
-
-[DISABLE]
-
-</AssemblerScript>
-                    </CheatEntry>
-                    <CheatEntry>
-                      <ID>18421</ID>
-                      <Description>"f15c6"</Description>
-                      <LastState/>
-                      <VariableType>Auto Assembler Script</VariableType>
-                      <AssemblerScript>[ENABLE]
-
-{$lua}
-
--- Teleport to Random Fossils #15 cycle 5 --
-
-writeInteger("TeleOn", 1)
-
-writeFloat("WantedCoords", 2235.089)
-writeFloat("WantedCoords+04", 1355.341)
-writeFloat("WantedCoords+08", 84.755)
-
-target = "f15c5" -- Trigger (Script Name) --
-
-{$asm}
-
-[DISABLE]
-
-</AssemblerScript>
-                    </CheatEntry>
-                    <CheatEntry>
-                      <ID>18422</ID>
-                      <Description>"f16c6"</Description>
-                      <LastState/>
-                      <VariableType>Auto Assembler Script</VariableType>
-                      <AssemblerScript>[ENABLE]
-
-{$lua}
-
--- Teleport to Random Fossils #16 cycle 5 --
-
-writeInteger("TeleOn", 1)
-
-writeFloat("WantedCoords", 2298.747)
-writeFloat("WantedCoords+04", 895.895)
-writeFloat("WantedCoords+08", 73.262)
-
-target = "f16c5" -- Trigger (Script Name) --
+target = "Fossils #4 cycle 6" -- Trigger (Script Name) --
 
 {$asm}
 
@@ -15781,79 +15315,363 @@ target = "f16c5" -- Trigger (Script Name) --
 </AssemblerScript>
                     </CheatEntry>
                     <CheatEntry>
-                      <ID>18423</ID>
-                      <Description>"f17c6"</Description>
+                      <ID>19344</ID>
+                      <Description>"Fossils #5 cycle 6"</Description>
                       <LastState/>
                       <VariableType>Auto Assembler Script</VariableType>
                       <AssemblerScript>[ENABLE]
 
 {$lua}
 
--- Teleport to Random Fossils #17 cycle 5 --
+-- Teleport to Random Fossils #5 cycle 6 --
 
 writeInteger("TeleOn", 1)
 
-writeFloat("WantedCoords", -2464.400)
-writeFloat("WantedCoords+04", 770.253)
-writeFloat("WantedCoords+08", 129.681)
+writeFloat("WantedCoords", -726.6917114)
+writeFloat("WantedCoords+04", 2681.298584)
+writeFloat("WantedCoords+08", 347.690033)
 
-target = "f17c5" -- Trigger (Script Name) --
+target = "Fossils #5 cycle 6" -- Trigger (Script Name) --
 
 {$asm}
 
 [DISABLE]
-
 </AssemblerScript>
                     </CheatEntry>
                     <CheatEntry>
-                      <ID>18424</ID>
-                      <Description>"f18c6"</Description>
+                      <ID>19345</ID>
+                      <Description>"Fossils #6 cycle 6"</Description>
                       <LastState/>
                       <VariableType>Auto Assembler Script</VariableType>
                       <AssemblerScript>[ENABLE]
 
 {$lua}
 
--- Teleport to Random Fossils #18 cycle 5 --
+-- Teleport to Random Fossils #6 cycle 6 --
 
 writeInteger("TeleOn", 1)
 
-writeFloat("WantedCoords", 1315.810547)
-writeFloat("WantedCoords+04", 662.6310425)
-writeFloat("WantedCoords+08", 86.70950317)
+writeFloat("WantedCoords", -1505.842285)
+writeFloat("WantedCoords+04", 2455.21875)
+writeFloat("WantedCoords+08", 418.890564)
 
-target = "f18c5" -- Trigger (Script Name) --
+target = "Fossils #6 cycle 6" -- Trigger (Script Name) --
 
 {$asm}
 
 [DISABLE]
-
-
 </AssemblerScript>
                     </CheatEntry>
                     <CheatEntry>
-                      <ID>18425</ID>
-                      <Description>"f19c6"</Description>
+                      <ID>19346</ID>
+                      <Description>"Fossils #7 cycle 6"</Description>
                       <LastState/>
                       <VariableType>Auto Assembler Script</VariableType>
                       <AssemblerScript>[ENABLE]
 
 {$lua}
 
--- Teleport to Random Fossils #19 cycle 5 --
+-- Teleport to Random Fossils #7 cycle 6 --
 
 writeInteger("TeleOn", 1)
 
-writeFloat("WantedCoords", 1133.343628)
-writeFloat("WantedCoords+04", -130.7171478)
-writeFloat("WantedCoords+08", 85.2987442)
+writeFloat("WantedCoords", -1493.039185)
+writeFloat("WantedCoords+04", 2218.595459)
+writeFloat("WantedCoords+08", 294.6603699)
 
-target = "f19c5" -- Trigger (Script Name) --
+target = "Fossils #7 cycle 6" -- Trigger (Script Name) --
 
 {$asm}
 
 [DISABLE]
+</AssemblerScript>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>19347</ID>
+                      <Description>"Fossils #8 cycle 6"</Description>
+                      <LastState/>
+                      <VariableType>Auto Assembler Script</VariableType>
+                      <AssemblerScript>[ENABLE]
 
+{$lua}
+
+-- Teleport to Random Fossils #8 cycle 6 --
+
+writeInteger("TeleOn", 1)
+
+writeFloat("WantedCoords", -1876.754517)
+writeFloat("WantedCoords+04", 2176.624023)
+writeFloat("WantedCoords+08", 313.1261902)
+
+target = "Fossils #8 cycle 6" -- Trigger (Script Name) --
+
+{$asm}
+
+[DISABLE]
+</AssemblerScript>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>19348</ID>
+                      <Description>"Fossils #9 cycle 6"</Description>
+                      <LastState/>
+                      <VariableType>Auto Assembler Script</VariableType>
+                      <AssemblerScript>[ENABLE]
+
+{$lua}
+
+-- Teleport to Random Fossils #9 cycle 6 --
+
+writeInteger("TeleOn", 1)
+
+writeFloat("WantedCoords", -1060.62439)
+writeFloat("WantedCoords+04", 2018.185303)
+writeFloat("WantedCoords+08", 387.7857666)
+
+target = "Fossils #9 cycle 6" -- Trigger (Script Name) --
+
+{$asm}
+
+[DISABLE]
+</AssemblerScript>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>19349</ID>
+                      <Description>"Fossils #10 cycle 6"</Description>
+                      <LastState/>
+                      <VariableType>Auto Assembler Script</VariableType>
+                      <AssemblerScript>[ENABLE]
+
+{$lua}
+
+-- Teleport to Random Fossils #10 cycle 6 --
+
+writeInteger("TeleOn", 1)
+
+writeFloat("WantedCoords", -1408.885498)
+writeFloat("WantedCoords+04", 1443.551636)
+writeFloat("WantedCoords+08", 226.7288513)
+
+target = "Fossils #10 cycle 6" -- Trigger (Script Name) --
+
+{$asm}
+
+[DISABLE]
+</AssemblerScript>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>19350</ID>
+                      <Description>"Fossils #11 cycle 6"</Description>
+                      <LastState/>
+                      <VariableType>Auto Assembler Script</VariableType>
+                      <AssemblerScript>[ENABLE]
+
+{$lua}
+
+-- Teleport to Random Fossils #11 cycle 6 --
+
+writeInteger("TeleOn", 1)
+
+writeFloat("WantedCoords", -1207.928589)
+writeFloat("WantedCoords+04", 1147.796021)
+writeFloat("WantedCoords+08", 169.7966461)
+
+target = "Fossils #11 cycle 6" -- Trigger (Script Name) --
+
+{$asm}
+
+[DISABLE]
+</AssemblerScript>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>19351</ID>
+                      <Description>"Fossils #12 cycle 6"</Description>
+                      <LastState/>
+                      <VariableType>Auto Assembler Script</VariableType>
+                      <AssemblerScript>[ENABLE]
+
+{$lua}
+
+-- Teleport to Random Fossils #12 cycle 6 --
+
+writeInteger("TeleOn", 1)
+
+writeFloat("WantedCoords", -1626.041138)
+writeFloat("WantedCoords+04", -2834.797852)
+writeFloat("WantedCoords+08", -12.02259827)
+
+target = "Fossils #12 cycle 6" -- Trigger (Script Name) --
+
+{$asm}
+
+[DISABLE]
+</AssemblerScript>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>19352</ID>
+                      <Description>"Fossils #13 cycle 6"</Description>
+                      <LastState/>
+                      <VariableType>Auto Assembler Script</VariableType>
+                      <AssemblerScript>[ENABLE]
+
+{$lua}
+
+-- Teleport to Random Fossils #13 cycle 6 --
+
+writeInteger("TeleOn", 1)
+
+writeFloat("WantedCoords", -3444.729492)
+writeFloat("WantedCoords+04", -3148.460449)
+writeFloat("WantedCoords+08", -10.27750015)
+
+target = "Fossils #13 cycle 6" -- Trigger (Script Name) --
+
+{$asm}
+
+[DISABLE]
+</AssemblerScript>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>19353</ID>
+                      <Description>"Fossils #14 cycle 6"</Description>
+                      <LastState/>
+                      <VariableType>Auto Assembler Script</VariableType>
+                      <AssemblerScript>[ENABLE]
+
+{$lua}
+
+-- Teleport to Random Fossils #14 cycle 6 --
+
+writeInteger("TeleOn", 1)
+
+writeFloat("WantedCoords", 2258.75)
+writeFloat("WantedCoords+04", 333.9219971)
+writeFloat("WantedCoords+08", 44.26659012)
+
+target = "Fossils #14 cycle 6" -- Trigger (Script Name) --
+
+{$asm}
+
+[DISABLE]
+</AssemblerScript>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>19354</ID>
+                      <Description>"Fossils #15 cycle 6"</Description>
+                      <LastState/>
+                      <VariableType>Auto Assembler Script</VariableType>
+                      <AssemblerScript>[ENABLE]
+
+{$lua}
+
+-- Teleport to Random Fossils #15 cycle 6 --
+
+writeInteger("TeleOn", 1)
+
+writeFloat("WantedCoords", -1200.633545)
+writeFloat("WantedCoords+04", 112.3313828)
+writeFloat("WantedCoords+08", 41.17712784)
+
+target = "Fossils #15 cycle 6" -- Trigger (Script Name) --
+
+{$asm}
+
+[DISABLE]
+</AssemblerScript>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>19355</ID>
+                      <Description>"Fossils #16 cycle 6"</Description>
+                      <LastState/>
+                      <VariableType>Auto Assembler Script</VariableType>
+                      <AssemblerScript>[ENABLE]
+
+{$lua}
+
+-- Teleport to Random Fossils #16 cycle 6 --
+
+writeInteger("TeleOn", 1)
+
+writeFloat("WantedCoords", -273.1798096)
+writeFloat("WantedCoords+04", -590.0431519)
+writeFloat("WantedCoords+08", 41.10392761)
+
+target = "Fossils #16 cycle 6" -- Trigger (Script Name) --
+
+{$asm}
+
+[DISABLE]
+</AssemblerScript>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>19356</ID>
+                      <Description>"Fossils #17 cycle 6"</Description>
+                      <LastState/>
+                      <VariableType>Auto Assembler Script</VariableType>
+                      <AssemblerScript>[ENABLE]
+
+{$lua}
+
+-- Teleport to Random Fossils #17 cycle 6 --
+
+writeInteger("TeleOn", 1)
+
+writeFloat("WantedCoords", -858.2533569)
+writeFloat("WantedCoords+04", -957.595459)
+writeFloat("WantedCoords+08", 41.10464096)
+
+target = "Fossils #17 cycle 6" -- Trigger (Script Name) --
+
+{$asm}
+
+[DISABLE]
+</AssemblerScript>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>19357</ID>
+                      <Description>"Fossils #18 cycle 6"</Description>
+                      <LastState/>
+                      <VariableType>Auto Assembler Script</VariableType>
+                      <AssemblerScript>[ENABLE]
+
+{$lua}
+
+-- Teleport to Random Fossils #18 cycle 6 --
+
+writeInteger("TeleOn", 1)
+
+writeFloat("WantedCoords", 796.7579956)
+writeFloat("WantedCoords+04", -1217.003052)
+writeFloat("WantedCoords+08", 41.00985718)
+
+target = "Fossils #18 cycle 6" -- Trigger (Script Name) --
+
+{$asm}
+
+[DISABLE]
+</AssemblerScript>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>19358</ID>
+                      <Description>"Fossils #19 cycle 6"</Description>
+                      <LastState/>
+                      <VariableType>Auto Assembler Script</VariableType>
+                      <AssemblerScript>[ENABLE]
+
+{$lua}
+
+-- Teleport to Random Fossils #19 cycle 6 --
+
+writeInteger("TeleOn", 1)
+
+writeFloat("WantedCoords", -1527.928833)
+writeFloat("WantedCoords+04", -2183.390869)
+writeFloat("WantedCoords+08", 41.1567688)
+
+target = "Fossils #19 cycle 6" -- Trigger (Script Name) --
+
+{$asm}
+
+[DISABLE]
 </AssemblerScript>
                     </CheatEntry>
                   </CheatEntries>
@@ -26205,7 +26023,7 @@ target = "Gabbro Horn Ram Pos3" -- Trigger (Script Name) --
           <ID>17819</ID>
           <Description>"Locations"</Description>
           <Options moHideChildren="1" moDeactivateChildrenAsWell="1"/>
-          <LastState Value="" Activated="1" RealAddress="00000000"/>
+          <LastState Value="" RealAddress="00000000"/>
           <Color>C0C0C0</Color>
           <GroupHeader>1</GroupHeader>
           <CheatEntries>
@@ -26583,7 +26401,7 @@ target = "Lagras FT" -- Trigger (Script Name) --
               <ID>17836</ID>
               <Description>"Main Cities and Towns"</Description>
               <Options moHideChildren="1" moDeactivateChildrenAsWell="1"/>
-              <LastState Value="" Activated="1" RealAddress="00000000"/>
+              <LastState Value="" RealAddress="00000000"/>
               <Color>C0C0C0</Color>
               <GroupHeader>1</GroupHeader>
               <CheatEntries>
@@ -28852,7 +28670,6 @@ target = "island"
         <CheatEntry>
           <ID>17918</ID>
           <Description>"X"</Description>
-          <LastState Value="2723.816406" RealAddress="2CAA8A122A0"/>
           <ShowAsSigned>0</ShowAsSigned>
           <Color>FFFF80</Color>
           <VariableType>Float</VariableType>
@@ -28861,7 +28678,6 @@ target = "island"
         <CheatEntry>
           <ID>17919</ID>
           <Description>"Y"</Description>
-          <LastState Value="-1283.734131" RealAddress="2CAA8A122A4"/>
           <ShowAsSigned>0</ShowAsSigned>
           <Color>FFFF80</Color>
           <VariableType>Float</VariableType>
@@ -28870,7 +28686,6 @@ target = "island"
         <CheatEntry>
           <ID>17920</ID>
           <Description>"Z"</Description>
-          <LastState Value="49.3008728" RealAddress="2CAA8A122A8"/>
           <ShowAsSigned>0</ShowAsSigned>
           <Color>FFFF80</Color>
           <VariableType>Float</VariableType>
@@ -28885,7 +28700,6 @@ target = "island"
 1:Enabled
 
 </DropDownList>
-      <LastState Value="00" RealAddress="7FF6D63B1020"/>
       <ShowAsHex>1</ShowAsHex>
       <Color>FF9B9B</Color>
       <VariableType>Byte</VariableType>
@@ -28920,7 +28734,6 @@ target = "island"
 1:Enabled
 
 </DropDownList>
-      <LastState Value="00" RealAddress="7FF6D63B1048"/>
       <ShowAsHex>1</ShowAsHex>
       <Color>FF9B9B</Color>
       <VariableType>Byte</VariableType>
@@ -28955,7 +28768,6 @@ target = "island"
 1:Enabled
 
 </DropDownList>
-      <LastState Value="00" RealAddress="7FF6D63B1010"/>
       <ShowAsHex>1</ShowAsHex>
       <Color>FFB3B3</Color>
       <VariableType>Byte</VariableType>
@@ -28989,7 +28801,6 @@ target = "island"
 1:Enabled
 
 </DropDownList>
-      <LastState Value="00" RealAddress="7FF6D63B1018"/>
       <ShowAsHex>1</ShowAsHex>
       <Color>FFA74F</Color>
       <VariableType>Byte</VariableType>
@@ -29023,7 +28834,6 @@ target = "island"
 1:Enabled
 
 </DropDownList>
-      <LastState Value="00" RealAddress="7FF6D63B1058"/>
       <ShowAsHex>1</ShowAsHex>
       <Color>FF9F40</Color>
       <VariableType>Byte</VariableType>
@@ -29057,7 +28867,6 @@ target = "island"
 1:Enabled
 
 </DropDownList>
-      <LastState Value="00" RealAddress="7FF6D63B10A0"/>
       <ShowAsHex>1</ShowAsHex>
       <Color>FFBE37</Color>
       <VariableType>Byte</VariableType>
@@ -29781,21 +29590,18 @@ unregistersymbol(_Teleport)
                 <CheatEntry>
                   <ID>17196</ID>
                   <Description>"x"</Description>
-                  <LastState Value="3.81640625" RealAddress="2CAA8A12290"/>
                   <VariableType>Float</VariableType>
                   <Address>[coord2]+70</Address>
                 </CheatEntry>
                 <CheatEntry>
                   <ID>17197</ID>
                   <Description>"y"</Description>
-                  <LastState Value="-3.734130859" RealAddress="2CAA8A12294"/>
                   <VariableType>Float</VariableType>
                   <Address>[coord2]+74</Address>
                 </CheatEntry>
                 <CheatEntry>
                   <ID>17198</ID>
                   <Description>"z"</Description>
-                  <LastState Value="49.39087296" RealAddress="2CAA8A12298"/>
                   <VariableType>Float</VariableType>
                   <Address>[coord2]+78</Address>
                 </CheatEntry>
@@ -29810,7 +29616,6 @@ unregistersymbol(_Teleport)
 1:Enabled
 
 </DropDownList>
-          <LastState Value="0" RealAddress="7FF6D63B1028"/>
           <VariableType>Byte</VariableType>
           <Address>_enableInfiniteHealthCostumModel</Address>
         </CheatEntry>
@@ -30382,7 +30187,6 @@ PokerTimer.destroy()
                 <CheatEntry>
                   <ID>154</ID>
                   <Description>"_CamHeightVar (This value will be added/substracted)"</Description>
-                  <LastState Value="1" RealAddress="7FF6D63B1080"/>
                   <VariableType>Float</VariableType>
                   <Address>_CamHeightVar</Address>
                 </CheatEntry>
@@ -30392,7 +30196,6 @@ PokerTimer.destroy()
                   <DropDownList ReadOnly="1" DescriptionOnly="1" DisplayValueAsItem="1">1:Done
 0:Waiting for Input
 </DropDownList>
-                  <LastState Value="0" RealAddress="7FF6D63B1068"/>
                   <VariableType>Byte</VariableType>
                   <Address>_addCamHeight</Address>
                   <Hotkeys>
@@ -30414,7 +30217,6 @@ PokerTimer.destroy()
                   <DropDownList ReadOnly="1" DescriptionOnly="1" DisplayValueAsItem="1">1:Done
 0:Waiting for Input
 </DropDownList>
-                  <LastState Value="0" RealAddress="7FF6D63B1070"/>
                   <VariableType>Byte</VariableType>
                   <Address>_subCamHeight</Address>
                   <Hotkeys>
@@ -30436,7 +30238,6 @@ PokerTimer.destroy()
                   <DropDownList ReadOnly="1" DescriptionOnly="1" DisplayValueAsItem="1">1:Done
 0:Waiting for Input
 </DropDownList>
-                  <LastState Value="0" RealAddress="7FF6D63B1078"/>
                   <VariableType>Byte</VariableType>
                   <Address>_ResetCamHeight</Address>
                   <Hotkeys>
@@ -30781,7 +30582,6 @@ dealloc(newmem)
           <DropDownList ReadOnly="1" DescriptionOnly="1" DisplayValueAsItem="1">0:Disabled
 1:Enabled
 </DropDownList>
-          <LastState Value="00" RealAddress="7FF6D63B1090"/>
           <ShowAsHex>1</ShowAsHex>
           <Color>C0C0C0</Color>
           <VariableType>Byte</VariableType>
@@ -30811,7 +30611,6 @@ dealloc(newmem)
             <CheatEntry>
               <ID>16366</ID>
               <Description>"pHealth - Horse"</Description>
-              <LastState Value="0" RealAddress="2CAB2D9BEC0"/>
               <VariableType>Float</VariableType>
               <Address>_pHealthBaseHorse</Address>
               <Offsets>
@@ -30831,7 +30630,6 @@ dealloc(newmem)
             <CheatEntry>
               <ID>16359</ID>
               <Description>"HealthBase"</Description>
-              <LastState Value="000002CAB652C880" RealAddress="7FF6D63B1050"/>
               <ShowAsHex>1</ShowAsHex>
               <VariableType>8 Bytes</VariableType>
               <Address>_pPlayerHealthBase</Address>
@@ -30839,7 +30637,6 @@ dealloc(newmem)
             <CheatEntry>
               <ID>16357</ID>
               <Description>"DeadEyeBase"</Description>
-              <LastState Value="0000000000000000" RealAddress="7FF6D63B1038"/>
               <ShowAsHex>1</ShowAsHex>
               <VariableType>8 Bytes</VariableType>
               <Address>_pDeadEye</Address>
@@ -30847,7 +30644,6 @@ dealloc(newmem)
             <CheatEntry>
               <ID>16354</ID>
               <Description>"PlayerBase(AnyModel)"</Description>
-              <LastState Value="0000000000000000" RealAddress="7FF6D63B1000"/>
               <ShowAsHex>1</ShowAsHex>
               <VariableType>8 Bytes</VariableType>
               <Address>_pAnyModelBase</Address>
@@ -30855,7 +30651,6 @@ dealloc(newmem)
             <CheatEntry>
               <ID>16353</ID>
               <Description>"PlayerBase"</Description>
-              <LastState Value="000002D2FE9D3F40" RealAddress="7FF6D63B1008"/>
               <ShowAsHex>1</ShowAsHex>
               <VariableType>8 Bytes</VariableType>
               <Address>_pPlayer</Address>
@@ -30863,7 +30658,6 @@ dealloc(newmem)
             <CheatEntry>
               <ID>16358</ID>
               <Description>"StaminaBase"</Description>
-              <LastState Value="000002CAA0C50260" RealAddress="7FF6D63B1040"/>
               <ShowAsHex>1</ShowAsHex>
               <VariableType>8 Bytes</VariableType>
               <Address>_pStaminaBase</Address>
@@ -30871,7 +30665,6 @@ dealloc(newmem)
             <CheatEntry>
               <ID>16355</ID>
               <Description>"HorseBase"</Description>
-              <LastState Value="0000000000000000" RealAddress="7FF6D63B1098"/>
               <ShowAsHex>1</ShowAsHex>
               <VariableType>8 Bytes</VariableType>
               <Address>_pHorse</Address>
@@ -30879,7 +30672,6 @@ dealloc(newmem)
             <CheatEntry>
               <ID>16356</ID>
               <Description>"StaminaHorseBase"</Description>
-              <LastState Value="0000000000000000" RealAddress="7FF6D63B1030"/>
               <ShowAsHex>1</ShowAsHex>
               <VariableType>8 Bytes</VariableType>
               <Address>_pStaminaHorse</Address>
@@ -30887,7 +30679,6 @@ dealloc(newmem)
             <CheatEntry>
               <ID>16360</ID>
               <Description>"HealthBase - Horse"</Description>
-              <LastState Value="000002CAB2D9BEA0" RealAddress="7FF6D63B1088"/>
               <ShowAsHex>1</ShowAsHex>
               <VariableType>8 Bytes</VariableType>
               <Address>_pHealthBaseHorse</Address>
@@ -30913,7 +30704,6 @@ dealloc(newmem)
             <CheatEntry>
               <ID>16363</ID>
               <Description>"pStamina"</Description>
-              <LastState Value="13.42000008" RealAddress="2CAA0C50280"/>
               <VariableType>Float</VariableType>
               <Address>_pStaminaBase</Address>
               <Offsets>
@@ -30923,7 +30713,6 @@ dealloc(newmem)
             <CheatEntry>
               <ID>16364</ID>
               <Description>"pHealth"</Description>
-              <LastState Value="108.2799988" RealAddress="2CAB652C8A0"/>
               <VariableType>Float</VariableType>
               <Address>_pPlayerHealthBase</Address>
               <Offsets>
@@ -30933,7 +30722,6 @@ dealloc(newmem)
             <CheatEntry>
               <ID>16365</ID>
               <Description>"pHealthMax"</Description>
-              <LastState Value="42FE0000" RealAddress="2CAB652C8A4"/>
               <ShowAsHex>1</ShowAsHex>
               <VariableType>Float</VariableType>
               <Address>_pPlayerHealthBase</Address>
@@ -30944,14 +30732,12 @@ dealloc(newmem)
             <CheatEntry>
               <ID>16367</ID>
               <Description>"TimeOfDay (display)"</Description>
-              <LastState Value="0" RealAddress="7FF6DBD12A68"/>
               <VariableType>Float</VariableType>
               <Address>RDR2.exe+5952A68</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>16369</ID>
               <Description>"baseWeapon"</Description>
-              <LastState Value="0000000000000000" RealAddress="7FF6D63A001D"/>
               <ShowAsHex>1</ShowAsHex>
               <VariableType>8 Bytes</VariableType>
               <Address>baseWeapon</Address>
@@ -31046,7 +30832,6 @@ print('')
         <CheatEntry>
           <ID>18478</ID>
           <Description>"PLAYERLIST"</Description>
-          <LastState Value="48 8B 0D E9 65 B7 02 E8 44 B5 2C FF 8A 48 19 E8" RealAddress="7FF6D737D2E0"/>
           <ShowAsHex>1</ShowAsHex>
           <ShowAsSigned>0</ShowAsSigned>
           <VariableType>Array of byte</VariableType>
@@ -31056,7 +30841,6 @@ print('')
         <CheatEntry>
           <ID>18479</ID>
           <Description>"GEY PLAYER NAME"</Description>
-          <LastState Value="E8 DE 60 E7 00 48 85 C0 74 65 48 8D 54 24" RealAddress="7FF6D652DCE1"/>
           <ShowAsHex>1</ShowAsHex>
           <VariableType>Array of byte</VariableType>
           <ByteLength>14</ByteLength>
@@ -31065,7 +30849,6 @@ print('')
         <CheatEntry>
           <ID>18480</ID>
           <Description>"DRAW_RECT:"</Description>
-          <LastState Value="48 8B C4 48 89 58 08 57 48 83 EC 70 0F 29 70 E8 0F 28 F3 F3 0F 59 35 A9 4C 31 02" RealAddress="7FF6D733BBBC"/>
           <ShowAsHex>1</ShowAsHex>
           <VariableType>Array of byte</VariableType>
           <ByteLength>27</ByteLength>
@@ -31074,7 +30857,6 @@ print('')
         <CheatEntry>
           <ID>18481</ID>
           <Description>"world_to_screen:"</Description>
-          <LastState Value="48 89 5C 24 10 56 57 41 56 48 83 EC 60" RealAddress="7FF6D728B3A0"/>
           <ShowAsHex>1</ShowAsHex>
           <VariableType>Array of byte</VariableType>
           <ByteLength>13</ByteLength>
@@ -31083,7 +30865,6 @@ print('')
         <CheatEntry>
           <ID>18482</ID>
           <Description>"get_player_address:"</Description>
-          <LastState Value="40 53 48 83 EC 20 33 DB 38 1D FF A6 31 04 74 1C" RealAddress="7FF6D728947C"/>
           <ShowAsHex>1</ShowAsHex>
           <VariableType>Array of byte</VariableType>
           <ByteLength>16</ByteLength>
@@ -31092,7 +30873,6 @@ print('')
         <CheatEntry>
           <ID>19228</ID>
           <Description>"CPedFactory a.k.a WorldPTR"</Description>
-          <LastState Value="48 8B 15 FC B4 A9 03 48 C1 C9 05 48 C1 C1 20 48 33 D1 8B C1 83 E0 1F 48 C1 C2 20 FF C0 8A C8 8A 05 D6 B4 A9 03 48 D3 C2 84 C0 74 06 48 8B DA 48 F7 D3 48 8B 5B 08 48 8B C3 48 83 C4 20 5B C3 48 89 5C 24 08" RealAddress="7FF6D72894BD"/>
           <ShowAsHex>1</ShowAsHex>
           <VariableType>Array of byte</VariableType>
           <ByteLength>68</ByteLength>
@@ -31101,7 +30881,6 @@ print('')
         <CheatEntry>
           <ID>19230</ID>
           <Description>"GET_PED_BONE_COORDS"</Description>
-          <LastState Value="48 8B C4 48 89 58 08 48 89 70 10 57 48 81 EC 80 00 00 00 0F 29 70 E8 48 8B D9 8B CA" RealAddress="7FF6D737A73C"/>
           <ShowAsHex>1</ShowAsHex>
           <VariableType>Array of byte</VariableType>
           <ByteLength>28</ByteLength>
@@ -31111,7 +30890,6 @@ print('')
           <ID>19231</ID>
           <Description>"SET_PED_ON_MOUNT"</Description>
           <Options moHideChildren="1"/>
-          <LastState Value="72 133 201 15 132 82 2 0 0 72 139 196 72 137 88 8 72 137 104 16 72 137 112 24 72 137 120 32 65 84 65 86 65 87 72 131 236 64 69 138 225" RealAddress="7FF6D739843C"/>
           <ShowAsSigned>0</ShowAsSigned>
           <VariableType>Array of byte</VariableType>
           <ByteLength>41</ByteLength>

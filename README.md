@@ -7,8 +7,13 @@ Change Log/
 
 
 
-Added Coords to Treasure Chest Glitch 
-{BanRisk} Be Safe  !!
+Special thanks to PORNO STAR#5508 for the Coords !!
+Alcohol Cycle 6
+Arrowhead Cycle 6
+Fossils Cycle 6
+Changed names in collectables 
+
+
 
 
 V2.1.8
