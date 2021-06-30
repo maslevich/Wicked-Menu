@@ -912,7 +912,7 @@ TeleportHook.terminate()
     <CheatEntry>
       <ID>17918</ID>
       <Description>"X"</Description>
-      <LastState Value="875.9300537" RealAddress="209409E5A20"/>
+      <LastState Value="2745.782471" RealAddress="209409E5A20"/>
       <ShowAsSigned>0</ShowAsSigned>
       <Color>FFD7AE</Color>
       <VariableType>Float</VariableType>
@@ -921,7 +921,7 @@ TeleportHook.terminate()
     <CheatEntry>
       <ID>17919</ID>
       <Description>"Y"</Description>
-      <LastState Value="-1929.831055" RealAddress="209409E5A24"/>
+      <LastState Value="1411.19812" RealAddress="209409E5A24"/>
       <ShowAsSigned>0</ShowAsSigned>
       <Color>FFCE9D</Color>
       <VariableType>Float</VariableType>
@@ -930,7 +930,7 @@ TeleportHook.terminate()
     <CheatEntry>
       <ID>17920</ID>
       <Description>"Z"</Description>
-      <LastState Value="46.44349289" RealAddress="209409E5A28"/>
+      <LastState Value="98.71285248" RealAddress="209409E5A28"/>
       <ShowAsSigned>0</ShowAsSigned>
       <Color>FFC891</Color>
       <VariableType>Float</VariableType>
@@ -21162,7 +21162,7 @@ target = "King of Swords Cycle 3"
 
 SetCoordinates(-532.259, 2671.911, 318.747)
 
-target = "Ace of Wands Cycle 3E"
+target = "Ace of Wands Cycle 3"
 
 {$asm}
 
@@ -21499,21 +21499,22 @@ target = "Two of Pentacles Cycle 3"
                         </CheatEntry>
                         <CheatEntry>
                           <ID>16716</ID>
-                          <Description>"Two of Pentacles Cycle 3"</Description>
+                          <Description>"Three of Pentacles Cycle 3"</Description>
                           <LastState/>
                           <VariableType>Auto Assembler Script</VariableType>
-                          <AssemblerScript>[enable]
-    //" Three of Pentacles Cycle 3"
+                          <AssemblerScript>[ENABLE]
 
-    TeleOn:
-    dd 00000001
+{$lua}
 
-    WantedCoords:
-    dd (float)1456.964  //x
-    dd (float)802.532  //y
-    dd (float)99.863 //z
+-- Teleport to Three of Pentacles Cycle 3--
 
-[disable]
+SetCoordinates(1456.964, 802.532, 99.863)
+
+target = "Three of Pentacles Cycle 3"
+
+{$asm}
+
+[DISABLE]
 </AssemblerScript>
                         </CheatEntry>
                         <CheatEntry>
@@ -29752,21 +29753,21 @@ unregistersymbol(_Teleport)
                 <CheatEntry>
                   <ID>17196</ID>
                   <Description>"x"</Description>
-                  <LastState Value="11.93005371" RealAddress="209409E5A10"/>
+                  <LastState Value="25.7824707" RealAddress="209409E5A10"/>
                   <VariableType>Float</VariableType>
                   <Address>[coord2]+70</Address>
                 </CheatEntry>
                 <CheatEntry>
                   <ID>17197</ID>
                   <Description>"y"</Description>
-                  <LastState Value="-9.831054688" RealAddress="209409E5A14"/>
+                  <LastState Value="3.198120117" RealAddress="209409E5A14"/>
                   <VariableType>Float</VariableType>
                   <Address>[coord2]+74</Address>
                 </CheatEntry>
                 <CheatEntry>
                   <ID>17198</ID>
                   <Description>"z"</Description>
-                  <LastState Value="46.53349304" RealAddress="209409E5A18"/>
+                  <LastState Value="98.80284882" RealAddress="209409E5A18"/>
                   <VariableType>Float</VariableType>
                   <Address>[coord2]+78</Address>
                 </CheatEntry>
@@ -30904,7 +30905,7 @@ dealloc(newmem)
             <CheatEntry>
               <ID>16365</ID>
               <Description>"pHealthMax"</Description>
-              <LastState Value="3F800000" RealAddress="2093530A194"/>
+              <LastState Value="00000000" RealAddress="2093530A194"/>
               <ShowAsHex>1</ShowAsHex>
               <VariableType>Float</VariableType>
               <Address>_pPlayerHealthBase</Address>
