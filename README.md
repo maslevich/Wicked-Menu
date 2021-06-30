@@ -8,6 +8,7 @@ Change Log/
 
 V2.1.8.b
 Added: 
+Family Heirlooms Cycle 5
 Auto Teleport to Cycle 3 and 4 Tarot Cards 
 Github Link to menu
 Moved:

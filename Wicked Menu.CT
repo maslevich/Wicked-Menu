@@ -912,7 +912,7 @@ TeleportHook.terminate()
     <CheatEntry>
       <ID>17918</ID>
       <Description>"X"</Description>
-      <LastState Value="2745.782471" RealAddress="209409E5A20"/>
+      <LastState Value="2337.344971" RealAddress="209409E5A20"/>
       <ShowAsSigned>0</ShowAsSigned>
       <Color>FFD7AE</Color>
       <VariableType>Float</VariableType>
@@ -921,7 +921,7 @@ TeleportHook.terminate()
     <CheatEntry>
       <ID>17919</ID>
       <Description>"Y"</Description>
-      <LastState Value="1411.19812" RealAddress="209409E5A24"/>
+      <LastState Value="-1199.984131" RealAddress="209409E5A24"/>
       <ShowAsSigned>0</ShowAsSigned>
       <Color>FFCE9D</Color>
       <VariableType>Float</VariableType>
@@ -930,7 +930,7 @@ TeleportHook.terminate()
     <CheatEntry>
       <ID>17920</ID>
       <Description>"Z"</Description>
-      <LastState Value="98.71285248" RealAddress="209409E5A28"/>
+      <LastState Value="45.11166763" RealAddress="209409E5A28"/>
       <ShowAsSigned>0</ShowAsSigned>
       <Color>FFC891</Color>
       <VariableType>Float</VariableType>
@@ -1183,7 +1183,7 @@ unregistersymbol(dontconsumeitems)
       <ID>19235</ID>
       <Description>"Teleport Menu"</Description>
       <Options moHideChildren="1" moDeactivateChildrenAsWell="1"/>
-      <LastState Value="" RealAddress="00000000"/>
+      <LastState Value="" Activated="1" RealAddress="00000000"/>
       <Color>DFDF00</Color>
       <GroupHeader>1</GroupHeader>
       <CheatEntries>
@@ -5847,7 +5847,7 @@ target = "wh4" -- Trigger (Script Name) --
           <ID>16557</ID>
           <Description>"Collectibles"</Description>
           <Options moHideChildren="1" moDeactivateChildrenAsWell="1"/>
-          <LastState Value="" RealAddress="00000000"/>
+          <LastState Value="" Activated="1" RealAddress="00000000"/>
           <Color>FF93C9</Color>
           <GroupHeader>1</GroupHeader>
           <CheatEntries>
@@ -19289,6 +19289,327 @@ target = "Fossils #19 cycle 6" -- Trigger (Script Name) --
                     </CheatEntry>
                   </CheatEntries>
                 </CheatEntry>
+                <CheatEntry>
+                  <ID>19421</ID>
+                  <Description>"Cycle 5"</Description>
+                  <Options moHideChildren="1" moDeactivateChildrenAsWell="1"/>
+                  <LastState Value="" RealAddress="00000000"/>
+                  <Color>6AFF6A</Color>
+                  <GroupHeader>1</GroupHeader>
+                  <CheatEntries>
+                    <CheatEntry>
+                      <ID>19422</ID>
+                      <Description>"Jade Hairpin Cycle 5"</Description>
+                      <LastState/>
+                      <VariableType>Auto Assembler Script</VariableType>
+                      <AssemblerScript>[ENABLE]
+
+{$lua}
+
+-- Teleport to Jade Hairpin - Cycle 5 Between a bunch of crates and a wooden structure at the side of the shack.--
+
+SetCoordinates(1963.079, -1216.643, 42.006)
+
+target = "Jade Hairpin Cycle 5"
+
+{$asm}
+
+[DISABLE]
+</AssemblerScript>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>19423</ID>
+                      <Description>"Cherrywood Comb Cycle 5"</Description>
+                      <LastState/>
+                      <VariableType>Auto Assembler Script</VariableType>
+                      <AssemblerScript>[ENABLE]
+
+{$lua}
+
+-- Teleport to  Cherrywood Comb - Cycle 5 On a bench on the porch.--
+
+SetCoordinates(-4786.105, -2730.147, -13.902)
+
+target = "Cherrywood Comb Cycle 5"
+
+{$asm}
+
+[DISABLE]
+</AssemblerScript>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>19424</ID>
+                      <Description>"Ebony Hairbrush Cycle 5"</Description>
+                      <LastState/>
+                      <VariableType>Auto Assembler Script</VariableType>
+                      <AssemblerScript>[ENABLE]
+
+{$lua}
+
+-- Teleport to   Ebony Hairbrush - Cycle 5 On the table on the front porch..--
+
+SetCoordinates(-882.357, -1646.976, 69.062)
+
+target = "Ebony Hairbrush Cycle 5"
+
+{$asm}
+
+[DISABLE]
+</AssemblerScript>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>19425</ID>
+                      <Description>"Metal Hairpin Cycle 5"</Description>
+                      <LastState/>
+                      <VariableType>Auto Assembler Script</VariableType>
+                      <AssemblerScript>[ENABLE]
+
+{$lua}
+
+-- Teleport to    Metal Hairpin - Cycle 5 "Metal Detector" At the northwestern side of the ruined house--
+
+SetCoordinates(-5573.704, -2575.264, -8.738)
+
+target = "Metal Hairpin Cycle 5"
+
+{$asm}
+
+[DISABLE]
+</AssemblerScript>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>19426</ID>
+                      <Description>"Carved Wooden Hairpin Cycle 5"</Description>
+                      <LastState/>
+                      <VariableType>Auto Assembler Script</VariableType>
+                      <AssemblerScript>[ENABLE]
+
+{$lua}
+
+-- Teleport to     Carved Wooden Hairpin Cycle 5 "Metal Detector" Between the wooden foundation and a small wagon.--
+
+SetCoordinates(1372.023, -1411.222, 79.124)
+
+target = "Carved Wooden Hairpin Cycle 5"
+
+{$asm}
+
+[DISABLE]
+</AssemblerScript>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>19427</ID>
+                      <Description>"Boxwood Comb Cycle 5"</Description>
+                      <LastState/>
+                      <VariableType>Auto Assembler Script</VariableType>
+                      <AssemblerScript>[ENABLE]
+
+{$lua}
+
+-- Teleport to      Boxwood Comb Cycle 5 On the shelf next to the door--
+
+SetCoordinates(901.310, 263.899, 115.902)
+
+target = "Boxwood Comb Cycle 5"
+
+{$asm}
+
+[DISABLE]
+</AssemblerScript>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>19428</ID>
+                      <Description>"Goat Hair Brush Cycle 5"</Description>
+                      <LastState/>
+                      <VariableType>Auto Assembler Script</VariableType>
+                      <AssemblerScript>[ENABLE]
+
+{$lua}
+
+-- Teleport to Goat Hair Brush Cycle 5 In the chest in one of the bedrooms on the ground floor.--
+
+SetCoordinates(1332.922, -1375.433, 80.397)
+
+target = "Goat Hair Brush Cycle 5"
+
+{$asm}
+
+[DISABLE]
+</AssemblerScript>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>19429</ID>
+                      <Description>"Ebony Hairpin Cycle 5"</Description>
+                      <LastState/>
+                      <VariableType>Auto Assembler Script</VariableType>
+                      <AssemblerScript>[ENABLE]
+
+{$lua}
+
+-- Teleport to  Ebony Hairpin Cycle 5 In the green wardrobe in the corner.--
+
+SetCoordinates(2064.390, -854.211, 43.269)
+
+target = "Ebony Hairpin Cycle 5"
+
+{$asm}
+
+[DISABLE]
+</AssemblerScript>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>19430</ID>
+                      <Description>"Ivory Hairpin Cycle 5"</Description>
+                      <LastState/>
+                      <VariableType>Auto Assembler Script</VariableType>
+                      <AssemblerScript>[ENABLE]
+
+{$lua}
+
+-- Teleport to   Ivory Hairpin Cycle 5 "Metal Detector" Next to the campfire with a cooking pot.--
+
+SetCoordinates(1928.666, 1964.883, 263.442)
+
+target = "Ivory Hairpin Cycle 5"
+
+{$asm}
+
+[DISABLE]
+</AssemblerScript>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>19431</ID>
+                      <Description>"Rosewood Hairbrush Cycle 5"</Description>
+                      <LastState/>
+                      <VariableType>Auto Assembler Script</VariableType>
+                      <AssemblerScript>[ENABLE]
+
+{$lua}
+
+-- Teleport to Rosewood Hairbrush Cycle 5 On the red loveseat in the cabin.--
+
+SetCoordinates(1708.727, -1005.866, 43.400)
+
+target = "Rosewood Hairbrush Cycle 5"
+
+{$asm}
+
+[DISABLE]
+</AssemblerScript>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>19432</ID>
+                      <Description>"Tortoiseshell Comb Cycle 5"</Description>
+                      <LastState/>
+                      <VariableType>Auto Assembler Script</VariableType>
+                      <AssemblerScript>[ENABLE]
+
+{$lua}
+
+-- Teleport to  Tortoiseshell Comb Cycle 5 On a shelf in the corner of the cabin, next to the fireplace.--
+
+SetCoordinates(-1963.217, 2157.494, 327.481)
+
+target = "Tortoiseshell Comb Cycle 5"
+
+{$asm}
+
+[DISABLE]
+</AssemblerScript>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>19433</ID>
+                      <Description>"Ivory Comb Cycle 5"</Description>
+                      <LastState/>
+                      <VariableType>Auto Assembler Script</VariableType>
+                      <AssemblerScript>[ENABLE]
+
+{$lua}
+
+-- Teleport to  Ivory Comb Cycle 5--
+
+--On a bench on the south-side porch.--
+
+SetCoordinates(2557.877, -919.849, 42.914)
+
+target = "Ivory Comb Cycle 5"
+
+{$asm}
+
+[DISABLE]
+</AssemblerScript>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>19434</ID>
+                      <Description>"Horse Hair Brush Cycle 5"</Description>
+                      <LastState/>
+                      <VariableType>Auto Assembler Script</VariableType>
+                      <AssemblerScript>[ENABLE]
+
+{$lua}
+
+-- Teleport to Horse Hair Brush Cycle 5
+
+--In the wardrobe in the basement.
+
+
+SetCoordinates(1183.194, -100.486, 94.376)
+
+target = "Horse Hair Brush Cycle 5"
+
+{$asm}
+
+[DISABLE]
+</AssemblerScript>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>19435</ID>
+                      <Description>"Boar Bristle Brush Cycle 5"</Description>
+                      <LastState/>
+                      <VariableType>Auto Assembler Script</VariableType>
+                      <AssemblerScript>[ENABLE]
+
+{$lua}
+
+--  Boar Bristle Brush Cycle 5
+
+--In the green wardrobe in the bedroom in the back.
+
+
+SetCoordinates(2256.049, -792.647, 44.104)
+
+target = "Boar Bristle Brush Cycle 5"
+
+{$asm}
+
+[DISABLE]
+</AssemblerScript>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>19436</ID>
+                      <Description>"New Guinea Rosewood Hairbrush Cycle 5"</Description>
+                      <LastState/>
+                      <VariableType>Auto Assembler Script</VariableType>
+                      <AssemblerScript>[ENABLE]
+
+{$lua}
+
+--   New Guinea Rosewood Hairbrush Cycle 5
+
+--On the white bench.
+
+
+SetCoordinates(2337.224, -1199.717, 45.123)
+
+target = "New Guinea Rosewood Hairbrush Cycle 5"
+
+{$asm}
+
+[DISABLE]
+</AssemblerScript>
+                    </CheatEntry>
+                  </CheatEntries>
+                </CheatEntry>
               </CheatEntries>
             </CheatEntry>
             <CheatEntry>
@@ -28724,14 +29045,14 @@ target = "Emerald ranch" -- Trigger (Script Name) --
           <ID>17921</ID>
           <Description>"Save Locations/Coords"</Description>
           <Options moHideChildren="1" moDeactivateChildrenAsWell="1"/>
-          <LastState Value="" RealAddress="00000000"/>
+          <LastState Value="" Activated="1" RealAddress="00000000"/>
           <Color>FFFF80</Color>
           <GroupHeader>1</GroupHeader>
           <CheatEntries>
             <CheatEntry>
               <ID>17925</ID>
               <Description>"Click to Save Location/Coords to File"</Description>
-              <LastState/>
+              <LastState Activated="1"/>
               <Color>FFFF80</Color>
               <VariableType>Auto Assembler Script</VariableType>
               <AssemblerScript>[ENABLE]
@@ -28892,7 +29213,7 @@ target = "island"
 1:Enabled
 
 </DropDownList>
-      <LastState Value="00" RealAddress="7FF767D31048"/>
+      <LastState Value="01" RealAddress="7FF767D31048"/>
       <ShowAsHex>1</ShowAsHex>
       <Color>FF9B9B</Color>
       <VariableType>Byte</VariableType>
@@ -29753,21 +30074,21 @@ unregistersymbol(_Teleport)
                 <CheatEntry>
                   <ID>17196</ID>
                   <Description>"x"</Description>
-                  <LastState Value="25.7824707" RealAddress="209409E5A10"/>
+                  <LastState Value="1.344970703" RealAddress="209409E5A10"/>
                   <VariableType>Float</VariableType>
                   <Address>[coord2]+70</Address>
                 </CheatEntry>
                 <CheatEntry>
                   <ID>17197</ID>
                   <Description>"y"</Description>
-                  <LastState Value="3.198120117" RealAddress="209409E5A14"/>
+                  <LastState Value="-15.98413086" RealAddress="209409E5A14"/>
                   <VariableType>Float</VariableType>
                   <Address>[coord2]+74</Address>
                 </CheatEntry>
                 <CheatEntry>
                   <ID>17198</ID>
                   <Description>"z"</Description>
-                  <LastState Value="98.80284882" RealAddress="209409E5A18"/>
+                  <LastState Value="45.20166779" RealAddress="209409E5A18"/>
                   <VariableType>Float</VariableType>
                   <Address>[coord2]+78</Address>
                 </CheatEntry>
@@ -30783,6 +31104,7 @@ dealloc(newmem)
             <CheatEntry>
               <ID>16366</ID>
               <Description>"pHealth - Horse"</Description>
+              <LastState Value="5.655828815E-30" RealAddress="2094FBE8020"/>
               <VariableType>Float</VariableType>
               <Address>_pHealthBaseHorse</Address>
               <Offsets>
@@ -30802,7 +31124,7 @@ dealloc(newmem)
             <CheatEntry>
               <ID>16359</ID>
               <Description>"HealthBase"</Description>
-              <LastState Value="000002093530A170" RealAddress="7FF767D31050"/>
+              <LastState Value="000002094467AF90" RealAddress="7FF767D31050"/>
               <ShowAsHex>1</ShowAsHex>
               <VariableType>8 Bytes</VariableType>
               <Address>_pPlayerHealthBase</Address>
@@ -30810,7 +31132,7 @@ dealloc(newmem)
             <CheatEntry>
               <ID>16357</ID>
               <Description>"DeadEyeBase"</Description>
-              <LastState Value="0000020939B713C8" RealAddress="7FF767D31038"/>
+              <LastState Value="0000020939B73AC8" RealAddress="7FF767D31038"/>
               <ShowAsHex>1</ShowAsHex>
               <VariableType>8 Bytes</VariableType>
               <Address>_pDeadEye</Address>
@@ -30826,7 +31148,7 @@ dealloc(newmem)
             <CheatEntry>
               <ID>16353</ID>
               <Description>"PlayerBase"</Description>
-              <LastState Value="000002117DE750C0" RealAddress="7FF767D31008"/>
+              <LastState Value="000002117DE796C0" RealAddress="7FF767D31008"/>
               <ShowAsHex>1</ShowAsHex>
               <VariableType>8 Bytes</VariableType>
               <Address>_pPlayer</Address>
@@ -30834,7 +31156,7 @@ dealloc(newmem)
             <CheatEntry>
               <ID>16358</ID>
               <Description>"StaminaBase"</Description>
-              <LastState Value="00000209387852F0" RealAddress="7FF767D31040"/>
+              <LastState Value="0000020938784570" RealAddress="7FF767D31040"/>
               <ShowAsHex>1</ShowAsHex>
               <VariableType>8 Bytes</VariableType>
               <Address>_pStaminaBase</Address>
@@ -30858,7 +31180,7 @@ dealloc(newmem)
             <CheatEntry>
               <ID>16360</ID>
               <Description>"HealthBase - Horse"</Description>
-              <LastState Value="0000000000000000" RealAddress="7FF767D31088"/>
+              <LastState Value="000002094FBE8000" RealAddress="7FF767D31088"/>
               <ShowAsHex>1</ShowAsHex>
               <VariableType>8 Bytes</VariableType>
               <Address>_pHealthBaseHorse</Address>
@@ -30875,7 +31197,7 @@ dealloc(newmem)
             <CheatEntry>
               <ID>16362</ID>
               <Description>"pDeadEye"</Description>
-              <LastState Value="45" RealAddress="20939B713E8"/>
+              <LastState Value="45" RealAddress="20939B73AE8"/>
               <VariableType>Float</VariableType>
               <Address>_pDeadEye</Address>
               <Offsets>
@@ -30885,7 +31207,7 @@ dealloc(newmem)
             <CheatEntry>
               <ID>16363</ID>
               <Description>"pStamina"</Description>
-              <LastState Value="66" RealAddress="20938785310"/>
+              <LastState Value="63.43625641" RealAddress="20938784590"/>
               <VariableType>Float</VariableType>
               <Address>_pStaminaBase</Address>
               <Offsets>
@@ -30895,7 +31217,7 @@ dealloc(newmem)
             <CheatEntry>
               <ID>16364</ID>
               <Description>"pHealth"</Description>
-              <LastState Value="0" RealAddress="2093530A190"/>
+              <LastState Value="0" RealAddress="2094467AFB0"/>
               <VariableType>Float</VariableType>
               <Address>_pPlayerHealthBase</Address>
               <Offsets>
@@ -30905,7 +31227,7 @@ dealloc(newmem)
             <CheatEntry>
               <ID>16365</ID>
               <Description>"pHealthMax"</Description>
-              <LastState Value="00000000" RealAddress="2093530A194"/>
+              <LastState Value="00000000" RealAddress="2094467AFB4"/>
               <ShowAsHex>1</ShowAsHex>
               <VariableType>Float</VariableType>
               <Address>_pPlayerHealthBase</Address>
