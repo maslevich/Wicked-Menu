@@ -910,17 +910,191 @@ TeleportHook.terminate()
       </CheatEntries>
     </CheatEntry>
     <CheatEntry>
+      <ID>17918</ID>
+      <Description>"X"</Description>
+      <LastState Value="875.9300537" RealAddress="209409E5A20"/>
+      <ShowAsSigned>0</ShowAsSigned>
+      <Color>FFD7AE</Color>
+      <VariableType>Float</VariableType>
+      <Address>[coord2]+80</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>17919</ID>
+      <Description>"Y"</Description>
+      <LastState Value="-1929.831055" RealAddress="209409E5A24"/>
+      <ShowAsSigned>0</ShowAsSigned>
+      <Color>FFCE9D</Color>
+      <VariableType>Float</VariableType>
+      <Address>[coord2]+84</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>17920</ID>
+      <Description>"Z"</Description>
+      <LastState Value="46.44349289" RealAddress="209409E5A28"/>
+      <ShowAsSigned>0</ShowAsSigned>
+      <Color>FFC891</Color>
+      <VariableType>Float</VariableType>
+      <Address>[coord2]+88</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>19301</ID>
+      <Description>"Name Changer"</Description>
+      <Options moRecursiveSetValue="1" moAlwaysHideChildren="1" moActivateChildrenAsWell="1" moDeactivateChildrenAsWell="1"/>
+      <LastState RealAddress="7FF881F5183F"/>
+      <Color>FFD3A8</Color>
+      <VariableType>String</VariableType>
+      <Length>16</Length>
+      <Unicode>0</Unicode>
+      <CodePage>0</CodePage>
+      <ZeroTerminate>1</ZeroTerminate>
+      <Address>socialclub.dll+86183F</Address>
+      <CheatEntries>
+        <CheatEntry>
+          <ID>19302</ID>
+          <Description>"Name Changer"</Description>
+          <LastState RealAddress="7FF76BB3F6B2"/>
+          <VariableType>String</VariableType>
+          <Length>16</Length>
+          <Unicode>0</Unicode>
+          <CodePage>0</CodePage>
+          <ZeroTerminate>1</ZeroTerminate>
+          <Address>RDR2.exe+3DFF6B2</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>19303</ID>
+          <Description>"Name Changer"</Description>
+          <LastState RealAddress="7FF76CF7D634"/>
+          <VariableType>String</VariableType>
+          <Length>16</Length>
+          <Unicode>0</Unicode>
+          <CodePage>0</CodePage>
+          <ZeroTerminate>1</ZeroTerminate>
+          <Address>RDR2.exe+523D634</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>19304</ID>
+          <Description>"Name Changer"</Description>
+          <LastState RealAddress="7FF76D5C970C"/>
+          <VariableType>String</VariableType>
+          <Length>16</Length>
+          <Unicode>0</Unicode>
+          <CodePage>0</CodePage>
+          <ZeroTerminate>1</ZeroTerminate>
+          <Address>RDR2.exe+588970C</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>19305</ID>
+          <Description>"Name Changer"</Description>
+          <LastState RealAddress="7FF76D5D300F"/>
+          <VariableType>String</VariableType>
+          <Length>16</Length>
+          <Unicode>0</Unicode>
+          <CodePage>0</CodePage>
+          <ZeroTerminate>1</ZeroTerminate>
+          <Address>RDR2.exe+589300F</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>19306</ID>
+          <Description>"Name Changer"</Description>
+          <LastState RealAddress="7FF76D5D33D4"/>
+          <VariableType>String</VariableType>
+          <Length>16</Length>
+          <Unicode>0</Unicode>
+          <CodePage>0</CodePage>
+          <ZeroTerminate>1</ZeroTerminate>
+          <Address>RDR2.exe+58933D4</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>19307</ID>
+          <Description>"Name Changer"</Description>
+          <LastState RealAddress="7FF76D5D5C80"/>
+          <VariableType>String</VariableType>
+          <Length>16</Length>
+          <Unicode>0</Unicode>
+          <CodePage>0</CodePage>
+          <ZeroTerminate>1</ZeroTerminate>
+          <Address>RDR2.exe+5895C80</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>19308</ID>
+          <Description>"Name Changer"</Description>
+          <LastState RealAddress="7FF76D5D5E48"/>
+          <VariableType>String</VariableType>
+          <Length>16</Length>
+          <Unicode>0</Unicode>
+          <CodePage>0</CodePage>
+          <ZeroTerminate>1</ZeroTerminate>
+          <Address>RDR2.exe+5895E48</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>19309</ID>
+          <Description>"Name Changer"</Description>
+          <LastState RealAddress="7FF76D5DF598"/>
+          <VariableType>String</VariableType>
+          <Length>16</Length>
+          <Unicode>0</Unicode>
+          <CodePage>0</CodePage>
+          <ZeroTerminate>1</ZeroTerminate>
+          <Address>RDR2.exe+589F598</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>19310</ID>
+          <Description>"Name Changer"</Description>
+          <LastState RealAddress="7FF76D5DF760"/>
+          <VariableType>String</VariableType>
+          <Length>16</Length>
+          <Unicode>0</Unicode>
+          <CodePage>0</CodePage>
+          <ZeroTerminate>1</ZeroTerminate>
+          <Address>RDR2.exe+589F760</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>19311</ID>
+          <Description>"Name Changer"</Description>
+          <LastState RealAddress="7FF76D5E651C"/>
+          <VariableType>String</VariableType>
+          <Length>16</Length>
+          <Unicode>0</Unicode>
+          <CodePage>0</CodePage>
+          <ZeroTerminate>1</ZeroTerminate>
+          <Address>RDR2.exe+58A651C</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>19312</ID>
+          <Description>"Name Changer"</Description>
+          <LastState RealAddress="7FF76D5EC4E7"/>
+          <VariableType>String</VariableType>
+          <Length>16</Length>
+          <Unicode>0</Unicode>
+          <CodePage>0</CodePage>
+          <ZeroTerminate>1</ZeroTerminate>
+          <Address>RDR2.exe+58AC4E7</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>19313</ID>
+          <Description>"Name Changer"</Description>
+          <LastState RealAddress="7FF881F4D43C"/>
+          <VariableType>String</VariableType>
+          <Length>16</Length>
+          <Unicode>0</Unicode>
+          <CodePage>0</CodePage>
+          <ZeroTerminate>1</ZeroTerminate>
+          <Address>socialclub.dll+85D43C</Address>
+        </CheatEntry>
+      </CheatEntries>
+    </CheatEntry>
+    <CheatEntry>
       <ID>17226</ID>
       <Description>"Panic Key - Empty Lobby"</Description>
       <Options moHideChildren="1"/>
       <LastState Value="" RealAddress="00000000"/>
-      <Color>00FFFF</Color>
+      <Color>FFCA95</Color>
       <GroupHeader>1</GroupHeader>
       <CheatEntries>
         <CheatEntry>
           <ID>289</ID>
           <Description>"&lt;Click to Confirm - Empty Lobby"</Description>
-          <LastState/>
+          <LastState Activated="1"/>
           <Color>6A6AFF</Color>
           <VariableType>Auto Assembler Script</VariableType>
           <AssemblerScript>{$lua}
@@ -1006,145 +1180,11 @@ unregistersymbol(dontconsumeitems)
       </Hotkeys>
     </CheatEntry>
     <CheatEntry>
-      <ID>19301</ID>
-      <Description>"Name Changer"</Description>
-      <Options moRecursiveSetValue="1" moAlwaysHideChildren="1" moActivateChildrenAsWell="1" moDeactivateChildrenAsWell="1"/>
-      <Color>8484FF</Color>
-      <VariableType>String</VariableType>
-      <Length>16</Length>
-      <Unicode>0</Unicode>
-      <CodePage>0</CodePage>
-      <ZeroTerminate>1</ZeroTerminate>
-      <Address>socialclub.dll+86183F</Address>
-      <CheatEntries>
-        <CheatEntry>
-          <ID>19302</ID>
-          <Description>"Name Changer"</Description>
-          <VariableType>String</VariableType>
-          <Length>16</Length>
-          <Unicode>0</Unicode>
-          <CodePage>0</CodePage>
-          <ZeroTerminate>1</ZeroTerminate>
-          <Address>RDR2.exe+3DFF6B2</Address>
-        </CheatEntry>
-        <CheatEntry>
-          <ID>19303</ID>
-          <Description>"Name Changer"</Description>
-          <VariableType>String</VariableType>
-          <Length>16</Length>
-          <Unicode>0</Unicode>
-          <CodePage>0</CodePage>
-          <ZeroTerminate>1</ZeroTerminate>
-          <Address>RDR2.exe+523D634</Address>
-        </CheatEntry>
-        <CheatEntry>
-          <ID>19304</ID>
-          <Description>"Name Changer"</Description>
-          <VariableType>String</VariableType>
-          <Length>16</Length>
-          <Unicode>0</Unicode>
-          <CodePage>0</CodePage>
-          <ZeroTerminate>1</ZeroTerminate>
-          <Address>RDR2.exe+588970C</Address>
-        </CheatEntry>
-        <CheatEntry>
-          <ID>19305</ID>
-          <Description>"Name Changer"</Description>
-          <VariableType>String</VariableType>
-          <Length>16</Length>
-          <Unicode>0</Unicode>
-          <CodePage>0</CodePage>
-          <ZeroTerminate>1</ZeroTerminate>
-          <Address>RDR2.exe+589300F</Address>
-        </CheatEntry>
-        <CheatEntry>
-          <ID>19306</ID>
-          <Description>"Name Changer"</Description>
-          <VariableType>String</VariableType>
-          <Length>16</Length>
-          <Unicode>0</Unicode>
-          <CodePage>0</CodePage>
-          <ZeroTerminate>1</ZeroTerminate>
-          <Address>RDR2.exe+58933D4</Address>
-        </CheatEntry>
-        <CheatEntry>
-          <ID>19307</ID>
-          <Description>"Name Changer"</Description>
-          <VariableType>String</VariableType>
-          <Length>16</Length>
-          <Unicode>0</Unicode>
-          <CodePage>0</CodePage>
-          <ZeroTerminate>1</ZeroTerminate>
-          <Address>RDR2.exe+5895C80</Address>
-        </CheatEntry>
-        <CheatEntry>
-          <ID>19308</ID>
-          <Description>"Name Changer"</Description>
-          <VariableType>String</VariableType>
-          <Length>16</Length>
-          <Unicode>0</Unicode>
-          <CodePage>0</CodePage>
-          <ZeroTerminate>1</ZeroTerminate>
-          <Address>RDR2.exe+5895E48</Address>
-        </CheatEntry>
-        <CheatEntry>
-          <ID>19309</ID>
-          <Description>"Name Changer"</Description>
-          <VariableType>String</VariableType>
-          <Length>16</Length>
-          <Unicode>0</Unicode>
-          <CodePage>0</CodePage>
-          <ZeroTerminate>1</ZeroTerminate>
-          <Address>RDR2.exe+589F598</Address>
-        </CheatEntry>
-        <CheatEntry>
-          <ID>19310</ID>
-          <Description>"Name Changer"</Description>
-          <VariableType>String</VariableType>
-          <Length>16</Length>
-          <Unicode>0</Unicode>
-          <CodePage>0</CodePage>
-          <ZeroTerminate>1</ZeroTerminate>
-          <Address>RDR2.exe+589F760</Address>
-        </CheatEntry>
-        <CheatEntry>
-          <ID>19311</ID>
-          <Description>"Name Changer"</Description>
-          <VariableType>String</VariableType>
-          <Length>16</Length>
-          <Unicode>0</Unicode>
-          <CodePage>0</CodePage>
-          <ZeroTerminate>1</ZeroTerminate>
-          <Address>RDR2.exe+58A651C</Address>
-        </CheatEntry>
-        <CheatEntry>
-          <ID>19312</ID>
-          <Description>"Name Changer"</Description>
-          <VariableType>String</VariableType>
-          <Length>16</Length>
-          <Unicode>0</Unicode>
-          <CodePage>0</CodePage>
-          <ZeroTerminate>1</ZeroTerminate>
-          <Address>RDR2.exe+58AC4E7</Address>
-        </CheatEntry>
-        <CheatEntry>
-          <ID>19313</ID>
-          <Description>"Name Changer"</Description>
-          <VariableType>String</VariableType>
-          <Length>16</Length>
-          <Unicode>0</Unicode>
-          <CodePage>0</CodePage>
-          <ZeroTerminate>1</ZeroTerminate>
-          <Address>socialclub.dll+85D43C</Address>
-        </CheatEntry>
-      </CheatEntries>
-    </CheatEntry>
-    <CheatEntry>
       <ID>19235</ID>
       <Description>"Teleport Menu"</Description>
       <Options moHideChildren="1" moDeactivateChildrenAsWell="1"/>
       <LastState Value="" RealAddress="00000000"/>
-      <Color>FF9F9F</Color>
+      <Color>DFDF00</Color>
       <GroupHeader>1</GroupHeader>
       <CheatEntries>
         <CheatEntry>
@@ -9783,8 +9823,7 @@ target = "Coin #0 cycle 3" -- Trigger (Script Name) --
                       <Description>"Coin #1 cycle 3"</Description>
                       <LastState/>
                       <VariableType>Auto Assembler Script</VariableType>
-                      <AssemblerScript>
-[ENABLE]
+                      <AssemblerScript>[ENABLE]
 
 {$lua}
 
@@ -9808,8 +9847,7 @@ target = "Random Coin #1 cycle 3" -- Trigger (Script Name) --
                       <Description>"Coin #2 cycle 3"</Description>
                       <LastState/>
                       <VariableType>Auto Assembler Script</VariableType>
-                      <AssemblerScript>
-[ENABLE]
+                      <AssemblerScript>[ENABLE]
 
 {$lua}
 
@@ -9833,8 +9871,7 @@ target = "Coin #2 cycle 3" -- Trigger (Script Name) --
                       <Description>"Coin #3 cycle 3"</Description>
                       <LastState/>
                       <VariableType>Auto Assembler Script</VariableType>
-                      <AssemblerScript>
-[ENABLE]
+                      <AssemblerScript>[ENABLE]
 
 {$lua}
 
@@ -9858,8 +9895,7 @@ target = "Coin #3 cycle 3" -- Trigger (Script Name) --
                       <Description>"Coin #4 cycle 3"</Description>
                       <LastState/>
                       <VariableType>Auto Assembler Script</VariableType>
-                      <AssemblerScript>
-[ENABLE]
+                      <AssemblerScript>[ENABLE]
 
 {$lua}
 
@@ -9883,8 +9919,7 @@ target = "Coin #4 cycle 3" -- Trigger (Script Name) --
                       <Description>"Coin #5 cycle 3"</Description>
                       <LastState/>
                       <VariableType>Auto Assembler Script</VariableType>
-                      <AssemblerScript>
-[ENABLE]
+                      <AssemblerScript>[ENABLE]
 
 {$lua}
 
@@ -9908,8 +9943,7 @@ target = "Coin #5 cycle 3" -- Trigger (Script Name) --
                       <Description>"Coin #6 cycle 3"</Description>
                       <LastState/>
                       <VariableType>Auto Assembler Script</VariableType>
-                      <AssemblerScript>
-[ENABLE]
+                      <AssemblerScript>[ENABLE]
 
 {$lua}
 
@@ -9933,8 +9967,7 @@ target = "Coin #6 cycle 3" -- Trigger (Script Name) --
                       <Description>"Coin #7 cycle 3"</Description>
                       <LastState/>
                       <VariableType>Auto Assembler Script</VariableType>
-                      <AssemblerScript>
-[ENABLE]
+                      <AssemblerScript>[ENABLE]
 
 {$lua}
 
@@ -9958,8 +9991,7 @@ target = "Coin #7 cycle 3" -- Trigger (Script Name) --
                       <Description>"Coin #8 cycle 3"</Description>
                       <LastState/>
                       <VariableType>Auto Assembler Script</VariableType>
-                      <AssemblerScript>
-[ENABLE]
+                      <AssemblerScript>[ENABLE]
 
 {$lua}
 
@@ -9983,8 +10015,7 @@ target = "Coin #8 cycle 3" -- Trigger (Script Name) --
                       <Description>"Coin #9 cycle 3"</Description>
                       <LastState/>
                       <VariableType>Auto Assembler Script</VariableType>
-                      <AssemblerScript>
-[ENABLE]
+                      <AssemblerScript>[ENABLE]
 
 {$lua}
 
@@ -10043,8 +10074,7 @@ target = "Coin #10 cycle 3" -- Trigger (Script Name) --
                       <Description>"Coin #11 cycle 3"</Description>
                       <LastState/>
                       <VariableType>Auto Assembler Script</VariableType>
-                      <AssemblerScript>
-[ENABLE]
+                      <AssemblerScript>[ENABLE]
 
 {$lua}
 
@@ -10068,9 +10098,7 @@ target = "Coin #11 cycle 3" -- Trigger (Script Name) --
                       <Description>"Coin #12 cycle 3"</Description>
                       <LastState/>
                       <VariableType>Auto Assembler Script</VariableType>
-                      <AssemblerScript>
-
-[ENABLE]
+                      <AssemblerScript>[ENABLE]
 
 {$lua}
 
@@ -10094,8 +10122,7 @@ target = "Coin #12 cycle 3" -- Trigger (Script Name) --
                       <Description>"Coin #13 cycle 3"</Description>
                       <LastState/>
                       <VariableType>Auto Assembler Script</VariableType>
-                      <AssemblerScript>
-[ENABLE]
+                      <AssemblerScript>[ENABLE]
 
 {$lua}
 
@@ -10119,8 +10146,7 @@ target = "Coin #13 cycle 3" -- Trigger (Script Name) --
                       <Description>"Coin #14 cycle 3"</Description>
                       <LastState/>
                       <VariableType>Auto Assembler Script</VariableType>
-                      <AssemblerScript>
-[ENABLE]
+                      <AssemblerScript>[ENABLE]
 
 {$lua}
 
@@ -20506,268 +20532,303 @@ target = "Two of Swords Cycle 2"
                       <CheatEntries>
                         <CheatEntry>
                           <ID>16667</ID>
-                          <Description>"Ace of Cups"</Description>
+                          <Description>"Ace of Cups Cycle 3"</Description>
                           <LastState/>
                           <VariableType>Auto Assembler Script</VariableType>
-                          <AssemblerScript>[enable]
-    //"Ace of Cups Cycle 3"
+                          <AssemblerScript>
+[ENABLE]
 
-    TeleOn:
-    dd 00000001
+{$lua}
 
-    WantedCoords:
-    dd (float)2988.078     //x
-    dd (float)2185.510  //y
-    dd (float)166.739    //z
+-- Teleport to Ace of Cups Cycle 3--
 
-[disable]
+SetCoordinates(2988.078, 2185.510, 166.739)
+
+target = "Ace of Cups Cycle 3"
+
+{$asm}
+
+[DISABLE]
 </AssemblerScript>
                         </CheatEntry>
                         <CheatEntry>
                           <ID>16668</ID>
-                          <Description>"Two of Cups"</Description>
+                          <Description>"Two of Cups Cycle 3"</Description>
                           <LastState/>
                           <VariableType>Auto Assembler Script</VariableType>
-                          <AssemblerScript>[enable]
-    //"  Two of Cups Cycle 3"
+                          <AssemblerScript>
+[ENABLE]
 
-    TeleOn:
-    dd 00000001
+{$lua}
 
-    WantedCoords:
-    dd (float)-2370.496     //x
-    dd (float)470.460  //y
-    dd (float)132.676    //z
+-- Teleport to Two of Cups Cycle 3--
 
-[disable]
+SetCoordinates(-2370.496, 470.460, 132.676)
+
+target = "Two of Cups Cycle 3"
+
+{$asm}
+
+[DISABLE]
 </AssemblerScript>
                         </CheatEntry>
                         <CheatEntry>
                           <ID>16669</ID>
-                          <Description>" Three of Cups"</Description>
+                          <Description>"Three of Cups Cycle 3"</Description>
                           <LastState/>
                           <VariableType>Auto Assembler Script</VariableType>
-                          <AssemblerScript>[enable]
-    //"  Three of Cups Cycle 3"
+                          <AssemblerScript>
+[ENABLE]
 
-    TeleOn:
-    dd 00000001
+{$lua}
 
-    WantedCoords:
-    dd (float)-1310.766     //x
-    dd (float)391.614  //y
-    dd (float)95.381    //z
+-- Teleport to Three of Cups Cycle 3--
 
-[disable]
+SetCoordinates(-1310.766, 391.614, 95.381)
+
+target = "Three of Cups Cycle 3"
+
+{$asm}
+
+[DISABLE]
 </AssemblerScript>
                         </CheatEntry>
                         <CheatEntry>
                           <ID>16670</ID>
-                          <Description>"Four of Cups"</Description>
+                          <Description>"Four of Cups Cycle 3"</Description>
                           <LastState/>
                           <VariableType>Auto Assembler Script</VariableType>
-                          <AssemblerScript>[enable]
-    //"  Four of Cups Cycle 3"
+                          <AssemblerScript>
 
-    TeleOn:
-    dd 00000001
+[ENABLE]
 
-    WantedCoords:
-    dd (float)-3440.002     //x
-    dd (float)-2719.956  //y
-    dd (float)-4.299   //z
+{$lua}
 
-[disable]
+-- Teleport to Four of Cups Cycle 3--
+
+SetCoordinates(-3440.002, -2719.956, -4.299)
+
+target = "Four of Cups Cycle 3"
+
+{$asm}
+
+[DISABLE]
 </AssemblerScript>
                         </CheatEntry>
                         <CheatEntry>
                           <ID>16671</ID>
-                          <Description>"Five of Cups"</Description>
+                          <Description>"Five of Cups Cycle 3"</Description>
                           <LastState/>
                           <VariableType>Auto Assembler Script</VariableType>
-                          <AssemblerScript>[enable]
-    //"  Five of Cups Cycle 3"
+                          <AssemblerScript>
 
-    TeleOn:
-    dd 00000001
+[ENABLE]
 
-    WantedCoords:
-    dd (float)-790.807     //x
-    dd (float)-1355.985  //y
-    dd (float)51.837   //z
+{$lua}
 
-[disable]
+-- Teleport to Five of Cups Cycle 3--
+
+SetCoordinates(-790.807, -1355.985, 51.837)
+
+target = "Five of Cups Cycle 3"
+
+{$asm}
+
+[DISABLE]
 </AssemblerScript>
                         </CheatEntry>
                         <CheatEntry>
                           <ID>16672</ID>
-                          <Description>"Six of Cups"</Description>
+                          <Description>"Six of Cups Cycle 3"</Description>
                           <LastState/>
                           <VariableType>Auto Assembler Script</VariableType>
-                          <AssemblerScript>[enable]
-    //"  Six of Cups Cycle 3"
+                          <AssemblerScript>
+[ENABLE]
 
-    TeleOn:
-    dd 00000001
+{$lua}
 
-    WantedCoords:
-    dd (float)-5590.870     //x
-    dd (float)-3323.348  //y
-    dd (float)-22.128  //z
+-- Teleport to Six of Cups Cycle 3--
 
-[disable]
+SetCoordinates(-5590.870, -3323.348, -22.128)
+
+target = "Six of Cups Cycle 3"
+
+{$asm}
+
+[DISABLE]
 </AssemblerScript>
                         </CheatEntry>
                         <CheatEntry>
                           <ID>16673</ID>
-                          <Description>"Seven of Cups"</Description>
+                          <Description>"Seven of Cups Cycle 3"</Description>
                           <LastState/>
                           <VariableType>Auto Assembler Script</VariableType>
-                          <AssemblerScript>[enable]
-    //"  Seven of Cups Cycle 3"
+                          <AssemblerScript>
 
-    TeleOn:
-    dd 00000001
+[ENABLE]
 
-    WantedCoords:
-    dd (float)2256.875    //x
-    dd (float)-784.570 //y
-    dd (float)44.178  //z
+{$lua}
 
-[disable]
+-- Teleport to Seven of Cups Cycle 3--
+
+SetCoordinates(2256.875, -784.570, 44.178)
+
+target = "Seven of Cups Cycle 3"
+
+{$asm}
+
+[DISABLE]
 </AssemblerScript>
                         </CheatEntry>
                         <CheatEntry>
                           <ID>16674</ID>
-                          <Description>"Eight of Cups"</Description>
+                          <Description>"Eight of Cups Cycle 3"</Description>
                           <LastState/>
                           <VariableType>Auto Assembler Script</VariableType>
-                          <AssemblerScript>[enable]
-    //"  Eight of Cups Cycle 3"
+                          <AssemblerScript>
+[ENABLE]
 
-    TeleOn:
-    dd 00000001
+{$lua}
 
-    WantedCoords:
-    dd (float)2502.314
-    dd (float)818.551
-    dd (float)72.217
+-- Teleport to Eight of Cups Cycle 3--
 
-[disable]
+SetCoordinates(2502.314, 818.551, 72.217)
+
+target = "Eight of Cups Cycle 3"
+
+{$asm}
+
+[DISABLE]
 </AssemblerScript>
                         </CheatEntry>
                         <CheatEntry>
                           <ID>16675</ID>
-                          <Description>"Nine of Cups"</Description>
+                          <Description>"Nine of Cups Cycle 3"</Description>
                           <LastState/>
                           <VariableType>Auto Assembler Script</VariableType>
-                          <AssemblerScript>[enable]
-    //"  Nine of Cups Cycle 3"
+                          <AssemblerScript>
 
-    TeleOn:
-    dd 00000001
+[ENABLE]
 
-    WantedCoords:
-    dd (float)-1410.867
-    dd (float)-2672.826
-    dd (float)42.175
+{$lua}
 
-[disable]
+-- Teleport to Nine of Cups Cycle 3--
+
+SetCoordinates(-1410.867, -2672.826, 42.175)
+
+target = "Nine of Cups Cycle 3"
+
+{$asm}
+
+[DISABLE]
 </AssemblerScript>
                         </CheatEntry>
                         <CheatEntry>
                           <ID>16676</ID>
-                          <Description>"Ten of Cups"</Description>
+                          <Description>"Ten of Cups Cycle 3"</Description>
                           <LastState/>
                           <VariableType>Auto Assembler Script</VariableType>
-                          <AssemblerScript>[enable]
-    //"  Ten of Cups Cycle 3"
+                          <AssemblerScript>
 
-    TeleOn:
-    dd 00000001
+[ENABLE]
 
-    WantedCoords:
-    dd (float)766.513
-    dd (float)880.596
-    dd (float)120.955
+{$lua}
 
-[disable]
+-- Teleport to Ten of Cups Cycle 3--
+
+SetCoordinates(766.513, 880.596, 120.955)
+
+target = "Ten of Cups Cycle 3"
+
+{$asm}
+
+[DISABLE]
 </AssemblerScript>
                         </CheatEntry>
                         <CheatEntry>
                           <ID>16677</ID>
-                          <Description>"Page of Cups"</Description>
+                          <Description>"Page of Cups Cycle 3"</Description>
                           <LastState/>
                           <VariableType>Auto Assembler Script</VariableType>
-                          <AssemblerScript>[enable]
-    //"  Page of Cups Cycle 3"
+                          <AssemblerScript>
+[ENABLE]
 
-    TeleOn:
-    dd 00000001
+{$lua}
 
-    WantedCoords:
-    dd (float)-1992.464
-    dd (float)-1606.486
-    dd (float)118.119
+-- Teleport to Page of Cups Cycle 3--
 
-[disable]
+SetCoordinates(-1992.464, -1606.486, 118.119)
+
+target = "Page of Cups Cycle 3"
+
+{$asm}
+
+[DISABLE]
 </AssemblerScript>
                         </CheatEntry>
                         <CheatEntry>
                           <ID>16678</ID>
-                          <Description>"Knight of Cups"</Description>
+                          <Description>"Knight of Cups Cycle 3"</Description>
                           <LastState/>
                           <VariableType>Auto Assembler Script</VariableType>
-                          <AssemblerScript>[enable]
-    //"  Knight of Cups Cycle 3"
+                          <AssemblerScript>
 
-    TeleOn:
-    dd 00000001
+[ENABLE]
 
-    WantedCoords:
-    dd (float)2568.814
-    dd (float)-772.734
-    dd (float)42.360
+{$lua}
 
-[disable]
+-- Teleport to Knight of Cups Cycle 3--
+
+SetCoordinates(2568.814, -772.734, 42.360)
+
+target = "Knight of Cups Cycle 3"
+
+{$asm}
+
+[DISABLE]
 </AssemblerScript>
                         </CheatEntry>
                         <CheatEntry>
                           <ID>16679</ID>
-                          <Description>"Queen of Cups"</Description>
+                          <Description>"Queen of Cups Cycle 3"</Description>
                           <LastState/>
                           <VariableType>Auto Assembler Script</VariableType>
-                          <AssemblerScript>[enable]
-    //"  Queen of Cups Cycle 3"
+                          <AssemblerScript>
+[ENABLE]
 
-    TeleOn:
-    dd 00000001
+{$lua}
 
-    WantedCoords:
-    dd (float)-5983.877
-    dd (float)-3165.226
-    dd (float)-26.610
+-- Teleport to Queen of Cups Cycle 3--
 
-[disable]
+SetCoordinates(-5983.877, -3165.226, -26.610)
+
+target = "Queen of Cups Cycle 3"
+
+{$asm}
+
+[DISABLE]
 </AssemblerScript>
                         </CheatEntry>
                         <CheatEntry>
                           <ID>16680</ID>
-                          <Description>"King of Cups "</Description>
+                          <Description>"King of Cups Cycle 3"</Description>
                           <LastState/>
                           <VariableType>Auto Assembler Script</VariableType>
-                          <AssemblerScript>[enable]
-    //"  King of Cups Cycle 3"
+                          <AssemblerScript>
 
-    TeleOn:
-    dd 00000001
+[ENABLE]
 
-    WantedCoords:
-    dd (float)828.844
-    dd (float)1923.072
-    dd (float)259.318
+{$lua}
 
-[disable]
+-- Teleport to King of Cups Cycle 3--
+
+SetCoordinates(828.844, 1923.072, 259.318)
+
+target = "King of Cups Cycle 3"
+
+{$asm}
+
+[DISABLE]
 </AssemblerScript>
                         </CheatEntry>
                       </CheatEntries>
@@ -20782,260 +20843,299 @@ target = "Two of Swords Cycle 2"
                       <CheatEntries>
                         <CheatEntry>
                           <ID>16684</ID>
-                          <Description>"Ace of Swords"</Description>
+                          <Description>"Ace of Swords Cycle 3"</Description>
                           <LastState/>
                           <VariableType>Auto Assembler Script</VariableType>
-                          <AssemblerScript>[enable]
-    //"  Ace of Swords Cycle 3"
+                          <AssemblerScript>
 
-    TeleOn:
-    dd 00000001
+[ENABLE]
 
-    WantedCoords:
-    dd (float)1903.615
-    dd (float)-1861.903
-    dd (float)47.374
+{$lua}
 
-[disable]
+-- Teleport to Ace of Swords Cycle 3--
+
+SetCoordinates(1903.615, -1861.903, 47.374)
+
+target = "Ace of Swords Cycle 3"
+
+{$asm}
+
+[DISABLE]
 </AssemblerScript>
                         </CheatEntry>
                         <CheatEntry>
                           <ID>16685</ID>
-                          <Description>"Two of Swords"</Description>
+                          <Description>"Two of Swords Cycle 3"</Description>
                           <LastState/>
                           <VariableType>Auto Assembler Script</VariableType>
-                          <AssemblerScript>[enable]
-    //"  Two of Swords Cycle 3"
+                          <AssemblerScript>
+[ENABLE]
 
-    TeleOn:
-    dd 00000001
+{$lua}
 
-    WantedCoords:
-    dd (float)2284.865
-    dd (float)-764.433
-    dd (float)41.605
+-- Teleport to Two of Swords Cycle 3--
 
-[disable]
+SetCoordinates(2284.865, -764.433, 41.605)
+
+target = "Two of Swords Cycle 3"
+
+{$asm}
+
+[DISABLE]
 </AssemblerScript>
                         </CheatEntry>
                         <CheatEntry>
                           <ID>16686</ID>
-                          <Description>"Three of Swords"</Description>
+                          <Description>"Three of Swords Cycle 3"</Description>
                           <LastState/>
                           <VariableType>Auto Assembler Script</VariableType>
-                          <AssemblerScript>[enable]
-    //"  Three of Swords Cycle 3"
+                          <AssemblerScript>
 
-    TeleOn:
-    dd 00000001
+[ENABLE]
 
-    WantedCoords:
-    dd (float)-344.793
-    dd (float)694.334
-    dd (float)117.384
+{$lua}
 
-[disable]
+-- Teleport to  Three of Swords Cycle 3--
+
+SetCoordinates(-344.793, 694.334, 117.384)
+
+target = "Three of Swords Cycle 3"
+
+{$asm}
+
+[DISABLE]
 </AssemblerScript>
                         </CheatEntry>
                         <CheatEntry>
                           <ID>16687</ID>
-                          <Description>"Four of Swords"</Description>
+                          <Description>"Four of Swords Cycle 3"</Description>
                           <LastState/>
                           <VariableType>Auto Assembler Script</VariableType>
-                          <AssemblerScript>[enable]
-    //"  Four of Swords Cycle 3"
+                          <AssemblerScript>
 
-    TeleOn:
-    dd 00000001
+[ENABLE]
 
-    WantedCoords:
-    dd (float)2972.359
-    dd (float)498.123
-    dd (float)48.374
+{$lua}
 
-[disable]
+-- Teleport to Four of Swords Cycle 3--
+
+SetCoordinates(2972.200, 494.374, 48.302)
+
+target = "Four of Swords Cycle 3"
+
+{$asm}
+
+[DISABLE]
 </AssemblerScript>
                         </CheatEntry>
                         <CheatEntry>
                           <ID>16688</ID>
-                          <Description>"Five of Swords"</Description>
+                          <Description>"Five of Swords Cycle 3"</Description>
                           <LastState/>
                           <VariableType>Auto Assembler Script</VariableType>
-                          <AssemblerScript>[enable]
-    //"  Five of Swords Cycle 3"
+                          <AssemblerScript>
+[ENABLE]
 
-    TeleOn:
-    dd 00000001
+{$lua}
 
-    WantedCoords:
-    dd (float)-1816.911
-    dd (float)-436.652
-    dd (float)159.611
+-- Teleport to Five of Swords Cycle 3--
 
-[disable]
+SetCoordinates(-1816.911, -436.652, 159.611)
+
+target = "Five of Swords Cycle 3"
+
+{$asm}
+
+[DISABLE]
 </AssemblerScript>
                         </CheatEntry>
                         <CheatEntry>
                           <ID>16689</ID>
-                          <Description>"Six of Swords"</Description>
+                          <Description>"Six of Swords Cycle 3"</Description>
                           <LastState/>
                           <VariableType>Auto Assembler Script</VariableType>
-                          <AssemblerScript>[enable]
-    //"  Six of Swords Cycle 3"
+                          <AssemblerScript>
+[ENABLE]
 
-    TeleOn:
-    dd 00000001
+{$lua}
 
-    WantedCoords:
-    dd (float)1453.632
-    dd (float)288.480
-    dd (float)104.515
+-- Teleport to Six of Swords Cycle 3--
 
-[disable]
+SetCoordinates(1453.632, 287.980, 105.915)
+
+target = "Six of Swords Cycle 3"
+
+{$asm}
+
+[DISABLE]
 </AssemblerScript>
                         </CheatEntry>
                         <CheatEntry>
                           <ID>16690</ID>
-                          <Description>"Seven of Swords"</Description>
+                          <Description>"Seven of Swords Cycle 3"</Description>
                           <LastState/>
                           <VariableType>Auto Assembler Script</VariableType>
-                          <AssemblerScript>[enable]
-    //"  Seven of Swords Cycle 3"
+                          <AssemblerScript>
+[ENABLE]
 
-    TeleOn:
-    dd 00000001
+{$lua}
 
-    WantedCoords:
-    dd (float)-1857.877
-    dd (float)-1728.004
-    dd (float)109.623
-[disable]
+-- Teleport to Seven of Swords Cycle 3--
+
+SetCoordinates(-1857.877, -1728.004, 109.623)
+
+target = "Seven of Swords Cycle 3"
+
+{$asm}
+
+[DISABLE]
 </AssemblerScript>
                         </CheatEntry>
                         <CheatEntry>
                           <ID>16691</ID>
-                          <Description>"Eight of Swords"</Description>
+                          <Description>"Eight of Swords Cycle 3"</Description>
                           <LastState/>
                           <VariableType>Auto Assembler Script</VariableType>
-                          <AssemblerScript>[enable]
-    //"  Eight of Swords Cycle 3"
+                          <AssemblerScript>
+[ENABLE]
 
-    TeleOn:
-    dd 00000001
+{$lua}
 
-    WantedCoords:
-    dd (float)1051.505
-    dd (float)-1119.424
-    dd (float)67.883
-[disable]
+-- Teleport to Eight of Swords Cycle 3--
+
+SetCoordinates(1051.505, -1119.424, 67.883)
+
+target = "Eight of Swords Cycle 3"
+
+{$asm}
+
+[DISABLE]
 </AssemblerScript>
                         </CheatEntry>
                         <CheatEntry>
                           <ID>16692</ID>
-                          <Description>"Nine of Swords"</Description>
+                          <Description>"Nine of Swords Cycle 3"</Description>
                           <LastState/>
                           <VariableType>Auto Assembler Script</VariableType>
-                          <AssemblerScript>[enable]
-    //"  Nine of Swords Cycle 3"
+                          <AssemblerScript>
+[ENABLE]
 
-    TeleOn:
-    dd 00000001
+{$lua}
 
-    WantedCoords:
-    dd (float)2881.529
-    dd (float)1382.837
-    dd (float)83.980
-[disable]
+-- Teleport to Nine of Swords Cycle 3--
+
+SetCoordinates(2881.529, 1382.837, 85.980)
+
+target = "Nine of Swords Cycle 3"
+
+{$asm}
+
+[DISABLE]
 </AssemblerScript>
                         </CheatEntry>
                         <CheatEntry>
                           <ID>16693</ID>
-                          <Description>"Ten of Swords"</Description>
+                          <Description>"Ten of Swords Cycle 3"</Description>
                           <LastState/>
                           <VariableType>Auto Assembler Script</VariableType>
-                          <AssemblerScript>[enable]
-    //"  Ten of Swords Cycle 3"
+                          <AssemblerScript>
+[ENABLE]
 
-    TeleOn:
-    dd 00000001
+{$lua}
 
-    WantedCoords:
-    dd (float)2446.412
-    dd (float)289.783
-    dd (float)67.207
-[disable]
+-- Teleport to Ten of Swords Cycle 3--
+
+SetCoordinates(2446.412, 289.783, 67.207)
+
+target = "Ten of Swords Cycle 3"
+
+{$asm}
+
+[DISABLE]
 </AssemblerScript>
                         </CheatEntry>
                         <CheatEntry>
                           <ID>16694</ID>
-                          <Description>"Page of Swords"</Description>
+                          <Description>"Page of Swords Cycle 3"</Description>
                           <LastState/>
                           <VariableType>Auto Assembler Script</VariableType>
-                          <AssemblerScript>[enable]
-    //"  Page of Swords Cycle 3"
+                          <AssemblerScript>
+[ENABLE]
 
-    TeleOn:
-    dd 00000001
+{$lua}
 
-    WantedCoords:
-    dd (float)600.559
-    dd (float)567.529
-    dd (float)111.212
-[disable]
+-- Teleport to Page of Swords Cycle 3--
+
+SetCoordinates(600.559, 567.529, 111.212)
+
+target = "Page of Swords Cycle 3"
+
+{$asm}
+
+[DISABLE]
 </AssemblerScript>
                         </CheatEntry>
                         <CheatEntry>
                           <ID>16695</ID>
-                          <Description>"Knight of Swords"</Description>
+                          <Description>"Knight of Swords Cycle 3"</Description>
                           <LastState/>
                           <VariableType>Auto Assembler Script</VariableType>
-                          <AssemblerScript>[enable]
-    //" Knight of Swords Cycle 3"
+                          <AssemblerScript>
+[ENABLE]
 
-    TeleOn:
-    dd 00000001
+{$lua}
 
-    WantedCoords:
-    dd (float)2951.070
-    dd (float)-1238.536
-    dd (float)41.825
-[disable]
+-- Teleport to Knight of Swords Cycle 3--
+
+SetCoordinates(2949.682, -1235.371, 42.333)
+
+target = "Knight of Swords Cycle 3"
+
+{$asm}
+
+[DISABLE]
 </AssemblerScript>
                         </CheatEntry>
                         <CheatEntry>
                           <ID>16696</ID>
-                          <Description>"Queen of Swords"</Description>
+                          <Description>"Queen of Swords Cycle 3"</Description>
                           <LastState/>
                           <VariableType>Auto Assembler Script</VariableType>
-                          <AssemblerScript>[enable]
-    //" Queen of Swords Cycle 3"
+                          <AssemblerScript>
+[ENABLE]
 
-    TeleOn:
-    dd 00000001
+{$lua}
 
-    WantedCoords:
-    dd (float)1868.866
-    dd (float)583.720
-    dd (float)113.857
-[disable]
+-- Teleport to Queen of Swords Cycle 3--
+
+SetCoordinates(1868.866, 583.720, 113.857)
+
+target = "Queen of Swords Cycle 3"
+
+{$asm}
+
+[DISABLE]
 </AssemblerScript>
                         </CheatEntry>
                         <CheatEntry>
                           <ID>16697</ID>
-                          <Description>"King of Swords"</Description>
+                          <Description>"King of Swords Cycle 3"</Description>
                           <LastState/>
                           <VariableType>Auto Assembler Script</VariableType>
-                          <AssemblerScript>[enable]
-    //" King of Swords Cycle 3"
+                          <AssemblerScript>
+[ENABLE]
 
-    TeleOn:
-    dd 00000001
+{$lua}
 
-    WantedCoords:
-    dd (float)-5547.003
-    dd (float)-2397.248
-    dd (float)-9.142
-[disable]
+-- Teleport to King of Swords Cycle 3--
+
+SetCoordinates(-5547.003, -2397.248, -9.142)
+
+target = "King of Swords Cycle 3"
+
+{$asm}
+
+[DISABLE]
 </AssemblerScript>
                         </CheatEntry>
                       </CheatEntries>
@@ -21050,254 +21150,297 @@ target = "Two of Swords Cycle 2"
                       <CheatEntries>
                         <CheatEntry>
                           <ID>16699</ID>
-                          <Description>"Ace of Wands"</Description>
+                          <Description>"Ace of Wands Cycle 3"</Description>
                           <LastState/>
                           <VariableType>Auto Assembler Script</VariableType>
-                          <AssemblerScript>[enable]
-    //" Ace of Wands Cycle 3"
+                          <AssemblerScript>
+[ENABLE]
 
-    TeleOn:
-    dd 00000001
+{$lua}
 
-    WantedCoords:
-    dd (float)-532.259
-    dd (float)2671.911
-    dd (float)318.747
-[disable]
+-- Teleport to Ace of Wands Cycle 3--
+
+SetCoordinates(-532.259, 2671.911, 318.747)
+
+target = "Ace of Wands Cycle 3E"
+
+{$asm}
+
+[DISABLE]
 </AssemblerScript>
                         </CheatEntry>
                         <CheatEntry>
                           <ID>16700</ID>
-                          <Description>"Two of Wands"</Description>
+                          <Description>"Two of Wands Cycle 3"</Description>
                           <LastState/>
                           <VariableType>Auto Assembler Script</VariableType>
-                          <AssemblerScript>[enable]
-    //" Two of Wands Cycle 3"
+                          <AssemblerScript>
+[ENABLE]
 
-    TeleOn:
-    dd 00000001
+{$lua}
 
-    WantedCoords:
-    dd (float)-697.054
-    dd (float)-1245.023
-    dd (float)43.214
-[disable]
+-- Teleport to Two of Wands Cycle 3--
+
+SetCoordinates(-691.934, -1244.889, 43.167)
+
+target = "Two of Wands Cycle 3"
+
+{$asm}
+
+[DISABLE]
 </AssemblerScript>
                         </CheatEntry>
                         <CheatEntry>
                           <ID>16701</ID>
-                          <Description>"Three of Wands"</Description>
+                          <Description>"Three of Wands Cycle 3"</Description>
                           <LastState/>
                           <VariableType>Auto Assembler Script</VariableType>
-                          <AssemblerScript>[enable]
-    //" Three of Wands Cycle 3"
+                          <AssemblerScript>
+[ENABLE]
 
-    TeleOn:
-    dd 00000001
+{$lua}
 
-    WantedCoords:
-    dd (float)3033.593
-    dd (float)1368.348
-    dd (float)42.662
-[disable]
+-- Teleport to Three of Wands Cycle 3--
+
+SetCoordinates(3033.593, 1368.348, 42.662)
+
+target = "Three of Wands Cycle 3"
+
+{$asm}
+
+[DISABLE]
 </AssemblerScript>
                         </CheatEntry>
                         <CheatEntry>
                           <ID>16702</ID>
-                          <Description>"Four of Wands "</Description>
+                          <Description>"Four of Wands Cycle 3"</Description>
                           <LastState/>
                           <VariableType>Auto Assembler Script</VariableType>
-                          <AssemblerScript>[enable]
-    //" Four of Wands Cycle 3"
+                          <AssemblerScript>
 
-    TeleOn:
-    dd 00000001
+[ENABLE]
 
-    WantedCoords:
-    dd (float)2540.968
-    dd (float)697.140
-    dd (float)80.741
-[disable]
+{$lua}
+
+-- Teleport to Four of Wands Cycle 3--
+
+SetCoordinates(2540.968, 697.140, 80.741)
+
+target = "Four of Wands Cycle 3"
+
+{$asm}
+
+[DISABLE]
 </AssemblerScript>
                         </CheatEntry>
                         <CheatEntry>
                           <ID>16703</ID>
-                          <Description>"Five of Wands"</Description>
+                          <Description>"Five of Wands Cycle 3"</Description>
                           <LastState/>
                           <VariableType>Auto Assembler Script</VariableType>
-                          <AssemblerScript>[enable]
-    //" Five of Wands Cycle 3"
+                          <AssemblerScript>
+[ENABLE]
 
-    TeleOn:
-    dd 00000001
+{$lua}
 
-    WantedCoords:
-    dd (float)1321.869
-    dd (float)-1136.148
-    dd (float)82.185
-[disable]
+-- Teleport to Five of Wands Cycle 3--
+
+SetCoordinates(1321.869, -1136.148, 82.185)
+
+target = "Five of Wands Cycle 3"
+
+{$asm}
+
+[DISABLE]
 </AssemblerScript>
                         </CheatEntry>
                         <CheatEntry>
                           <ID>16704</ID>
-                          <Description>"Six of Wands"</Description>
+                          <Description>"Six of Wands Cycle 3"</Description>
                           <LastState/>
                           <VariableType>Auto Assembler Script</VariableType>
-                          <AssemblerScript>[enable]
-    //" Six of Wands Cycle 3"
+                          <AssemblerScript>
+[ENABLE]
 
-    TeleOn:
-    dd 00000001
+{$lua}
 
-    WantedCoords:
-    dd (float)2796.862
-    dd (float)-1160.953
-    dd (float)47.921
-[disable]
+-- Teleport to Six of Wands Cycle 3--
+
+SetCoordinates(2796.862, -1160.953, 47.921)
+
+target = "Six of Wands Cycle 3"
+
+{$asm}
+
+[DISABLE]
 </AssemblerScript>
                         </CheatEntry>
                         <CheatEntry>
                           <ID>16705</ID>
-                          <Description>"Seven of Wands"</Description>
+                          <Description>"Seven of Wands Cycle 3"</Description>
                           <LastState/>
                           <VariableType>Auto Assembler Script</VariableType>
-                          <AssemblerScript>[enable]
-    //" Sevenof Wands Cycle 3"
+                          <AssemblerScript>
+[ENABLE]
 
-    TeleOn:
-    dd 00000001
+{$lua}
 
-    WantedCoords:
-    dd (float)752.795
-    dd (float)-854.739
-    dd (float)55.040
-[disable]
+-- Teleport to Sevenof Wands Cycle 3--
+
+SetCoordinates(752.795, -854.739, 55.040)
+
+target = "Seven of Wands Cycle 3"
+
+{$asm}
+
+[DISABLE]
 </AssemblerScript>
                         </CheatEntry>
                         <CheatEntry>
                           <ID>16706</ID>
-                          <Description>"Eight of Wands"</Description>
+                          <Description>"Eight of Wands Cycle 3"</Description>
                           <LastState/>
                           <VariableType>Auto Assembler Script</VariableType>
-                          <AssemblerScript>[enable]
-    //" Eight of Wands Cycle 3"
+                          <AssemblerScript>
+[ENABLE]
 
-    TeleOn:
-    dd 00000001
+{$lua}
 
-    WantedCoords:
-    dd (float)2071.325
-    dd (float)-855.115
-    dd (float)43.356
-[disable]
+-- Teleport to Eight of Wands Cycle 3--
+
+SetCoordinates(2071.325, -855.115, 43.356)
+
+target = "Eight of Wands Cycle 3"
+
+{$asm}
+
+[DISABLE]
 </AssemblerScript>
                         </CheatEntry>
                         <CheatEntry>
                           <ID>16707</ID>
-                          <Description>"Nine of Wands"</Description>
+                          <Description>"Nine of Wands Cycle 3"</Description>
                           <LastState/>
                           <VariableType>Auto Assembler Script</VariableType>
-                          <AssemblerScript>[enable]
-    //" Nine of Wands Cycle 3"
+                          <AssemblerScript>
+[ENABLE]
 
-    TeleOn:
-    dd 00000001
+{$lua}
 
-    WantedCoords:
-    dd (float)-2312.633
-    dd (float)-484.438
-    dd (float)144.988
-[disable]
+-- Teleport to Nine of Wands Cycle 3--
+
+SetCoordinates(-2312.633, -484.438, 144.988)
+
+target = "Nine of Wands Cycle 3"
+
+{$asm}
+
+[DISABLE]
 </AssemblerScript>
                         </CheatEntry>
                         <CheatEntry>
                           <ID>16708</ID>
-                          <Description>"Ten of Wands"</Description>
+                          <Description>"Ten of Wands Cycle 3"</Description>
                           <LastState/>
                           <VariableType>Auto Assembler Script</VariableType>
-                          <AssemblerScript>[enable]
-    //" Ten of Wands Cycle 3"
+                          <AssemblerScript>
+[ENABLE]
 
-    TeleOn:
-    dd 00000001
+{$lua}
 
-    WantedCoords:
-    dd (float)2483.076
-    dd (float)-1303.541
-    dd (float)48.866
-[disable]
+-- Teleport to Ten of Wands Cycle 3--
+
+SetCoordinates(2483.076, -1303.541, 48.866)
+
+target = "Ten of Wands Cycle 3"
+
+{$asm}
+
+[DISABLE]
 </AssemblerScript>
                         </CheatEntry>
                         <CheatEntry>
                           <ID>16709</ID>
-                          <Description>"Page of Wands"</Description>
+                          <Description>"Page of Wands Cycle 3"</Description>
                           <LastState/>
                           <VariableType>Auto Assembler Script</VariableType>
-                          <AssemblerScript>[enable]
-    //" Page of Wands Cycle 3"
+                          <AssemblerScript>
+[ENABLE]
 
-    TeleOn:
-    dd 00000001
+{$lua}
 
-    WantedCoords:
-    dd (float)2335.971
-    dd (float)1402.449
-    dd (float)103.598
-[disable]
+-- Teleport to Page of Wands Cycle 3--
+
+SetCoordinates(2335.971, 1402.449, 103.598)
+
+target = "Page of Wands Cycle 3"
+
+{$asm}
+
+[DISABLE]
 </AssemblerScript>
                         </CheatEntry>
                         <CheatEntry>
                           <ID>16710</ID>
-                          <Description>"Knight of Wands "</Description>
+                          <Description>"Knight of Wands Cycle 3"</Description>
                           <LastState/>
                           <VariableType>Auto Assembler Script</VariableType>
-                          <AssemblerScript>[enable]
-    //" Knight of Wands Cycle 3"
+                          <AssemblerScript>
+[ENABLE]
 
-    TeleOn:
-    dd 00000001
+{$lua}
 
-    WantedCoords:
-    dd (float)1007.066
-    dd (float)-1805.688
-    dd (float)46.615
-[disable]
+-- Teleport to Knight of Wands Cycle 3--
+
+SetCoordinates(1007.066, -1805.688, 46.615)
+
+target = "Knight of Wands Cycle 3"
+
+{$asm}
+
+[DISABLE]
 </AssemblerScript>
                         </CheatEntry>
                         <CheatEntry>
                           <ID>16711</ID>
-                          <Description>"Queen of Wands"</Description>
+                          <Description>"Queen of Wands Cycle 3"</Description>
                           <LastState/>
                           <VariableType>Auto Assembler Script</VariableType>
-                          <AssemblerScript>[enable]
-    //" Queen of Wands Cycle 3"
+                          <AssemblerScript>
+[ENABLE]
 
-    TeleOn:
-    dd 00000001
+{$lua}
 
-    WantedCoords:
-    dd (float)-3843.806
-    dd (float)-3008.838
-    dd (float)-6.863
-[disable]
+-- Teleport to Queen of Wands Cycle 3--
+
+SetCoordinates(-3843.806, -3008.838, -6.863)
+
+target = "Queen of Wands Cycle 3"
+
+{$asm}
+
+[DISABLE]
 </AssemblerScript>
                         </CheatEntry>
                         <CheatEntry>
                           <ID>16712</ID>
-                          <Description>"King of Wands"</Description>
+                          <Description>"King of Wands Cycle 3"</Description>
                           <LastState/>
                           <VariableType>Auto Assembler Script</VariableType>
-                          <AssemblerScript>[enable]
-    //" King of Wands Cycle 3"
+                          <AssemblerScript>
+[ENABLE]
 
-    TeleOn:
-    dd 00000001
+{$lua}
 
-    WantedCoords:
-    dd (float)-1356.738
-    dd (float)-2291.261
-    dd (float)46.190
-[disable]
+-- Teleport to King of Wands Cycle 3--
+
+SetCoordinates(-1356.738, -2291.261, 46.190)
+
+target = "King of Wands Cycle 3"
+
+{$asm}
+
+[DISABLE]
 </AssemblerScript>
                         </CheatEntry>
                       </CheatEntries>
@@ -21312,45 +21455,51 @@ target = "Two of Swords Cycle 2"
                       <CheatEntries>
                         <CheatEntry>
                           <ID>16714</ID>
-                          <Description>"Ace of Pentacles"</Description>
+                          <Description>"Ace of Pentacles Cycle 3"</Description>
                           <LastState/>
                           <VariableType>Auto Assembler Script</VariableType>
-                          <AssemblerScript>[enable]
-    //" Ace of Pentacles Cycle 3"
+                          <AssemblerScript>
 
-    TeleOn:
-    dd 00000001
+[ENABLE]
 
-    WantedCoords:
-    dd (float)576.096  //x
-    dd (float)1674.873  //y
-    dd (float)187.748  //z
+{$lua}
 
-[disable]
+-- Teleport to Ace of Pentacles Cycle 3--
+
+SetCoordinates(576.096, 1674.873, 187.748)
+
+target = "Ace of Pentacles Cycle 3"
+
+{$asm}
+
+[DISABLE]
 </AssemblerScript>
                         </CheatEntry>
                         <CheatEntry>
                           <ID>16715</ID>
-                          <Description>"Two of Pentacles"</Description>
+                          <Description>"Two of Pentacles Cycle 3"</Description>
                           <LastState/>
                           <VariableType>Auto Assembler Script</VariableType>
-                          <AssemblerScript>[enable]
-    //" Two of Pentacles Cycle 3"
+                          <AssemblerScript>
 
-    TeleOn:
-    dd 00000001
+[ENABLE]
 
-    WantedCoords:
-    dd (float)875.930  //x
-    dd (float)-1929.831  //y
-    dd (float)46.535 //z
+{$lua}
 
-[disable]
+-- Teleport to Two of Pentacles Cycle 3--
+
+SetCoordinates(875.930, -1929.831, 46.535)
+
+target = "Two of Pentacles Cycle 3"
+
+{$asm}
+
+[DISABLE]
 </AssemblerScript>
                         </CheatEntry>
                         <CheatEntry>
                           <ID>16716</ID>
-                          <Description>"Three of Pentacles"</Description>
+                          <Description>"Two of Pentacles Cycle 3"</Description>
                           <LastState/>
                           <VariableType>Auto Assembler Script</VariableType>
                           <AssemblerScript>[enable]
@@ -21369,211 +21518,240 @@ target = "Two of Swords Cycle 2"
                         </CheatEntry>
                         <CheatEntry>
                           <ID>16717</ID>
-                          <Description>"Four of Pentacles"</Description>
+                          <Description>"Four of Pentacles Cycle 3"</Description>
                           <LastState/>
                           <VariableType>Auto Assembler Script</VariableType>
-                          <AssemblerScript>[enable]
-    //" Four of Pentacles Cycle 3"
+                          <AssemblerScript>
+[ENABLE]
 
-    TeleOn:
-    dd 00000001
+{$lua}
 
-    WantedCoords:
-    dd (float)2752.523  //x
-    dd (float)-1285.660  //y
-    dd (float)48.055 //z
+-- Teleport to Four of Pentacles Cycle 3--
 
-[disable]
+SetCoordinates(2752.523, -1285.660, 48.055)
+
+target = "Four of Pentacles Cycle 3"
+
+{$asm}
+
+[DISABLE]
 </AssemblerScript>
                         </CheatEntry>
                         <CheatEntry>
                           <ID>16718</ID>
-                          <Description>"Five of Pentacles"</Description>
+                          <Description>"Five of Pentacles Cycle 3"</Description>
                           <LastState/>
                           <VariableType>Auto Assembler Script</VariableType>
-                          <AssemblerScript>[enable]
-    //" Five of Pentacles Cycle 3"
+                          <AssemblerScript>
 
-    TeleOn:
-    dd 00000001
+[ENABLE]
 
-    WantedCoords:
-    dd (float)2089.983  //x
-    dd (float)-1819.962  //y
-    dd (float)42.936 //z
+{$lua}
 
-[disable]
+-- Teleport to Five of Pentacles Cycle 3--
+
+SetCoordinates(2089.983, -1819.962, 42.936)
+
+target = "Five of Pentacles Cycle 3"
+
+{$asm}
+
+[DISABLE]
 </AssemblerScript>
                         </CheatEntry>
                         <CheatEntry>
                           <ID>16719</ID>
-                          <Description>"Six of Pentacles"</Description>
+                          <Description>"Six of Pentacles Cycle 3"</Description>
                           <LastState/>
                           <VariableType>Auto Assembler Script</VariableType>
-                          <AssemblerScript>[enable]
-    //" Six of Pentacles Cycle 3"
+                          <AssemblerScript>
 
-    TeleOn:
-    dd 00000001
+[ENABLE]
 
-    WantedCoords:
-    dd (float)1409.639  //x
-    dd (float)-1288.750  //y
-    dd (float)77.319 //z
+{$lua}
 
-[disable]
+-- Teleport to Six of Pentacles Cycle 3--
+
+SetCoordinates(1409.639, -1288.750, 77.319)
+
+target = "Six of Pentacles Cycle 3"
+
+{$asm}
+
+[DISABLE]
 </AssemblerScript>
                         </CheatEntry>
                         <CheatEntry>
                           <ID>16720</ID>
-                          <Description>"Seven of Pentacles"</Description>
+                          <Description>"Seven of Pentacles Cycle 3"</Description>
                           <LastState/>
                           <VariableType>Auto Assembler Script</VariableType>
-                          <AssemblerScript>[enable]
-    //" Seven of Pentacles Cycle 3"
+                          <AssemblerScript>
+[ENABLE]
 
-    TeleOn:
-    dd 00000001
+{$lua}
 
-    WantedCoords:
-    dd (float)1833.435  //x
-    dd (float)-1422.419  //y
-    dd (float)43.834 //z
+-- Teleport to Seven of Pentacles Cycle 3--
 
-[disable]
+SetCoordinates(1833.435, -1422.419, 43.834)
+
+target = "Seven of Pentacles Cycle 3"
+
+{$asm}
+
+[DISABLE]
 </AssemblerScript>
                         </CheatEntry>
                         <CheatEntry>
                           <ID>16721</ID>
-                          <Description>"Eight of Pentacles"</Description>
+                          <Description>"Eight of Pentacles Cycle 3"</Description>
                           <LastState/>
                           <VariableType>Auto Assembler Script</VariableType>
-                          <AssemblerScript>[enable]
-    //" Eight of Pentacles Cycle 3"
+                          <AssemblerScript>
 
-    TeleOn:
-    dd 00000001
+[ENABLE]
 
-    WantedCoords:
-    dd (float)-1359.520  //x
-    dd (float)2427.454  //y
-    dd (float)307.921 //z
+{$lua}
 
-[disable]
+-- Teleport to Eight of Pentacles Cycle 3--
+
+SetCoordinates(-1359.520, 2427.454, 307.921)
+
+target = "Eight of Pentacles Cycle 3"
+
+{$asm}
+
+[DISABLE]
 </AssemblerScript>
                         </CheatEntry>
                         <CheatEntry>
                           <ID>16722</ID>
-                          <Description>"Nine of Pentacles"</Description>
+                          <Description>"Nine of Pentacles Cycle 3"</Description>
                           <LastState/>
                           <VariableType>Auto Assembler Script</VariableType>
-                          <AssemblerScript>[enable]
-    //" Nine of Pentacles Cycle 3"
+                          <AssemblerScript>
 
-    TeleOn:
-    dd 00000001
+[ENABLE]
 
-    WantedCoords:
-    dd (float)2903.350  //x
-    dd (float)1342.800  //y
-    dd (float)48.155 //z
+{$lua}
 
-[disable]
+-- Teleport to Nine of Pentacles Cycle 3--
+
+SetCoordinates(2903.350, 1342.800, 48.155)
+
+target = "Nine of Pentacles Cycle 3"
+
+{$asm}
+
+[DISABLE]
 </AssemblerScript>
                         </CheatEntry>
                         <CheatEntry>
                           <ID>16723</ID>
-                          <Description>"Ten of Pentacles"</Description>
+                          <Description>"Ten of Pentacles Cycle 3"</Description>
                           <LastState/>
                           <VariableType>Auto Assembler Script</VariableType>
-                          <AssemblerScript>[enable]
-    //" Ten of Pentacles Cycle 3"
+                          <AssemblerScript>
 
-    TeleOn:
-    dd 00000001
+[ENABLE]
 
-    WantedCoords:
-    dd (float)1372.560  //x
-    dd (float)-874.484  //y
-    dd (float)70.132 //z
+{$lua}
 
-[disable]
+-- Teleport to Ten of Pentacles Cycle 3--
+
+SetCoordinates(1372.560, -874.484, 70.132)
+
+target = "Ten of Pentacles Cycle 3"
+
+{$asm}
+
+[DISABLE]
 </AssemblerScript>
                         </CheatEntry>
                         <CheatEntry>
                           <ID>16724</ID>
-                          <Description>"Page of Pentacles"</Description>
+                          <Description>"Page of Pentacles Cycle 3"</Description>
                           <LastState/>
                           <VariableType>Auto Assembler Script</VariableType>
-                          <AssemblerScript>[enable]
-    //" Page of Pentacles Cycle 3"
+                          <AssemblerScript>
 
-    TeleOn:
-    dd 00000001
+[ENABLE]
 
-    WantedCoords:
-    dd (float)1782.403  //x
-    dd (float)-400.926  //y
-    dd (float)47.440 //z
+{$lua}
 
-[disable]
+-- Teleport to Page of Pentacles Cycle 3--
+
+SetCoordinates(1782.403, -400.926, 47.440)
+
+target = "Page of Pentacles Cycle 3"
+
+{$asm}
+
+[DISABLE]
 </AssemblerScript>
                         </CheatEntry>
                         <CheatEntry>
                           <ID>16725</ID>
-                          <Description>"Knight of Pentacles"</Description>
+                          <Description>"Knight of Pentacles Cycle 3"</Description>
                           <LastState/>
                           <VariableType>Auto Assembler Script</VariableType>
-                          <AssemblerScript>[enable]
-    //" Knight of Pentacles Cycle 3"
+                          <AssemblerScript>
+[ENABLE]
 
-    TeleOn:
-    dd 00000001
+{$lua}
 
-    WantedCoords:
-    dd (float)1932.047  //x
-    dd (float)1947.120  //y
-    dd (float)263.011  //z
+-- Teleport to Knight of Pentacles Cycle 3--
 
-[disable]
+SetCoordinates(1932.047, 1947.120, 263.011)
+
+target = "Knight of Pentacles Cycle 3"
+
+{$asm}
+
+[DISABLE]
 </AssemblerScript>
                         </CheatEntry>
                         <CheatEntry>
                           <ID>16726</ID>
-                          <Description>"Queen of Pentacles"</Description>
+                          <Description>"Queen of Pentacles Cycle 3"</Description>
                           <LastState/>
                           <VariableType>Auto Assembler Script</VariableType>
-                          <AssemblerScript>[enable]
-    //" Queen of Pentacles Cycle 3"
+                          <AssemblerScript>
+[ENABLE]
 
-    TeleOn:
-    dd 00000001
+{$lua}
 
-    WantedCoords:
-    dd (float)-5511.742  //x
-    dd (float)-2879.983  //y
-    dd (float)-4.411  //z
+-- Teleport to Queen of Pentacles Cycle 3--
 
-[disable]
+SetCoordinates(-5511.742, -2879.983, -4.411)
+
+target = "Queen of Pentacles Cycle 3"
+
+{$asm}
+
+[DISABLE]
 </AssemblerScript>
                         </CheatEntry>
                         <CheatEntry>
                           <ID>16727</ID>
-                          <Description>"King of Pentacles"</Description>
+                          <Description>"King of Pentacles Cycle 3"</Description>
                           <LastState/>
                           <VariableType>Auto Assembler Script</VariableType>
-                          <AssemblerScript>[enable]
-    //" King of Pentacles Cycle 3"
+                          <AssemblerScript>
 
-    TeleOn:
-    dd 00000001
+[ENABLE]
 
-    WantedCoords:
-    dd (float)2745.822  //x
-    dd (float)1411.296 //y
-    dd (float)98.797 //z
+{$lua}
 
-[disable]
+-- Teleport to King of Pentacles Cycle 3--
+
+SetCoordinates(2745.822, 1411.296, 98.697)
+
+target = "King of Pentacles Cycle 3"
+
+{$asm}
+
+[DISABLE]
 </AssemblerScript>
                         </CheatEntry>
                       </CheatEntries>
@@ -21581,7 +21759,7 @@ target = "Two of Swords Cycle 2"
                   </CheatEntries>
                 </CheatEntry>
                 <CheatEntry>
-                  <ID>17135</ID>
+                  <ID>19359</ID>
                   <Description>"Cycle 4"</Description>
                   <Options moHideChildren="1" moDeactivateChildrenAsWell="1"/>
                   <LastState Value="" RealAddress="00000000"/>
@@ -21589,7 +21767,7 @@ target = "Two of Swords Cycle 2"
                   <GroupHeader>1</GroupHeader>
                   <CheatEntries>
                     <CheatEntry>
-                      <ID>17150</ID>
+                      <ID>19360</ID>
                       <Description>"Cups"</Description>
                       <Options moHideChildren="1" moDeactivateChildrenAsWell="1"/>
                       <LastState Value="" RealAddress="00000000"/>
@@ -21597,289 +21775,289 @@ target = "Two of Swords Cycle 2"
                       <GroupHeader>1</GroupHeader>
                       <CheatEntries>
                         <CheatEntry>
-                          <ID>17136</ID>
-                          <Description>"Ace of Cups "</Description>
+                          <ID>19361</ID>
+                          <Description>"Ace of Cups Cycle 4"</Description>
                           <LastState/>
                           <VariableType>Auto Assembler Script</VariableType>
-                          <AssemblerScript>[enable]
-    //"Ace of Cups Cycle 4"
+                          <AssemblerScript>[ENABLE]
 
-    TeleOn:
-    dd 00000001
+{$lua}
 
-    WantedCoords:
-    dd (float)-6011.041     //x
-    dd (float)-3144.759    //y
-    dd (float)5.421       //z
+-- Teleport to Ace of Cups Cycle 4--
 
-[disable]
+SetCoordinates(-6011.041, -3144.759, 5.421)
 
+target = "Ace of Cups Cycle 4"
+
+{$asm}
+
+[DISABLE]
 </AssemblerScript>
                         </CheatEntry>
                         <CheatEntry>
-                          <ID>17137</ID>
-                          <Description>"Two of Cups"</Description>
+                          <ID>19362</ID>
+                          <Description>"Two of Cups Cycle 4"</Description>
                           <LastState/>
                           <VariableType>Auto Assembler Script</VariableType>
-                          <AssemblerScript>[enable]
-    //"2 of Cups Cycle 4"
+                          <AssemblerScript>[ENABLE]
 
-    TeleOn:
-    dd 00000001
+{$lua}
 
-    WantedCoords:
-    dd (float)-171.494     //x
-    dd (float)631.645    //y
-    dd (float)114.027       //z
+-- Teleport to 2 of Cups Cycle 4--
 
-[disable]
+SetCoordinates( -171.494, 631.645, 114.027)
 
+target = "Two of Cups Cycle 4"
+
+{$asm}
+
+[DISABLE]
 </AssemblerScript>
                         </CheatEntry>
                         <CheatEntry>
-                          <ID>17138</ID>
-                          <Description>"Three of Cups"</Description>
+                          <ID>19363</ID>
+                          <Description>"Three of Cups Cycle 4"</Description>
                           <LastState/>
                           <VariableType>Auto Assembler Script</VariableType>
-                          <AssemblerScript>[enable]
-    //"3 of Cups Cycle 4"
+                          <AssemblerScript>[ENABLE]
 
-    TeleOn:
-    dd 00000001
+{$lua}
 
-    WantedCoords:
-    dd (float)-1770.557     //x
-    dd (float)-429.493    //y
-    dd (float)155.218       //z
+-- Teleport to Three of Cups Cycle 4--
 
-[disable]
+SetCoordinates(-1770.557, -429.493, 155.218)
 
+target = "Three of Cups Cycle 4"
+
+{$asm}
+
+[DISABLE]
 </AssemblerScript>
                         </CheatEntry>
                         <CheatEntry>
-                          <ID>17139</ID>
-                          <Description>"Four of Cups"</Description>
+                          <ID>19364</ID>
+                          <Description>"Four of Cups Cycle 4"</Description>
                           <LastState/>
                           <VariableType>Auto Assembler Script</VariableType>
-                          <AssemblerScript>[enable]
-    //"4 of Cups Cycle 4"
+                          <AssemblerScript>[ENABLE]
 
-    TeleOn:
-    dd 00000001
+{$lua}
 
-    WantedCoords:
-    dd (float)2745.354     //x
-    dd (float)-1182.525    //y
-    dd (float)49.193       //z
+-- Teleport to Four of Cups Cycle 4--
 
-[disable]
+SetCoordinates(2745.354, -1182.525, 49.193)
 
+target = "Four of Cups Cycle 4"
+
+{$asm}
+
+[DISABLE]
 </AssemblerScript>
                         </CheatEntry>
                         <CheatEntry>
-                          <ID>17140</ID>
-                          <Description>"Five of Cups"</Description>
+                          <ID>19365</ID>
+                          <Description>"Five of Cups Cycle 4"</Description>
                           <LastState/>
                           <VariableType>Auto Assembler Script</VariableType>
-                          <AssemblerScript>[enable]
-    //"5 of Cups Cycle 4"
+                          <AssemblerScript>[ENABLE]
 
-    TeleOn:
-    dd 00000001
+{$lua}
 
-    WantedCoords:
-    dd (float)2739.979     //x
-    dd (float)1351.687    //y
-    dd (float)68.119       //z
+-- Teleport to Five of Cups Cycle 4--
 
-[disable]
+SetCoordinates(2739.979, 1351.687, 68.119)
 
+target = "Five of Cups Cycle 4"
+
+{$asm}
+
+[DISABLE]
 </AssemblerScript>
                         </CheatEntry>
                         <CheatEntry>
-                          <ID>17141</ID>
-                          <Description>"Six of Cups"</Description>
+                          <ID>19366</ID>
+                          <Description>"Six of Cups Cycle 4"</Description>
                           <LastState/>
                           <VariableType>Auto Assembler Script</VariableType>
-                          <AssemblerScript>[enable]
-    //"Six of Cups Cycle 4"
+                          <AssemblerScript>[ENABLE]
 
-    TeleOn:
-    dd 00000001
+{$lua}
 
-    WantedCoords:
-    dd (float)1376.004     //x
-    dd (float)-1316.500    //y
-    dd (float)77.358       //z
+-- Teleport to Six of Cups Cycle 4--
 
-[disable]
+SetCoordinates(1376.004, -1316.500, 77.358)
 
+target = "Six of Cups Cycle 4"
+
+{$asm}
+
+[DISABLE]
 </AssemblerScript>
                         </CheatEntry>
                         <CheatEntry>
-                          <ID>17142</ID>
-                          <Description>"Seven of Cups"</Description>
+                          <ID>19367</ID>
+                          <Description>"Seven of Cups Cycle 4"</Description>
                           <LastState/>
                           <VariableType>Auto Assembler Script</VariableType>
-                          <AssemblerScript>[enable]
-    //"Seven of Cups Cycle 4"
+                          <AssemblerScript>[ENABLE]
 
-    TeleOn:
-    dd 00000001
+{$lua}
 
-    WantedCoords:
-    dd (float)-820.958     //x
-    dd (float)354.437    //y
-    dd (float)98.078      //z
+-- Teleport to Seven of Cups Cycle 4--
 
-[disable]
+SetCoordinates(-820.958, 354.437, 98.078)
 
+target = "Seven of Cups Cycle 4"
+
+{$asm}
+
+[DISABLE]
 </AssemblerScript>
                         </CheatEntry>
                         <CheatEntry>
-                          <ID>17143</ID>
-                          <Description>"Eight of Cups"</Description>
+                          <ID>19368</ID>
+                          <Description>"Eight of Cups Cycle 4"</Description>
                           <LastState/>
                           <VariableType>Auto Assembler Script</VariableType>
-                          <AssemblerScript>[enable]
-    //"Eight of Cups Cycle 4"
+                          <AssemblerScript>[ENABLE]
 
-    TeleOn:
-    dd 00000001
+{$lua}
 
-    WantedCoords:
-    dd (float)2116.677     //x
-    dd (float)-597.536    //y
-    dd (float)42.611      //z
+-- Teleport to Eight of Cups Cycle 4--
 
-[disable]
+SetCoordinates(2116.677, -597.536, 42.611)
 
+target = "Eight of Cups Cycle 4"
+
+{$asm}
+
+[DISABLE]
 </AssemblerScript>
                         </CheatEntry>
                         <CheatEntry>
-                          <ID>17144</ID>
-                          <Description>"Nine of Cups"</Description>
+                          <ID>19369</ID>
+                          <Description>"Nine of Cups Cycle 4"</Description>
                           <LastState/>
                           <VariableType>Auto Assembler Script</VariableType>
-                          <AssemblerScript>[enable]
-    //"Nine of Cups Cycle 4"
+                          <AssemblerScript>[ENABLE]
 
-    TeleOn:
-    dd 00000001
+{$lua}
 
-    WantedCoords:
-    dd (float)1115.623     //x
-    dd (float)507.752    //y
-    dd (float)95.486      //z
+-- Teleport to Nine of Cups Cycle 4--
 
-[disable]
+SetCoordinates(1115.623, 507.752, 95.486)
 
+target = "Nine of Cups Cycle 4"
+
+{$asm}
+
+[DISABLE]
 </AssemblerScript>
                         </CheatEntry>
                         <CheatEntry>
-                          <ID>17145</ID>
-                          <Description>"Ten of Cups"</Description>
+                          <ID>19370</ID>
+                          <Description>"Ten of Cups Cycle 4"</Description>
                           <LastState/>
                           <VariableType>Auto Assembler Script</VariableType>
-                          <AssemblerScript>[enable]
-    //"Ten of Cups Cycle 4"
+                          <AssemblerScript>[ENABLE]
 
-    TeleOn:
-    dd 00000001
+{$lua}
 
-    WantedCoords:
-    dd (float)-2493.496     //x
-    dd (float)-2432.458    //y
-    dd (float)60.597      //z
+-- Teleport to Ten of Cups Cycle 4--
 
-[disable]
+SetCoordinates(-2493.496, -2432.458, 60.597)
 
+target = "Ten of Cups Cycle 4"
+
+{$asm}
+
+[DISABLE]
 </AssemblerScript>
                         </CheatEntry>
                         <CheatEntry>
-                          <ID>17146</ID>
-                          <Description>"Knight of Cups"</Description>
+                          <ID>19371</ID>
+                          <Description>"Knight of Cups Cycle 4"</Description>
                           <LastState/>
                           <VariableType>Auto Assembler Script</VariableType>
-                          <AssemblerScript>[enable]
-    //"Knight of Cups Cycle 4"
+                          <AssemblerScript>[ENABLE]
 
-    TeleOn:
-    dd 00000001
+{$lua}
 
-    WantedCoords:
-    dd (float)2851.687     //x
-    dd (float)-1148.578    //y
-    dd (float)46.492      //z
+-- Teleport to Knight of Cups Cycle 4--
 
-[disable]
+SetCoordinates(2851.687, -1148.578, 46.492)
 
+target = "Knight of Cups Cycle 4"
+
+{$asm}
+
+[DISABLE]
 </AssemblerScript>
                         </CheatEntry>
                         <CheatEntry>
-                          <ID>17147</ID>
-                          <Description>"Page of Cups"</Description>
+                          <ID>19372</ID>
+                          <Description>"Page of Cups Cycle 4"</Description>
                           <LastState/>
                           <VariableType>Auto Assembler Script</VariableType>
-                          <AssemblerScript>[enable]
-    //"Page of Cups Cycle 4"
+                          <AssemblerScript>[ENABLE]
 
-    TeleOn:
-    dd 00000001
+{$lua}
 
-    WantedCoords:
-    dd (float)775.976     //x
-    dd (float)844.674    //y
-    dd (float)118.902      //z
+-- Teleport to Page of Cups Cycle 4--
 
-[disable]
+SetCoordinates(775.976, 844.674, 118.902)
 
+target = "Page of Cups Cycle 4"
+
+{$asm}
+
+[DISABLE]
 </AssemblerScript>
                         </CheatEntry>
                         <CheatEntry>
-                          <ID>17148</ID>
-                          <Description>"Queen of Cups"</Description>
+                          <ID>19373</ID>
+                          <Description>"Queen of Cups Cycle 4"</Description>
                           <LastState/>
                           <VariableType>Auto Assembler Script</VariableType>
-                          <AssemblerScript>[enable]
-    //"Queen of Cups Cycle 4"
+                          <AssemblerScript>[ENABLE]
 
-    TeleOn:
-    dd 00000001
+{$lua}
 
-    WantedCoords:
-    dd (float)1373.494     //x
-    dd (float)356.894    //y
-    dd (float)87.815      //z
+-- Teleport to Queen of Cups Cycle 4--
 
-[disable]
+SetCoordinates(1373.494, 356.894, 87.815)
 
+target = "Queen of Cups Cycle 4"
+
+{$asm}
+
+[DISABLE]
 </AssemblerScript>
                         </CheatEntry>
                         <CheatEntry>
-                          <ID>17149</ID>
-                          <Description>"King of Cups"</Description>
+                          <ID>19374</ID>
+                          <Description>"King of Cups Cycle 4"</Description>
                           <LastState/>
                           <VariableType>Auto Assembler Script</VariableType>
-                          <AssemblerScript>[enable]
-    //"King of Cups Cycle 4"
+                          <AssemblerScript>[ENABLE]
 
-    TeleOn:
-    dd 00000001
+{$lua}
 
-    WantedCoords:
-    dd (float)1319.281     //x
-    dd (float)-2287.437    //y
-    dd (float)50.534      //z
+-- Teleport to King of Cups Cycle 4--
 
-[disable]
+SetCoordinates(1319.281, -2287.437, 50.534)
 
+target = "King of Cups Cycle 4"
+
+{$asm}
+
+[DISABLE]
 </AssemblerScript>
                         </CheatEntry>
                       </CheatEntries>
                     </CheatEntry>
                     <CheatEntry>
-                      <ID>17180</ID>
+                      <ID>19375</ID>
                       <Description>"Swords"</Description>
                       <Options moHideChildren="1" moDeactivateChildrenAsWell="1"/>
                       <LastState Value="" RealAddress="00000000"/>
@@ -21887,289 +22065,289 @@ target = "Two of Swords Cycle 2"
                       <GroupHeader>1</GroupHeader>
                       <CheatEntries>
                         <CheatEntry>
-                          <ID>17152</ID>
-                          <Description>"Ace of Swords"</Description>
+                          <ID>19376</ID>
+                          <Description>"Ace of Swords Cycle 4"</Description>
                           <LastState/>
                           <VariableType>Auto Assembler Script</VariableType>
-                          <AssemblerScript>[enable]
-    //"Ace of Swords Cycle 4"
+                          <AssemblerScript>[ENABLE]
 
-    TeleOn:
-    dd 00000001
+{$lua}
 
-    WantedCoords:
-    dd (float)2930.718     //x
-    dd (float)512.445    //y
-    dd (float)45.879      //z
+-- Teleport to Ace of Swords Cycle 4--
 
-[disable]
+SetCoordinates(2930.718, 512.445, 45.879)
 
+target = "Ace of Swords Cycle 4"
+
+{$asm}
+
+[DISABLE]
 </AssemblerScript>
                         </CheatEntry>
                         <CheatEntry>
-                          <ID>17167</ID>
-                          <Description>"Two of Swords"</Description>
+                          <ID>19377</ID>
+                          <Description>"Two of Swords Cycle 4"</Description>
                           <LastState/>
                           <VariableType>Auto Assembler Script</VariableType>
-                          <AssemblerScript>[enable]
-    //"Two of Swords Cycle 4"
+                          <AssemblerScript>[ENABLE]
 
-    TeleOn:
-    dd 00000001
+{$lua}
 
-    WantedCoords:
-    dd (float)2777.852     //x
-    dd (float)-1044.317    //y
-    dd (float)46.888      //z
+-- Teleport to Two of Swords Cycle 4--
 
-[disable]
+SetCoordinates(2777.852,-1044.317, 46.888)
 
+target = "Two of Swords Cycle 4"
+
+{$asm}
+
+[DISABLE]
 </AssemblerScript>
                         </CheatEntry>
                         <CheatEntry>
-                          <ID>17168</ID>
-                          <Description>"Three of Swords"</Description>
+                          <ID>19378</ID>
+                          <Description>"Three of Swords Cycle 4"</Description>
                           <LastState/>
                           <VariableType>Auto Assembler Script</VariableType>
-                          <AssemblerScript>[enable]
-    //"Three of Swords Cycle 4"
+                          <AssemblerScript>[ENABLE]
 
-    TeleOn:
-    dd 00000001
+{$lua}
 
-    WantedCoords:
-    dd (float)2483.175    //x
-    dd (float)775.809    //y
-    dd (float)67.319      //z
+-- Teleport to Three of Swords Cycle 4--
 
-[disable]
+SetCoordinates(2483.175, 775.809, 67.319)
 
+target = "Three of Swords Cycle 4"
+
+{$asm}
+
+[DISABLE]
 </AssemblerScript>
                         </CheatEntry>
                         <CheatEntry>
-                          <ID>17169</ID>
-                          <Description>"Four of Swords"</Description>
+                          <ID>19379</ID>
+                          <Description>"Four of Swords Cycle 4"</Description>
                           <LastState/>
                           <VariableType>Auto Assembler Script</VariableType>
-                          <AssemblerScript>[enable]
-    //"Four of Swords Cycle 4"
+                          <AssemblerScript>[ENABLE]
 
-    TeleOn:
-    dd 00000001
+{$lua}
 
-    WantedCoords:
-    dd (float)-1435.359    //x
-    dd (float)-2264.842    //y
-    dd (float)43.347      //z
+-- Teleport to Four of Swords Cycle 4--
 
-[disable]
+SetCoordinates(-1435.359, -2264.842, 43.347)
 
+target = "Four of Swords Cycle 4"
+
+{$asm}
+
+[DISABLE]
 </AssemblerScript>
                         </CheatEntry>
                         <CheatEntry>
-                          <ID>17170</ID>
-                          <Description>"Five of Swords"</Description>
+                          <ID>19380</ID>
+                          <Description>"Five of Swords Cycle 4"</Description>
                           <LastState/>
                           <VariableType>Auto Assembler Script</VariableType>
-                          <AssemblerScript>[enable]
-    //"Five of Swords Cycle 4"
+                          <AssemblerScript>[ENABLE]
 
-    TeleOn:
-    dd 00000001
+{$lua}
 
-    WantedCoords:
-    dd (float)903.752    //x
-    dd (float)260.678    //y
-    dd (float)116.000      //z
+-- Teleport to Five of Swords Cycle 4--
 
-[disable]
+SetCoordinates(903.752, 260.678, 116.000)
 
+target = "Five of Swords Cycle 4"
+
+{$asm}
+
+[DISABLE]
 </AssemblerScript>
                         </CheatEntry>
                         <CheatEntry>
-                          <ID>17171</ID>
-                          <Description>"Six of Swords"</Description>
+                          <ID>19381</ID>
+                          <Description>"Six of Swords Cycle 4"</Description>
                           <LastState/>
                           <VariableType>Auto Assembler Script</VariableType>
-                          <AssemblerScript>[enable]
-    //"Six of Swords Cycle 4"
+                          <AssemblerScript>[ENABLE]
 
-    TeleOn:
-    dd 00000001
+{$lua}
 
-    WantedCoords:
-    dd (float)1709.036    //x
-    dd (float)-407.536    //y
-    dd (float)49.463      //z
+-- Teleport to Six of Swords Cycle 4--
 
-[disable]
+SetCoordinates(1709.036, -407.536, 49.463)
 
+target = "Six of Swords Cycle 4"
+
+{$asm}
+
+[DISABLE]
 </AssemblerScript>
                         </CheatEntry>
                         <CheatEntry>
-                          <ID>17172</ID>
-                          <Description>"Seven of Swords"</Description>
+                          <ID>19382</ID>
+                          <Description>"Seven of Swords Cycle 4"</Description>
                           <LastState/>
                           <VariableType>Auto Assembler Script</VariableType>
-                          <AssemblerScript>[enable]
-    //"Seven of Swords Cycle 4"
+                          <AssemblerScript>[ENABLE]
 
-    TeleOn:
-    dd 00000001
+{$lua}
 
-    WantedCoords:
-    dd (float)2825.341    //x
-    dd (float)275.838    //y
-    dd (float)48.097      //z
+-- Teleport to Seven of Swords Cycle 4--
 
-[disable]
+SetCoordinates(2825.341, 275.838, 48.097)
 
+target = "Seven of Swords Cycle 4"
+
+{$asm}
+
+[DISABLE]
 </AssemblerScript>
                         </CheatEntry>
                         <CheatEntry>
-                          <ID>17173</ID>
-                          <Description>"Eight of Swords"</Description>
+                          <ID>19383</ID>
+                          <Description>"Eight of Swords Cycle 4"</Description>
                           <LastState/>
                           <VariableType>Auto Assembler Script</VariableType>
-                          <AssemblerScript>[enable]
-    //"Eight of Swords Cycle 4"
+                          <AssemblerScript>[ENABLE]
 
-    TeleOn:
-    dd 00000001
+{$lua}
 
-    WantedCoords:
-    dd (float)2276.822   //x
-    dd (float)1453.551    //y
-    dd (float)84.069      //z
+-- Teleport to Eight of Swords Cycle 4--
 
-[disable]
+SetCoordinates(2276.822, 1453.551, 84.069)
 
+target = "Eight of Swords Cycle 4"
+
+{$asm}
+
+[DISABLE]
 </AssemblerScript>
                         </CheatEntry>
                         <CheatEntry>
-                          <ID>17174</ID>
-                          <Description>"Nine of Swords"</Description>
+                          <ID>19384</ID>
+                          <Description>"Nine of Swords Cycle 4"</Description>
                           <LastState/>
                           <VariableType>Auto Assembler Script</VariableType>
-                          <AssemblerScript>[enable]
-    //"Nine of Swords Cycle 4"
+                          <AssemblerScript>[ENABLE]
 
-    TeleOn:
-    dd 00000001
+{$lua}
 
-    WantedCoords:
-    dd (float)1935.572   //x
-    dd (float)1943.420    //y
-    dd (float)273.345      //z
+-- Teleport to Nine of Swords Cycle 4--
 
-[disable]
+SetCoordinates(1935.572, 1943.420, 273.345)
 
+target = "Nine of Swords Cycle 4"
+
+{$asm}
+
+[DISABLE]
 </AssemblerScript>
                         </CheatEntry>
                         <CheatEntry>
-                          <ID>17175</ID>
-                          <Description>"Ten of Swords"</Description>
+                          <ID>19385</ID>
+                          <Description>"Ten of Swords Cycle 4"</Description>
                           <LastState/>
                           <VariableType>Auto Assembler Script</VariableType>
-                          <AssemblerScript>[enable]
-    //"Ten of Swords Cycle 4"
+                          <AssemblerScript>[ENABLE]
 
-    TeleOn:
-    dd 00000001
+{$lua}
 
-    WantedCoords:
-    dd (float)-1575.713  //x
-    dd (float)-923.546    //y
-    dd (float)84.581      //z
+-- Teleport to Ten of Swords Cycle 4--
 
-[disable]
+SetCoordinates(-1575.713, -923.546, 84.581)
 
+target = "Ten of Swords Cycle 4"
+
+{$asm}
+
+[DISABLE]
 </AssemblerScript>
                         </CheatEntry>
                         <CheatEntry>
-                          <ID>17176</ID>
-                          <Description>"Knight of Swords"</Description>
+                          <ID>19386</ID>
+                          <Description>"Knight of Swords Cycle 4"</Description>
                           <LastState/>
                           <VariableType>Auto Assembler Script</VariableType>
-                          <AssemblerScript>[enable]
-    //"Knight of Swords Cycle 4"
+                          <AssemblerScript>[ENABLE]
 
-    TeleOn:
-    dd 00000001
+{$lua}
 
-    WantedCoords:
-    dd (float)2090.531  //x
-    dd (float)-1816.281    //y
-    dd (float)42.928     //z
+-- Teleport to Knight of Swords Cycle 4--
 
-[disable]
+SetCoordinates(2090.531, -1816.281, 42.928)
 
+target = "Knight of Swords Cycle 4"
+
+{$asm}
+
+[DISABLE]
 </AssemblerScript>
                         </CheatEntry>
                         <CheatEntry>
-                          <ID>17177</ID>
-                          <Description>"Page of Swords"</Description>
+                          <ID>19387</ID>
+                          <Description>"Page of Swords Cycle 4"</Description>
                           <LastState/>
                           <VariableType>Auto Assembler Script</VariableType>
-                          <AssemblerScript>[enable]
-    //"Page of Swords Cycle 4"
+                          <AssemblerScript>[ENABLE]
 
-    TeleOn:
-    dd 00000001
+{$lua}
 
-    WantedCoords:
-    dd (float)3034.250  //x
-    dd (float)1778.208    //y
-    dd (float)83.303    //z
+-- Teleport to Page of Swords Cycle 4--
 
-[disable]
+SetCoordinates(3034.250, 1778.208, 83.303)
 
+target = "Page of Swords Cycle 4"
+
+{$asm}
+
+[DISABLE]
 </AssemblerScript>
                         </CheatEntry>
                         <CheatEntry>
-                          <ID>17178</ID>
-                          <Description>"Queen of Swords"</Description>
+                          <ID>19388</ID>
+                          <Description>"Queen of Swords Cycle 4"</Description>
                           <LastState/>
                           <VariableType>Auto Assembler Script</VariableType>
-                          <AssemblerScript>[enable]
-    //"Queen of Swords Cycle 4"
+                          <AssemblerScript>[ENABLE]
 
-    TeleOn:
-    dd 00000001
+{$lua}
 
-    WantedCoords:
-    dd (float)-1164.520  //x
-    dd (float)-1943.661    //y
-    dd (float)42.340    //z
+-- Teleport to Queen of Swords Cycle 4--
 
-[disable]
+SetCoordinates(-1164.520, -1943.661, 42.340)
 
+target = "Queen of Swords Cycle 4"
+
+{$asm}
+
+[DISABLE]
 </AssemblerScript>
                         </CheatEntry>
                         <CheatEntry>
-                          <ID>17179</ID>
-                          <Description>"King of Swords"</Description>
+                          <ID>19389</ID>
+                          <Description>"King of Swords Cycle 4"</Description>
                           <LastState/>
                           <VariableType>Auto Assembler Script</VariableType>
-                          <AssemblerScript>[enable]
-    //"King of Swords Cycle 4"
+                          <AssemblerScript>[ENABLE]
 
-    TeleOn:
-    dd 00000001
+{$lua}
 
-    WantedCoords:
-    dd (float)1706.144  //x
-    dd (float)-1005.356    //y
-    dd (float)43.472    //z
+-- Teleport to King of Swords Cycle 4--
 
-[disable]
+SetCoordinates(1706.144, -1005.356, 43.472)
 
+target = "King of Swords Cycle 4"
+
+{$asm}
+
+[DISABLE]
 </AssemblerScript>
                         </CheatEntry>
                       </CheatEntries>
                     </CheatEntry>
                     <CheatEntry>
-                      <ID>17151</ID>
+                      <ID>19390</ID>
                       <Description>"Wands"</Description>
                       <Options moHideChildren="1" moDeactivateChildrenAsWell="1"/>
                       <LastState Value="" RealAddress="00000000"/>
@@ -22177,288 +22355,290 @@ target = "Two of Swords Cycle 2"
                       <GroupHeader>1</GroupHeader>
                       <CheatEntries>
                         <CheatEntry>
-                          <ID>17199</ID>
-                          <Description>"Ace of Wands"</Description>
+                          <ID>19391</ID>
+                          <Description>"Ace of Wands Cycle 4"</Description>
                           <LastState/>
                           <VariableType>Auto Assembler Script</VariableType>
-                          <AssemblerScript>[enable]
-    //"Ace of Wands Cycle 4"
+                          <AssemblerScript>[ENABLE]
 
-    TeleOn:
-    dd 00000001
+{$lua}
 
-    WantedCoords:
-    dd (float)-2217.017     //x
-    dd (float)726.518    //y
-    dd (float)127.694      //z
+-- Teleport to Ace of Wands Cycle 4--
 
-[disable]
+SetCoordinates(-2217.017, 726.518, 127.694)
+
+target = "Ace of Wands Cycle 4"
+
+{$asm}
+
+[DISABLE]
 </AssemblerScript>
                         </CheatEntry>
                         <CheatEntry>
-                          <ID>17153</ID>
-                          <Description>"Two of Wands"</Description>
+                          <ID>19392</ID>
+                          <Description>"Two of Wands Cycle 4"</Description>
                           <LastState/>
                           <VariableType>Auto Assembler Script</VariableType>
-                          <AssemblerScript>[enable]
-    //"Two of Wands Cycle 4"
+                          <AssemblerScript>[ENABLE]
 
-    TeleOn:
-    dd 00000001
+{$lua}
 
-    WantedCoords:
-    dd (float)1838.786     //x
-    dd (float)-1275.197    //y
-    dd (float)43.365      //z
+-- Teleport to Two of Wands Cycle 4--
 
-[disable]
+SetCoordinates(1838.786, -1275.197, 43.365)
 
+target = "Two of Wands Cycle 4"
+
+{$asm}
+
+[DISABLE]
 </AssemblerScript>
                         </CheatEntry>
                         <CheatEntry>
-                          <ID>17154</ID>
-                          <Description>"Three of Wands"</Description>
+                          <ID>19393</ID>
+                          <Description>"Three of Wands Cycle 4"</Description>
                           <LastState/>
                           <VariableType>Auto Assembler Script</VariableType>
-                          <AssemblerScript>[enable]
-    //"Three of Wands Cycle 4"
+                          <AssemblerScript>[ENABLE]
 
-    TeleOn:
-    dd 00000001
+{$lua}
 
-    WantedCoords:
-    dd (float)-2321.656     //x
-    dd (float)-2389.802    //y
-    dd (float)63.180      //z
+-- Teleport to Three of Wands Cycle 4--
 
-[disable]
+SetCoordinates(-2321.656, -2389.802, 63.180)
 
+target = "Three of Wands Cycle 4"
+
+{$asm}
+
+[DISABLE]
 </AssemblerScript>
                         </CheatEntry>
                         <CheatEntry>
-                          <ID>17155</ID>
-                          <Description>"Four of Wands"</Description>
+                          <ID>19394</ID>
+                          <Description>"Four of Wands Cycle 4"</Description>
                           <LastState/>
                           <VariableType>Auto Assembler Script</VariableType>
-                          <AssemblerScript>[enable]
-    //"Four of Wands Cycle 4"
+                          <AssemblerScript>[ENABLE]
 
-    TeleOn:
-    dd 00000001
+{$lua}
 
-    WantedCoords:
-    dd (float)-756.091     //x
-    dd (float)-1351.802    //y
-    dd (float)43.365      //z
+-- Teleport to Four of Wands Cycle 4--
 
-[disable]
+SetCoordinates(-756.091, -1351.802, 43.365)
 
+target = "Four of Wands Cycle 4"
+
+{$asm}
+
+[DISABLE]
 </AssemblerScript>
                         </CheatEntry>
                         <CheatEntry>
-                          <ID>17156</ID>
-                          <Description>"Five of Wands"</Description>
+                          <ID>19395</ID>
+                          <Description>"Five of Wands Cycle 4"</Description>
                           <LastState/>
                           <VariableType>Auto Assembler Script</VariableType>
-                          <AssemblerScript>[enable]
-    //"Five of Wands Cycle 4"
+                          <AssemblerScript>[ENABLE]
 
-    TeleOn:
-    dd 00000001
+{$lua}
 
-    WantedCoords:
-    dd (float)-26.086     //x
-    dd (float)1222.989    //y
-    dd (float)173.123      //z
+-- Teleport to Five of Wands Cycle 4--
 
-[disable]
+SetCoordinates(-26.08, 1222.989, 173.123)
 
+target = "Five of Wands Cycle 4"
+
+{$asm}
+
+[DISABLE]
 </AssemblerScript>
                         </CheatEntry>
                         <CheatEntry>
-                          <ID>17157</ID>
-                          <Description>"Six of Wands"</Description>
+                          <ID>19396</ID>
+                          <Description>"Six of Wands Cycle 4"</Description>
                           <LastState/>
                           <VariableType>Auto Assembler Script</VariableType>
-                          <AssemblerScript>[enable]
-    //"Six of Wands Cycle 4"
+                          <AssemblerScript>[ENABLE]
 
-    TeleOn:
-    dd 00000001
+{$lua}
 
-    WantedCoords:
-    dd (float)-325.135     //x
-    dd (float)764.565    //y
-    dd (float)117.430      //z
+-- Teleport to Six of Wands Cycle 4E--
 
-[disable]
+SetCoordinates(-325.135, 764.565, 117.430)
 
+target = "Six of Wands Cycle 4"
+
+{$asm}
+
+[DISABLE]
 </AssemblerScript>
                         </CheatEntry>
                         <CheatEntry>
-                          <ID>17158</ID>
-                          <Description>"Seven of Wands"</Description>
+                          <ID>19397</ID>
+                          <Description>"Seven of Wands Cycle 4"</Description>
                           <LastState/>
                           <VariableType>Auto Assembler Script</VariableType>
-                          <AssemblerScript>[enable]
-    //"Seven of Wands Cycle 4"
+                          <AssemblerScript>[ENABLE]
 
-    TeleOn:
-    dd 00000001
+{$lua}
 
-    WantedCoords:
-    dd (float)-1318.003     //x
-    dd (float)2435.500    //y
-    dd (float)309.575      //z
+-- Teleport to Seven of Wands Cycle 4--
 
-[disable]
+SetCoordinates(-1318.003, 2435.500, 309.575)
 
+target = "Seven of Wands Cycle 4"
+
+{$asm}
+
+[DISABLE]
 </AssemblerScript>
                         </CheatEntry>
                         <CheatEntry>
-                          <ID>17159</ID>
-                          <Description>"Eight of Wands"</Description>
+                          <ID>19398</ID>
+                          <Description>"Eight of Wands Cycle 4"</Description>
                           <LastState/>
                           <VariableType>Auto Assembler Script</VariableType>
-                          <AssemblerScript>[enable]
-    //"Eight of Wands Cycle 4"
+                          <AssemblerScript>[ENABLE]
 
-    TeleOn:
-    dd 00000001
+{$lua}
 
-    WantedCoords:
-    dd (float)576.658     //x
-    dd (float)1687.961    //y
-    dd (float)187.781      //z
+-- Teleport to Eight of Wands Cycle 4--
 
-[disable]
+SetCoordinates(576.658, 1687.961, 187.781)
 
-</AssemblerScript>
-                        </CheatEntry>
-                        <CheatEntry>
-                          <ID>17160</ID>
-                          <Description>"Nine of Wands"</Description>
-                          <LastState/>
-                          <VariableType>Auto Assembler Script</VariableType>
-                          <AssemblerScript>[enable]
-    //"Nine of Wands Cycle 4"
+target = "Eight of Wands Cycle 4"
 
-    TeleOn:
-    dd 00000001
+{$asm}
 
-    WantedCoords:
-    dd (float)-5200.958     //x
-    dd (float)-3438.916    //y
-    dd (float)-11.043      //z
-
-[disable]
+[DISABLE]
 
 </AssemblerScript>
                         </CheatEntry>
                         <CheatEntry>
-                          <ID>17161</ID>
-                          <Description>"Ten of Wands"</Description>
+                          <ID>19399</ID>
+                          <Description>"Nine of Wands Cycle 4"</Description>
                           <LastState/>
                           <VariableType>Auto Assembler Script</VariableType>
-                          <AssemblerScript>[enable]
-    //"Ten of Wands Cycle 4"
+                          <AssemblerScript>[ENABLE]
 
-    TeleOn:
-    dd 00000001
+{$lua}
 
-    WantedCoords:
-    dd (float)1270.343     //x
-    dd (float)-402.739    //y
-    dd (float)97.607      //z
+-- Teleport to Nine of Wands Cycle 4--
 
-[disable]
+SetCoordinates(-5200.958, -3438.916, -11.043)
 
+target = "Nine of Wands Cycle 4"
+
+{$asm}
+
+[DISABLE]
 </AssemblerScript>
                         </CheatEntry>
                         <CheatEntry>
-                          <ID>17162</ID>
-                          <Description>"Knight of Wands"</Description>
+                          <ID>19400</ID>
+                          <Description>"Ten of Wands Cycle 4"</Description>
                           <LastState/>
                           <VariableType>Auto Assembler Script</VariableType>
-                          <AssemblerScript>[enable]
-    //"Knight of Wands Cycle 4"
+                          <AssemblerScript>[ENABLE]
 
-    TeleOn:
-    dd 00000001
+{$lua}
 
-    WantedCoords:
-    dd (float)-1820.515     //x
-    dd (float)-372.454    //y
-    dd (float)163.300      //z
+-- Teleport to Ten of Wands Cycle 4--
 
-[disable]
+SetCoordinates(1270.343, -402.739, 97.607)
 
+target = "Ten of Wands Cycle 4"
+
+{$asm}
+
+[DISABLE]
 </AssemblerScript>
                         </CheatEntry>
                         <CheatEntry>
-                          <ID>17163</ID>
-                          <Description>"Page of Wands"</Description>
+                          <ID>19401</ID>
+                          <Description>"Knight of Wands Cycle 4"</Description>
                           <LastState/>
                           <VariableType>Auto Assembler Script</VariableType>
-                          <AssemblerScript>[enable]
-    //"Page of Wands Cycle 4"
+                          <AssemblerScript>[ENABLE]
 
-    TeleOn:
-    dd 00000001
+{$lua}
 
-    WantedCoords:
-    dd (float)2694.302     //x
-    dd (float)-1523.968    //y
-    dd (float)46.340      //z
+-- Teleport to Knight of Wands Cycle 4--
 
-[disable]
+SetCoordinates(-1820.515, -372.454, 163.300)
 
+target = "Knight of Wands Cycle 4"
+
+{$asm}
+
+[DISABLE]
 </AssemblerScript>
                         </CheatEntry>
                         <CheatEntry>
-                          <ID>17164</ID>
-                          <Description>"Queen of Wands"</Description>
+                          <ID>19402</ID>
+                          <Description>"Page of Wands Cycle 4"</Description>
                           <LastState/>
                           <VariableType>Auto Assembler Script</VariableType>
-                          <AssemblerScript>[enable]
-    //"Queen of Wands Cycle 4"
+                          <AssemblerScript>[ENABLE]
 
-    TeleOn:
-    dd 00000001
+{$lua}
 
-    WantedCoords:
-    dd (float)-1638.904     //x
-    dd (float)-1362.151    //y
-    dd (float)84.541      //z
+-- Teleport to Page of Wands Cycle 4--
 
-[disable]
+SetCoordinates(2694.302, -1523.968, 46.340)
 
+target = "Page of Wands Cycle 4"
+
+{$asm}
+
+[DISABLE]
 </AssemblerScript>
                         </CheatEntry>
                         <CheatEntry>
-                          <ID>17165</ID>
-                          <Description>"King of Wands"</Description>
+                          <ID>19403</ID>
+                          <Description>"Queen of Wands Cycle 4"</Description>
                           <LastState/>
                           <VariableType>Auto Assembler Script</VariableType>
-                          <AssemblerScript>[enable]
-    //"King of Wands Cycle 4"
+                          <AssemblerScript>[ENABLE]
 
-    TeleOn:
-    dd 00000001
+{$lua}
 
-    WantedCoords:
-    dd (float)-5463.124     //x
-    dd (float)-2908.229    //y
-    dd (float)0.835      //z
+-- Teleport to Queen of Wands Cycle 4--
 
-[disable]
+SetCoordinates(-1638.904, -1362.151, 84.541)
 
+target = "Queen of Wands Cycle 4"
+
+{$asm}
+
+[DISABLE]
+</AssemblerScript>
+                        </CheatEntry>
+                        <CheatEntry>
+                          <ID>19404</ID>
+                          <Description>"King of Wands Cycle 4"</Description>
+                          <LastState/>
+                          <VariableType>Auto Assembler Script</VariableType>
+                          <AssemblerScript>[ENABLE]
+
+{$lua}
+
+-- Teleport to King of Wands Cycle 4E--
+
+SetCoordinates(-5463.124, -2908.229, 0.835)
+
+target = "King of Wands Cycle 4"
+
+{$asm}
+
+[DISABLE]
 </AssemblerScript>
                         </CheatEntry>
                       </CheatEntries>
                     </CheatEntry>
                     <CheatEntry>
-                      <ID>17195</ID>
+                      <ID>19405</ID>
                       <Description>"Pentacles"</Description>
                       <Options moHideChildren="1" moDeactivateChildrenAsWell="1"/>
                       <LastState Value="" RealAddress="00000000"/>
@@ -22466,283 +22646,283 @@ target = "Two of Swords Cycle 2"
                       <GroupHeader>1</GroupHeader>
                       <CheatEntries>
                         <CheatEntry>
-                          <ID>17181</ID>
-                          <Description>"Ace of Pentacles"</Description>
+                          <ID>19406</ID>
+                          <Description>"Ace of Pentacles Cycle 4"</Description>
                           <LastState/>
                           <VariableType>Auto Assembler Script</VariableType>
-                          <AssemblerScript>[enable]
-    //"Ace of Pentacles Cycle 4"
+                          <AssemblerScript>[ENABLE]
 
-    TeleOn:
-    dd 00000001
+{$lua}
 
-    WantedCoords:
-    dd (float)-977.255  //x
-    dd (float)-1200.759    //y
-    dd (float)58.194    //z
+-- Teleport to Ace of Pentacles Cycle 4--
 
-[disable]
+SetCoordinates(-977.255, -1200.759, 58.194)
+
+target = "Ace of Pentacles Cycle 4"
+
+{$asm}
+
+[DISABLE]
+</AssemblerScript>
+                        </CheatEntry>
+                        <CheatEntry>
+                          <ID>19407</ID>
+                          <Description>"Two of Pentacles Cycle 4"</Description>
+                          <LastState/>
+                          <VariableType>Auto Assembler Script</VariableType>
+                          <AssemblerScript>[ENABLE]
+
+{$lua}
+
+-- Teleport to Two of Pentacles Cycle 4--
+
+SetCoordinates(-1976.802, -1650.984, 117.110)
+
+target = "Two of Pentacles Cycle 4"
+
+{$asm}
+
+[DISABLE]
+</AssemblerScript>
+                        </CheatEntry>
+                        <CheatEntry>
+                          <ID>19408</ID>
+                          <Description>"Three of Pentacles Cycle 4"</Description>
+                          <LastState/>
+                          <VariableType>Auto Assembler Script</VariableType>
+                          <AssemblerScript>[ENABLE]
+
+{$lua}
+
+-- Teleport to Three of Pentacles Cycle 4--
+
+SetCoordinates(2410.416, -1077.270, 47.458)
+
+target = "Three of Pentacles Cycle 4"
+
+{$asm}
+
+[DISABLE]
+</AssemblerScript>
+                        </CheatEntry>
+                        <CheatEntry>
+                          <ID>19409</ID>
+                          <Description>"Four of Pentacles Cycle 4"</Description>
+                          <LastState/>
+                          <VariableType>Auto Assembler Script</VariableType>
+                          <AssemblerScript>[ENABLE]
+
+{$lua}
+
+-- Teleport to Four of Pentacles Cycle 4--
+
+SetCoordinates(-420.394, 1735.536, 216.557)
+
+target = "Four of Pentacles Cycle 4"
+
+{$asm}
+
+[DISABLE]
+</AssemblerScript>
+                        </CheatEntry>
+                        <CheatEntry>
+                          <ID>19410</ID>
+                          <Description>"Five of Pentacles Cycle 4"</Description>
+                          <LastState/>
+                          <VariableType>Auto Assembler Script</VariableType>
+                          <AssemblerScript>[ENABLE]
+
+{$lua}
+
+-- Teleport to Five of Pentacles Cycle 4--
+
+SetCoordinates(1625.729, -364.100, 75.897)
+
+target = "Five of Pentacles Cycle 4"
+
+{$asm}
+
+[DISABLE]
+</AssemblerScript>
+                        </CheatEntry>
+                        <CheatEntry>
+                          <ID>19411</ID>
+                          <Description>"Six of Pentacles Cycle 4"</Description>
+                          <LastState/>
+                          <VariableType>Auto Assembler Script</VariableType>
+                          <AssemblerScript>[ENABLE]
+
+{$lua}
+
+-- Teleport to Six of Pentacles Cycle 4--
+
+SetCoordinates(2235.425, -141.444, 47.623)
+
+target = "Six of Pentacles Cycle 4"
+
+{$asm}
+
+[DISABLE]
+</AssemblerScript>
+                        </CheatEntry>
+                        <CheatEntry>
+                          <ID>19412</ID>
+                          <Description>"Seven of Pentacles Cycle 4"</Description>
+                          <LastState/>
+                          <VariableType>Auto Assembler Script</VariableType>
+                          <AssemblerScript>[ENABLE]
+
+{$lua}
+
+-- Teleport to Seven of Pentacles Cycle 4--
+
+SetCoordinates(2540.487, -1456.953, 46.318)
+
+target = "Seven of Pentacles Cycle 4"
+
+{$asm}
+
+[DISABLE]
+</AssemblerScript>
+                        </CheatEntry>
+                        <CheatEntry>
+                          <ID>19413</ID>
+                          <Description>"Eight of Pentacles Cycle 4"</Description>
+                          <LastState/>
+                          <VariableType>Auto Assembler Script</VariableType>
+                          <AssemblerScript>[ENABLE]
+{$lua}
+
+-- Teleport to Eight of Pentacles Cycle 4--
+
+SetCoordinates( 2930.125, 1387.963, 56.254)
+
+target = "Eight of Pentacles Cycle 4"
+
+{$asm}
+
+[DISABLE]
 
 </AssemblerScript>
                         </CheatEntry>
                         <CheatEntry>
-                          <ID>17182</ID>
-                          <Description>"Two of Pentacles"</Description>
+                          <ID>19414</ID>
+                          <Description>"Nine of Pentacles Cycle 4"</Description>
                           <LastState/>
                           <VariableType>Auto Assembler Script</VariableType>
-                          <AssemblerScript>[enable]
-    //"Two of Pentacles Cycle 4"
+                          <AssemblerScript>[ENABLE]
 
-    TeleOn:
-    dd 00000001
+{$lua}
 
-    WantedCoords:
-    dd (float)-1976.802  //x
-    dd (float)-1650.984    //y
-    dd (float)117.110    //z
+-- Teleport to Nine of Pentacles Cycle 4--
 
-[disable]
+SetCoordinates(1356.885, -1248.270, 79.944)
 
+target = "Nine of Pentacles Cycle 4"
+
+{$asm}
+
+[DISABLE]
 </AssemblerScript>
                         </CheatEntry>
                         <CheatEntry>
-                          <ID>17183</ID>
-                          <Description>"Three of Pentacles"</Description>
+                          <ID>19415</ID>
+                          <Description>"Ten of Pentacles Cycle 4"</Description>
                           <LastState/>
                           <VariableType>Auto Assembler Script</VariableType>
-                          <AssemblerScript>[enable]
-    //"Three of Pentacles Cycle 4"
+                          <AssemblerScript>[ENABLE]
 
-    TeleOn:
-    dd 00000001
+{$lua}
 
-    WantedCoords:
-    dd (float)2410.416  //x
-    dd (float)-1077.270    //y
-    dd (float)47.458    //z
+-- Teleport to Ten of Pentacles Cycle 4--
 
-[disable]
+SetCoordinates(1117.442, -1986.687, 55.347)
 
+target = "Ten of Pentacles Cycle 4"
+
+{$asm}
+
+[DISABLE]
 </AssemblerScript>
                         </CheatEntry>
                         <CheatEntry>
-                          <ID>17184</ID>
-                          <Description>"Four of Pentacles"</Description>
+                          <ID>19416</ID>
+                          <Description>"Knight of Pentacles Cycle 4"</Description>
                           <LastState/>
                           <VariableType>Auto Assembler Script</VariableType>
-                          <AssemblerScript>[enable]
-    //"Four of Pentacles Cycle 4"
+                          <AssemblerScript>[ENABLE]
 
-    TeleOn:
-    dd 00000001
+{$lua}
 
-    WantedCoords:
-    dd (float)-420.394  //x
-    dd (float)1735.536    //y
-    dd (float)216.557    //z
+-- Teleport to Knight of Pentacles Cycle 4--
 
-[disable]
+SetCoordinates(1904.306, -1821.713, 41.902)
 
+target = "Knight of Pentacles Cycle 4"
+
+{$asm}
+
+[DISABLE]
 </AssemblerScript>
                         </CheatEntry>
                         <CheatEntry>
-                          <ID>17185</ID>
-                          <Description>"Five of Pentacles"</Description>
+                          <ID>19417</ID>
+                          <Description>"Page of Pentacles Cycle 4"</Description>
                           <LastState/>
                           <VariableType>Auto Assembler Script</VariableType>
-                          <AssemblerScript>[enable]
-    //"Five of Pentacles Cycle 4"
+                          <AssemblerScript>[ENABLE]
 
-    TeleOn:
-    dd 00000001
+{$lua}
 
-    WantedCoords:
-    dd (float)1625.729  //x
-    dd (float)-364.100    //y
-    dd (float)75.897   //z
+-- Teleport to Page of Pentacles Cycle 4--
 
-[disable]
+SetCoordinates(-1814.536, 659.656, 131.839)
 
+target = "Page of Pentacles Cycle 4"
+
+{$asm}
+
+[DISABLE]
 </AssemblerScript>
                         </CheatEntry>
                         <CheatEntry>
-                          <ID>17186</ID>
-                          <Description>"Six of Pentacles"</Description>
+                          <ID>19418</ID>
+                          <Description>"Queen of Pentacles Cycle 4"</Description>
                           <LastState/>
                           <VariableType>Auto Assembler Script</VariableType>
-                          <AssemblerScript>[enable]
-    //"Six of Pentacles Cycle 4"
+                          <AssemblerScript>[ENABLE]
 
-    TeleOn:
-    dd 00000001
+{$lua}
 
-    WantedCoords:
-    dd (float)2235.425  //x
-    dd (float)-141.444    //y
-    dd (float)47.623   //z
+-- Teleport to Queen of Pentacles Cycle 4--
 
-[disable]
+SetCoordinates(554.705, 567.960, 116.652)
 
+target = "Queen of Pentacles Cycle 4"
+
+{$asm}
+
+[DISABLE]
 </AssemblerScript>
                         </CheatEntry>
                         <CheatEntry>
-                          <ID>17187</ID>
-                          <Description>"Seven of Pentacles"</Description>
+                          <ID>19419</ID>
+                          <Description>"King of Pentacles Cycle 4"</Description>
                           <LastState/>
                           <VariableType>Auto Assembler Script</VariableType>
-                          <AssemblerScript>[enable]
-    //"Seven of Pentacles Cycle 4"
+                          <AssemblerScript>[ENABLE]
 
-    TeleOn:
-    dd 00000001
+{$lua}
 
-    WantedCoords:
-    dd (float)2540.487  //x
-    dd (float)-1456.953    //y
-    dd (float)46.318   //z
+-- Teleport to King of Pentacles Cycle 4--
 
-[disable]
+SetCoordinates(-1415.807, 1131.118, 225.542)
 
-</AssemblerScript>
-                        </CheatEntry>
-                        <CheatEntry>
-                          <ID>17188</ID>
-                          <Description>"Eight of Pentacles"</Description>
-                          <LastState/>
-                          <VariableType>Auto Assembler Script</VariableType>
-                          <AssemblerScript>[enable]
-    //"Eight of Pentacles Cycle 4"
+target = "King of Pentacles Cycle 4"
 
-    TeleOn:
-    dd 00000001
+{$asm}
 
-    WantedCoords:
-    dd (float)2930.125  //x
-    dd (float)1387.963    //y
-    dd (float)56.254   //z
-
-[disable]
-
-</AssemblerScript>
-                        </CheatEntry>
-                        <CheatEntry>
-                          <ID>17189</ID>
-                          <Description>"Nine of Pentacles"</Description>
-                          <LastState/>
-                          <VariableType>Auto Assembler Script</VariableType>
-                          <AssemblerScript>[enable]
-    //"Nine of Pentacles Cycle 4"
-
-    TeleOn:
-    dd 00000001
-
-    WantedCoords:
-    dd (float)1356.885  //x
-    dd (float)-1248.270    //y
-    dd (float)79.944   //z
-
-[disable]
-
-</AssemblerScript>
-                        </CheatEntry>
-                        <CheatEntry>
-                          <ID>17190</ID>
-                          <Description>"Ten of Pentacles"</Description>
-                          <LastState/>
-                          <VariableType>Auto Assembler Script</VariableType>
-                          <AssemblerScript>[enable]
-    //"Ten of Pentacles Cycle 4"
-
-    TeleOn:
-    dd 00000001
-
-    WantedCoords:
-    dd (float)1117.442  //x
-    dd (float)-1986.687   //y
-    dd (float)55.347   //z
-
-[disable]
-
-</AssemblerScript>
-                        </CheatEntry>
-                        <CheatEntry>
-                          <ID>17191</ID>
-                          <Description>"Knight of Pentacles"</Description>
-                          <LastState/>
-                          <VariableType>Auto Assembler Script</VariableType>
-                          <AssemblerScript>[enable]
-    //"Knight of Pentacles Cycle 4"
-
-    TeleOn:
-    dd 00000001
-
-    WantedCoords:
-    dd (float)1904.306  //x
-    dd (float)-1821.713   //y
-    dd (float)41.902   //z
-
-[disable]
-
-</AssemblerScript>
-                        </CheatEntry>
-                        <CheatEntry>
-                          <ID>17192</ID>
-                          <Description>"Page of Pentacles"</Description>
-                          <LastState/>
-                          <VariableType>Auto Assembler Script</VariableType>
-                          <AssemblerScript>[enable]
-    //"Page of Pentacles Cycle 4"
-
-    TeleOn:
-    dd 00000001
-
-    WantedCoords:
-    dd (float)-1814.536  //x
-    dd (float)659.656   //y
-    dd (float)131.839   //z
-
-[disable]
-
-</AssemblerScript>
-                        </CheatEntry>
-                        <CheatEntry>
-                          <ID>17193</ID>
-                          <Description>"Queen of Pentacles"</Description>
-                          <LastState/>
-                          <VariableType>Auto Assembler Script</VariableType>
-                          <AssemblerScript>[enable]
-    //"Queen of Pentacles Cycle 4"
-
-    TeleOn:
-    dd 00000001
-
-    WantedCoords:
-    dd (float)554.705  //x
-    dd (float)567.960  //y
-    dd (float)116.652  //z
-
-[disable]
-
-</AssemblerScript>
-                        </CheatEntry>
-                        <CheatEntry>
-                          <ID>17194</ID>
-                          <Description>"King of Pentacles"</Description>
-                          <LastState/>
-                          <VariableType>Auto Assembler Script</VariableType>
-                          <AssemblerScript>[enable]
-    //"King of Pentacles Cycle 4"
-
-    TeleOn:
-    dd 00000001
-
-    WantedCoords:
-    dd (float)-1415.807  //x
-    dd (float)1131.118  //y
-    dd (float)225.542  //z
-
-[disable]
-
+[DISABLE]
 </AssemblerScript>
                         </CheatEntry>
                       </CheatEntries>
@@ -28667,30 +28847,6 @@ target = "island"
             </CheatEntry>
           </CheatEntries>
         </CheatEntry>
-        <CheatEntry>
-          <ID>17918</ID>
-          <Description>"X"</Description>
-          <ShowAsSigned>0</ShowAsSigned>
-          <Color>FFFF80</Color>
-          <VariableType>Float</VariableType>
-          <Address>[coord2]+80</Address>
-        </CheatEntry>
-        <CheatEntry>
-          <ID>17919</ID>
-          <Description>"Y"</Description>
-          <ShowAsSigned>0</ShowAsSigned>
-          <Color>FFFF80</Color>
-          <VariableType>Float</VariableType>
-          <Address>[coord2]+84</Address>
-        </CheatEntry>
-        <CheatEntry>
-          <ID>17920</ID>
-          <Description>"Z"</Description>
-          <ShowAsSigned>0</ShowAsSigned>
-          <Color>FFFF80</Color>
-          <VariableType>Float</VariableType>
-          <Address>[coord2]+88</Address>
-        </CheatEntry>
       </CheatEntries>
     </CheatEntry>
     <CheatEntry>
@@ -28700,6 +28856,7 @@ target = "island"
 1:Enabled
 
 </DropDownList>
+      <LastState Value="00" RealAddress="7FF767D31020"/>
       <ShowAsHex>1</ShowAsHex>
       <Color>FF9B9B</Color>
       <VariableType>Byte</VariableType>
@@ -28734,6 +28891,7 @@ target = "island"
 1:Enabled
 
 </DropDownList>
+      <LastState Value="00" RealAddress="7FF767D31048"/>
       <ShowAsHex>1</ShowAsHex>
       <Color>FF9B9B</Color>
       <VariableType>Byte</VariableType>
@@ -28768,6 +28926,7 @@ target = "island"
 1:Enabled
 
 </DropDownList>
+      <LastState Value="00" RealAddress="7FF767D31010"/>
       <ShowAsHex>1</ShowAsHex>
       <Color>FFB3B3</Color>
       <VariableType>Byte</VariableType>
@@ -28801,6 +28960,7 @@ target = "island"
 1:Enabled
 
 </DropDownList>
+      <LastState Value="00" RealAddress="7FF767D31018"/>
       <ShowAsHex>1</ShowAsHex>
       <Color>FFA74F</Color>
       <VariableType>Byte</VariableType>
@@ -28834,6 +28994,7 @@ target = "island"
 1:Enabled
 
 </DropDownList>
+      <LastState Value="00" RealAddress="7FF767D31058"/>
       <ShowAsHex>1</ShowAsHex>
       <Color>FF9F40</Color>
       <VariableType>Byte</VariableType>
@@ -28867,6 +29028,7 @@ target = "island"
 1:Enabled
 
 </DropDownList>
+      <LastState Value="01" RealAddress="7FF767D310A0"/>
       <ShowAsHex>1</ShowAsHex>
       <Color>FFBE37</Color>
       <VariableType>Byte</VariableType>
@@ -29034,7 +29196,7 @@ dealloc(newmem)
       <Description>"Trader Goods"</Description>
       <Options moHideChildren="1"/>
       <LastState/>
-      <Color>FFAEAE</Color>
+      <Color>FF9F9F</Color>
       <VariableType>Auto Assembler Script</VariableType>
       <AssemblerScript>{ Game   : RDR2.exe
   Version: 
@@ -29273,7 +29435,7 @@ _G[memrec.id].hk.destroy(); _G[memrec.id].hk = nil
       <Description>"Single Player Options"</Description>
       <Options moHideChildren="1" moDeactivateChildrenAsWell="1"/>
       <LastState Value="" RealAddress="00000000"/>
-      <Color>C0C0C0</Color>
+      <Color>FFA4A4</Color>
       <GroupHeader>1</GroupHeader>
       <CheatEntries>
         <CheatEntry>
@@ -29590,18 +29752,21 @@ unregistersymbol(_Teleport)
                 <CheatEntry>
                   <ID>17196</ID>
                   <Description>"x"</Description>
+                  <LastState Value="11.93005371" RealAddress="209409E5A10"/>
                   <VariableType>Float</VariableType>
                   <Address>[coord2]+70</Address>
                 </CheatEntry>
                 <CheatEntry>
                   <ID>17197</ID>
                   <Description>"y"</Description>
+                  <LastState Value="-9.831054688" RealAddress="209409E5A14"/>
                   <VariableType>Float</VariableType>
                   <Address>[coord2]+74</Address>
                 </CheatEntry>
                 <CheatEntry>
                   <ID>17198</ID>
                   <Description>"z"</Description>
+                  <LastState Value="46.53349304" RealAddress="209409E5A18"/>
                   <VariableType>Float</VariableType>
                   <Address>[coord2]+78</Address>
                 </CheatEntry>
@@ -29616,6 +29781,7 @@ unregistersymbol(_Teleport)
 1:Enabled
 
 </DropDownList>
+          <LastState Value="0" RealAddress="7FF767D31028"/>
           <VariableType>Byte</VariableType>
           <Address>_enableInfiniteHealthCostumModel</Address>
         </CheatEntry>
@@ -29802,7 +29968,7 @@ dealloc(newmem)
       <Description>"Test Phase/Debug"</Description>
       <Options moHideChildren="1"/>
       <LastState Value="" RealAddress="00000000"/>
-      <Color>C0C0C0</Color>
+      <Color>FFB9B9</Color>
       <GroupHeader>1</GroupHeader>
       <CheatEntries>
         <CheatEntry>
@@ -30187,6 +30353,7 @@ PokerTimer.destroy()
                 <CheatEntry>
                   <ID>154</ID>
                   <Description>"_CamHeightVar (This value will be added/substracted)"</Description>
+                  <LastState Value="1" RealAddress="7FF767D31080"/>
                   <VariableType>Float</VariableType>
                   <Address>_CamHeightVar</Address>
                 </CheatEntry>
@@ -30196,6 +30363,7 @@ PokerTimer.destroy()
                   <DropDownList ReadOnly="1" DescriptionOnly="1" DisplayValueAsItem="1">1:Done
 0:Waiting for Input
 </DropDownList>
+                  <LastState Value="0" RealAddress="7FF767D31068"/>
                   <VariableType>Byte</VariableType>
                   <Address>_addCamHeight</Address>
                   <Hotkeys>
@@ -30217,6 +30385,7 @@ PokerTimer.destroy()
                   <DropDownList ReadOnly="1" DescriptionOnly="1" DisplayValueAsItem="1">1:Done
 0:Waiting for Input
 </DropDownList>
+                  <LastState Value="0" RealAddress="7FF767D31070"/>
                   <VariableType>Byte</VariableType>
                   <Address>_subCamHeight</Address>
                   <Hotkeys>
@@ -30238,6 +30407,7 @@ PokerTimer.destroy()
                   <DropDownList ReadOnly="1" DescriptionOnly="1" DisplayValueAsItem="1">1:Done
 0:Waiting for Input
 </DropDownList>
+                  <LastState Value="0" RealAddress="7FF767D31078"/>
                   <VariableType>Byte</VariableType>
                   <Address>_ResetCamHeight</Address>
                   <Hotkeys>
@@ -30582,6 +30752,7 @@ dealloc(newmem)
           <DropDownList ReadOnly="1" DescriptionOnly="1" DisplayValueAsItem="1">0:Disabled
 1:Enabled
 </DropDownList>
+          <LastState Value="00" RealAddress="7FF767D31090"/>
           <ShowAsHex>1</ShowAsHex>
           <Color>C0C0C0</Color>
           <VariableType>Byte</VariableType>
@@ -30630,6 +30801,7 @@ dealloc(newmem)
             <CheatEntry>
               <ID>16359</ID>
               <Description>"HealthBase"</Description>
+              <LastState Value="000002093530A170" RealAddress="7FF767D31050"/>
               <ShowAsHex>1</ShowAsHex>
               <VariableType>8 Bytes</VariableType>
               <Address>_pPlayerHealthBase</Address>
@@ -30637,6 +30809,7 @@ dealloc(newmem)
             <CheatEntry>
               <ID>16357</ID>
               <Description>"DeadEyeBase"</Description>
+              <LastState Value="0000020939B713C8" RealAddress="7FF767D31038"/>
               <ShowAsHex>1</ShowAsHex>
               <VariableType>8 Bytes</VariableType>
               <Address>_pDeadEye</Address>
@@ -30644,6 +30817,7 @@ dealloc(newmem)
             <CheatEntry>
               <ID>16354</ID>
               <Description>"PlayerBase(AnyModel)"</Description>
+              <LastState Value="0000000000000000" RealAddress="7FF767D31000"/>
               <ShowAsHex>1</ShowAsHex>
               <VariableType>8 Bytes</VariableType>
               <Address>_pAnyModelBase</Address>
@@ -30651,6 +30825,7 @@ dealloc(newmem)
             <CheatEntry>
               <ID>16353</ID>
               <Description>"PlayerBase"</Description>
+              <LastState Value="000002117DE750C0" RealAddress="7FF767D31008"/>
               <ShowAsHex>1</ShowAsHex>
               <VariableType>8 Bytes</VariableType>
               <Address>_pPlayer</Address>
@@ -30658,6 +30833,7 @@ dealloc(newmem)
             <CheatEntry>
               <ID>16358</ID>
               <Description>"StaminaBase"</Description>
+              <LastState Value="00000209387852F0" RealAddress="7FF767D31040"/>
               <ShowAsHex>1</ShowAsHex>
               <VariableType>8 Bytes</VariableType>
               <Address>_pStaminaBase</Address>
@@ -30665,6 +30841,7 @@ dealloc(newmem)
             <CheatEntry>
               <ID>16355</ID>
               <Description>"HorseBase"</Description>
+              <LastState Value="000002117DE750C0" RealAddress="7FF767D31098"/>
               <ShowAsHex>1</ShowAsHex>
               <VariableType>8 Bytes</VariableType>
               <Address>_pHorse</Address>
@@ -30672,6 +30849,7 @@ dealloc(newmem)
             <CheatEntry>
               <ID>16356</ID>
               <Description>"StaminaHorseBase"</Description>
+              <LastState Value="0000000000000000" RealAddress="7FF767D31030"/>
               <ShowAsHex>1</ShowAsHex>
               <VariableType>8 Bytes</VariableType>
               <Address>_pStaminaHorse</Address>
@@ -30679,6 +30857,7 @@ dealloc(newmem)
             <CheatEntry>
               <ID>16360</ID>
               <Description>"HealthBase - Horse"</Description>
+              <LastState Value="0000000000000000" RealAddress="7FF767D31088"/>
               <ShowAsHex>1</ShowAsHex>
               <VariableType>8 Bytes</VariableType>
               <Address>_pHealthBaseHorse</Address>
@@ -30695,6 +30874,7 @@ dealloc(newmem)
             <CheatEntry>
               <ID>16362</ID>
               <Description>"pDeadEye"</Description>
+              <LastState Value="45" RealAddress="20939B713E8"/>
               <VariableType>Float</VariableType>
               <Address>_pDeadEye</Address>
               <Offsets>
@@ -30704,6 +30884,7 @@ dealloc(newmem)
             <CheatEntry>
               <ID>16363</ID>
               <Description>"pStamina"</Description>
+              <LastState Value="66" RealAddress="20938785310"/>
               <VariableType>Float</VariableType>
               <Address>_pStaminaBase</Address>
               <Offsets>
@@ -30713,6 +30894,7 @@ dealloc(newmem)
             <CheatEntry>
               <ID>16364</ID>
               <Description>"pHealth"</Description>
+              <LastState Value="0" RealAddress="2093530A190"/>
               <VariableType>Float</VariableType>
               <Address>_pPlayerHealthBase</Address>
               <Offsets>
@@ -30722,6 +30904,7 @@ dealloc(newmem)
             <CheatEntry>
               <ID>16365</ID>
               <Description>"pHealthMax"</Description>
+              <LastState Value="3F800000" RealAddress="2093530A194"/>
               <ShowAsHex>1</ShowAsHex>
               <VariableType>Float</VariableType>
               <Address>_pPlayerHealthBase</Address>
@@ -30732,12 +30915,14 @@ dealloc(newmem)
             <CheatEntry>
               <ID>16367</ID>
               <Description>"TimeOfDay (display)"</Description>
+              <LastState Value="0" RealAddress="7FF76D692A68"/>
               <VariableType>Float</VariableType>
               <Address>RDR2.exe+5952A68</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>16369</ID>
               <Description>"baseWeapon"</Description>
+              <LastState Value="0000000000000000" RealAddress="7FF767D2001D"/>
               <ShowAsHex>1</ShowAsHex>
               <VariableType>8 Bytes</VariableType>
               <Address>baseWeapon</Address>
@@ -30819,87 +31004,95 @@ print('')
 [DISABLE]
 </AssemblerScript>
         </CheatEntry>
-      </CheatEntries>
-    </CheatEntry>
-    <CheatEntry>
-      <ID>19233</ID>
-      <Description>"Reversal, Structs and Offsets"</Description>
-      <Options moHideChildren="1" moDeactivateChildrenAsWell="1"/>
-      <LastState Value="" RealAddress="00000000"/>
-      <Color>C0C0C0</Color>
-      <GroupHeader>1</GroupHeader>
-      <CheatEntries>
         <CheatEntry>
-          <ID>18478</ID>
-          <Description>"PLAYERLIST"</Description>
-          <ShowAsHex>1</ShowAsHex>
-          <ShowAsSigned>0</ShowAsSigned>
-          <VariableType>Array of byte</VariableType>
-          <ByteLength>16</ByteLength>
-          <Address>RDR2.exe+FBD2E0</Address>
-        </CheatEntry>
-        <CheatEntry>
-          <ID>18479</ID>
-          <Description>"GEY PLAYER NAME"</Description>
-          <ShowAsHex>1</ShowAsHex>
-          <VariableType>Array of byte</VariableType>
-          <ByteLength>14</ByteLength>
-          <Address>RDR2.exe+16DCE1</Address>
-        </CheatEntry>
-        <CheatEntry>
-          <ID>18480</ID>
-          <Description>"DRAW_RECT:"</Description>
-          <ShowAsHex>1</ShowAsHex>
-          <VariableType>Array of byte</VariableType>
-          <ByteLength>27</ByteLength>
-          <Address>RDR2.exe+F7BBBC</Address>
-        </CheatEntry>
-        <CheatEntry>
-          <ID>18481</ID>
-          <Description>"world_to_screen:"</Description>
-          <ShowAsHex>1</ShowAsHex>
-          <VariableType>Array of byte</VariableType>
-          <ByteLength>13</ByteLength>
-          <Address>RDR2.exe+ECB3A0</Address>
-        </CheatEntry>
-        <CheatEntry>
-          <ID>18482</ID>
-          <Description>"get_player_address:"</Description>
-          <ShowAsHex>1</ShowAsHex>
-          <VariableType>Array of byte</VariableType>
-          <ByteLength>16</ByteLength>
-          <Address>RDR2.exe+EC947C</Address>
-        </CheatEntry>
-        <CheatEntry>
-          <ID>19228</ID>
-          <Description>"CPedFactory a.k.a WorldPTR"</Description>
-          <ShowAsHex>1</ShowAsHex>
-          <VariableType>Array of byte</VariableType>
-          <ByteLength>68</ByteLength>
-          <Address>RDR2.exe+EC94BD</Address>
-        </CheatEntry>
-        <CheatEntry>
-          <ID>19230</ID>
-          <Description>"GET_PED_BONE_COORDS"</Description>
-          <ShowAsHex>1</ShowAsHex>
-          <VariableType>Array of byte</VariableType>
-          <ByteLength>28</ByteLength>
-          <Address>RDR2.exe+FBA73C</Address>
-        </CheatEntry>
-        <CheatEntry>
-          <ID>19231</ID>
-          <Description>"SET_PED_ON_MOUNT"</Description>
-          <Options moHideChildren="1"/>
-          <ShowAsSigned>0</ShowAsSigned>
-          <VariableType>Array of byte</VariableType>
-          <ByteLength>41</ByteLength>
-          <Address>RDR2.exe+FD843C</Address>
+          <ID>19233</ID>
+          <Description>"Reversal, Structs and Offsets"</Description>
+          <Options moHideChildren="1" moDeactivateChildrenAsWell="1"/>
+          <LastState Value="" RealAddress="00000000"/>
+          <Color>000080</Color>
+          <GroupHeader>1</GroupHeader>
           <CheatEntries>
             <CheatEntry>
-              <ID>19232</ID>
-              <Description>"Index is -1 for driver, 0 for passenger."</Description>
-              <LastState Value="" RealAddress="00000000"/>
-              <GroupHeader>1</GroupHeader>
+              <ID>18478</ID>
+              <Description>"PLAYERLIST"</Description>
+              <LastState Value="48 8B 0D E9 65 B7 02 E8 44 B5 2C FF 8A 48 19 E8" RealAddress="7FF768CFD2E0"/>
+              <ShowAsHex>1</ShowAsHex>
+              <ShowAsSigned>0</ShowAsSigned>
+              <VariableType>Array of byte</VariableType>
+              <ByteLength>16</ByteLength>
+              <Address>RDR2.exe+FBD2E0</Address>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>18479</ID>
+              <Description>"GEY PLAYER NAME"</Description>
+              <LastState Value="E8 DE 60 E7 00 48 85 C0 74 65 48 8D 54 24" RealAddress="7FF767EADCE1"/>
+              <ShowAsHex>1</ShowAsHex>
+              <VariableType>Array of byte</VariableType>
+              <ByteLength>14</ByteLength>
+              <Address>RDR2.exe+16DCE1</Address>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>18480</ID>
+              <Description>"DRAW_RECT:"</Description>
+              <LastState Value="48 8B C4 48 89 58 08 57 48 83 EC 70 0F 29 70 E8 0F 28 F3 F3 0F 59 35 A9 4C 31 02" RealAddress="7FF768CBBBBC"/>
+              <ShowAsHex>1</ShowAsHex>
+              <VariableType>Array of byte</VariableType>
+              <ByteLength>27</ByteLength>
+              <Address>RDR2.exe+F7BBBC</Address>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>18481</ID>
+              <Description>"world_to_screen:"</Description>
+              <LastState Value="48 89 5C 24 10 56 57 41 56 48 83 EC 60" RealAddress="7FF768C0B3A0"/>
+              <ShowAsHex>1</ShowAsHex>
+              <VariableType>Array of byte</VariableType>
+              <ByteLength>13</ByteLength>
+              <Address>RDR2.exe+ECB3A0</Address>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>18482</ID>
+              <Description>"get_player_address:"</Description>
+              <LastState Value="40 53 48 83 EC 20 33 DB 38 1D FF A6 31 04 74 1C" RealAddress="7FF768C0947C"/>
+              <ShowAsHex>1</ShowAsHex>
+              <VariableType>Array of byte</VariableType>
+              <ByteLength>16</ByteLength>
+              <Address>RDR2.exe+EC947C</Address>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>19228</ID>
+              <Description>"CPedFactory a.k.a WorldPTR"</Description>
+              <LastState Value="48 8B 15 FC B4 A9 03 48 C1 C9 05 48 C1 C1 20 48 33 D1 8B C1 83 E0 1F 48 C1 C2 20 FF C0 8A C8 8A 05 D6 B4 A9 03 48 D3 C2 84 C0 74 06 48 8B DA 48 F7 D3 48 8B 5B 08 48 8B C3 48 83 C4 20 5B C3 48 89 5C 24 08" RealAddress="7FF768C094BD"/>
+              <ShowAsHex>1</ShowAsHex>
+              <VariableType>Array of byte</VariableType>
+              <ByteLength>68</ByteLength>
+              <Address>RDR2.exe+EC94BD</Address>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>19230</ID>
+              <Description>"GET_PED_BONE_COORDS"</Description>
+              <LastState Value="48 8B C4 48 89 58 08 48 89 70 10 57 48 81 EC 80 00 00 00 0F 29 70 E8 48 8B D9 8B CA" RealAddress="7FF768CFA73C"/>
+              <ShowAsHex>1</ShowAsHex>
+              <VariableType>Array of byte</VariableType>
+              <ByteLength>28</ByteLength>
+              <Address>RDR2.exe+FBA73C</Address>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>19231</ID>
+              <Description>"SET_PED_ON_MOUNT"</Description>
+              <Options moHideChildren="1"/>
+              <LastState Value="72 133 201 15 132 82 2 0 0 72 139 196 72 137 88 8 72 137 104 16 72 137 112 24 72 137 120 32 65 84 65 86 65 87 72 131 236 64 69 138 225" RealAddress="7FF768D1843C"/>
+              <ShowAsSigned>0</ShowAsSigned>
+              <VariableType>Array of byte</VariableType>
+              <ByteLength>41</ByteLength>
+              <Address>RDR2.exe+FD843C</Address>
+              <CheatEntries>
+                <CheatEntry>
+                  <ID>19232</ID>
+                  <Description>"Index is -1 for driver, 0 for passenger."</Description>
+                  <LastState Value="" RealAddress="00000000"/>
+                  <GroupHeader>1</GroupHeader>
+                </CheatEntry>
+              </CheatEntries>
             </CheatEntry>
           </CheatEntries>
         </CheatEntry>
@@ -30909,13 +31102,25 @@ print('')
       <ID>17101</ID>
       <Description>"Compact/Full Mode"</Description>
       <LastState/>
-      <Color>D1D1D1</Color>
+      <Color>FFA6A6</Color>
       <VariableType>Auto Assembler Script</VariableType>
       <AssemblerScript>[ENABLE]
 LuaCall(function cycleFullCompact(sender,force) local state = not(compactmenuitem.Caption == 'Compact View Mode'); if force~=nil then state = not force end; compactmenuitem.Caption = state and 'Compact View Mode' or 'Full View Mode'; getMainForm().Splitter1.Visible = state; getMainForm().Panel4.Visible    = state; getMainForm().Panel5.Visible    = state; end; function addCompactMenu() if compactmenualreadyexists then return end; local parent = getMainForm().Menu.Items; compactmenuitem = createMenuItem(parent); parent.add(compactmenuitem); compactmenuitem.Caption = 'Compact View Mode'; compactmenuitem.OnClick = cycleFullCompact; compactmenualreadyexists = 'yes'; end; addCompactMenu(); cycleFullCompact(nil,true))
 
 [DISABLE]
 LuaCall(cycleFullCompact(nil,false))
+</AssemblerScript>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>19420</ID>
+      <Description>"Wicked Menu GitHub"</Description>
+      <LastState/>
+      <Color>FFAAAA</Color>
+      <VariableType>Auto Assembler Script</VariableType>
+      <AssemblerScript>[ENABLE]
+{$lua}
+shellExecute('https://github.com/plumbwicked/Wicked-Menu')
+[DISABLE]
 </AssemblerScript>
     </CheatEntry>
   </CheatEntries>

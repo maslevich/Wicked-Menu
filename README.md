@@ -6,7 +6,19 @@ https://www.dafont.com/sketch-gothic-school.font?text=Wicked+Menu
 Change Log/
 
 
+V2.1.8.b
+Added: 
+Auto Teleport to Cycle 3 and 4 Tarot Cards 
+Github Link to menu
+Moved:
+Coords to main table for reference .
+Changed Some Colors 
 
+
+
+
+
+V2.1.8.a
 Special thanks to PORNO STAR#5508 for the Coords !!
 Alcohol Cycle 6
 Arrowhead Cycle 6
