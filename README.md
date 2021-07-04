@@ -16,12 +16,18 @@ https://www.unknowncheats.me/forum/red-dead-redemption-2-a/372512-wicked-menu-ch
 Consent:
 By using our content, you hereby consent to the disclaimer and agree to its terms.
 
+
+
 Menu Font :
 https://www.dafont.com/sketch-gothic-school.font?text=Wicked+Menu
 
 
+
+
 Wicked Menu 
 Change Logs/
+
+
 
 
 v2.1.8.c
