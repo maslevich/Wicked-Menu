@@ -28,6 +28,22 @@ Wicked Menu
 Change Logs/
 
 
+v2.1.9
+Added 
+Auto Teleport to Tarot Cards Cycle 2 and 3
+Wardrobe clothing hack [BETA], Thanks to Sweetooth .
+Hour, Minutes , PhotoMode to Single player Menu Thanks to Otis_Inf
+Weather , Thanks to Hattiwatti
+Arrowhead Cycle 1 Thanks to PORNO STAR [742782869616721922]
+Added links to menu:
+Wicked Menu Font Download 
+How to use Infinite Trader Goods
+How to use Wardrobe clothing hack
+
+
+
+
+
 
 
 v.2.1.8.d
