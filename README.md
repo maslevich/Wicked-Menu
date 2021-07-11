@@ -28,6 +28,23 @@ Wicked Menu
 Change Logs/
 
 
+
+
+
+
+v2.2
+Only Added :
+v2.2 to menu 
+All Cheats ON 
+All Cheats OFF to Menu Hotkeys .
+Turns everything on Except 'Jam Weapons obviously' .
+
+
+
+
+
+
+
 v2.1.9
 Added 
 Auto Teleport to Tarot Cards Cycle 2 and 3
