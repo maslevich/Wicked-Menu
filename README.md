@@ -30,6 +30,55 @@ Change Logs/
 
 
 
+
+
+v2.2
+Only Added :
+v2.2 to menu 
+All Cheats ON 
+All Cheats OFF to Menu Hotkeys .
+Turns everything on Except 'Jam Weapons obviously' .
+
+
+
+
+
+
+
+v2.1.9
+Added 
+Auto Teleport to Tarot Cards Cycle 2 and 3
+Wardrobe clothing hack [BETA], Thanks to Sweetooth .
+Hour, Minutes , PhotoMode to Single player Menu Thanks to Otis_Inf
+Weather , Thanks to Hattiwatti
+Arrowhead Cycle 1 Thanks to PORNO STAR [742782869616721922]
+Added links to menu:
+Wicked Menu Font Download 
+How to use Infinite Trader Goods
+How to use Wardrobe clothing hack
+
+
+
+
+
+
+
+v.2.1.8.d
+Special thanks to PORNO STAR [742782869616721922] for the Arrowhead coords!
+Added
+Arrowheads Cycle 2
+Tarot Cards Cycle 1
+Grizzly Bear & Viking Tomb to Locations
+
+
+
+
+
+
+
+
+
+
 v2.1.8.c
 ADDED:
 *Disclaimer
