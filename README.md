@@ -29,6 +29,13 @@ Change Logs/
 
 
 
+v2.2.1 
+
+Fixed Teleport 
+Special thanks to distroyce https://www.unknowncheats.me/forum/members/3937436.html
+for the Teleport Fix !
+Removed Stamina "Update Broke it for now"
+
 
 
 
