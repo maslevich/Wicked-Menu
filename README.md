@@ -27,8 +27,10 @@ https://www.dafont.com/sketch-gothic-school.font?text=Wicked+Menu
 Wicked Menu 
 Change Logs/
 
-
-
+v2.2.1.a 
+Added RDR2CollectorsMap link
+Moved all links to link section
+ 
 v2.2.1 
 
 Fixed Teleport 
