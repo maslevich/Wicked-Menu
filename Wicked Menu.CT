@@ -34314,6 +34314,52 @@ shellExecute('https://www.dafont.com/sketch-gothic-school.font?text=Wicked+Menu'
 [DISABLE]
 </AssemblerScript>
     </CheatEntry>
+    <CheatEntry>
+      <ID>19633</ID>
+      <Description>"Links"</Description>
+      <Options moHideChildren="1"/>
+      <LastState Value="" RealAddress="00000000"/>
+      <Color>FFC891</Color>
+      <GroupHeader>1</GroupHeader>
+      <CheatEntries>
+        <CheatEntry>
+          <ID>19635</ID>
+          <Description>"RDR2CollectorsMap"</Description>
+          <LastState/>
+          <Color>00FF00</Color>
+          <VariableType>Auto Assembler Script</VariableType>
+          <AssemblerScript>[ENABLE]
+{$lua}
+shellExecute('https://jeanropke.github.io/RDR2CollectorsMap/')
+[DISABLE]
+</AssemblerScript>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>19636</ID>
+          <Description>"Wicked Menu GitHub"</Description>
+          <LastState/>
+          <Color>00FF00</Color>
+          <VariableType>Auto Assembler Script</VariableType>
+          <AssemblerScript>[ENABLE]
+{$lua}
+shellExecute('https://github.com/plumbwicked/Wicked-Menu')
+[DISABLE]
+</AssemblerScript>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>19637</ID>
+          <Description>"Wicked Menu Font"</Description>
+          <LastState/>
+          <Color>00FF00</Color>
+          <VariableType>Auto Assembler Script</VariableType>
+          <AssemblerScript>[ENABLE]
+{$lua}
+shellExecute('https://www.dafont.com/sketch-gothic-school.font?text=Wicked+Menu')
+[DISABLE]
+</AssemblerScript>
+        </CheatEntry>
+      </CheatEntries>
+    </CheatEntry>
   </CheatEntries>
   <CheatCodes>
     <CodeEntry Color="20000000">
