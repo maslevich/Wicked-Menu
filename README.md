@@ -27,6 +27,18 @@ https://www.dafont.com/sketch-gothic-school.font?text=Wicked+Menu
 Wicked Menu 
 Change Logs/
 
+
+
+V2.2.1.b
+Added  
+American Wild Flowers coords 1,2,3
+Bird Eggs Cycle 1,3
+Random Jewelry Cycle 3,2
+Random Spots Cycle 1,2,3
+Thanks to Eerf @ https://www.unknowncheats.me/forum/members/3954194.html
+for all the coords !
+*Coords not tested
+
 v2.2.1.a 
 Added RDR2CollectorsMap link
 Moved all links to link section
