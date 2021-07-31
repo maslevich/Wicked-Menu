@@ -28,6 +28,11 @@ Wicked Menu
 Change Logs/
 
 
+v2.2.1.d
+Added Cycle 4 Coins . 
+Special Thanks And Happy Birthday to Lumberjack251 AkA !Helper Link! #583316925124313098 
+for the coords !
+
 
 V2.2.1.b
 Added  
