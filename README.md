@@ -28,6 +28,17 @@ Wicked Menu
 Change Logs/
 
 
+v2.2.1.e
+Added 
+Random Spots Cycle  4,5
+American Wild Flowers Cycle 3,4
+Fixed :
+Cycle 1 heirlooms
+Mislabled Cycles from Random Spots and Flowers.
+
+ 
+
+
 v2.2.1.d
 Added Cycle 4 Coins . 
 Special Thanks And Happy Birthday to Lumberjack251 AkA !Helper Link! #583316925124313098 
