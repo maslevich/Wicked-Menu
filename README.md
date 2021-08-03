@@ -27,6 +27,15 @@ https://www.dafont.com/sketch-gothic-school.font?text=Wicked+Menu
 Wicked Menu 
 Change Logs/
 
+V2.2.1.f
+Added
+Lost Jewelry Cycle 4 Complete
+American Wid Flowers Cycle 6
+Special Thanks again to Eerf @ Unknowncheats for the coords . 
+https://www.unknowncheats.me/forum/3203660-post1620.html
+Fixed
+Mislabled Cycles .
+
 
 v2.2.1.e
 Added 
