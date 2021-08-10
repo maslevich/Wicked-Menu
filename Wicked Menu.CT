@@ -1020,7 +1020,7 @@ shellExecute('https://justpaste.it/8peam')
     <CheatEntry>
       <ID>57</ID>
       <Description>"Hour"</Description>
-      <LastState Value="0" RealAddress="7FF6A7CB0188"/>
+      <LastState Value="1" RealAddress="7FF6A7CB0188"/>
       <Color>FFD2A6</Color>
       <VariableType>2 Bytes</VariableType>
       <Address>g_todHours</Address>
@@ -1028,7 +1028,7 @@ shellExecute('https://justpaste.it/8peam')
     <CheatEntry>
       <ID>19548</ID>
       <Description>"Minute"</Description>
-      <LastState Value="32" RealAddress="7FF6A7CB018C"/>
+      <LastState Value="5" RealAddress="7FF6A7CB018C"/>
       <Color>FFD2A6</Color>
       <VariableType>2 Bytes</VariableType>
       <Address>g_todMinutes</Address>
@@ -1036,7 +1036,7 @@ shellExecute('https://justpaste.it/8peam')
     <CheatEntry>
       <ID>17918</ID>
       <Description>"X"</Description>
-      <LastState Value="-748.3173218" RealAddress="25DC7206360"/>
+      <LastState Value="-5647.201172" RealAddress="25DC7208A90"/>
       <ShowAsSigned>0</ShowAsSigned>
       <Color>FFD7AE</Color>
       <VariableType>Float</VariableType>
@@ -1045,7 +1045,7 @@ shellExecute('https://justpaste.it/8peam')
     <CheatEntry>
       <ID>17919</ID>
       <Description>"Y"</Description>
-      <LastState Value="-1289.538452" RealAddress="25DC7206364"/>
+      <LastState Value="-3506.262939" RealAddress="25DC7208A94"/>
       <ShowAsSigned>0</ShowAsSigned>
       <Color>FFCE9D</Color>
       <VariableType>Float</VariableType>
@@ -1054,7 +1054,7 @@ shellExecute('https://justpaste.it/8peam')
     <CheatEntry>
       <ID>17920</ID>
       <Description>"Z"</Description>
-      <LastState Value="43.10775375" RealAddress="25DC7206368"/>
+      <LastState Value="-22.08168602" RealAddress="25DC7208A98"/>
       <ShowAsSigned>0</ShowAsSigned>
       <Color>FFC891</Color>
       <VariableType>Float</VariableType>
@@ -46426,21 +46426,21 @@ unregistersymbol(_Teleport)
                 <CheatEntry>
                   <ID>17196</ID>
                   <Description>"x"</Description>
-                  <LastState Value="-12.31732178" RealAddress="25DC7206350"/>
+                  <LastState Value="-15.2265625" RealAddress="25DC7208A80"/>
                   <VariableType>Float</VariableType>
                   <Address>[coord2]+70</Address>
                 </CheatEntry>
                 <CheatEntry>
                   <ID>17197</ID>
                   <Description>"y"</Description>
-                  <LastState Value="-9.538452148" RealAddress="25DC7206354"/>
+                  <LastState Value="-18.29125977" RealAddress="25DC7208A84"/>
                   <VariableType>Float</VariableType>
                   <Address>[coord2]+74</Address>
                 </CheatEntry>
                 <CheatEntry>
                   <ID>17198</ID>
                   <Description>"z"</Description>
-                  <LastState Value="43.19775391" RealAddress="25DC7206358"/>
+                  <LastState Value="-21.99168587" RealAddress="25DC7208A88"/>
                   <VariableType>Float</VariableType>
                   <Address>[coord2]+78</Address>
                 </CheatEntry>
@@ -47444,14 +47444,14 @@ unregisterSymbol("g_pauseByte")
                 <CheatEntry>
                   <ID>19554</ID>
                   <Description>"Time of day: Hour. 0-23. Setting the value outside this range crashes the game"</Description>
-                  <LastState Value="0" RealAddress="7FF6A7CB0188"/>
+                  <LastState Value="1" RealAddress="7FF6A7CB0188"/>
                   <VariableType>2 Bytes</VariableType>
                   <Address>g_todHours</Address>
                 </CheatEntry>
                 <CheatEntry>
                   <ID>19555</ID>
                   <Description>"Time of day: Minutes. 0-59. Setting the value outside this range crashes the game"</Description>
-                  <LastState Value="32" RealAddress="7FF6A7CB018C"/>
+                  <LastState Value="5" RealAddress="7FF6A7CB018C"/>
                   <VariableType>2 Bytes</VariableType>
                   <Address>g_todMinutes</Address>
                 </CheatEntry>
@@ -48681,28 +48681,50 @@ LuaCall(cycleFullCompact(nil,false))
 </AssemblerScript>
     </CheatEntry>
     <CheatEntry>
-      <ID>19420</ID>
-      <Description>"Wicked Menu GitHub"</Description>
-      <LastState/>
-      <Color>FFAAAA</Color>
-      <VariableType>Auto Assembler Script</VariableType>
-      <AssemblerScript>[ENABLE]
+      <ID>21857</ID>
+      <Description>"Links"</Description>
+      <Options moHideChildren="1"/>
+      <LastState Value="" RealAddress="00000000"/>
+      <Color>FFC891</Color>
+      <GroupHeader>1</GroupHeader>
+      <CheatEntries>
+        <CheatEntry>
+          <ID>21858</ID>
+          <Description>"RDR2CollectorsMap"</Description>
+          <LastState/>
+          <Color>00FF00</Color>
+          <VariableType>Auto Assembler Script</VariableType>
+          <AssemblerScript>[ENABLE]
+{$lua}
+shellExecute('https://jeanropke.github.io/RDR2CollectorsMap/')
+[DISABLE]
+</AssemblerScript>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>21859</ID>
+          <Description>"Wicked Menu GitHub"</Description>
+          <LastState/>
+          <Color>00FF00</Color>
+          <VariableType>Auto Assembler Script</VariableType>
+          <AssemblerScript>[ENABLE]
 {$lua}
 shellExecute('https://github.com/plumbwicked/Wicked-Menu')
 [DISABLE]
 </AssemblerScript>
-    </CheatEntry>
-    <CheatEntry>
-      <ID>19541</ID>
-      <Description>"Wicked Menu Font"</Description>
-      <LastState/>
-      <Color>FFB7B7</Color>
-      <VariableType>Auto Assembler Script</VariableType>
-      <AssemblerScript>[ENABLE]
+        </CheatEntry>
+        <CheatEntry>
+          <ID>21860</ID>
+          <Description>"Wicked Menu Font"</Description>
+          <LastState/>
+          <Color>00FF00</Color>
+          <VariableType>Auto Assembler Script</VariableType>
+          <AssemblerScript>[ENABLE]
 {$lua}
 shellExecute('https://www.dafont.com/sketch-gothic-school.font?text=Wicked+Menu')
 [DISABLE]
 </AssemblerScript>
+        </CheatEntry>
+      </CheatEntries>
     </CheatEntry>
   </CheatEntries>
   <CheatCodes>
