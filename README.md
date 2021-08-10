@@ -27,6 +27,22 @@ https://www.dafont.com/sketch-gothic-school.font?text=Wicked+Menu
 Wicked Menu 
 Change Logs/
 
+V2.2.2
+Added :
+Harrietum Officanalis,Vitalism Studies coords https://www.unknowncheats.me/forum/3204773-post1627.html
+Random Spots Cycle 6 https://www.unknowncheats.me/forum/3206019-post1635.html
+Thanks to :
+jamespk23 https://www.unknowncheats.me/forum/members/3484842.html
+Eerf https://www.unknowncheats.me/forum/members/3954194.html
+For the coords https://www.unknowncheats.me/forum/3204773-post1627.html
+
+Fixed : 
+Stamina 
+Special thanks to STD047 !
+
+
+
+
 V2.2.1.f
 Added
 Lost Jewelry Cycle 4 Complete
