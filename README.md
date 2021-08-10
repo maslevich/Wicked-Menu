@@ -27,6 +27,12 @@ https://www.dafont.com/sketch-gothic-school.font?text=Wicked+Menu
 Wicked Menu 
 Change Logs/
 
+v2.2.3
+Removed:
+Stamina / Crashing game
+
+
+
 V2.2.2
 Added :
 Harrietum Officanalis,Vitalism Studies coords https://www.unknowncheats.me/forum/3204773-post1627.html
