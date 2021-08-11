@@ -27,8 +27,69 @@ https://www.dafont.com/sketch-gothic-school.font?text=Wicked+Menu
 Wicked Menu 
 Change Logs/
 
+v2.2.3
+Removed:
+Stamina / Crashing game
 
 
+
+V2.2.2
+Added :
+Harrietum Officanalis,Vitalism Studies coords https://www.unknowncheats.me/forum/3204773-post1627.html
+Random Spots Cycle 6 https://www.unknowncheats.me/forum/3206019-post1635.html
+Thanks to :
+jamespk23 https://www.unknowncheats.me/forum/members/3484842.html
+Eerf https://www.unknowncheats.me/forum/members/3954194.html
+For the coords https://www.unknowncheats.me/forum/3204773-post1627.html
+
+Fixed : 
+Stamina 
+Special thanks to STD047 !
+
+
+
+
+V2.2.1.f
+Added
+Lost Jewelry Cycle 4 Complete
+American Wid Flowers Cycle 6
+Special Thanks again to Eerf @ Unknowncheats for the coords . 
+https://www.unknowncheats.me/forum/3203660-post1620.html
+Fixed
+Mislabled Cycles .
+
+
+v2.2.1.e
+Added 
+Random Spots Cycle  4,5
+American Wild Flowers Cycle 3,4
+Fixed :
+Cycle 1 heirlooms
+Mislabled Cycles from Random Spots and Flowers.
+
+ 
+
+
+v2.2.1.d
+Added Cycle 4 Coins . 
+Special Thanks And Happy Birthday to Lumberjack251 AkA !Helper Link! #583316925124313098 
+for the coords !
+
+
+V2.2.1.b
+Added  
+American Wild Flowers coords 1,2,3
+Bird Eggs Cycle 1,3
+Random Jewelry Cycle 3,2
+Random Spots Cycle 1,2,3
+Thanks to Eerf @ https://www.unknowncheats.me/forum/members/3954194.html
+for all the coords !
+*Coords not tested
+
+v2.2.1.a 
+Added RDR2CollectorsMap link
+Moved all links to link section
+ 
 v2.2.1 
 
 Fixed Teleport 
