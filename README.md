@@ -27,6 +27,15 @@ https://www.dafont.com/sketch-gothic-school.font?text=Wicked+Menu
 Wicked Menu 
 Change Logs/
 
+V2.2.4
+Added: 
+Legendary animals Complete Coords https://www.unknowncheats.me/forum/3215299-post1692.html
+Thanks again to Eerf for the Coords! https://www.unknowncheats.me/forum/members/3954194.html
+
+
+
+
+
 v2.2.3
 Removed:
 Stamina / Crashing game
