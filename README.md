@@ -27,6 +27,19 @@ https://www.dafont.com/sketch-gothic-school.font?text=Wicked+Menu
 Wicked Menu 
 Change Logs/
 
+V2.2.5 
+Added : 
+Find Treasure Map Locations On Trees/Treasure Hunters
+Special Thanks to fichu1986 for the Coords https://www.unknowncheats.me/forum/3223426-post1731.html
+Fixed:
+2 Treasure map teleports fixed
+thanks to dj4everkill https://www.unknowncheats.me/forum/3223327-post1728.html
+
+Thanks to  fikhriealis https://www.unknowncheats.me/forum/3223406-post1730.html
+
+
+
+
 V2.2.4
 Added: 
 Legendary animals Complete Coords https://www.unknowncheats.me/forum/3215299-post1692.html
