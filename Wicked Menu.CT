@@ -8,7 +8,7 @@
       <ID>54</ID>
       <Description>"Activate CodeBase/CheatTable-Hotkey is F12"</Description>
       <Options moAlwaysHideChildren="1" moActivateChildrenAsWell="1" moDeactivateChildrenAsWell="1"/>
-      <LastState Activated="1"/>
+      <LastState/>
       <Color>00FFFF</Color>
       <VariableType>Auto Assembler Script</VariableType>
       <AssemblerScript>[ENABLE]
@@ -509,7 +509,7 @@
         <CheatEntry>
           <ID>16492</ID>
           <Description>"Compact/Full Mode"</Description>
-          <LastState Activated="1"/>
+          <LastState/>
           <Color>00FFFF</Color>
           <VariableType>Auto Assembler Script</VariableType>
           <AssemblerScript>[ENABLE]
@@ -523,7 +523,7 @@ LuaCall(cycleFullCompact(nil,false))
           <ID>16314</ID>
           <Description>"{}{}{}{}{[{{BASEWeapons}]}{][{}{}{}"</Description>
           <Options moHideChildren="1" moDeactivateChildrenAsWell="1"/>
-          <LastState Activated="1"/>
+          <LastState/>
           <Color>00FFFF</Color>
           <VariableType>Auto Assembler Script</VariableType>
           <AssemblerScript>[ENABLE]
@@ -631,7 +631,7 @@ dealloc(newmem)
           <ID>7448</ID>
           <Description>"{}{}{}{}{[{{BASECoords}}{}{}{}{}{}"</Description>
           <Options moHideChildren="1"/>
-          <LastState Activated="1"/>
+          <LastState/>
           <Color>00FFFF</Color>
           <VariableType>Auto Assembler Script</VariableType>
           <AssemblerScript>[ENABLE]
@@ -708,7 +708,7 @@ dealloc(newmem)
           <ID>17222</ID>
           <Description>"{}{}{}{}{[{{BASEWaypoint][][][{}{}{}"</Description>
           <Options moHideChildren="1" moDeactivateChildrenAsWell="1"/>
-          <LastState Activated="1"/>
+          <LastState/>
           <Color>00FFFF</Color>
           <VariableType>Auto Assembler Script</VariableType>
           <AssemblerScript>[ENABLE]
@@ -857,7 +857,7 @@ dd 00000000
           <ID>16409</ID>
           <Description>"Auto Teleport "</Description>
           <Options moHideChildren="1" moActivateChildrenAsWell="1"/>
-          <LastState Activated="1"/>
+          <LastState/>
           <Color>00FFFF</Color>
           <VariableType>Auto Assembler Script</VariableType>
           <AssemblerScript>[ENABLE]
@@ -916,7 +916,7 @@ TeleportHook.terminate()
           <ID>19547</ID>
           <Description>"{}{}{}{}{[{{BASETIME}]}{][{}{}{}"</Description>
           <Options moHideChildren="1" moDeactivateChildrenAsWell="1"/>
-          <LastState Activated="1"/>
+          <LastState/>
           <Color>00FFFF</Color>
           <VariableType>Auto Assembler Script</VariableType>
           <AssemblerScript>{$STRICT}
@@ -67863,6 +67863,11 @@ shellExecute('https://www.dafont.com/sketch-gothic-school.font?text=Wicked+Menu'
     </Structure>
   </Structures>
   <Comments>Special Thanks to  Dark Byte for Making Cheat Engine for us !
+Thanks to Everyone at FearLess Cheat Engine for starting this process .
+Main Code [made by l0wb1t : Additional Code : supMarco , 
+Jamesc00ls
+dctrwhy
+KingVypr
 Otis_Inf
 Hattiwatti
 CoolRomeo
