@@ -26,6 +26,17 @@ https://www.dafont.com/sketch-gothic-school.font?text=Wicked+Menu
 
 Wicked Menu 
 Change Logs/
+V2.2.6 
+Fixed : 
+
+Teleport to Waypoint .
+
+Special Thanks to Spacedoge #195176180746420224 on Discord for the Fix !
+
+"Some Heroes don't need Capes".
+
+
+
 
 V2.2.5 
 Added : 
