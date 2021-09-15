@@ -26,6 +26,10 @@ https://www.dafont.com/sketch-gothic-school.font?text=Wicked+Menu
 
 Wicked Menu 
 Change Logs/
+
+
+
+
 V2.2.6 
 Fixed : 
 
