@@ -35,7 +35,8 @@ Added ;
 
 Player Stamina 
 Horse Health 
-Notes ' 
+Notes 
+
 "Testing Stamina -"
 "is still crashing, "
 "On carts, and Teleport" .
