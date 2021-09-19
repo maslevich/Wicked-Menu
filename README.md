@@ -27,18 +27,6 @@ https://www.dafont.com/sketch-gothic-school.font?text=Wicked+Menu
 Wicked Menu 
 Change Logs/
 
-V2.2.7 BETA TEST
-[Requires Cheat Engine 7.3]
-Added ;
-Player Stamina 
-Horse Health 
-Notes ' 
-"Testing Stamina -"
-"is still crashing, "
-"On carts, and Teleport" .
-
-
-
 
 
 
