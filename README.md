@@ -25,10 +25,13 @@ https://www.dafont.com/sketch-gothic-school.font?text=Wicked+Menu
 
 
 Wicked Menu 
+
 Change Logs/
 
 v2.2.8
+
 Added;
+
 Godmode Horse [Stable]
 Weather
 Time
