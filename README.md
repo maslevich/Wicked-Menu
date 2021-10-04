@@ -28,6 +28,12 @@ Wicked Menu
 
 Change Logs/
 
+V2.2.9
+Changed speedhack to Mouse5
+
+
+
+
 v2.2.8
 
 Added;
