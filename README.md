@@ -28,8 +28,21 @@ Wicked Menu
 
 Change Logs/
 
-V2.2.9
+
+V2.3.0
+Added ;
+
+distroyce's "Teleport to Treasure Chest" 
+[Method Explained Here https://www.unknowncheats.me/forum/red-dead-redemption-2-a/472932-teleport-treasure-chest-cheat-engine.html]
+Auto teleport to Tarot Cards 5 and 6
+Miscellaneous Changes to Menu/Gui/Colors
 Changed speedhack to Mouse5
+
+Removed;
+Name Changer
+
+Still Broken; 
+Stamina
 
 
 
@@ -51,10 +64,6 @@ Removed :
 Player Stamina [Crashing still]
 
 
-
-
-
-
 V2.2.7 Beta Test
 
 Added ;
@@ -66,8 +75,6 @@ Notes
 "Testing Stamina -"
 "is still crashing, "
 "On carts, and Teleport" .
-
-
 
 
 V2.2.6 
