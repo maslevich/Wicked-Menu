@@ -28,6 +28,24 @@ Wicked Menu
 
 Change Logs/
 
+v2.5
+Added : 
+New Resizable Gui .
+wypierdalaj66's Treasure map locator .
+Changed all map locations from 1234, to 0123 .
+
+"Missing maps" 
+Burned Town .
+Civil War Battlefield.
+Cumberland Forest West.
+Hawks Eye Creek.
+West Hill Haven.
+ 
+
+
+
+
+
 
 V2.3.0
 Added ;
