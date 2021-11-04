@@ -28,6 +28,16 @@ Wicked Menu
 
 Change Logs/
 
+
+
+
+v2.6 
+Adjusted Sizable menu layout .
+
+
+
+
+
 v2.5
 Added : 
 New Resizable Gui .
