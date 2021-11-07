@@ -28,8 +28,39 @@ Wicked Menu
 
 Change Logs/
 
-V2.2.9
+v2.5
+Added : 
+New Resizable Gui .
+wypierdalaj66's Treasure map locator .
+Changed all map locations from 1234, to 0123 .
+
+"Missing maps" 
+Burned Town .
+Civil War Battlefield.
+Cumberland Forest West.
+Hawks Eye Creek.
+West Hill Haven.
+ 
+
+
+
+
+
+
+V2.3.0
+Added ;
+
+distroyce's "Teleport to Treasure Chest" 
+[Method Explained Here https://www.unknowncheats.me/forum/red-dead-redemption-2-a/472932-teleport-treasure-chest-cheat-engine.html]
+Auto teleport to Tarot Cards 5 and 6
+Miscellaneous Changes to Menu/Gui/Colors
 Changed speedhack to Mouse5
+
+Removed;
+Name Changer
+
+Still Broken; 
+Stamina
 
 
 
@@ -51,10 +82,6 @@ Removed :
 Player Stamina [Crashing still]
 
 
-
-
-
-
 V2.2.7 Beta Test
 
 Added ;
@@ -66,8 +93,6 @@ Notes
 "Testing Stamina -"
 "is still crashing, "
 "On carts, and Teleport" .
-
-
 
 
 V2.2.6 
