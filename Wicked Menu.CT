@@ -1176,7 +1176,7 @@ shellExecute('https://justpaste.it/8peam')
     <CheatEntry>
       <ID>17920</ID>
       <Description>"Z"</Description>
-      <LastState Value="123.9571762" RealAddress="1F0CC1D7308"/>
+      <LastState Value="121.2067566" RealAddress="1B49A9B7868"/>
       <ShowAsSigned>0</ShowAsSigned>
       <Color>91B5FF</Color>
       <VariableType>Float</VariableType>
@@ -1185,7 +1185,7 @@ shellExecute('https://justpaste.it/8peam')
     <CheatEntry>
       <ID>17919</ID>
       <Description>"Y"</Description>
-      <LastState Value="1985.687866" RealAddress="1F0CC1D7304"/>
+      <LastState Value="833.6307983" RealAddress="1B49A9B7864"/>
       <ShowAsSigned>0</ShowAsSigned>
       <Color>91B5FF</Color>
       <VariableType>Float</VariableType>
@@ -1194,7 +1194,7 @@ shellExecute('https://justpaste.it/8peam')
     <CheatEntry>
       <ID>17918</ID>
       <Description>"X"</Description>
-      <LastState Value="2698.458984" RealAddress="1F0CC1D7300"/>
+      <LastState Value="1614.290161" RealAddress="1B49A9B7860"/>
       <ShowAsSigned>0</ShowAsSigned>
       <Color>91B5FF</Color>
       <VariableType>Float</VariableType>
@@ -1203,7 +1203,7 @@ shellExecute('https://justpaste.it/8peam')
     <CheatEntry>
       <ID>57</ID>
       <Description>"Hour"</Description>
-      <LastState Value="19" RealAddress="7FF6B2593208"/>
+      <LastState Value="22" RealAddress="7FF6B2593208"/>
       <Color>91B5FF</Color>
       <VariableType>2 Bytes</VariableType>
       <Address>g_todHours</Address>
@@ -1211,7 +1211,7 @@ shellExecute('https://justpaste.it/8peam')
     <CheatEntry>
       <ID>19548</ID>
       <Description>"Minute"</Description>
-      <LastState Value="13" RealAddress="7FF6B259320C"/>
+      <LastState Value="21" RealAddress="7FF6B259320C"/>
       <Color>91B5FF</Color>
       <VariableType>2 Bytes</VariableType>
       <Address>g_todMinutes</Address>
@@ -1219,7 +1219,7 @@ shellExecute('https://justpaste.it/8peam')
     <CheatEntry>
       <ID>21728</ID>
       <Description>"Weather A"</Description>
-      <LastState Value="0" RealAddress="7FF6B2584A74"/>
+      <LastState Value="3" RealAddress="7FF6B2584A74"/>
       <ShowAsSigned>0</ShowAsSigned>
       <Color>91B5FF</Color>
       <VariableType>4 Bytes</VariableType>
@@ -1231,7 +1231,7 @@ shellExecute('https://justpaste.it/8peam')
     <CheatEntry>
       <ID>21729</ID>
       <Description>"Weather B"</Description>
-      <LastState Value="3" RealAddress="7FF6B2584A78"/>
+      <LastState Value="4" RealAddress="7FF6B2584A78"/>
       <ShowAsSigned>0</ShowAsSigned>
       <Color>91B5FF</Color>
       <VariableType>4 Bytes</VariableType>
@@ -1251,7 +1251,7 @@ shellExecute('https://justpaste.it/8peam')
         <CheatEntry>
           <ID>289</ID>
           <Description>"&lt;Click to Confirm - Empty Lobby"</Description>
-          <LastState Activated="1"/>
+          <LastState/>
           <Color>6A6AFF</Color>
           <VariableType>Auto Assembler Script</VariableType>
           <AssemblerScript>{$lua}
@@ -1372,7 +1372,7 @@ unregisterSymbol(treasure_map)
         <CheatEntry>
           <ID>21761</ID>
           <Description>"Treasure Pointer"</Description>
-          <LastState Value="4294967295" RealAddress="1F901696ED8"/>
+          <LastState Value="4294967295" RealAddress="1BD028F6ED8"/>
           <ShowAsSigned>0</ShowAsSigned>
           <Color>F8D1AF</Color>
           <VariableType>4 Bytes</VariableType>
@@ -1414,7 +1414,7 @@ unregisterSymbol(treasure_map)
 27:Southern Raanoke
 28:West Hill Haven [unknown]
 </DropDownList>
-          <LastState Value="4" RealAddress="1F80FD20000"/>
+          <LastState Value="0" RealAddress="1BE00120000"/>
           <ShowAsSigned>0</ShowAsSigned>
           <Color>F8D1F3</Color>
           <VariableType>4 Bytes</VariableType>
@@ -1468,7 +1468,7 @@ timer.OnTimer = function() THIS.Active = false; timer.destroy() end
           <ID>21764</ID>
           <Description>"Guide/Credits"</Description>
           <Options moHideChildren="1" moDeactivateChildrenAsWell="1"/>
-          <LastState Value="" Activated="1" RealAddress="00000000"/>
+          <LastState Value="" RealAddress="00000000"/>
           <Color>DBDDFB</Color>
           <GroupHeader>1</GroupHeader>
           <CheatEntries>
@@ -49323,7 +49323,6 @@ _G[memrec.id].hk.destroy(); _G[memrec.id].hk = nil
         <CheatEntry>
           <ID>4</ID>
           <Description>"Speed"</Description>
-          <LastState Value="0" RealAddress="1F9C92E0000"/>
           <Color>00FF00</Color>
           <VariableType>Float</VariableType>
           <Address>1F9C92E0000</Address>
@@ -49652,21 +49651,21 @@ unregistersymbol(_Teleport)
                 <CheatEntry>
                   <ID>17196</ID>
                   <Description>"x"</Description>
-                  <LastState Value="10.45898438" RealAddress="1F0CC1D72F0"/>
+                  <LastState Value="14.29016113" RealAddress="1B49A9B7850"/>
                   <VariableType>Float</VariableType>
                   <Address>[coord2]+70</Address>
                 </CheatEntry>
                 <CheatEntry>
                   <ID>17197</ID>
                   <Description>"y"</Description>
-                  <LastState Value="1.687866211" RealAddress="1F0CC1D72F4"/>
+                  <LastState Value="1.63079834" RealAddress="1B49A9B7854"/>
                   <VariableType>Float</VariableType>
                   <Address>[coord2]+74</Address>
                 </CheatEntry>
                 <CheatEntry>
                   <ID>17198</ID>
                   <Description>"z"</Description>
-                  <LastState Value="124.1296768" RealAddress="1F0CC1D72F8"/>
+                  <LastState Value="121.2967529" RealAddress="1B49A9B7858"/>
                   <VariableType>Float</VariableType>
                   <Address>[coord2]+78</Address>
                 </CheatEntry>
@@ -51038,7 +51037,7 @@ dealloc(newmem)
                 <CheatEntry>
                   <ID>16359</ID>
                   <Description>"HealthBase"</Description>
-                  <LastState Value="000001F0D75A7F00" RealAddress="7FF6ADFB1048"/>
+                  <LastState Value="0000000000000000" RealAddress="7FF6ADFB1048"/>
                   <ShowAsHex>1</ShowAsHex>
                   <VariableType>8 Bytes</VariableType>
                   <Address>_pPlayerHealthBase</Address>
@@ -51062,7 +51061,7 @@ dealloc(newmem)
                 <CheatEntry>
                   <ID>16353</ID>
                   <Description>"PlayerBase"</Description>
-                  <LastState Value="000001F91219D240" RealAddress="7FF6ADFB1008"/>
+                  <LastState Value="000001BD134181C0" RealAddress="7FF6ADFB1008"/>
                   <ShowAsHex>1</ShowAsHex>
                   <VariableType>8 Bytes</VariableType>
                   <Address>_pPlayer</Address>
@@ -51128,7 +51127,6 @@ dealloc(newmem)
                 <CheatEntry>
                   <ID>16364</ID>
                   <Description>"pHealth"</Description>
-                  <LastState Value="7.006492322E-45" RealAddress="1F0D75A7F20"/>
                   <VariableType>Float</VariableType>
                   <Address>_pPlayerHealthBase</Address>
                   <Offsets>
@@ -51138,7 +51136,6 @@ dealloc(newmem)
                 <CheatEntry>
                   <ID>16365</ID>
                   <Description>"pHealthMax"</Description>
-                  <LastState Value="43160000" RealAddress="1F0D75A7F24"/>
                   <ShowAsHex>1</ShowAsHex>
                   <VariableType>Float</VariableType>
                   <Address>_pPlayerHealthBase</Address>
@@ -51364,7 +51361,7 @@ print('')
             <CheatEntry>
               <ID>52</ID>
               <Description>"From weather"</Description>
-              <LastState Value="0" RealAddress="7FF6B2584A74"/>
+              <LastState Value="3" RealAddress="7FF6B2584A74"/>
               <ShowAsSigned>0</ShowAsSigned>
               <Color>84ACFF</Color>
               <VariableType>4 Bytes</VariableType>
@@ -51376,7 +51373,7 @@ print('')
             <CheatEntry>
               <ID>53</ID>
               <Description>"To weather"</Description>
-              <LastState Value="3" RealAddress="7FF6B2584A78"/>
+              <LastState Value="4" RealAddress="7FF6B2584A78"/>
               <ShowAsSigned>0</ShowAsSigned>
               <Color>84ACFF</Color>
               <VariableType>4 Bytes</VariableType>
@@ -51388,7 +51385,7 @@ print('')
             <CheatEntry>
               <ID>21723</ID>
               <Description>"Interpolation factor (Weather A + Weather B)"</Description>
-              <LastState Value="0.2194499969" RealAddress="7FF6B2584A7C"/>
+              <LastState Value="0.4727966785" RealAddress="7FF6B2584A7C"/>
               <ShowAsSigned>0</ShowAsSigned>
               <Color>84ACFF</Color>
               <VariableType>Float</VariableType>
@@ -51552,7 +51549,7 @@ print('')
             <CheatEntry>
               <ID>21725</ID>
               <Description>"Time of day: Hour. 0-23. Setting the value outside this range crashes the game"</Description>
-              <LastState Value="19" RealAddress="7FF6B2593208"/>
+              <LastState Value="22" RealAddress="7FF6B2593208"/>
               <Color>84ACFF</Color>
               <VariableType>2 Bytes</VariableType>
               <Address>g_todHours</Address>
@@ -51560,7 +51557,7 @@ print('')
             <CheatEntry>
               <ID>21726</ID>
               <Description>"Time of day: Minutes. 0-59. Setting the value outside this range crashes the game"</Description>
-              <LastState Value="13" RealAddress="7FF6B259320C"/>
+              <LastState Value="21" RealAddress="7FF6B259320C"/>
               <Color>84ACFF</Color>
               <VariableType>2 Bytes</VariableType>
               <Address>g_todMinutes</Address>
@@ -66906,9 +66903,9 @@ PORNO_STAR
 maslevich
 Sweetooth
 Spacedoge  
-And Artjom 
-BrainCord
-Kaiii
+artjom3729
+BrainCord#8008
+Kaiii#5555
 distroyce
 wypierdalaj66
 for all his Help !
