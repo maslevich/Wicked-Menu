@@ -28,7 +28,13 @@ Wicked Menu
 
 Change Logs/
 
+2.8
+Added ;
+Teleport to Treasure Chest.
+Special thanks to distroyce & wypierdalaj66 for this !
 
+Removed;
+Sizable Gui
 
 
 v2.6 
