@@ -1,3 +1,6 @@
+![nI4wY8u - Imgur](https://user-images.githubusercontent.com/62859332/147871911-c38ad0f8-c5a2-41eb-bae7-c5d477478e2b.png)
+
+
 [Disclaimer for Wicked Menu]
 This is just a Cheat Table that I Share.
 Wicked Menu is not for sale,
@@ -20,6 +23,8 @@ By using our content, you hereby consent to the disclaimer and agree to its term
 
 Menu Font :
 https://www.dafont.com/sketch-gothic-school.font?text=Wicked+Menu
+
+
 
 
 
