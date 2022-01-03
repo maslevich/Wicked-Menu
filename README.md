@@ -33,6 +33,10 @@ Wicked Menu
 
 Change Logs/
 
+V3.0 extended:
+Fixed;
+Rendering issue caused by custom font, Switched to Arial .
+
 3.0
 Added:
 Redesigned GUI 
