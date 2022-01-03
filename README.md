@@ -1,4 +1,4 @@
-![nI4wY8u - Imgur](https://user-images.githubusercontent.com/62859332/147871911-c38ad0f8-c5a2-41eb-bae7-c5d477478e2b.png)
+![Screenshot_80](https://user-images.githubusercontent.com/62859332/147916637-0d115308-685e-4578-8dbc-75b156e0cae9.png)
 
 
 [Disclaimer for Wicked Menu]
