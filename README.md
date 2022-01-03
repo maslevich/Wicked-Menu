@@ -28,6 +28,15 @@ Wicked Menu
 
 Change Logs/
 
+3.0
+Added:
+Redesigned GUI 
+Stamina , Horse Health and Treasure Teleport added to Hotkeys menu.
+
+
+
+
+
 2.8
 Added ;
 Teleport to Treasure Chest.
