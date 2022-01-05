@@ -33,9 +33,22 @@ Wicked Menu
 
 Change Logs/
 
+
+V3.1 
+Fixed;
+ Auto Activation 
+ReAdded;
+Codelist ,
+Table Extras
+Added;
+Menu gui changes
+00 to Enable/disable
+
+
 V3.0 extended:
 Fixed;
 Rendering issue caused by custom font, Switched to Arial .
+
 
 3.0
 Added:
