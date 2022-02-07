@@ -33,6 +33,18 @@ Wicked Menu
 
 Change Logs/
 
+v3.2
+Streamlined GUI
+Treasure Pointer to Main Menu
+View ALL Hotkeys 
+Credits
+Fonts
+Trader Goods
+Treasure Finder 
+Treasure Teleports
+More. 
+
+
 
 V3.1 
 Fixed;
