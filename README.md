@@ -33,6 +33,20 @@ Wicked Menu
 
 Change Logs/
 
+
+
+v3.3
+Fixed :
+Teleport to Waypoint. 
+Added:
+Welcome Message .
+Various Hotfixes .
+
+
+
+
+
+
 v3.2
 Streamlined GUI
 Treasure Pointer to Main Menu
