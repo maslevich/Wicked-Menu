@@ -1157,7 +1157,6 @@ shellExecute('https://justpaste.it/8peam')
       <ID>398080</ID>
       <Description>"Name"</Description>
       <Options moRecursiveSetValue="1" moAlwaysHideChildren="1" moActivateChildrenAsWell="1" moDeactivateChildrenAsWell="1"/>
-      <LastState RealAddress="7FF697FEDA44"/>
       <Color>91B5FF</Color>
       <VariableType>String</VariableType>
       <Length>14</Length>
@@ -1169,7 +1168,6 @@ shellExecute('https://justpaste.it/8peam')
         <CheatEntry>
           <ID>398081</ID>
           <Description>"No description"</Description>
-          <LastState RealAddress="7FF69864671C"/>
           <VariableType>String</VariableType>
           <Length>14</Length>
           <Unicode>0</Unicode>
@@ -1180,7 +1178,6 @@ shellExecute('https://justpaste.it/8peam')
         <CheatEntry>
           <ID>398082</ID>
           <Description>"No description"</Description>
-          <LastState RealAddress="7FF69865029F"/>
           <VariableType>String</VariableType>
           <Length>14</Length>
           <Unicode>0</Unicode>
@@ -1191,7 +1188,6 @@ shellExecute('https://justpaste.it/8peam')
         <CheatEntry>
           <ID>398083</ID>
           <Description>"No description"</Description>
-          <LastState RealAddress="7FF698650664"/>
           <VariableType>String</VariableType>
           <Length>14</Length>
           <Unicode>0</Unicode>
@@ -1202,7 +1198,6 @@ shellExecute('https://justpaste.it/8peam')
         <CheatEntry>
           <ID>398084</ID>
           <Description>"No description"</Description>
-          <LastState RealAddress="7FF698652FF0"/>
           <VariableType>String</VariableType>
           <Length>14</Length>
           <Unicode>0</Unicode>
@@ -1213,7 +1208,6 @@ shellExecute('https://justpaste.it/8peam')
         <CheatEntry>
           <ID>398085</ID>
           <Description>"No description"</Description>
-          <LastState RealAddress="7FF6986531B8"/>
           <VariableType>String</VariableType>
           <Length>14</Length>
           <Unicode>0</Unicode>
@@ -1224,7 +1218,6 @@ shellExecute('https://justpaste.it/8peam')
         <CheatEntry>
           <ID>398086</ID>
           <Description>"No description"</Description>
-          <LastState RealAddress="7FF69865C908"/>
           <VariableType>String</VariableType>
           <Length>14</Length>
           <Unicode>0</Unicode>
@@ -1235,7 +1228,6 @@ shellExecute('https://justpaste.it/8peam')
         <CheatEntry>
           <ID>398087</ID>
           <Description>"No description"</Description>
-          <LastState RealAddress="7FF69865CAD0"/>
           <VariableType>String</VariableType>
           <Length>14</Length>
           <Unicode>0</Unicode>
@@ -1246,7 +1238,6 @@ shellExecute('https://justpaste.it/8peam')
         <CheatEntry>
           <ID>398088</ID>
           <Description>"No description"</Description>
-          <LastState RealAddress="7FF6986639CC"/>
           <VariableType>String</VariableType>
           <Length>14</Length>
           <Unicode>0</Unicode>
@@ -1257,7 +1248,6 @@ shellExecute('https://justpaste.it/8peam')
         <CheatEntry>
           <ID>398089</ID>
           <Description>"No description"</Description>
-          <LastState RealAddress="7FF698665E27"/>
           <VariableType>String</VariableType>
           <Length>14</Length>
           <Unicode>0</Unicode>
@@ -1270,7 +1260,6 @@ shellExecute('https://justpaste.it/8peam')
     <CheatEntry>
       <ID>17918</ID>
       <Description>"𝓧"</Description>
-      <LastState Value="-1334.54895" RealAddress="1EB63865E30"/>
       <ShowAsSigned>0</ShowAsSigned>
       <Color>91B5FF</Color>
       <VariableType>Float</VariableType>
@@ -1279,7 +1268,6 @@ shellExecute('https://justpaste.it/8peam')
     <CheatEntry>
       <ID>17919</ID>
       <Description>"𝓨"</Description>
-      <LastState Value="2397.720215" RealAddress="1EB63865E34"/>
       <ShowAsSigned>0</ShowAsSigned>
       <Color>91B5FF</Color>
       <VariableType>Float</VariableType>
@@ -1288,7 +1276,6 @@ shellExecute('https://justpaste.it/8peam')
     <CheatEntry>
       <ID>17920</ID>
       <Description>"𝓩"</Description>
-      <LastState Value="307.010376" RealAddress="1EB63865E38"/>
       <ShowAsSigned>0</ShowAsSigned>
       <Color>91B5FF</Color>
       <VariableType>Float</VariableType>
@@ -1297,7 +1284,6 @@ shellExecute('https://justpaste.it/8peam')
     <CheatEntry>
       <ID>57</ID>
       <Description>"𝓗𝐨𝐮𝐫"</Description>
-      <LastState Value="8" RealAddress="7FF697202758"/>
       <Color>91B5FF</Color>
       <VariableType>2 Bytes</VariableType>
       <Address>g_todHours</Address>
@@ -1305,7 +1291,6 @@ shellExecute('https://justpaste.it/8peam')
     <CheatEntry>
       <ID>19548</ID>
       <Description>"𝓜ɪɴᴜᴛᴇ"</Description>
-      <LastState Value="27" RealAddress="7FF69720275C"/>
       <Color>91B5FF</Color>
       <VariableType>2 Bytes</VariableType>
       <Address>g_todMinutes</Address>
@@ -1313,7 +1298,6 @@ shellExecute('https://justpaste.it/8peam')
     <CheatEntry>
       <ID>21728</ID>
       <Description>"𝓦ᴇᴀᴛʜᴇʀ 𝓐"</Description>
-      <LastState Value="5" RealAddress="7FF6971F3FC4"/>
       <ShowAsSigned>0</ShowAsSigned>
       <Color>91B5FF</Color>
       <VariableType>4 Bytes</VariableType>
@@ -1325,7 +1309,6 @@ shellExecute('https://justpaste.it/8peam')
     <CheatEntry>
       <ID>21729</ID>
       <Description>"𝓦ᴇᴀᴛʜᴇʀ 𝓑"</Description>
-      <LastState Value="5" RealAddress="7FF6971F3FC8"/>
       <ShowAsSigned>0</ShowAsSigned>
       <Color>91B5FF</Color>
       <VariableType>4 Bytes</VariableType>
@@ -6005,13 +5988,13 @@ end
       <ID>19235</ID>
       <Description>"𝓣ᴇʟᴇᴘᴏʀᴛ 𝓜ᴇɴᴜ"</Description>
       <Options moHideChildren="1" moDeactivateChildrenAsWell="1"/>
-      <LastState Value="" RealAddress="00000000"/>
+      <LastState Value="" Activated="1" RealAddress="00000000"/>
       <Color>77FF77</Color>
       <GroupHeader>1</GroupHeader>
       <CheatEntries>
         <CheatEntry>
           <ID>17218</ID>
-          <Description>"𝓣eleport to 𝓦aypoint"</Description>
+          <Description>"𝓣eleport to 𝓦aypoint [Not Working rn]"</Description>
           <LastState/>
           <Color>ECEC00</Color>
           <VariableType>Auto Assembler Script</VariableType>
@@ -6049,15 +6032,7 @@ writeFloat("WantedCoords+04", y)
 writeFloat("WantedCoords+08", -250.000)
 
 target = "Teleport to Waypoint" -- Trigger (Script Name) --
-if not syntaxcheck then
-synchronize(function()
-local t = createTimer()
-t.Interval,t.OnTimer = 500,function(tm)
-tm.Destroy()
-memrec.Active = false
-end
-end)
-end
+
 </AssemblerScript>
           <Hotkeys>
             <Hotkey>
@@ -49721,7 +49696,6 @@ target = "island"
       <DropDownList ReadOnly="1" DescriptionOnly="1" DisplayValueAsItem="1">0:Disabled
 1:Enabled
 </DropDownList>
-      <LastState Value="0" RealAddress="7FF692CB1024"/>
       <Color>FF952B</Color>
       <VariableType>Byte</VariableType>
       <Address>_enableInfiniteHealth</Address>
@@ -49774,7 +49748,6 @@ target = "island"
 1:Enabled
 
 </DropDownList>
-      <LastState Value="0" RealAddress="7FF692CB104C"/>
       <Color>FF952B</Color>
       <VariableType>Byte</VariableType>
       <Address>_enableInfiniteStamina</Address>
@@ -49825,7 +49798,6 @@ target = "island"
       <DropDownList ReadOnly="1" DescriptionOnly="1" DisplayValueAsItem="1">0:Disabled
 1:Enabled
 </DropDownList>
-      <LastState Value="0" RealAddress="7FF692CB108C"/>
       <Color>FF952B</Color>
       <VariableType>Byte</VariableType>
       <Address>_enableInfiniteHealthHorse</Address>
@@ -49883,7 +49855,6 @@ target = "island"
       <DropDownList ReadOnly="1" DescriptionOnly="1" DisplayValueAsItem="1">0:Disabled
 1:Enabled
 </DropDownList>
-      <LastState Value="0" RealAddress="7FF692CB1014"/>
       <Color>FF952B</Color>
       <VariableType>Byte</VariableType>
       <Address>_enableInfiniteStaminaHorse</Address>
@@ -49933,7 +49904,6 @@ target = "island"
 1:Enabled
 
 </DropDownList>
-      <LastState Value="0" RealAddress="7FF692CB109C"/>
       <Color>FF952B</Color>
       <VariableType>Byte</VariableType>
       <Address>_enableNoSpread</Address>
@@ -49983,7 +49953,6 @@ target = "island"
 1:Enabled
 
 </DropDownList>
-      <LastState Value="0" RealAddress="7FF692CB105C"/>
       <Color>FF952B</Color>
       <VariableType>Byte</VariableType>
       <Address>_enableNoReload</Address>
@@ -50033,7 +50002,6 @@ target = "island"
 1:Enabled
 
 </DropDownList>
-      <LastState Value="0" RealAddress="7FF692CB101C"/>
       <Color>FF952B</Color>
       <VariableType>Byte</VariableType>
       <Address>_enableInfiniteDeadEye</Address>
@@ -50933,21 +50901,18 @@ unregistersymbol(_Teleport)
                     <CheatEntry>
                       <ID>17196</ID>
                       <Description>"x"</Description>
-                      <LastState Value="-22.5489502" RealAddress="1EB63865E20"/>
                       <VariableType>Float</VariableType>
                       <Address>[coord2]+70</Address>
                     </CheatEntry>
                     <CheatEntry>
                       <ID>17197</ID>
                       <Description>"y"</Description>
-                      <LastState Value="29.72021484" RealAddress="1EB63865E24"/>
                       <VariableType>Float</VariableType>
                       <Address>[coord2]+74</Address>
                     </CheatEntry>
                     <CheatEntry>
                       <ID>17198</ID>
                       <Description>"z"</Description>
-                      <LastState Value="307.1003723" RealAddress="1EB63865E28"/>
                       <VariableType>Float</VariableType>
                       <Address>[coord2]+78</Address>
                     </CheatEntry>
@@ -50962,7 +50927,6 @@ unregistersymbol(_Teleport)
 1:Enabled
 
 </DropDownList>
-              <LastState Value="0" RealAddress="7FF692CB102C"/>
               <VariableType>Byte</VariableType>
               <Address>_enableInfiniteHealthCostumModel</Address>
             </CheatEntry>
@@ -52236,7 +52200,6 @@ dealloc(newmem)
                 <CheatEntry>
                   <ID>16359</ID>
                   <Description>"HealthBase"</Description>
-                  <LastState Value="0000000000000000" RealAddress="7FF692CB1054"/>
                   <ShowAsHex>1</ShowAsHex>
                   <VariableType>8 Bytes</VariableType>
                   <Address>_pPlayerHealthBase</Address>
@@ -52244,7 +52207,6 @@ dealloc(newmem)
                 <CheatEntry>
                   <ID>16357</ID>
                   <Description>"DeadEyeBase"</Description>
-                  <LastState Value="0000000000000000" RealAddress="7FF692CB103C"/>
                   <ShowAsHex>1</ShowAsHex>
                   <VariableType>8 Bytes</VariableType>
                   <Address>_pDeadEye</Address>
@@ -52252,7 +52214,6 @@ dealloc(newmem)
                 <CheatEntry>
                   <ID>16354</ID>
                   <Description>"PlayerBase(AnyModel)"</Description>
-                  <LastState Value="0000000000000000" RealAddress="7FF692CB1004"/>
                   <ShowAsHex>1</ShowAsHex>
                   <VariableType>8 Bytes</VariableType>
                   <Address>_pAnyModelBase</Address>
@@ -52260,7 +52221,6 @@ dealloc(newmem)
                 <CheatEntry>
                   <ID>16353</ID>
                   <Description>"PlayerBase"</Description>
-                  <LastState Value="000001EB7D40B9C0" RealAddress="7FF692CB100C"/>
                   <ShowAsHex>1</ShowAsHex>
                   <VariableType>8 Bytes</VariableType>
                   <Address>_pPlayer</Address>
@@ -52268,7 +52228,6 @@ dealloc(newmem)
                 <CheatEntry>
                   <ID>16358</ID>
                   <Description>"StaminaBase"</Description>
-                  <LastState Value="000001EB5BC84310" RealAddress="7FF692CB1044"/>
                   <ShowAsHex>1</ShowAsHex>
                   <VariableType>8 Bytes</VariableType>
                   <Address>_pStaminaBase</Address>
@@ -52276,7 +52235,6 @@ dealloc(newmem)
                 <CheatEntry>
                   <ID>16355</ID>
                   <Description>"HorseBase"</Description>
-                  <LastState Value="0000000000000000" RealAddress="7FF692CB1094"/>
                   <ShowAsHex>1</ShowAsHex>
                   <VariableType>8 Bytes</VariableType>
                   <Address>_pHorse</Address>
@@ -52284,7 +52242,6 @@ dealloc(newmem)
                 <CheatEntry>
                   <ID>16356</ID>
                   <Description>"StaminaHorseBase"</Description>
-                  <LastState Value="0000000000000000" RealAddress="7FF692CB1034"/>
                   <ShowAsHex>1</ShowAsHex>
                   <VariableType>8 Bytes</VariableType>
                   <Address>_pStaminaHorse</Address>
@@ -52292,7 +52249,6 @@ dealloc(newmem)
                 <CheatEntry>
                   <ID>16360</ID>
                   <Description>"HealthBase - Horse"</Description>
-                  <LastState Value="0000000000000000" RealAddress="7FF692CB1084"/>
                   <ShowAsHex>1</ShowAsHex>
                   <VariableType>8 Bytes</VariableType>
                   <Address>_pHealthBaseHorse</Address>
@@ -52318,7 +52274,6 @@ dealloc(newmem)
                 <CheatEntry>
                   <ID>16363</ID>
                   <Description>"pStamina"</Description>
-                  <LastState Value="128.0399933" RealAddress="1EB5BC84330"/>
                   <VariableType>Float</VariableType>
                   <Address>_pStaminaBase</Address>
                   <Offsets>
@@ -52347,14 +52302,12 @@ dealloc(newmem)
                 <CheatEntry>
                   <ID>16367</ID>
                   <Description>"TimeOfDay (display)"</Description>
-                  <LastState Value="3.787673247E16" RealAddress="7FF698612A68"/>
                   <VariableType>Float</VariableType>
                   <Address>RDR2.exe+5952A68</Address>
                 </CheatEntry>
                 <CheatEntry>
                   <ID>16369</ID>
                   <Description>"baseWeapon"</Description>
-                  <LastState Value="0000000000000000" RealAddress="7FF692CA001D"/>
                   <ShowAsHex>1</ShowAsHex>
                   <VariableType>8 Bytes</VariableType>
                   <Address>baseWeapon</Address>
@@ -52423,7 +52376,6 @@ dealloc(newmem)
                 <CheatEntry>
                   <ID>18478</ID>
                   <Description>"PLAYERLIST"</Description>
-                  <LastState Value="FF FF 01 00 2B 05 DE DD 9E 02 48 69 C8 48 01 00" RealAddress="7FF693C7D2E0"/>
                   <ShowAsHex>1</ShowAsHex>
                   <ShowAsSigned>0</ShowAsSigned>
                   <VariableType>Array of byte</VariableType>
@@ -52433,7 +52385,6 @@ dealloc(newmem)
                 <CheatEntry>
                   <ID>18479</ID>
                   <Description>"GEY PLAYER NAME"</Description>
-                  <LastState Value="C9 C0 E8 04 24 01 40 3A C6 75 0C 84 C9 75" RealAddress="7FF692E2DCE1"/>
                   <ShowAsHex>1</ShowAsHex>
                   <VariableType>Array of byte</VariableType>
                   <ByteLength>14</ByteLength>
@@ -52442,7 +52393,6 @@ dealloc(newmem)
                 <CheatEntry>
                   <ID>18480</ID>
                   <Description>"DRAW_RECT:"</Description>
-                  <LastState Value="81 EC E0 00 00 00 48 8B F9 48 85 D2 0F 84 8C 00 00 00 41 83 F8 29 48 8D 4C 24 30" RealAddress="7FF693C3BBBC"/>
                   <ShowAsHex>1</ShowAsHex>
                   <VariableType>Array of byte</VariableType>
                   <ByteLength>27</ByteLength>
@@ -52451,7 +52401,6 @@ dealloc(newmem)
                 <CheatEntry>
                   <ID>18481</ID>
                   <Description>"world_to_screen:"</Description>
-                  <LastState Value="C8 15 F8 4B 2A 9F 38 3F 10 98 16 F3 D3" RealAddress="7FF693B8B3A0"/>
                   <ShowAsHex>1</ShowAsHex>
                   <VariableType>Array of byte</VariableType>
                   <ByteLength>13</ByteLength>
@@ -52460,7 +52409,6 @@ dealloc(newmem)
                 <CheatEntry>
                   <ID>18482</ID>
                   <Description>"get_player_address:"</Description>
-                  <LastState Value="22 8C 62 BD 61 6D 39 0B 92 63 4C 5F 13 9B 70 F9" RealAddress="7FF693B8947C"/>
                   <ShowAsHex>1</ShowAsHex>
                   <VariableType>Array of byte</VariableType>
                   <ByteLength>16</ByteLength>
@@ -52469,7 +52417,6 @@ dealloc(newmem)
                 <CheatEntry>
                   <ID>19228</ID>
                   <Description>"CPedFactory a.k.a WorldPTR"</Description>
-                  <LastState Value="9A A1 43 CC 4D 21 C1 D2 04 CE C2 11 F6 A2 57 7F 47 F4 DD 64 4F 77 39 34 46 04 81 F9 3A D0 4E CD 92 FB FB 39 F0 BB B9 FF C1 32 84 4C 9E 70 FC CE F5 CA 7B 7E 9E 01 50 7E ED 8C 09 43 61 A6 67 C8 00 69 F0 DB" RealAddress="7FF693B894BD"/>
                   <ShowAsHex>1</ShowAsHex>
                   <VariableType>Array of byte</VariableType>
                   <ByteLength>68</ByteLength>
@@ -52478,7 +52425,6 @@ dealloc(newmem)
                 <CheatEntry>
                   <ID>19230</ID>
                   <Description>"GET_PED_BONE_COORDS"</Description>
-                  <LastState Value="41 89 06 8B 45 E0 89 06 8B 45 E4 89 01 8B 45 E8 48 8B 4D 48 89 01 B0 01 EB 02 32 C0" RealAddress="7FF693C7A73C"/>
                   <ShowAsHex>1</ShowAsHex>
                   <VariableType>Array of byte</VariableType>
                   <ByteLength>28</ByteLength>
@@ -52488,7 +52434,6 @@ dealloc(newmem)
                   <ID>19231</ID>
                   <Description>"SET_PED_ON_MOUNT"</Description>
                   <Options moHideChildren="1"/>
-                  <LastState Value="1 0 0 72 139 5 138 44 157 2 72 139 148 1 144 0 0 0 72 139 194 72 131 224 254 72 247 218 72 27 201 72 35 200 116 8 243 15 17 137 56" RealAddress="7FF693C9843C"/>
                   <ShowAsSigned>0</ShowAsSigned>
                   <VariableType>Array of byte</VariableType>
                   <ByteLength>41</ByteLength>
@@ -52583,7 +52528,6 @@ print('')
             <CheatEntry>
               <ID>52</ID>
               <Description>"From weather"</Description>
-              <LastState Value="5" RealAddress="7FF6971F3FC4"/>
               <ShowAsSigned>0</ShowAsSigned>
               <Color>84ACFF</Color>
               <VariableType>4 Bytes</VariableType>
@@ -52595,7 +52539,6 @@ print('')
             <CheatEntry>
               <ID>53</ID>
               <Description>"To weather"</Description>
-              <LastState Value="5" RealAddress="7FF6971F3FC8"/>
               <ShowAsSigned>0</ShowAsSigned>
               <Color>84ACFF</Color>
               <VariableType>4 Bytes</VariableType>
@@ -52607,7 +52550,6 @@ print('')
             <CheatEntry>
               <ID>21723</ID>
               <Description>"Interpolation factor (Weather A + Weather B)"</Description>
-              <LastState Value="0.1511805505" RealAddress="7FF6971F3FCC"/>
               <ShowAsSigned>0</ShowAsSigned>
               <Color>84ACFF</Color>
               <VariableType>Float</VariableType>
@@ -52771,7 +52713,6 @@ print('')
             <CheatEntry>
               <ID>21725</ID>
               <Description>"Time of day: Hour. 0-23. Setting the value outside this range crashes the game"</Description>
-              <LastState Value="8" RealAddress="7FF697202758"/>
               <Color>84ACFF</Color>
               <VariableType>2 Bytes</VariableType>
               <Address>g_todHours</Address>
@@ -52779,7 +52720,6 @@ print('')
             <CheatEntry>
               <ID>21726</ID>
               <Description>"Time of day: Minutes. 0-59. Setting the value outside this range crashes the game"</Description>
-              <LastState Value="27" RealAddress="7FF69720275C"/>
               <Color>84ACFF</Color>
               <VariableType>2 Bytes</VariableType>
               <Address>g_todMinutes</Address>
@@ -52908,7 +52848,6 @@ dealloc(newmem)
               <DropDownList DisplayValueAsItem="1">0:Disabled
 1:Enabled
 </DropDownList>
-              <LastState Value="00" RealAddress="7FF698614376"/>
               <ShowAsHex>1</ShowAsHex>
               <Color>4BFF0F</Color>
               <VariableType>Byte</VariableType>
