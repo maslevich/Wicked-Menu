@@ -33,7 +33,10 @@ Wicked Menu
 
 Change Logs/
 
-
+v3.3.a
+Hotfix for Update 
+Stable menu.
+Teleport to Waypoint Broken right now. 
 
 v3.3
 Fixed :
