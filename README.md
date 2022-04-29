@@ -33,6 +33,14 @@ Wicked Menu
 
 Change Logs/
 
+v3.4 
+
+Teleport to Waypoint fix for RDR2 1.27 build 1436.31 by k314 
+
+https://www.unknowncheats.me/forum/3418601-post2473.html
+
+
+
 v3.3.a
 Hotfix for Update 
 Stable menu.
