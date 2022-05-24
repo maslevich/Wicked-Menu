@@ -33,6 +33,14 @@ Wicked Menu
 
 Change Logs/
 
+v3.5 
+
+Treasure Chest  Pointer Fixed .
+
+Name changer Fixed
+
+
+
 v3.4 
 
 Teleport to Waypoint fix for RDR2 1.27 build 1436.31 by k314 
