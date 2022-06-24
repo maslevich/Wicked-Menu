@@ -33,6 +33,14 @@ Wicked Menu
 
 Change Logs/
 
+
+v3.6
+Added translator 
+
+
+
+
+
 v3.5 
 
 Treasure Chest  Pointer Fixed .
