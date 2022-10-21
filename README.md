@@ -34,6 +34,15 @@ Wicked Menu
 Change Logs/
 
 
+
+
+v3.7 
+Fixed Teleport to Waypoint
+
+
+
+
+
 v3.6
 Added translator 
 
