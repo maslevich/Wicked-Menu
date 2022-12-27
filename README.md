@@ -1,4 +1,4 @@
-![Screenshot_291](https://user-images.githubusercontent.com/62859332/152739083-e33e4d0c-61fc-4784-81bc-7f1bd70aefc7.png)
+![Screenshot_153](https://user-images.githubusercontent.com/62859332/209604942-8299c2da-69e2-4708-b12d-632608345929.png)
 
 
 [Disclaimer for Wicked Menu]
@@ -33,7 +33,12 @@ Wicked Menu
 
 Change Logs/
 
-
+v3.8
+Fixed: 
+Treasure Chest Pointer 
+Misc. Fixes throughout , dont care to name them all.
+Note: Some of the map dropdown locations are mixed up, I am activly working on it/
+Happy New Year !
 
 
 v3.7 
