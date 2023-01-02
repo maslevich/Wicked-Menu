@@ -1,4 +1,4 @@
-![Screenshot_153](https://user-images.githubusercontent.com/62859332/209604942-8299c2da-69e2-4708-b12d-632608345929.png)
+![Screenshot_163](https://user-images.githubusercontent.com/62859332/210188702-4d352699-82c2-45b2-8806-ea6aa95b237e.png)
 
 
 [Disclaimer for Wicked Menu]
@@ -32,6 +32,13 @@ https://www.dafont.com/sketch-gothic-school.font?text=Wicked+Menu
 Wicked Menu 
 
 Change Logs/
+v3.9
+Changes:
+Took the tree down.
+Checked treasure pointer, is working for me , tested 10 times !
+Restart game and menu if its not working.
+Adjusted menu item/added pointer to main menu
+
 
 v3.8
 Fixed: 
