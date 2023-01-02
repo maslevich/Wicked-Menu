@@ -43,7 +43,6 @@ Adjusted menu item/added pointer to main menu
 Cores and Wanted Level 
 
 
-
 v3.8
 Fixed: 
 Treasure Chest Pointer 
