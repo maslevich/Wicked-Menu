@@ -32,12 +32,16 @@ https://www.dafont.com/sketch-gothic-school.font?text=Wicked+Menu
 Wicked Menu 
 
 Change Logs/
-v3.9
+
+v4.0
+
+Happy New Year 2023 !
 Changes:
-Took the tree down.
-Checked treasure pointer, is working for me , tested 10 times !
-Restart game and menu if its not working.
+Took the Christmas tree down
+Treasure pointer is working tested it 10 times ,Restart game and menu if its not working.
 Adjusted menu item/added pointer to main menu
+Cores and Wanted Level 
+
 
 
 v3.8
