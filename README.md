@@ -32,9 +32,13 @@ https://www.dafont.com/sketch-gothic-school.font?text=Wicked+Menu
 Wicked Menu 
 
 Change Logs/
+
 v3.9
+
 Changes:
+
 Took the tree down.
+
 Checked treasure pointer, is working for me , tested 10 times !
 Restart game and menu if its not working.
 Adjusted menu item/added pointer to main menu
