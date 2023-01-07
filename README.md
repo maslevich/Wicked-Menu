@@ -1,4 +1,4 @@
-![Screenshot_172](https://user-images.githubusercontent.com/62859332/210202359-416ea259-5da1-4f7a-a197-3b6a087cc115.png)
+![Screenshot_190](https://user-images.githubusercontent.com/62859332/211143412-4dda5af0-cf9f-4716-9803-3552fa1fcfb8.png)
 
 
 [Disclaimer for Wicked Menu]
