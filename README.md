@@ -35,20 +35,30 @@ Change Logs/
 
 
 v4.1
+
 Added :
+
 Gold / Exp Dropper 
+
 Max Bars / Max Levels
+
 Last remaining treasure map locations to Treasure finder. 
+
 [its now 100% Complete with all maps]
 
 Optimized:
+
 Deadeye 100% working *Use Hotkey
+
 Treasure pointer
+
 Teleport to Treasure
+
 Several Menu Functions/Scripts and Layout
 
 
 Updated:
+
 Credits
 
 
