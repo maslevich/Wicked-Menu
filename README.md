@@ -34,6 +34,12 @@ Wicked Menu
 Change Logs/
 
 
+v4.2
+
+Fixed issue with Teleport to Waypoint .
+
+
+
 v4.1
 
 Added :
