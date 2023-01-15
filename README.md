@@ -1,5 +1,9 @@
 ![Screenshot_190](https://user-images.githubusercontent.com/62859332/211143412-4dda5af0-cf9f-4716-9803-3552fa1fcfb8.png)
 ![Z194PQe - Imgur](https://user-images.githubusercontent.com/62859332/212566578-d2767f7a-4808-4f6f-99d0-3f08084f95c7.png)
+To Download 
+Click on Code
+Dowload zip .
+Extract zip on your pc.
 
 [Disclaimer for Wicked Menu]
 This is just a Cheat Table that I Share.
