@@ -2,7 +2,7 @@
 ![Z194PQe - Imgur](https://user-images.githubusercontent.com/62859332/212566578-d2767f7a-4808-4f6f-99d0-3f08084f95c7.png)
 To Download 
 Click on Code
-Dowload zip .
+Download zip .
 Extract zip on your pc.
 
 [Disclaimer for Wicked Menu]
