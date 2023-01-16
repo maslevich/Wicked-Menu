@@ -34,6 +34,14 @@ Wicked Menu
 Change Logs/
 
 
+v4.3
+Optimized Gold Drop.
+More consistant gold.
+
+
+
+
+
 v4.2
 
 Fixed issue with Teleport to Waypoint .
