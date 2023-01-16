@@ -40,7 +40,7 @@ Change Logs/
 
 v4.3
 Optimized Gold Drop.
-More consistant gold.
+More consistent gold.
 
 
 
