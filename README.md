@@ -37,6 +37,14 @@ Wicked Menu
 
 Change Logs/
 
+v4.4 
+
+
+Hotfix : Removed Gold Hotkey off insert .
+
+Removed treasure pointer off main menu
+Minor adjustments throughout .
+
 
 v4.3
 Optimized Gold Drop.
