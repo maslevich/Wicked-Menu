@@ -1,5 +1,9 @@
-![Screenshot_7](https://user-images.githubusercontent.com/62859332/148181036-128950d3-9c3d-4daa-a839-3aebe10509b1.png)
-
+![Screenshot_190](https://user-images.githubusercontent.com/62859332/211143412-4dda5af0-cf9f-4716-9803-3552fa1fcfb8.png)
+![Z194PQe - Imgur](https://user-images.githubusercontent.com/62859332/212566578-d2767f7a-4808-4f6f-99d0-3f08084f95c7.png)
+To Download 
+Click on Code
+Download zip .
+Extract zip on your pc.
 
 [Disclaimer for Wicked Menu]
 This is just a Cheat Table that I Share.
@@ -32,6 +36,135 @@ https://www.dafont.com/sketch-gothic-school.font?text=Wicked+Menu
 Wicked Menu 
 
 Change Logs/
+
+v4.4 
+
+
+Hotfix : Removed Gold Hotkey off insert .
+
+Removed treasure pointer off main menu
+Minor adjustments throughout .
+
+
+v4.3
+Optimized Gold Drop.
+More consistent gold.
+
+
+
+
+
+v4.2
+
+Fixed issue with Teleport to Waypoint .
+
+
+
+v4.1
+
+Added :
+
+Gold / Exp Dropper 
+
+Max Bars / Max Levels
+
+Last remaining treasure map locations to Treasure finder. 
+
+[its now 100% Complete with all maps]
+
+Optimized:
+
+Deadeye 100% working *Use Hotkey
+
+Treasure pointer
+
+Teleport to Treasure
+
+Several Menu Functions/Scripts and Layout
+
+
+Updated:
+
+Credits
+
+
+
+v4.0
+
+Happy New Year 2023 !
+Changes:
+Took the Christmas tree down
+Treasure pointer is working tested it 10 times ,Restart game and menu if its not working.
+Adjusted menu item/added pointer to main menu
+Cores and Wanted Level 
+
+
+v3.8
+Fixed: 
+Treasure Chest Pointer 
+Misc. Fixes throughout , dont care to name them all.
+Note: Some of the map dropdown locations are mixed up, I am activly working on it/
+Happy New Year !
+
+
+v3.7 
+Fixed Teleport to Waypoint
+
+
+
+
+
+v3.6
+Added translator 
+
+
+
+
+
+v3.5 
+
+Treasure Chest  Pointer Fixed .
+
+Name changer Fixed
+
+
+
+v3.4 
+
+Teleport to Waypoint fix for RDR2 1.27 build 1436.31 by k314 
+
+https://www.unknowncheats.me/forum/3418601-post2473.html
+
+
+
+v3.3.a
+Hotfix for Update 
+Stable menu.
+Teleport to Waypoint Broken right now. 
+
+v3.3
+Fixed :
+Teleport to Waypoint. 
+Added:
+Welcome Message .
+Various Hotfixes .
+
+
+
+
+
+
+v3.2
+Streamlined GUI
+Treasure Pointer to Main Menu
+View ALL Hotkeys 
+Credits
+Fonts
+Trader Goods
+Treasure Finder 
+Treasure Teleports
+More. 
+
 
 
 V3.1 
