@@ -37,6 +37,25 @@ Wicked Menu
 
 Change Logs/
 
+
+
+v4.5
+
+Refined / Optimized :
+
+Gold/Exp Dropper 
+
+
+Hopefully it works better for everyone .
+
+No timers are set  beware !
+
+Just toggle on and off.
+
+
+
+
+
 v4.4 
 
 
