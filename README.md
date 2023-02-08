@@ -1,33 +1,9 @@
 ![Screenshot_190](https://user-images.githubusercontent.com/62859332/211143412-4dda5af0-cf9f-4716-9803-3552fa1fcfb8.png)
 
 
-[Disclaimer for Wicked Menu]
-This is just a Cheat Table that I Share.
-Wicked Menu is not for sale,
-Wicked-Menu does not make any warranties , Guarantees , or Promises about the completeness, reliability and accuracy of this content.
-Any action you take upon the information you find on this website (Wicked-Menu), is strictly at your own risk.
-Wicked-Menu will not be liable for any losses and/or damages/bans in connection with the use of our content.
-All the content is published in good faith and for general information purpose only.
 
-If you require any more information or have any questions ,
-
-please feel free to contact us at
-
-https://www.unknowncheats.me/forum/red-dead-redemption-2-a/372512-wicked-menu-cheat-engine.html
-
+# H1 test
  
-Consent:
-By using our content, you hereby consent to the disclaimer and agree to its terms.
-
-
-
-Menu Font :
-https://www.dafont.com/sketch-gothic-school.font?text=Wicked+Menu
-
-
-
-
-
 
 Wicked Menu 
 
