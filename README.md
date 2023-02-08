@@ -1,4 +1,5 @@
-![Screenshot_190](https://user-images.githubusercontent.com/62859332/211143412-4dda5af0-cf9f-4716-9803-3552fa1fcfb8.png)
+![Screenshot_129](https://user-images.githubusercontent.com/62859332/217401388-4db284d6-978c-4c83-a452-c28f09623eb0.jpg)
+
 
 ***
  [DOWNLOAD LATEST VERSION](https://github.com/plumbwicked/Wicked-Menu-for-RDR2/releases/download/V4.6/Wicked.RDR2.V4.6.CT) 
