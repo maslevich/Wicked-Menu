@@ -2,7 +2,7 @@
 
 
 
-# H1 test
+# H1 [DOWNLOAD LATEST VERSION](https://github.com/plumbwicked/Wicked-Menu-for-RDR2/releases/download/V4.6/Wicked.RDR2.V4.6.CT)
  
 
 Wicked Menu 
