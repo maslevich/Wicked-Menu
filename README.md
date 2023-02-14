@@ -1,33 +1,10 @@
-![Screenshot_190](https://user-images.githubusercontent.com/62859332/211143412-4dda5af0-cf9f-4716-9803-3552fa1fcfb8.png)
-![Z194PQe - Imgur](https://user-images.githubusercontent.com/62859332/212566578-d2767f7a-4808-4f6f-99d0-3f08084f95c7.png)
-To Download 
-Click on Code
-Download zip .
-Extract zip on your pc.
 
-[Disclaimer for Wicked Menu]
-This is just a Cheat Table that I Share.
-Wicked Menu is not for sale,
-Wicked-Menu does not make any warranties , Guarantees , or Promises about the completeness, reliability and accuracy of this content.
-Any action you take upon the information you find on this website (Wicked-Menu), is strictly at your own risk.
-Wicked-Menu will not be liable for any losses and/or damages/bans in connection with the use of our content.
-All the content is published in good faith and for general information purpose only.
-
-If you require any more information or have any questions ,
-
-please feel free to contact us at
-
-https://www.unknowncheats.me/forum/red-dead-redemption-2-a/372512-wicked-menu-cheat-engine.html
-
- 
-Consent:
-By using our content, you hereby consent to the disclaimer and agree to its terms.
+***
+ [DOWNLOAD LATEST VERSION](https://github.com/plumbwicked/Wicked-Menu-for-RDR2/releases/download/V4.6/Wicked.RDR2.V4.6.CT) 
+***
 
 
-
-Menu Font :
-https://www.dafont.com/sketch-gothic-school.font?text=Wicked+Menu
-
+![Screenshot_129](https://user-images.githubusercontent.com/62859332/217401388-4db284d6-978c-4c83-a452-c28f09623eb0.jpg)
 
 
 
@@ -35,7 +12,40 @@ https://www.dafont.com/sketch-gothic-school.font?text=Wicked+Menu
 
 Wicked Menu 
 
+
+
+
 Change Logs/
+
+
+
+v4.6
+
+
+
+
+New:
+
+Hotkey Menu ReWorked / Streamlined
+
+Removed Special Fonts from Hotkey menu
+
+Added Splash Screen at Startup
+
+New Welcome Message
+
+Speedhack on Tik
+
+Weather Options {changed to weather instead of numbers}
+
+Removed : 
+
+Wardrobe Hack
+
+
+
+
+***
 
 
 
@@ -54,7 +64,7 @@ Just toggle on and off.
 
 
 
-
+***
 
 v4.4 
 
@@ -70,14 +80,14 @@ Optimized Gold Drop.
 More consistent gold.
 
 
-
+***
 
 
 v4.2
 
 Fixed issue with Teleport to Waypoint .
 
-
+***
 
 v4.1
 
@@ -106,7 +116,7 @@ Updated:
 
 Credits
 
-
+***
 
 v4.0
 
@@ -117,7 +127,7 @@ Treasure pointer is working tested it 10 times ,Restart game and menu if its not
 Adjusted menu item/added pointer to main menu
 Cores and Wanted Level 
 
-
+***
 v3.8
 Fixed: 
 Treasure Chest Pointer 
@@ -125,18 +135,18 @@ Misc. Fixes throughout , dont care to name them all.
 Note: Some of the map dropdown locations are mixed up, I am activly working on it/
 Happy New Year !
 
-
+***
 v3.7 
 Fixed Teleport to Waypoint
 
 
-
+***
 
 
 v3.6
 Added translator 
 
-
+***
 
 
 
@@ -146,7 +156,7 @@ Treasure Chest  Pointer Fixed .
 
 Name changer Fixed
 
-
+***
 
 v3.4 
 
@@ -154,13 +164,13 @@ Teleport to Waypoint fix for RDR2 1.27 build 1436.31 by k314
 
 https://www.unknowncheats.me/forum/3418601-post2473.html
 
-
+***
 
 v3.3.a
 Hotfix for Update 
 Stable menu.
 Teleport to Waypoint Broken right now. 
-
+***
 v3.3
 Fixed :
 Teleport to Waypoint. 
@@ -169,7 +179,7 @@ Welcome Message .
 Various Hotfixes .
 
 
-
+***
 
 
 
@@ -184,7 +194,7 @@ Treasure Finder
 Treasure Teleports
 More. 
 
-
+***
 
 V3.1 
 Fixed;
@@ -195,13 +205,13 @@ Table Extras
 Added;
 Menu gui changes
 00 to Enable/disable
-
+***
 
 V3.0 extended:
 Fixed;
 Rendering issue caused by custom font, Switched to Arial .
 
-
+***
 3.0
 Added:
 Redesigned GUI 
@@ -209,7 +219,7 @@ Stamina , Horse Health and Treasure Teleport added to Hotkeys menu.
 
 
 
-
+***
 
 2.8
 Added ;
@@ -219,13 +229,13 @@ Special thanks to distroyce & wypierdalaj66 for this !
 Removed;
 Sizable Gui
 
-
+***
 v2.6 
 Adjusted Sizable menu layout .
 
 
 
-
+***
 
 v2.5
 Added : 
@@ -242,7 +252,7 @@ West Hill Haven.
  
 
 
-
+***
 
 
 
@@ -262,7 +272,7 @@ Still Broken;
 Stamina
 
 
-
+***
 
 v2.2.8
 
@@ -281,6 +291,8 @@ Removed :
 Player Stamina [Crashing still]
 
 
+***
+
 V2.2.7 Beta Test
 
 Added ;
@@ -293,7 +305,7 @@ Notes
 "is still crashing, "
 "On carts, and Teleport" .
 
-
+***
 V2.2.6 
 Fixed : 
 
@@ -304,7 +316,7 @@ Special Thanks to Spacedoge #195176180746420224 on Discord for the Fix !
 "Some Heroes don't need Capes".
 
 
-
+***
 
 V2.2.5 
 Added : 
@@ -317,7 +329,7 @@ thanks to dj4everkill https://www.unknowncheats.me/forum/3223327-post1728.html
 Thanks to  fikhriealis https://www.unknowncheats.me/forum/3223406-post1730.html
 
 
-
+***
 
 V2.2.4
 Added: 
@@ -325,14 +337,14 @@ Legendary animals Complete Coords https://www.unknowncheats.me/forum/3215299-pos
 Thanks again to Eerf for the Coords! https://www.unknowncheats.me/forum/members/3954194.html
 
 
-
+***
 
 
 v2.2.3
 Removed:
 Stamina / Crashing game
 
-
+***
 
 V2.2.2
 Added :
@@ -347,7 +359,7 @@ Fixed :
 Stamina 
 Special thanks to STD047 !
 
-
+***
 
 
 V2.2.1.f
@@ -359,7 +371,7 @@ https://www.unknowncheats.me/forum/3203660-post1620.html
 Fixed
 Mislabled Cycles .
 
-
+***
 v2.2.1.e
 Added 
 Random Spots Cycle  4,5
@@ -369,14 +381,14 @@ Cycle 1 heirlooms
 Mislabled Cycles from Random Spots and Flowers.
 
  
-
+***
 
 v2.2.1.d
 Added Cycle 4 Coins . 
 Special Thanks And Happy Birthday to Lumberjack251 AkA !Helper Link! #583316925124313098 
 for the coords !
 
-
+***
 V2.2.1.b
 Added  
 American Wild Flowers coords 1,2,3
@@ -386,11 +398,11 @@ Random Spots Cycle 1,2,3
 Thanks to Eerf @ https://www.unknowncheats.me/forum/members/3954194.html
 for all the coords !
 *Coords not tested
-
+***
 v2.2.1.a 
 Added RDR2CollectorsMap link
 Moved all links to link section
- 
+ ***
 v2.2.1 
 
 Fixed Teleport 
@@ -398,7 +410,7 @@ Special thanks to distroyce https://www.unknowncheats.me/forum/members/3937436.h
 for the Teleport Fix !
 Removed Stamina "Update Broke it for now"
 
-
+***
 
 
 v2.2
@@ -410,7 +422,7 @@ Turns everything on Except 'Jam Weapons obviously' .
 
 
 
-
+***
 
 
 
@@ -428,7 +440,7 @@ How to use Wardrobe clothing hack
 
 
 
-
+***
 
 
 
@@ -443,7 +455,7 @@ Grizzly Bear & Viking Tomb to Locations
 
 
 
-
+***
 
 
 
@@ -457,7 +469,7 @@ REMOVED:
 Name Changer 
 It is only working Client side .
 
-
+***
 
 
 V2.1.8.b
@@ -470,7 +482,7 @@ Coords to main table for reference .
 Changed Some Colors 
 
 
-
+***
 
 
 V2.1.8.a
@@ -480,7 +492,7 @@ Arrowhead Cycle 6
 Fossils Cycle 6
 Changed names in collectables 
 
-
+***
 
 
 V2.1.8
@@ -491,7 +503,7 @@ Name Changer (Risky)
 "This Does NOT change Social Club name, If they check your profile,
  they WILL see your real name and know you changed it."
 
-
+***
 V2.1.7
 Special Thanks Again to distroyce for his Helpful Contributions to the Menu !
 
@@ -504,14 +516,14 @@ Removed
 Version 7.3 Check .
 Auto teleport sent to Teleport Base . (On by Default now)
 Auto teleport text .
-
+***
 
 V2.1.6.a
 
 Coords Added by PORNO_STAR: 
 Alcohol (1,2,3,5), Eggs (2,6), Fossils (1,2,3), Arrowhead (3)
 Changed: Coin cycle 6 (c0c6 and c3c6), Jewelry cycle 6 (Lost Jewelry Dig Spot # 27)
-
+***
 v2.1.6 
 Massive Collectibles Coords update .
 Marked all Coords that work so far with Auto Teleport with * .
@@ -529,10 +541,10 @@ Eggs Cycles 5,4
 Alcohol Cycle 4
 Several Minor Menu Adjustments 
 
-
+***
 V2.1.5.d
 Coords adjustment by maslevich ! Thank you !
-
+***
 v2.1.5c
 Changed names of Menu And Table to Distinguish the two in the Taskbar .
 Changed Parent/Child Behavior of the Menu -
@@ -540,13 +552,13 @@ Menu AND Cheat Table will pop up Together .
 Minimizing the "Hotkey Menu" Will Remain Minimized .
 Only the Cheat Table will Popup on Alt Tab ,until you Click on Wicked Menu Again.
 
-
+***
 v2.1.5.b 
 Changed Speed Hack Discription 
-
+***
 v2.1.5.a
 Minor Gui changes .
-
+***
 
 v2.1.5
 Official Release Page
